@@ -1,5 +1,5 @@
 {
-  "count": 129,
+  "count": 141,
   "seen": {
     "00d94ae1cfa2b7e8": {
       "application_deadline": null,
@@ -339,6 +339,19 @@
       "travel_credit_mentioned": null,
       "url": "https://win4aisafety-sain-utrecht.devpost.com/"
     },
+    "33992b1ef3d6e6d6": {
+      "application_deadline": null,
+      "company": "DeveloperWeek",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "DeveloperWeek Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Santa Clara, CA",
+      "source": "tavily",
+      "start_date": "2027-01-25",
+      "travel_credit_mentioned": null,
+      "url": "https://www.developerweek.com/hackathon"
+    },
     "35de7ffe4f4eedfc": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -443,6 +456,19 @@
       "travel_credit_mentioned": null,
       "url": "https://www.hackdearborn.org/"
     },
+    "4355231d4a54aa52": {
+      "application_deadline": null,
+      "company": "CodePath",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "Futureforce Tech Launchpad 2026",
+      "event_type": "fellowship",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://info.codepath.org/futureforce-tech-launchpad"
+    },
     "463f30066d5a7f6d": {
       "application_deadline": null,
       "company": "Google",
@@ -495,6 +521,19 @@
       "travel_credit_mentioned": null,
       "url": "https://careers.adobe.com/us/en/adobe-hackathon"
     },
+    "4abd638479d530bf": {
+      "application_deadline": null,
+      "company": "Cal State LA",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "CSU AI Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Los Angeles, CA",
+      "source": "tavily",
+      "start_date": "2026-03-16",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackathon.com/country/United%20States/2026"
+    },
     "4c1f1508a69ebdb3": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -507,6 +546,19 @@
       "start_date": "2027-02-27",
       "travel_credit_mentioned": null,
       "url": "https://www.revolutionuc.com/"
+    },
+    "4c824e6870166ecc": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "2027 Data for Good Hackathon \u2013 Data & AI Program",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://careers.suffolk.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship"
     },
     "4e508352f06501aa": {
       "application_deadline": null,
@@ -664,6 +716,32 @@
       "travel_credit_mentioned": null,
       "url": "https://quantumhacks.devpost.com/"
     },
+    "70b9131e4dbaf4b2": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "2027 Code for Good Hackathon \u2013 Software Engineer Program",
+      "event_type": "hackathon",
+      "location_city_state": "Jersey City, NJ",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://careers.wgu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
+    },
+    "74e487ed5bb2b40b": {
+      "application_deadline": null,
+      "company": "USAII",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "USAII's Global AI Hackathon 2026",
+      "event_type": "hackathon",
+      "location_city_state": "Virtual",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://aihackathon.usaii.org"
+    },
     "7670c8d012c1c6c6": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -689,6 +767,19 @@
       "start_date": "2026-09-26",
       "travel_credit_mentioned": null,
       "url": "https://hackumbc.tech/"
+    },
+    "77c8f339b9418947": {
+      "application_deadline": null,
+      "company": "Global Builders Community",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "Global Builders Hackathon: Code for Impact",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-08",
+      "travel_credit_mentioned": null,
+      "url": "https://global-builders.devpost.com/"
     },
     "783155cb5feb3f50": {
       "application_deadline": null,
@@ -820,6 +911,19 @@
       "travel_credit_mentioned": null,
       "url": "https://www.hackillinois.org/"
     },
+    "88f4e1886dd600c3": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://prosple.com/graduate-employers/jp-morgan/jobs-internships/code-for-good-hackathon-software-engineer-program-summer-internship"
+    },
     "9102ab7a946e6603": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -846,6 +950,19 @@
       "travel_credit_mentioned": null,
       "url": "https://hacklytics2027.web.app/"
     },
+    "9282b970337f74a6": {
+      "application_deadline": null,
+      "company": "Brooklyn College",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "Brooklyn College Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Brooklyn, NY",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://www.brooklyn.edu/bc-brief/hackathon"
+    },
     "9601dc9a1725d203": {
       "application_deadline": null,
       "company": "GatewayGS",
@@ -858,6 +975,19 @@
       "start_date": "2026-07-25",
       "travel_credit_mentioned": null,
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/"
+    },
+    "966031d579e8b1ad": {
+      "application_deadline": "2026-09-18",
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Brooklyn, NY",
+      "source": "tavily",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
     },
     "96b10a793948227f": {
       "application_deadline": null,
@@ -923,6 +1053,19 @@
       "start_date": "2026-08-01",
       "travel_credit_mentioned": null,
       "url": "https://hacksocial2026.devpost.com/"
+    },
+    "a7f87a388b0f6c01": {
+      "application_deadline": null,
+      "company": "Canadian Undergraduate Tech Conference",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "CUTC: Transform Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-08",
+      "travel_credit_mentioned": null,
+      "url": "https://cutc-transform.devpost.com/"
     },
     "a8ad5ab7d8eadacd": {
       "application_deadline": null,
@@ -1366,6 +1509,19 @@
       "travel_credit_mentioned": null,
       "url": "https://compsphere11.devpost.com/"
     },
+    "e3a4430859d68bec": {
+      "application_deadline": null,
+      "company": "LinkedIn",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T16:35:16+00:00",
+      "event_name": "Undergraduate Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr"
+    },
     "e4d1603379d89794": {
       "application_deadline": null,
       "company": "TechieBunnies team",
@@ -1679,5 +1835,5 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-08T12:50:18+00:00"
+  "updated_at": "2026-08-08T16:35:16+00:00"
 }

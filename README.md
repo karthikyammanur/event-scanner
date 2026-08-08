@@ -11,18 +11,30 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**129 events found.** Updated 2026-08-08 12:50 UTC.
+**141 events found.** Updated 2026-08-08 16:35 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2027 Data for Good Hackathon - Data & AI Program ⚑ | JPMorgan Chase | Hackathon | - | - | - | [Apply](https://careers.suffolk.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorgan Chase | Hackathon | Jersey City, NJ | - | - | [Apply](https://careers.wgu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
+| Brooklyn College Hackathon ⚑ | Brooklyn College | Hackathon | Brooklyn, NY | - | - | [Apply](https://www.brooklyn.edu/bc-brief/hackathon) |
+| USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
+| CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
+| Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | - | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
+| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Brooklyn, NY | - | 2026-09-18 | [Apply](https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
+| Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://prosple.com/graduate-employers/jp-morgan/jobs-internships/code-for-good-hackathon-software-engineer-program-summer-internship) |
+| CUTC: Transform Hackathon | Canadian Undergraduate Tech Conference | Hackathon | Online | - | - | [Apply](https://cutc-transform.devpost.com/) |
+| Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
 | 2027 Code for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 2026-08-03 | 2026-09-18 | [Apply](https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
 | 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 2026-08-03 | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
-| Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
-| Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | AQX Sports Analytics Data Bowl 3.0 | James Logan High School | Hackathon | Online | - | - | [Apply](https://aqxanalyticsthree.devpost.com/) |
+| Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
+| Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
 | Hackonomics 2027 | Hackonomics | Hackathon | Virtual | - | - | [Apply](https://www.hackathonradar.com/database/hackathon/84926901-6feb-4140-ab03-75df5023e18a) |
 | Ohlone Hacks ⚑ | Ohlone College | Hackathon | Fremont, CA | - | 2027-02-27 | [Apply](https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students) |
 | Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
