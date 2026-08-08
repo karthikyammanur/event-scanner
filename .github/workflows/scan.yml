@@ -1,0 +1,60 @@
+name: Event Scan
+
+on:
+  schedule:
+    # Every 4 hours. Measured run time is well under 2 minutes, so at 180 runs
+    # per month this uses roughly 220 of the 2000 free private-repo minutes.
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+# Never let two runs race on the state file.
+concurrency:
+  group: event-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest tests/ -q
+
+      - name: Scan for new events
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+        run: python scanner.py
+
+      - name: Commit updated state
+        run: |
+          if [[ -z "$(git status --porcelain seen.json)" ]]; then
+            echo "No state change, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen.json
+          git commit -m "Update seen events state [skip ci]"
+          # Rebase in case a manual run committed while this one was scanning.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
