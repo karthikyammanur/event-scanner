@@ -26,7 +26,7 @@ from models import Candidate, Event
 
 log = logging.getLogger(__name__)
 
-MODEL = "claude-opus-5"
+MODEL = "claude-sonnet-5"
 BATCH_SIZE = 8
 MAX_TOKENS = 8000
 
