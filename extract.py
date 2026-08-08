@@ -27,13 +27,18 @@ from models import Candidate, Event
 
 log = logging.getLogger(__name__)
 
-MODEL = "gemini-2.5-flash"
-# Tried in order if MODEL is not available to the key, newest/cheapest first.
+# Gemini retires model IDs for *new* API keys while leaving them listed and
+# documented, so a name being valid in the docs does not mean this key can call
+# it. gemini-2.5-flash returns 404 "no longer available to new users" on keys
+# created after its retirement. Prefer the rolling aliases, which Google keeps
+# pointed at a current model, and verify by making a real call (see
+# resolve_model) rather than trusting the model list.
+MODEL = "gemini-flash-latest"
 MODEL_FALLBACKS = (
     "gemini-2.5-flash-preview-09-2025",
-    "gemini-2.5-flash-lite",
-    "gemini-flash-latest",
+    "gemini-flash-lite-latest",
     "gemini-2.0-flash",
+    "gemini-2.5-flash",
 )
 BATCH_SIZE = 8
 MAX_TOKENS = 8000
@@ -141,46 +146,56 @@ def _client():
         return None
 
 
-def resolve_model(client) -> Optional[str]:
-    """Pick a model this API key can actually call.
+def _probe(client, model: str) -> bool:
+    """Return True when this key can actually generate with `model`.
 
-    The first live run got a 404 on the configured model even though the ID is
-    valid in Google's public docs, which is what this endpoint returns when the
-    key's project cannot reach that model. Asking the key what it can see beats
-    hardcoding a name and guessing wrong: the preferred model is used when it is
-    available, otherwise the first listed model that supports generateContent.
+    Listing models is not sufficient: Gemini lists IDs that a newly created key
+    is then refused at call time ("no longer available to new users", HTTP 404).
+    The only reliable check is a real generateContent call, kept tiny so the
+    probe costs almost nothing.
     """
+    from google.genai import types
+
     try:
-        available = []
-        for m in client.models.list():
-            name = (getattr(m, "name", "") or "").removeprefix("models/")
-            actions = getattr(m, "supported_actions", None) or []
-            if name and (not actions or "generateContent" in actions):
-                available.append(name)
+        client.models.generate_content(
+            model=model,
+            contents="ok",
+            config=types.GenerateContentConfig(max_output_tokens=1),
+        )
+        return True
     except Exception as exc:
-        # Listing is a convenience, not a requirement. If it fails, try the
-        # configured model directly and let the batch loop report the error.
-        log.warning("could not list Gemini models (%s), trying %s directly",
-                    type(exc).__name__, MODEL)
-        return MODEL
+        log.info("model %s unusable (%s): %s", model, type(exc).__name__, str(exc)[:160])
+        return False
 
-    if not available:
-        log.error("Gemini key can see no models supporting generateContent")
-        return None
 
+def resolve_model(client) -> Optional[str]:
+    """Pick a model this API key can actually call, verified by calling it."""
     for want in (MODEL, *MODEL_FALLBACKS):
-        if want in available:
+        if _probe(client, want):
             if want != MODEL:
-                log.warning("model %s unavailable to this key, using %s", MODEL, want)
+                log.warning("preferred model %s unusable, falling back to %s", MODEL, want)
             return want
 
-    chosen = available[0]
-    log.warning(
-        "none of the preferred models are available to this key, using %s "
-        "(key can see: %s)",
-        chosen, ", ".join(available[:8]),
-    )
-    return chosen
+    # Nothing preferred worked. Ask the key what it has and try those, so a
+    # future retirement does not need a code change to recover.
+    try:
+        listed = [
+            (getattr(m, "name", "") or "").removeprefix("models/")
+            for m in client.models.list()
+        ]
+    except Exception as exc:
+        log.error("no usable model and could not list models (%s)", type(exc).__name__)
+        return None
+
+    for name in listed:
+        if "embedding" in name or "tts" in name or "image" in name:
+            continue
+        if _probe(client, name):
+            log.warning("using discovered model %s", name)
+            return name
+
+    log.error("no usable Gemini model for this key (listed: %s)", ", ".join(listed[:10]))
+    return None
 
 
 def _render(cands: List[Candidate]) -> str:
