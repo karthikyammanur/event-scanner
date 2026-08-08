@@ -22,7 +22,7 @@ ones every few hours. Internship-leading programs are listed first.
    | `GMAIL_APP_PASSWORD` | SMTP delivery | No email is sent |
    | `DIGEST_TO` | Recipient | Falls back to `GMAIL_USER` |
    | `GEMINI_API_KEY` | Extraction | Falls back to deterministic filtering |
-   | `BRAVE_API_KEY` | Broad discovery | The `brave` source is skipped |
+   | `TAVILY_API_KEY` | Broad discovery | The `discovery` source is skipped |
 
    Use a Gmail **app password**, not the account password. It requires 2FA on
    the account.
@@ -68,7 +68,7 @@ dropped**, so you can decide for yourself.
 | Source | What it covers |
 | --- | --- |
 | `greenhouse`, `lever`, `ashby` | Event-shaped listings on public ATS boards |
-| `brave` | Broad web discovery for companies outside those feeds |
+| `discovery` | Broad web discovery (Tavily) for companies outside those feeds |
 | `devpost` | Public hackathon feed |
 | `mlh` | Major League Hacking season events, US only |
 

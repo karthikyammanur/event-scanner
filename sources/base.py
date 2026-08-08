@@ -34,7 +34,7 @@ class Context:
     max_companies: int = 400
     request_timeout: int = 20
     per_source_budget_s: int = 240
-    brave_api_key: Optional[str] = None
+    discovery_api_key: Optional[str] = None
     dry_run: bool = False
     companies: List[str] = field(default_factory=list)
 

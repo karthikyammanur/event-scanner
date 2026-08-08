@@ -1,12 +1,14 @@
-"""Broad discovery via the Brave Search API.
+"""Broad discovery via the Tavily Search API.
 
 Catches companies that are outside the ATS feeds entirely. Queries rotate per
 run so repeated schedules explore different slices instead of re-fetching the
 same first page forever.
 
-Brave's free tier is roughly 1 query/second, so calls are serialized with a
-small delay rather than parallelized. Without BRAVE_API_KEY set, this source
-returns nothing and logs a notice, it never raises.
+Tavily's free tier is 1,000 API credits per month, recurring, no card
+required. A basic search costs 1 credit. This source is sized at 5
+queries/run so 6 runs/day stays at 900 credits/month, leaving margin.
+Without TAVILY_API_KEY set, this source returns nothing and logs a notice,
+it never raises.
 """
 
 from __future__ import annotations
@@ -24,7 +26,7 @@ from .base import Budget, Context, session
 
 log = logging.getLogger(__name__)
 
-ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
+ENDPOINT = "https://api.tavily.com/search"
 
 EVENT_TERMS = [
     "hackathon",
@@ -55,8 +57,9 @@ SKIP_DOMAINS = {
     "wikipedia.org", "medium.com",
 }
 
-QUERIES_PER_RUN = 12
-DELAY_S = 1.1
+# 5/run x 6 runs/day x 30 days = 900 credits/month, under Tavily's 1,000 free.
+QUERIES_PER_RUN = 5
+DELAY_S = 0.3
 
 
 def _rotation_offset(year: int) -> int:
@@ -94,41 +97,48 @@ def _company_from(url: str, title: str) -> str:
 
 
 def discover(ctx: Context) -> List[Candidate]:
-    key = ctx.brave_api_key
+    key = ctx.discovery_api_key
     if not key:
-        log.info("brave: BRAVE_API_KEY not set, skipping broad discovery")
+        log.info("discovery: TAVILY_API_KEY not set, skipping broad discovery")
         return []
 
     budget = Budget(ctx.per_source_budget_s)
-    headers = {"X-Subscription-Token": key, "Accept": "application/json"}
     out: List[Candidate] = []
     seen = set()
 
     for q in _build_queries(ctx):
         if budget.expired():
-            log.warning("brave: time budget reached")
+            log.warning("discovery: time budget reached")
             break
         try:
-            r = session().get(
+            r = session().post(
                 ENDPOINT,
-                headers=headers,
-                params={"q": q, "count": 20, "country": "us", "freshness": "py"},
+                json={
+                    "api_key": key,
+                    "query": q,
+                    "search_depth": "basic",
+                    "max_results": 20,
+                    "country": "united states",
+                },
                 timeout=ctx.request_timeout,
             )
         except Exception as exc:
-            log.warning("brave: query failed (%s): %s", q, exc)
+            log.warning("discovery: query failed (%s): %s", q, exc)
             continue
 
         if r.status_code == 429:
-            log.warning("brave: rate limited, backing off")
+            log.warning("discovery: rate limited, backing off")
             time.sleep(2.0)
             continue
+        if r.status_code == 401:
+            log.error("discovery: invalid TAVILY_API_KEY, stopping this source")
+            break
         if r.status_code != 200:
-            log.warning("brave: HTTP %s for query %s", r.status_code, q)
+            log.warning("discovery: HTTP %s for query %s", r.status_code, q)
             continue
 
         try:
-            results = (r.json().get("web") or {}).get("results") or []
+            results = r.json().get("results") or []
         except ValueError:
             continue
 
@@ -148,14 +158,14 @@ def discover(ctx: Context) -> List[Candidate]:
                     company=_company_from(url, title),
                     title=title,
                     url=url,
-                    source="brave",
+                    source="tavily",
                     location=None,
-                    description=(res.get("description") or "")[:500],
+                    description=(res.get("content") or "")[:500],
                     extra={"query": q},
                 )
             )
 
         time.sleep(DELAY_S)
 
-    log.info("brave: %d candidates from %d queries", len(out), QUERIES_PER_RUN)
+    log.info("discovery: %d candidates from %d queries", len(out), QUERIES_PER_RUN)
     return out

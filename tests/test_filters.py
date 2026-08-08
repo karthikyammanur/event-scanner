@@ -154,25 +154,25 @@ def test_out_of_texas_without_travel_credit_is_flagged_not_dropped():
 
 
 def test_texas_event_not_flagged():
-    ev = Event("Dell", "Dell Tech Summit", "summit", "https://x.com/a", "brave",
+    ev = Event("Dell", "Dell Tech Summit", "summit", "https://x.com/a", "tavily",
                location_city_state="Round Rock, TX")
     assert not ev.needs_travel_flag()
 
 
 def test_virtual_event_not_flagged():
-    ev = Event("Meta", "Virtual Hackathon", "hackathon", "https://x.com/b", "brave",
+    ev = Event("Meta", "Virtual Hackathon", "hackathon", "https://x.com/b", "tavily",
                location_city_state="Virtual")
     assert not ev.needs_travel_flag()
 
 
 def test_confirmed_travel_credit_not_flagged():
-    ev = Event("Meta", "Meta Summit", "summit", "https://x.com/c", "brave",
+    ev = Event("Meta", "Meta Summit", "summit", "https://x.com/c", "tavily",
                location_city_state="Menlo Park, CA", travel_credit_mentioned=True)
     assert not ev.needs_travel_flag()
 
 
 def test_unknown_location_is_flagged_rather_than_assumed_local():
-    ev = Event("X", "X Hackathon", "hackathon", "https://x.com/d", "brave",
+    ev = Event("X", "X Hackathon", "hackathon", "https://x.com/d", "tavily",
                location_city_state=None)
     assert ev.needs_travel_flag()
 
@@ -192,5 +192,5 @@ def test_id_differs_for_different_events():
 
 
 def test_event_type_falls_back_to_other():
-    ev = Event("X", "Y", "not_a_real_type", "https://x.com/e", "brave")
+    ev = Event("X", "Y", "not_a_real_type", "https://x.com/e", "tavily")
     assert ev.event_type == "other"

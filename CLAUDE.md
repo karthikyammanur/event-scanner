@@ -86,6 +86,26 @@ The repo is **public**, so Actions minutes are unlimited and the cron frequency
 is not budget constrained. A full run still measures only ~36s at the 4-hour
 cron. (For reference, on a private repo this would be ~220 of 2000 free minutes.)
 
+## Third-party API budgets
+
+Two sources hit a metered API. Both are sized to stay inside their free tier at
+zero cost, since that is a hard preference, not a target to optimize toward.
+
+- **Gemini** (`gemini-2.5-flash`, extraction): free tier is generous for this
+  volume, well above what six small-batch runs a day needs.
+- **Tavily** (`discovery.py`, broad web search): free tier is **1,000 API
+  credits/month, recurring, no card required** (verified against their
+  pricing page directly, not assumed). A basic search costs 1 credit.
+  `QUERIES_PER_RUN = 5` in `sources/discovery.py` keeps 6 runs/day at 900
+  credits/month, leaving margin. Raising that constant raises the monthly
+  credit spend proportionally, check the math before changing it.
+
+Note: an earlier version of this file assumed Brave Search's free tier was a
+flat 2,000 queries/month. That was stale, Brave's current terms are $5/month
+in free credits at $5 per 1,000 requests, not nearly enough for this
+workload's query volume without paying. The discovery source was switched
+to Tavily for that reason.
+
 ## Public repo implications
 
 `seen.json` is committed on every run, so it is world readable. It therefore

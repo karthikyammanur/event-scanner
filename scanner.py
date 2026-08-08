@@ -27,7 +27,7 @@ import state
 from extract import extract
 from filters import prefilter
 from models import Candidate, Event
-from sources import ats, brave, devpost, mlh
+from sources import ats, devpost, discovery, mlh
 from sources.base import Context, run_source
 
 log = logging.getLogger("scanner")
@@ -37,12 +37,12 @@ SOURCES = {
     "greenhouse": lambda ctx: ats.discover(ctx, only_platform="greenhouse"),
     "lever": lambda ctx: ats.discover(ctx, only_platform="lever"),
     "ashby": lambda ctx: ats.discover(ctx, only_platform="ashby"),
-    "brave": brave.discover,
+    "discovery": discovery.discover,
     "devpost": devpost.discover,
     "mlh": mlh.discover,
 }
 
-DEFAULT_SOURCES = ["greenhouse", "lever", "ashby", "brave", "devpost", "mlh"]
+DEFAULT_SOURCES = ["greenhouse", "lever", "ashby", "discovery", "devpost", "mlh"]
 
 
 def configure_logging(verbose: bool) -> None:
@@ -71,7 +71,7 @@ def run(args) -> int:
         year=datetime.now(timezone.utc).year,
         max_companies=args.max_companies,
         per_source_budget_s=args.source_budget,
-        brave_api_key=os.environ.get("BRAVE_API_KEY"),
+        discovery_api_key=os.environ.get("TAVILY_API_KEY"),
         dry_run=args.dry_run,
     )
 
