@@ -1,0 +1,15 @@
+# Secrets never go in source. Local runs read these from .env.
+.env
+.env.*
+!.env.example
+
+# Local Claude Code tool permissions, not project config.
+.claude/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.tmp
+.seen-*.tmp
