@@ -143,27 +143,17 @@ def test_corrupt_state_file_does_not_crash(tmp_path):
     assert state.load(str(path)) == {}
 
 
-def test_state_leaks_no_event_details_by_default(monkeypatch):
-    """Repo is public, so seen.json must not name what he applied to."""
-    monkeypatch.delenv("STATE_VERBOSE", raising=False)
+def test_state_stores_full_record_for_the_board():
+    """README.md is rendered from this file, so it needs the details."""
     ev = _ev(name="Code for Good", company="JPMorgan")
-    seen = state.record([ev], {})
-    blob = repr(seen)
-    assert "Code for Good" not in blob
-    assert "JPMorgan" not in blob
-    assert "cfg" not in blob
-    # The opaque ID is the only key, and it is all dedupe needs.
-    assert list(seen) == [ev.id]
+    rec = state.record([ev], {})[ev.id]
+    assert rec["event_name"] == "Code for Good"
+    assert rec["company"] == "JPMorgan"
+    assert rec["url"] == ev.url
+    assert "emailed_at" in rec
 
 
-def test_state_verbose_opt_in_keeps_details(monkeypatch):
-    monkeypatch.setenv("STATE_VERBOSE", "1")
-    seen = state.record([_ev(name="Code for Good")], {})
-    assert "Code for Good" in repr(seen)
-
-
-def test_dedupe_still_works_without_metadata(monkeypatch):
-    monkeypatch.delenv("STATE_VERBOSE", raising=False)
+def test_dedupe_still_works_with_full_record():
     ev = _ev()
     seen = state.record([ev], {})
     assert state.split_new([ev], seen) == []

@@ -68,23 +68,23 @@ def split_new(events: List[Event], seen: Dict[str, dict]) -> List[Event]:
 def record(events: List[Event], seen: Dict[str, dict]) -> Dict[str, dict]:
     """Mark events as sent. Call only after delivery succeeds.
 
-    Stores only the opaque ID by default since the repo is public.
-    Set STATE_VERBOSE=1 to keep readable metadata for debugging.
+    Stores the full record because README.md is rendered from this file.
     """
-    verbose = os.environ.get("STATE_VERBOSE") == "1"
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     for ev in events:
-        entry = {"emailed_at": now}
-        if verbose:
-            entry.update(
-                {
-                    "company": ev.company,
-                    "event_name": ev.event_name,
-                    "url": ev.url,
-                    "source": ev.source,
-                }
-            )
-        seen[ev.id] = entry
+        seen[ev.id] = {
+            "emailed_at": now,
+            "company": ev.company,
+            "event_name": ev.event_name,
+            "event_type": ev.event_type,
+            "url": ev.url,
+            "source": ev.source,
+            "start_date": ev.start_date,
+            "application_deadline": ev.application_deadline,
+            "date_posted": ev.date_posted,
+            "location_city_state": ev.location_city_state,
+            "travel_credit_mentioned": ev.travel_credit_mentioned,
+        }
     return seen
 
 

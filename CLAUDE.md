@@ -32,6 +32,7 @@ wall clock seconds per source, `-v` for debug logging.
 | `extract.py` | Batched LLM call, also enforces hard filters |
 | `state.py` | `seen.json` load/save/prune, the dedupe guarantee |
 | `digest.py` | Email rendering and SMTP delivery |
+| `board.py` | Renders the README events table from `seen.json` |
 | `sources/` | One module per discovery source |
 
 Run order: discover, prefilter, drop already-seen, extract, email, record state.
@@ -127,13 +128,24 @@ in free credits at $5 per 1,000 requests, not nearly enough for this
 workload's query volume without paying. The discovery source was switched
 to Tavily for that reason.
 
-## Public repo implications
+## Public repo and the board
 
-`seen.json` is committed on every run, so it is world readable. It therefore
-stores **only opaque event ID hashes and timestamps**, never event names,
-companies, or URLs. Dedupe needs nothing else. Set `STATE_VERBOSE=1` locally if
-you want readable entries while debugging, but never in the workflow.
+This is a **public board by design**, like SimplifyJobs. `board.py` renders
+every event in `seen.json` into a table in README.md between the
+`<!-- EVENTS:START -->` / `<!-- EVENTS:END -->` markers, and the workflow
+commits README.md alongside seen.json each run. Content outside those markers
+is hand written and preserved.
+
+Because the board is rendered from state, `seen.json` stores the **full**
+record (name, company, URL, dates, location). It was briefly anonymized to
+hash-only when the repo went public with email-only delivery; that was
+reversed when the board was added. Entries written during that window have no
+details and are skipped by the renderer, which is why state was cleared once
+and backfilled.
 
 `seen.json` **cannot be gitignored.** Each Actions run starts on a clean machine
 with only the repo, so the committed file is the only thing carrying state
 between runs. Ignoring it would make every run re-email everything.
+
+Table cells are escaped in `board._cell`, since event names come from scraped
+pages and a stray `|` would otherwise break the table.

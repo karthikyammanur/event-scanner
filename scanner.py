@@ -15,6 +15,7 @@ import sys
 from datetime import datetime, timezone
 from typing import Dict, List
 
+import board
 import digest
 import state
 from extract import extract
@@ -108,13 +109,18 @@ def run(args) -> int:
 
     if not new_events:
         log.info("nothing new to send")
+        if not args.dry_run and not args.no_board:
+            board.update_readme(seen)
         return 0
 
     # Record only after a successful send, so a failed email is retried.
-    sent = digest.send(new_events, dry_run=args.dry_run)
-    if not sent:
-        log.error("digest delivery failed, state not updated so nothing is lost")
-        return 1
+    if args.no_email:
+        log.info("--no-email, recording %d events without sending", len(new_events))
+    else:
+        sent = digest.send(new_events, dry_run=args.dry_run)
+        if not sent:
+            log.error("digest delivery failed, state not updated so nothing is lost")
+            return 1
 
     if args.dry_run:
         log.info("dry run, state not written")
@@ -124,6 +130,14 @@ def run(args) -> int:
     seen = state.prune(seen)
     state.save(seen, args.state)
     log.info("state updated, %d total events tracked", len(seen))
+
+    # The board is a rendering of state, so a failure here must not fail the
+    # run: the email already went out and state is saved.
+    if not args.no_board:
+        try:
+            board.update_readme(seen)
+        except Exception:
+            log.exception("could not update README board, continuing")
     return 0
 
 
@@ -154,6 +168,16 @@ def main() -> int:
         type=int,
         default=240,
         help="wall clock seconds allowed per source",
+    )
+    p.add_argument(
+        "--no-board",
+        action="store_true",
+        help="skip the README events table update",
+    )
+    p.add_argument(
+        "--no-email",
+        action="store_true",
+        help="record state and update the board without sending a digest",
     )
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()

@@ -1,399 +1,1514 @@
 {
-  "count": 131,
+  "count": 116,
   "seen": {
-    "00d94ae1cfa2b7e8": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
     "014c01e7ccc53c97": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hoya Hacks",
+      "event_type": "other",
+      "location_city_state": "Washington, DC",
+      "source": "mlh",
+      "start_date": "2027-01-22",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hoyahacks.com/"
     },
     "0440f9318f536b12": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "SVHEC",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "NEXORA Global Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-23",
+      "travel_credit_mentioned": null,
+      "url": "https://nexora-global-hackathon.devpost.com/"
     },
     "0669d2cbaecf9110": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "06955b4be15c69f5": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Student Organization",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Syntax Summit",
+      "event_type": "summit",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-18",
+      "travel_credit_mentioned": null,
+      "url": "https://syntax-summit.devpost.com/"
     },
     "0752cd2eaf1f9cd9": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "CodeRED Orion",
+      "event_type": "other",
+      "location_city_state": "Houston, Texas",
+      "source": "mlh",
+      "start_date": "2026-10-10",
+      "travel_credit_mentioned": null,
+      "url": "https://uhcode.red/"
+    },
+    "0adb5abece622dc5": {
+      "application_deadline": null,
+      "company": "nanyang technological university",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "NTU InnovateX Hackathon 2026",
+      "event_type": "hackathon",
+      "location_city_state": "Nanyang Technological University",
+      "source": "devpost",
+      "start_date": "2026-07-27",
+      "travel_credit_mentioned": null,
+      "url": "https://ntu-cctf-snz-innovatex-2026.devpost.com/"
     },
     "10b10f1cf32be0d4": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Cockroach Labs",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "CockroachDB \u00d7 AWS Hackathon - Build with Agentic Memory",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-30",
+      "travel_credit_mentioned": null,
+      "url": "https://cockroachdb-ai.devpost.com/"
     },
     "111ffba1c5085ab5": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "ML Empowerment Foundation",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "ML Empowerment Build Challenge 2.0",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-30",
+      "travel_credit_mentioned": null,
+      "url": "https://ml-empowerment-2.devpost.com/"
     },
     "14d7cfda85628f6f": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "InnovateHer",
+      "event_type": "other",
+      "location_city_state": "West Lafayette, Indiana",
+      "source": "mlh",
+      "start_date": "2027-02-06",
+      "travel_credit_mentioned": null,
+      "url": "https://innovateherhacks.org/"
     },
     "16dd73934a5e986b": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Anthropic",
+      "date_posted": "2025-12-11",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Anthropic Fellows Program, AI Security",
+      "event_type": "fellowship",
+      "location_city_state": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5030244008"
     },
     "17d1089787d12af9": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackHERS",
+      "event_type": "other",
+      "location_city_state": "New Brunswick, New Jersey",
+      "source": "mlh",
+      "start_date": "2027-02-27",
+      "travel_credit_mentioned": null,
+      "url": "https://ruhackhers.org/"
     },
     "195196864066b8cd": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Vmax AI Corp",
+      "date_posted": "2025-11-05",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Research Fellowship - Open Endedness",
+      "event_type": "fellowship",
+      "location_city_state": "SF",
+      "source": "ashby",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.ashbyhq.com/vmax/c4e1e51b-65c5-41f0-9bed-c90bc452859b"
     },
     "1e2071ea14dee91e": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "NeuralSprint",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "NeuralSprint",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-18",
+      "travel_credit_mentioned": null,
+      "url": "https://neuralsprint.devpost.com/"
     },
     "1f71d587920c8d77": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Innovation Hacks",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "NextGen Innovation2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-11",
+      "travel_credit_mentioned": null,
+      "url": "https://nextgen-innovation-2026.devpost.com/"
     },
     "20610af6bdfe5fe1": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "BuildBeyond",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Build Beyond Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-18",
+      "travel_credit_mentioned": null,
+      "url": "https://build-beyond-hackathon.devpost.com/"
     },
     "208a2d929633ab6a": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "The Webb Schools CSC",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "CSC Summer Impactathon",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-09",
+      "travel_credit_mentioned": null,
+      "url": "https://csc-summer-impactathon.devpost.com/"
     },
     "20cc0783ab1926ce": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackUTD",
+      "event_type": "other",
+      "location_city_state": "Richardson, Texas",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://hackutd.co"
     },
     "2902ced1e6068d28": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "SpartaHack",
+      "event_type": "other",
+      "location_city_state": "East Lansing, Michigan",
+      "source": "mlh",
+      "start_date": "2027-02-06",
+      "travel_credit_mentioned": null,
+      "url": "https://events.mlh.com/events/14442-spartahack-12"
     },
     "2da3f8b36a78a679": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "XPRIZE",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Build with Gemini XPRIZE",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-05-19",
+      "travel_credit_mentioned": null,
+      "url": "https://xprize.devpost.com/"
     },
     "2ef9b1ae745d1ea8": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "IncludEDU, partner w Stanford NNEA",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "IncludAI - The Neurodiversity Hackathon, in Partnership with Stanford NNEA",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-01",
+      "travel_credit_mentioned": null,
+      "url": "https://includai-2026.devpost.com/"
     },
     "307db57d8c2a89c2": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "BTT",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "BTT Web Game Jam - Summer 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-07",
+      "travel_credit_mentioned": null,
+      "url": "https://btt-web-game-jam.devpost.com/"
     },
     "319ccfc74b67069c": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "SAIN Utrecht",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Win4AISafety - Open Research Summer Challenge",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-06",
+      "travel_credit_mentioned": null,
+      "url": "https://win4aisafety-sain-utrecht.devpost.com/"
     },
     "35de7ffe4f4eedfc": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "3946177a39a789bc": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackUMass",
+      "event_type": "other",
+      "location_city_state": "Amherst, MA",
+      "source": "mlh",
+      "start_date": "2026-11-13",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackumass.com/"
     },
     "3a57e99ff0c07254": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "CUhackit",
+      "event_type": "other",
+      "location_city_state": "Clemson, SC",
+      "source": "mlh",
+      "start_date": "2027-02-20",
+      "travel_credit_mentioned": null,
+      "url": "https://cuhack.it/"
     },
     "3b40db7575f954e8": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Kang Chiao International School Student",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Global Innovation Build Challenge V2",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-11",
+      "travel_credit_mentioned": null,
+      "url": "https://gibc-v2.devpost.com/"
     },
     "3c3dbba3d77f6eac": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "CALL-E",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "CALL-E: Your Code Is Calling",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-23",
+      "travel_credit_mentioned": null,
+      "url": "https://call-e.devpost.com/"
     },
     "3cceb6229821d56f": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "RevenueCat",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "RevenueCat Shipaton 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-31",
+      "travel_credit_mentioned": null,
+      "url": "https://revenuecat-shipaton-2026.devpost.com/"
     },
     "3d82eb0fa8e7815b": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "WiCHacks",
+      "event_type": "other",
+      "location_city_state": "Rochester, New York",
+      "source": "mlh",
+      "start_date": "2027-02-27",
+      "travel_credit_mentioned": null,
+      "url": "https://wichacks.io/"
     },
     "3f7036dd205e580d": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackHers @GSU",
+      "event_type": "other",
+      "location_city_state": "Atlanta,, GA",
+      "source": "mlh",
+      "start_date": "2026-09-18",
+      "travel_credit_mentioned": null,
+      "url": "https://hackhers.club/"
     },
     "3feda87d01a5e371": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hack Dearborn 5: Conjure Reality",
+      "event_type": "other",
+      "location_city_state": "Dearborn, Michigan",
+      "source": "mlh",
+      "start_date": "2026-10-03",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackdearborn.org/"
     },
     "463f30066d5a7f6d": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Google",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "All Things Agentic Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-04",
+      "travel_credit_mentioned": null,
+      "url": "https://allthingsagentichackathon.devpost.com/"
     },
     "471e9ed62c3c2221": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "DataHub",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Build with DataHub: The Agent Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-06",
+      "travel_credit_mentioned": null,
+      "url": "https://datahub.devpost.com/"
     },
     "482b618f33f8d8f2": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "SBUHacks",
+      "event_type": "other",
+      "location_city_state": "Stony Brook, New York",
+      "source": "mlh",
+      "start_date": "2026-10-09",
+      "travel_credit_mentioned": null,
+      "url": "https://hack.sbcs.io/"
     },
     "4c1f1508a69ebdb3": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "RevolutionUC",
+      "event_type": "other",
+      "location_city_state": "Cincinnati, Ohio",
+      "source": "mlh",
+      "start_date": "2027-02-27",
+      "travel_credit_mentioned": null,
+      "url": "https://www.revolutionuc.com/"
+    },
+    "4e508352f06501aa": {
+      "application_deadline": null,
+      "company": "Women In Product India",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "The Great Agent Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Freshworks",
+      "source": "devpost",
+      "start_date": "2026-07-23",
+      "travel_credit_mentioned": null,
+      "url": "https://the-great-agent-hackathon.devpost.com/"
     },
     "4ee1e475c090ab03": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "ImpactForge",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "ImpactForge",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-19",
+      "travel_credit_mentioned": null,
+      "url": "https://impactforge.devpost.com/"
     },
     "50dabfd18d225870": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Formlabs",
+      "date_posted": "2026-06-25",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Industrial Design Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "Somerville, MA",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577"
     },
     "53108422280bb40e": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "AceSAT",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "AceSAT Education AI-Agent",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-12",
+      "travel_credit_mentioned": null,
+      "url": "https://acesat-ai-agent.devpost.com/"
     },
     "5504d6ae9cbb7c59": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "VTHacks 14",
+      "event_type": "other",
+      "location_city_state": "Blacksburg, Virginia",
+      "source": "mlh",
+      "start_date": "2026-09-18",
+      "travel_credit_mentioned": null,
+      "url": "https://vthacks.com/"
     },
     "56497813c4251b53": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "HackTheLimit",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hack The Limit",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-18",
+      "travel_credit_mentioned": null,
+      "url": "https://hack-the-limit-1.devpost.com/"
     },
     "573a5c05019a2da3": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "SwampHacks XII",
+      "event_type": "other",
+      "location_city_state": "Gainesville, Florida",
+      "source": "mlh",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://swamphacks.com/"
     },
     "5a0e0ed8b89442fb": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "5a8a34141af9de2d": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "UGAHacks",
+      "event_type": "other",
+      "location_city_state": "Athens, Georgia",
+      "source": "mlh",
+      "start_date": "2027-02-05",
+      "travel_credit_mentioned": null,
+      "url": "https://ugahacks.com/"
     },
     "5bca6266b30040b9": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Africa Deep Tech Foundation",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Africa Deep Tech Challenge 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-17",
+      "travel_credit_mentioned": null,
+      "url": "https://adtc-2026.devpost.com/"
     },
     "60105729324b4d06": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "651bd14a89a28634": {
-      "emailed_at": "2026-08-08T05:12:03+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "MHacks",
+      "event_type": "other",
+      "location_city_state": "Ann Arbor, MI",
+      "source": "mlh",
+      "start_date": "2026-10-03",
+      "travel_credit_mentioned": null,
+      "url": "https://www.mhacks.org/"
     },
     "6c755106dea97d44": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "LUMA",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "LUMA Hackathon (September 20th - 28th)",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-26",
+      "travel_credit_mentioned": null,
+      "url": "https://luma-hackathon-fall.devpost.com/"
     },
     "6e27629913e4cfe0": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "75d94b8da8ef5a2e": {
-      "emailed_at": "2026-08-08T05:12:03+00:00"
+      "application_deadline": null,
+      "company": "Quantumhacks",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "QuantumHacks",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-21",
+      "travel_credit_mentioned": null,
+      "url": "https://quantumhacks.devpost.com/"
     },
     "7670c8d012c1c6c6": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackKU27",
+      "event_type": "other",
+      "location_city_state": "Lawrence, Kansas",
+      "source": "mlh",
+      "start_date": "2027-04-09",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackku.org/"
     },
     "771e780a2f2bbea7": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "hackUMBC",
+      "event_type": "other",
+      "location_city_state": "Baltimore, MD",
+      "source": "mlh",
+      "start_date": "2026-09-26",
+      "travel_credit_mentioned": null,
+      "url": "https://hackumbc.tech/"
     },
     "783155cb5feb3f50": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "high school",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "3D Websites Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-22",
+      "travel_credit_mentioned": null,
+      "url": "https://3d-websites-hackathon.devpost.com/"
     },
     "7ad7c72dfa477799": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "7c7153c3a377b308": {
-      "emailed_at": "2026-08-08T05:12:03+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HopHacks",
+      "event_type": "other",
+      "location_city_state": "Baltimore, Maryland",
+      "source": "mlh",
+      "start_date": "2026-09-18",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hophacks.com/"
     },
     "7f6bf546d6810f0c": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hack_NCState",
+      "event_type": "other",
+      "location_city_state": "Raleigh, North Carolina",
+      "source": "mlh",
+      "start_date": "2027-02-06",
+      "travel_credit_mentioned": null,
+      "url": "https://hackncstate.org/"
     },
     "806e2305906ce270": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "GTPN",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "GTPN Hackathon 2026",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-07",
+      "travel_credit_mentioned": null,
+      "url": "https://gtpn-hackathon-2026.devpost.com/"
     },
     "80e9a091f5765f35": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "821cc7ce20ca00a4": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Diamondhacks",
+      "event_type": "other",
+      "location_city_state": "La Jolla, California",
+      "source": "mlh",
+      "start_date": "2027-04-04",
+      "travel_credit_mentioned": null,
+      "url": "https://diamondhacks.acmucsd.com/"
     },
     "83dbac62ba877553": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Palantir",
+      "date_posted": "2025-12-07",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Neurodivergent Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "Washington, D.C.",
+      "source": "lever",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603"
     },
     "85ad59426a110a6e": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "LA Hacks 27",
+      "event_type": "other",
+      "location_city_state": "Los Angeles, California",
+      "source": "mlh",
+      "start_date": "2027-04-16",
+      "travel_credit_mentioned": null,
+      "url": "https://lahacks.com"
     },
     "86e1082678cf0112": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "SpartaHack 12",
+      "event_type": "other",
+      "location_city_state": "East Lansing, MI",
+      "source": "mlh",
+      "start_date": "2027-02-06",
+      "travel_credit_mentioned": null,
+      "url": "https://events.mlh.io/events/14442-spartahack-12"
     },
     "88c098de307dea26": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Vmax AI Corp",
+      "date_posted": "2026-05-20",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Research Fellowship - Mechanistic Interpretability",
+      "event_type": "fellowship",
+      "location_city_state": "SF",
+      "source": "ashby",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.ashbyhq.com/vmax/7344d5fd-6fa3-4bce-b7bd-e73aa4dd568b"
     },
     "88db3eb0c907d160": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "8a1a829cdb2d2dba": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackIllinois",
+      "event_type": "other",
+      "location_city_state": "Urbana, Illinois",
+      "source": "mlh",
+      "start_date": "2027-02-26",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackillinois.org/"
     },
     "9102ab7a946e6603": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "SteelHacks XIII",
+      "event_type": "other",
+      "location_city_state": "Pittsburgh, PA",
+      "source": "mlh",
+      "start_date": "2026-09-19",
+      "travel_credit_mentioned": null,
+      "url": "https://steelhacks.org/"
     },
     "919455aeb065bb2a": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hacklytics 2027",
+      "event_type": "other",
+      "location_city_state": "Atlanta, GA",
+      "source": "mlh",
+      "start_date": "2027-02-26",
+      "travel_credit_mentioned": null,
+      "url": "https://hacklytics2027.web.app/"
     },
     "9601dc9a1725d203": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "GatewayGS",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "GatewayGS & The AEI Initiative:  AI 4 Earth Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-25",
+      "travel_credit_mentioned": null,
+      "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/"
     },
-    "966031d579e8b1ad": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+    "96b10a793948227f": {
+      "application_deadline": null,
+      "company": "Microsoft Student Club - SCU",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Canal Startup Sprint Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Creativa Innovation Hub Ismailia",
+      "source": "devpost",
+      "start_date": "2026-07-26",
+      "travel_credit_mentioned": null,
+      "url": "https://canal-startup-sprint-hackathon.devpost.com/"
     },
     "98bb9ca12791fab3": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Galuxium",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Galuxium Nexus V2",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-15",
+      "travel_credit_mentioned": null,
+      "url": "https://galuxium-nexus-v2-29411.devpost.com/"
     },
     "99f274a686138b43": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hack@Brown 2027",
+      "event_type": "other",
+      "location_city_state": "Providence, RI",
+      "source": "mlh",
+      "start_date": "2027-02-05",
+      "travel_credit_mentioned": null,
+      "url": "https://hackatbrown.org/"
     },
     "a0f391397a137f53": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Binnovative",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "AnimalHack 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-14",
+      "travel_credit_mentioned": null,
+      "url": "https://animalhack2026.devpost.com/"
     },
     "a689fa471a0d0ed2": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "a740d5719ec64ef0": {
-      "emailed_at": "2026-08-08T05:12:03+00:00"
+      "application_deadline": null,
+      "company": "Hacksocial",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hacksocial 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-01",
+      "travel_credit_mentioned": null,
+      "url": "https://hacksocial2026.devpost.com/"
     },
     "a8ad5ab7d8eadacd": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "a98da61ba10fb390": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Anthropic",
+      "date_posted": "2025-12-11",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Anthropic Fellows Program",
+      "event_type": "fellowship",
+      "location_city_state": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008"
     },
     "ac03dc4cc5915a88": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "b10d8122013220d1": {
-      "emailed_at": "2026-08-08T05:12:03+00:00"
+      "application_deadline": null,
+      "company": "Anthropic",
+      "date_posted": "2026-04-23",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
+      "event_type": "fellowship",
+      "location_city_state": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008"
     },
     "b13de1dd55ba1df3": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "OwlHacks",
+      "event_type": "other",
+      "location_city_state": "Philadelphia, Pennsylvania",
+      "source": "mlh",
+      "start_date": "2026-09-26",
+      "travel_credit_mentioned": null,
+      "url": "https://www.owlhacks.com/"
     },
     "b1a14aa0794295cc": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "DivHacks",
+      "event_type": "other",
+      "location_city_state": "New York, NY",
+      "source": "mlh",
+      "start_date": "2026-09-26",
+      "travel_credit_mentioned": null,
+      "url": "https://www.columbiadivhacks.org/"
     },
     "b2198e72cd5458fd": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackTX 26",
+      "event_type": "other",
+      "location_city_state": "Austin, TX",
+      "source": "mlh",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://hacktx.com/"
     },
     "b5c8eacf843264c5": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "OurPlanet.Rocks",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "OurPlanet.Rocks",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-07",
+      "travel_credit_mentioned": null,
+      "url": "https://ourplanetrocks.devpost.com/"
     },
     "b9bae2ea46112f5b": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Anthropic",
+      "date_posted": "2026-04-09",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Anthropic Fellows Program, Reinforcement Learning",
+      "event_type": "fellowship",
+      "location_city_state": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     },
     "b9f7fa3711e37920": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "STEMise",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "DSH Pitch",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-24",
+      "travel_credit_mentioned": null,
+      "url": "https://dsh-pitch-30500.devpost.com/"
+    },
+    "c1c3b46c99492ddb": {
+      "application_deadline": null,
+      "company": "shekunj",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "INNOVIK 6.0 : International Hackathon 2026",
+      "event_type": "hackathon",
+      "location_city_state": "VITM, Indore",
+      "source": "devpost",
+      "start_date": "2026-07-15",
+      "travel_credit_mentioned": null,
+      "url": "https://innovik-6-0-hackathon-2026.devpost.com/"
     },
     "c3546b4648d0a28c": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "10a Labs",
+      "date_posted": "2026-03-27",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Engineering Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "Washington D.C. ",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/10alabs/jobs/4203095009"
     },
     "c60ef249e639af24": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "ShellHacks",
+      "event_type": "other",
+      "location_city_state": "Miami, Florida",
+      "source": "mlh",
+      "start_date": "2026-09-25",
+      "travel_credit_mentioned": null,
+      "url": "https://shellhacks.net/"
     },
     "c61a3a7281a55a05": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "c830047b73e34aa6": {
-      "emailed_at": "2026-08-08T05:12:03+00:00"
+      "application_deadline": null,
+      "company": "10a Labs",
+      "date_posted": "2026-06-04",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Red Teaming Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "Washington D.C. ",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/10alabs/jobs/4273684009"
     },
     "c862a3ad855bd68c": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "WindBorne Systems",
+      "date_posted": "2026-05-15",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Builder Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "RWC HQ",
+      "source": "ashby",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93"
     },
     "c982198d0ccf7bf0": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "ACT House",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Brainwave 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-12",
+      "travel_credit_mentioned": null,
+      "url": "https://brainwaves.devpost.com/"
     },
     "ca18d3384c2182ec": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackGT 13",
+      "event_type": "other",
+      "location_city_state": "Atlanta, GA",
+      "source": "mlh",
+      "start_date": "2026-09-25",
+      "travel_credit_mentioned": null,
+      "url": "http://hack.gt/"
     },
     "cb7a07fd4f4d5d92": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Evorozen",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Evorozen Apex: NextGen AI Buildathon",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-17",
+      "travel_credit_mentioned": null,
+      "url": "https://evorozen-apex.devpost.com/"
     },
     "cd8fd2672c69a3c7": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "BigRed//Hacks 2026",
+      "event_type": "other",
+      "location_city_state": "Ithaca, New York",
+      "source": "mlh",
+      "start_date": "2026-10-02",
+      "travel_credit_mentioned": null,
+      "url": "https://www.bigredhacks.com/"
     },
     "ce13a3be44f480e5": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "ce9680201d535555": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Baseten",
+      "date_posted": "2026-07-06",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Base Labs Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "San Francisco",
+      "source": "ashby",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51"
     },
     "d31f565a2458368e": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "d32fd1aa6b23eba4": {
-      "emailed_at": "2026-08-08T05:12:03+00:00"
+      "application_deadline": null,
+      "company": "Palantir",
+      "date_posted": "2025-12-07",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Neurodivergent Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "New York, NY",
+      "source": "lever",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.lever.co/palantir/61eaa54c-e1b7-4064-afad-f7df3d48d652"
     },
     "d60fa33ed0fd34c9": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Kent Hack Enough",
+      "event_type": "other",
+      "location_city_state": "Kent, Ohio",
+      "source": "mlh",
+      "start_date": "2027-03-06",
+      "travel_credit_mentioned": null,
+      "url": "https://khe.io/"
     },
     "d67a91d5c2ae80bc": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "International AI Youth Education Society",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "AI YES :International Youth AI Competition",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-17",
+      "travel_credit_mentioned": null,
+      "url": "https://ai-yes-competition-30441.devpost.com/"
     },
     "d873b25e36ec1a0f": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "WEHack",
+      "event_type": "other",
+      "location_city_state": "Richardson, TX",
+      "source": "mlh",
+      "start_date": "2027-04-10",
+      "travel_credit_mentioned": null,
+      "url": "https://www.wehackutd.com/"
+    },
+    "d96b3ac16652b502": {
+      "application_deadline": null,
+      "company": "Primus B School",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Vidhyarthi Sewa EduHack Karnataka 2026",
+      "event_type": "other",
+      "location_city_state": "Primus B School",
+      "source": "devpost",
+      "start_date": "2026-07-31",
+      "travel_credit_mentioned": null,
+      "url": "https://vidhyarthi-sewa-eduhack.devpost.com/"
     },
     "dbd5f9bd4a98a334": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackRPI 2026",
+      "event_type": "other",
+      "location_city_state": "Troy, New York",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://hackrpi.com/"
     },
     "dde0e7fd4be60086": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Rice University",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "The Rice University Urban Sustainability Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-23",
+      "travel_credit_mentioned": null,
+      "url": "https://rice-urban-sustainability.devpost.com/"
     },
     "e1731db4fa221e95": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Palantir",
+      "date_posted": "2025-06-17",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "American Tech Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "North America",
+      "source": "lever",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0"
     },
     "e23c9bcdbb61058a": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "e293a514851c834c": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Voloridge",
+      "date_posted": "2026-06-16",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Quantitative Research Fellowship 2027",
+      "event_type": "fellowship",
+      "location_city_state": "Jupiter, FL",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009"
     },
     "e29e5953e57ee4d9": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "e3042709e7995ebe": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Knight Hacks IX",
+      "event_type": "other",
+      "location_city_state": "Orlando, Florida",
+      "source": "mlh",
+      "start_date": "2026-10-09",
+      "travel_credit_mentioned": null,
+      "url": "https://2026.knighthacks.org/"
     },
     "e37889d44fed06f0": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "e3a4430859d68bec": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "President University",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "COMPSPHERE 11",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-03",
+      "travel_credit_mentioned": null,
+      "url": "https://compsphere11.devpost.com/"
     },
     "e4d1603379d89794": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "TechieBunnies team",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "BuunieX Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-22",
+      "travel_credit_mentioned": null,
+      "url": "https://buuniex-hackathon.devpost.com/"
     },
     "e5c2af1a0233fc38": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "nill",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Code for Humanity",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-16",
+      "travel_credit_mentioned": null,
+      "url": "https://code-for-humanity.devpost.com/"
     },
     "e7afa431dcf32277": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Anthropic",
+      "date_posted": "2026-04-09",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Anthropic Fellows Program, AI Safety",
+      "event_type": "fellowship",
+      "location_city_state": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008"
     },
     "eae952aef01942a2": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "eb8da9a2482a2e26": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Perfect Corp",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "YouCam API Skin AI & Apparel VTO Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-06",
+      "travel_credit_mentioned": null,
+      "url": "https://youcam-api.devpost.com/"
     },
     "eb9120b56be7f7c1": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Midnight Virtual Hackathon [August]",
+      "event_type": "hackathon",
+      "location_city_state": "Everywhere, Worldwide",
+      "source": "mlh",
+      "start_date": "2026-08-28",
+      "travel_credit_mentioned": null,
+      "url": "https://events.mlh.com/events/14510-midnight-hackathon-august"
     },
     "f016a7a2a81776fc": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "SF Hacks",
+      "event_type": "other",
+      "location_city_state": "San Francisco, CA",
+      "source": "mlh",
+      "start_date": "2027-02-19",
+      "travel_credit_mentioned": null,
+      "url": "https://sfhacks.io"
     },
     "f06cc9fa3d2518f8": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "LA Hacks AI Hackathon 2026",
+      "event_type": "hackathon",
+      "location_city_state": "Los Angeles, CA",
+      "source": "mlh",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://ai.lahacks.com"
     },
     "f1882c77852614da": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HackNC",
+      "event_type": "other",
+      "location_city_state": "Chapel Hill, North Carolina",
+      "source": "mlh",
+      "start_date": "2026-10-09",
+      "travel_credit_mentioned": null,
+      "url": "https://hacknc.com/"
     },
     "f19a6b2168683820": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "GirlHacks",
+      "event_type": "other",
+      "location_city_state": "Newark, NJ",
+      "source": "mlh",
+      "start_date": "2026-10-03",
+      "travel_credit_mentioned": null,
+      "url": "https://www.njitgirlhacks.com/"
     },
     "f4054ba0ae28fbf2": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
-    },
-    "f4bd01e67f44a713": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Google",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Agentic Cinema: The Blockbuster Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-27",
+      "travel_credit_mentioned": null,
+      "url": "https://agentic-cinema.devpost.com/"
     },
     "f5542fd2d91134af": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Hack for Humanity",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hack for Humanity | Summer 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-07",
+      "travel_credit_mentioned": null,
+      "url": "https://hack-for-humanity-summer-26.devpost.com/"
     },
     "f6094ed140f6e2ee": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Rowdy Hacks",
+      "event_type": "other",
+      "location_city_state": "San Antonio, Texas",
+      "source": "mlh",
+      "start_date": "2026-10-03",
+      "travel_credit_mentioned": null,
+      "url": "https://rowdyhacks.org"
     },
     "f683d2124d9f311d": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "hackonomics",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Hackonomics 2027",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-07-01",
+      "travel_credit_mentioned": null,
+      "url": "https://hackonomics27.devpost.com/"
+    },
+    "f7f12e0b00898f9f": {
+      "application_deadline": null,
+      "company": "hackhere",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Nexora",
+      "event_type": "other",
+      "location_city_state": "SNS Innovation HUB",
+      "source": "devpost",
+      "start_date": "2026-07-30",
+      "travel_credit_mentioned": null,
+      "url": "https://nexora.devpost.com/"
     },
     "f8ebfecbc59fc128": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Next Generation Hacks",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "NGN Hacks 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-07",
+      "travel_credit_mentioned": null,
+      "url": "https://ngn-hacks-2026.devpost.com/"
     },
     "faa2c6e97825a783": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "ReverieHacks",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Reverie Hacks 2026",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-02",
+      "travel_credit_mentioned": null,
+      "url": "https://reverie-hacks-2026.devpost.com/"
     },
     "fabd59694e6f8291": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "MakeCU",
+      "event_type": "other",
+      "location_city_state": "New York, New York",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://v0-curc-makecu.vercel.app/"
     },
     "fc13c47ac5abfdb5": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "HenHacks",
+      "event_type": "other",
+      "location_city_state": "Newark, Delaware",
+      "source": "mlh",
+      "start_date": "2027-03-06",
+      "travel_credit_mentioned": null,
+      "url": "https://www.henhackshackathon.com/"
     },
     "fce32fe8a1c1b3e7": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Anthropic",
+      "date_posted": "2026-04-09",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Anthropic Fellows Program, ML Systems & Performance",
+      "event_type": "fellowship",
+      "location_city_state": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008"
     },
     "fce9be72bbbd11d4": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "arm",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "Arm Create: AI Optimization Challenge",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-06-04",
+      "travel_credit_mentioned": null,
+      "url": "https://arm-ai-optimization-challenge.devpost.com/"
     },
     "fd09c338b75f2d1b": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Dialogate",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "VoltHacks",
+      "event_type": "other",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-05-22",
+      "travel_credit_mentioned": null,
+      "url": "https://volthacks.devpost.com/"
     },
     "ff61a1574e9bfff9": {
-      "emailed_at": "2026-08-08T05:09:23+00:00"
+      "application_deadline": null,
+      "company": "Scale AI",
+      "date_posted": "2026-04-29",
+      "emailed_at": "2026-08-08T05:35:20+00:00",
+      "event_name": "National Security Hackathon 2026 - General Interest",
+      "event_type": "hackathon",
+      "location_city_state": "San Francisco, CA; New York, NY; Washington, DC",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-08T05:12:03+00:00"
+  "updated_at": "2026-08-08T05:35:20+00:00"
 }
