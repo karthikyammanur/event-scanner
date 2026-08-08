@@ -21,7 +21,7 @@ ones every few hours. Internship-leading programs are listed first.
    | `GMAIL_USER` | SMTP delivery | No email is sent |
    | `GMAIL_APP_PASSWORD` | SMTP delivery | No email is sent |
    | `DIGEST_TO` | Recipient | Falls back to `GMAIL_USER` |
-   | `ANTHROPIC_API_KEY` | Extraction | Falls back to deterministic filtering |
+   | `GEMINI_API_KEY` | Extraction | Falls back to deterministic filtering |
    | `BRAVE_API_KEY` | Broad discovery | The `brave` source is skipped |
 
    Use a Gmail **app password**, not the account password. It requires 2FA on

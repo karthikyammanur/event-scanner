@@ -7,7 +7,7 @@ GitHub Actions cron, not on his machine.
 ## Stack
 
 Python 3.12, `requests` only for fetching (no headless browser by design, it
-burns Actions minutes). Extraction uses `claude-opus-5` via the `anthropic` SDK.
+burns Actions minutes). Extraction uses `gemini-2.5-flash` via the `google-genai` SDK.
 Delivery is Gmail SMTP with an app password.
 
 ## Commands
