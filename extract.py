@@ -19,6 +19,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import time
 from typing import Dict, List, Optional
 
 from filters import matched_event_keyword, passes_hard_filters
@@ -27,8 +28,22 @@ from models import Candidate, Event
 log = logging.getLogger(__name__)
 
 MODEL = "gemini-2.5-flash"
+# Tried in order if MODEL is not available to the key, newest/cheapest first.
+MODEL_FALLBACKS = (
+    "gemini-2.5-flash-preview-09-2025",
+    "gemini-2.5-flash-lite",
+    "gemini-flash-latest",
+    "gemini-2.0-flash",
+)
 BATCH_SIZE = 8
 MAX_TOKENS = 8000
+
+# Free-tier Gemini caps requests per minute, so batches are paced rather than
+# fired back to back. Failures back off, and a run of them stops the loop
+# instead of burning the daily quota on a problem that will not fix itself.
+REQUEST_SPACING_S = 4.0
+RETRY_BACKOFF_S = 5.0
+CIRCUIT_BREAK_AFTER = 3
 
 SYSTEM = """You classify listings scraped from company career pages, hackathon \
 platforms, and web search results. For each listing you decide whether it is a \
@@ -126,6 +141,48 @@ def _client():
         return None
 
 
+def resolve_model(client) -> Optional[str]:
+    """Pick a model this API key can actually call.
+
+    The first live run got a 404 on the configured model even though the ID is
+    valid in Google's public docs, which is what this endpoint returns when the
+    key's project cannot reach that model. Asking the key what it can see beats
+    hardcoding a name and guessing wrong: the preferred model is used when it is
+    available, otherwise the first listed model that supports generateContent.
+    """
+    try:
+        available = []
+        for m in client.models.list():
+            name = (getattr(m, "name", "") or "").removeprefix("models/")
+            actions = getattr(m, "supported_actions", None) or []
+            if name and (not actions or "generateContent" in actions):
+                available.append(name)
+    except Exception as exc:
+        # Listing is a convenience, not a requirement. If it fails, try the
+        # configured model directly and let the batch loop report the error.
+        log.warning("could not list Gemini models (%s), trying %s directly",
+                    type(exc).__name__, MODEL)
+        return MODEL
+
+    if not available:
+        log.error("Gemini key can see no models supporting generateContent")
+        return None
+
+    for want in (MODEL, *MODEL_FALLBACKS):
+        if want in available:
+            if want != MODEL:
+                log.warning("model %s unavailable to this key, using %s", MODEL, want)
+            return want
+
+    chosen = available[0]
+    log.warning(
+        "none of the preferred models are available to this key, using %s "
+        "(key can see: %s)",
+        chosen, ", ".join(available[:8]),
+    )
+    return chosen
+
+
 def _render(cands: List[Candidate]) -> str:
     lines = []
     for i, c in enumerate(cands):
@@ -182,11 +239,11 @@ def _tri_state(v: Optional[str]) -> Optional[bool]:
     return {"true": True, "false": False}.get((v or "").strip().lower())
 
 
-def _one_batch(client, cands: List[Candidate]) -> List[Event]:
+def _one_batch(client, cands: List[Candidate], model: str) -> List[Event]:
     from google.genai import types
 
     resp = client.models.generate_content(
-        model=MODEL,
+        model=model,
         contents=(
             "Classify each listing below. Return one result per index.\n\n"
             + _render(cands)
@@ -258,14 +315,54 @@ def extract(cands: List[Candidate]) -> List[Event]:
         log.info("no API key, using deterministic fallback for %d candidates", len(cands))
         return _fallback(cands)
 
+    model = resolve_model(client)
+    if model is None:
+        log.error("no usable Gemini model, falling back to deterministic filtering")
+        return _fallback(cands)
+    log.info("extracting %d candidates with %s", len(cands), model)
+
     out: List[Event] = []
+    total = (len(cands) + BATCH_SIZE - 1) // BATCH_SIZE
+    consecutive_failures = 0
+
     for i in range(0, len(cands), BATCH_SIZE):
         batch = cands[i : i + BATCH_SIZE]
+        n = i // BATCH_SIZE + 1
+        if i:
+            time.sleep(REQUEST_SPACING_S)
         try:
-            out.extend(_one_batch(client, batch))
-        except Exception:
-            # A failed batch must not lose the whole run.
-            log.exception("extraction batch failed, continuing")
+            out.extend(_one_batch(client, batch, model))
+            consecutive_failures = 0
+        except Exception as exc:
+            # A failed batch must not lose the whole run, but the reason has to
+            # reach the log. The SDK puts the server's actual message in str(),
+            # and without it a 404 and a quota error look identical.
+            consecutive_failures += 1
+            status = getattr(exc, "code", None) or getattr(exc, "status_code", None)
+            log.error(
+                "extraction batch %d/%d failed (%s, status=%s): %s",
+                n, total, type(exc).__name__, status, str(exc)[:400],
+            )
+            # Retrying instantly turns one systematic failure into a burst of
+            # 429s, which is exactly what happened on the first live run.
+            if consecutive_failures >= CIRCUIT_BREAK_AFTER:
+                log.error(
+                    "%d consecutive extraction failures, stopping early to "
+                    "avoid burning quota on a systematic problem",
+                    consecutive_failures,
+                )
+                break
+            time.sleep(RETRY_BACKOFF_S * consecutive_failures)
 
     log.info("extraction: %d candidates -> %d events", len(cands), len(out))
+    if cands and not out:
+        # Every candidate being rejected is possible but unusual. When it
+        # coincides with API failures it means real events were silently
+        # dropped, which is the failure mode that made run 1 look like a
+        # success while finding nothing.
+        log.warning(
+            "extraction produced no events from %d candidates, check the "
+            "batch errors above before trusting this as a real result",
+            len(cands),
+        )
     return out
