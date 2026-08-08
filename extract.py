@@ -1,18 +1,4 @@
-"""LLM extraction: one call per surviving candidate.
-
-This is the step that turns a raw listing into the Event data contract and, more
-importantly, decides whether the thing is an event at all. The deterministic
-prefilter in filters.py has already thrown out the obvious job postings; this
-call adjudicates the ambiguous remainder and fills in dates and location.
-
-Cost control matters here because the whole tool runs on a free Actions budget:
-  - Candidates are batched, several per call, instead of one call each.
-  - Anything already in the state file never reaches this module at all.
-
-Uses Gemini (google-genai SDK) with structured JSON output. Without
-GEMINI_API_KEY the module degrades to a deterministic fallback that maps
-candidates straight to Events, so --dry-run still works offline.
-"""
+"""Gemini extraction: classify candidates and fill in the Event fields."""
 
 from __future__ import annotations
 
@@ -27,12 +13,7 @@ from models import Candidate, Event
 
 log = logging.getLogger(__name__)
 
-# Gemini retires model IDs for *new* API keys while leaving them listed and
-# documented, so a name being valid in the docs does not mean this key can call
-# it. gemini-2.5-flash returns 404 "no longer available to new users" on keys
-# created after its retirement. Prefer the rolling aliases, which Google keeps
-# pointed at a current model, and verify by making a real call (see
-# resolve_model) rather than trusting the model list.
+# Rolling aliases, since pinned IDs get retired for new keys. See CLAUDE.md.
 MODEL = "gemini-flash-latest"
 MODEL_FALLBACKS = (
     "gemini-2.5-flash-preview-09-2025",
@@ -43,9 +24,7 @@ MODEL_FALLBACKS = (
 BATCH_SIZE = 8
 MAX_TOKENS = 8000
 
-# Free-tier Gemini caps requests per minute, so batches are paced rather than
-# fired back to back. Failures back off, and a run of them stops the loop
-# instead of burning the daily quota on a problem that will not fix itself.
+# Free tier caps requests per minute, so pace the batches.
 REQUEST_SPACING_S = 4.0
 RETRY_BACKOFF_S = 5.0
 CIRCUIT_BREAK_AFTER = 3
@@ -68,16 +47,21 @@ Also reject anything that is not tech related, and anything that is neither \
 US-based nor virtual.
 
 Extract dates only when the listing states them. Never invent a date. Use an \
-empty string "" when a text field is genuinely unknown. For \
+empty string "" when a text field is genuinely unknown.
+
+For date_posted, give the date the announcement or listing was published, as \
+YYYY-MM-DD, when the text says so ("Posted 3 days ago" relative to today, \
+"Published March 4, 2026", a dateline, and so on). Leave it empty if the \
+listing does not indicate when it went up. Do not confuse it with the event \
+start date or the application deadline.
+
+For \
 travel_credit_mentioned, answer "true" when travel credit or travel support is \
 explicitly offered, "false" when the listing explicitly says it is not \
 provided, and "unknown" when the listing simply does not say either way."""
 
-# Gemini's structured output does not reliably support JSON Schema's nullable
-# type-array form (["string", "null"]), so every field here is single-typed.
-# Unknown text is an empty string; the tri-state travel field is a plain
-# string enum. _one_batch() converts both back to the None/bool the Event
-# data contract expects.
+# Single-typed fields only: Gemini's structured output is unreliable with
+# nullable type arrays. Empty string means unknown, converted back in _one_batch.
 SCHEMA = {
     "type": "object",
     "properties": {
@@ -105,6 +89,7 @@ SCHEMA = {
                     },
                     "start_date": {"type": "string"},
                     "application_deadline": {"type": "string"},
+                    "date_posted": {"type": "string"},
                     "location_city_state": {"type": "string"},
                     "travel_credit_mentioned": {
                         "type": "string",
@@ -120,6 +105,7 @@ SCHEMA = {
                     "event_type",
                     "start_date",
                     "application_deadline",
+                    "date_posted",
                     "location_city_state",
                     "travel_credit_mentioned",
                 ],
@@ -149,10 +135,7 @@ def _client():
 def _probe(client, model: str) -> bool:
     """Return True when this key can actually generate with `model`.
 
-    Listing models is not sufficient: Gemini lists IDs that a newly created key
-    is then refused at call time ("no longer available to new users", HTTP 404).
-    The only reliable check is a real generateContent call, kept tiny so the
-    probe costs almost nothing.
+    Listing is not enough, some listed models 404 at call time.
     """
     from google.genai import types
 
@@ -176,8 +159,7 @@ def resolve_model(client) -> Optional[str]:
                 log.warning("preferred model %s unusable, falling back to %s", MODEL, want)
             return want
 
-    # Nothing preferred worked. Ask the key what it has and try those, so a
-    # future retirement does not need a code change to recover.
+    # Nothing preferred worked, so try whatever the key exposes.
     try:
         listed = [
             (getattr(m, "name", "") or "").removeprefix("models/")
@@ -219,11 +201,7 @@ def _render(cands: List[Candidate]) -> str:
 
 
 def _fallback(cands: List[Candidate]) -> List[Event]:
-    """Deterministic mapping used when no API key is configured.
-
-    Keeps --dry-run useful offline. The deterministic hard filters still apply,
-    so this path cannot emit an obvious job posting either.
-    """
+    """Used when no API key is set. Hard filters still apply."""
     out = []
     for c in cands:
         kw = matched_event_keyword(c.title)
@@ -234,6 +212,7 @@ def _fallback(cands: List[Candidate]) -> List[Event]:
             url=c.url,
             source=c.source,
             start_date=c.extra.get("start_date"),
+            date_posted=c.extra.get("date_posted"),
             location_city_state=c.location or None,
         )
         ok, reason = passes_hard_filters(ev)
@@ -245,7 +224,7 @@ def _fallback(cands: List[Candidate]) -> List[Event]:
 
 
 def _str_or_none(v: Optional[str]) -> Optional[str]:
-    """Empty string is this schema's null sentinel, see SCHEMA's comment."""
+    """Empty string is the schema's null sentinel."""
     v = (v or "").strip()
     return v or None
 
@@ -271,9 +250,7 @@ def _one_batch(client, cands: List[Candidate], model: str) -> List[Event]:
         ),
     )
 
-    # A safety block or empty candidate list surfaces as no usable text rather
-    # than an exception. Treat it the same as any other failed batch: skip it,
-    # do not crash the run.
+    # A safety block surfaces as empty text rather than an exception.
     text = getattr(resp, "text", None)
     if not text:
         log.warning("extraction returned no text for a batch, skipping it")
@@ -306,11 +283,12 @@ def _one_batch(client, cands: List[Candidate], model: str) -> List[Event]:
             source=cand.source,
             start_date=_str_or_none(r.get("start_date")) or cand.extra.get("start_date"),
             application_deadline=_str_or_none(r.get("application_deadline")),
+            date_posted=_str_or_none(r.get("date_posted")) or cand.extra.get("date_posted"),
             location_city_state=_str_or_none(r.get("location_city_state")) or cand.location,
             travel_credit_mentioned=_tri_state(r.get("travel_credit_mentioned")),
         )
 
-        # The hard filters are enforced here too, never only in the prompt.
+        # Enforced here too, never only in the prompt.
         ok, reason = passes_hard_filters(ev)
         if not ok:
             log.debug("hard filter rejected %s: %s", ev.event_name[:60], reason)
@@ -349,17 +327,13 @@ def extract(cands: List[Candidate]) -> List[Event]:
             out.extend(_one_batch(client, batch, model))
             consecutive_failures = 0
         except Exception as exc:
-            # A failed batch must not lose the whole run, but the reason has to
-            # reach the log. The SDK puts the server's actual message in str(),
-            # and without it a 404 and a quota error look identical.
+            # Log the server's message, a 404 and a quota error look alike without it.
             consecutive_failures += 1
             status = getattr(exc, "code", None) or getattr(exc, "status_code", None)
             log.error(
                 "extraction batch %d/%d failed (%s, status=%s): %s",
                 n, total, type(exc).__name__, status, str(exc)[:400],
             )
-            # Retrying instantly turns one systematic failure into a burst of
-            # 429s, which is exactly what happened on the first live run.
             if consecutive_failures >= CIRCUIT_BREAK_AFTER:
                 log.error(
                     "%d consecutive extraction failures, stopping early to "
@@ -371,10 +345,6 @@ def extract(cands: List[Candidate]) -> List[Event]:
 
     log.info("extraction: %d candidates -> %d events", len(cands), len(out))
     if cands and not out:
-        # Every candidate being rejected is possible but unusual. When it
-        # coincides with API failures it means real events were silently
-        # dropped, which is the failure mode that made run 1 look like a
-        # success while finding nothing.
         log.warning(
             "extraction produced no events from %d candidates, check the "
             "batch errors above before trusting this as a real result",

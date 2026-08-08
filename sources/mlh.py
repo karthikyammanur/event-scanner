@@ -1,23 +1,4 @@
-"""MLH season events.
-
-Open item from the spec ("find MLH's lazy-loaded endpoint"), now RESOLVED
-differently than expected (Aug 7 2026): the season page is NOT lazy loaded from
-a hidden API. Everything is server rendered, so plain requests is enough. No
-headless browser, no internal endpoint.
-
-The page carries the full season as an embedded JSON array (escaped inside the
-framework payload), which is richer than the schema.org microdata also present:
-
-  {"id":..., "slug":"hackdavis-2026-hackathon", "name":"HackDavis 2026 Hackathon",
-   "status":"ended", "startsAt":"2026-05-09T11:30:00Z", "dateRange":"MAY 09 - 10",
-   "location":"Davis, California", "formatType":"physical",
-   "websiteUrl":"https://hackdavis.io", "region":"NA",
-   "venueAddress":{"city":"Davis","state":"California","country":"US"}}
-
-We parse that blob for real event names and use venueAddress.country for clean
-US filtering, since MLH is heavily international and only US events are in
-scope. The microdata parser is kept as a fallback if the blob shape changes.
-"""
+"""MLH season events, US only."""
 
 from __future__ import annotations
 
@@ -40,7 +21,7 @@ SEASON_URLS = [
 
 
 class _EventMicrodataParser(HTMLParser):
-    """Collect schema.org/Event blocks from the season page."""
+    """Fallback parser for the page's schema.org microdata."""
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -110,12 +91,7 @@ _EVENT_OBJ = re.compile(
 
 
 def _extract_embedded_events(html: str) -> List[Dict]:
-    """Pull the embedded season JSON objects out of the page payload.
-
-    The blob lives inside an escaped framework string, so backslash escapes are
-    unescaped first. Each object is parsed independently: one malformed record
-    must not lose the whole season.
-    """
+    """Pull the season JSON objects out of the page payload."""
     text = html.replace("\\/", "/").replace('\\"', '"')
     out: List[Dict] = []
     for m in _EVENT_OBJ.finditer(text):

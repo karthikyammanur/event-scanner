@@ -72,6 +72,27 @@ The state check runs **before** extraction, so a repeat run spends no tokens.
   keeps "University Recruiter, Hackathon and Campus Events" out.
 - **Handshake is off limits** in any form. Their ToS forbids automated
   collection. Eventbrite's search API is dead and Meetup's requires a paid plan.
+- **Gemini retires model IDs for new API keys** while leaving them listed and
+  documented. `gemini-2.5-flash` returned 404 "no longer available to new
+  users" on a key created after its retirement, and listing models did not
+  reveal it, so `resolve_model` verifies by making a real one-token call.
+  Prefer the rolling `-latest` aliases over pinned IDs.
+- **Gemini structured output is unreliable with nullable type arrays**
+  (`["string", "null"]`), so `SCHEMA` in `extract.py` is single-typed
+  throughout. Empty string means unknown, and the tri-state travel field is a
+  string enum; both convert back in `_one_batch`.
+- **The extraction step must log the server's message.** A bare
+  `log.exception` hid the 404 above and made a total wipeout look like a clean
+  run that simply found nothing. Failed batches now log status plus message,
+  back off, and stop after `CIRCUIT_BREAK_AFTER` consecutive failures so a
+  systematic problem does not burn the daily quota.
+- **date_posted** comes from `first_published` (Greenhouse), `createdAt`
+  (Lever, epoch millis), and `publishedAt` (Ashby), normalized by
+  `models.to_iso_date`. Devpost and MLH expose no posting date, so it stays
+  null there; the LLM is also asked to look for one in free text.
+- **Event IDs hash the extracted title**, so LLM phrasing variance can
+  occasionally re-surface an event once under a new ID. It self-corrects after
+  one run.
 
 ## Testing
 

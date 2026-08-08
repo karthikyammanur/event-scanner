@@ -1,10 +1,4 @@
-"""Tests for the extraction/filter logic against the labeled fixture set.
-
-Spec requirement: no false negatives on the true events. False positives are
-tolerable early, since Karthik reads the digest as the final check. The
-zero-false-negative rule is asserted strictly; false positives are asserted
-against a loose ceiling so a regression still trips the build.
-"""
+"""Filter logic tested against the labeled fixture set."""
 
 import json
 import os
@@ -59,8 +53,6 @@ def _event(p) -> Event:
     )
 
 
-# --- The headline requirement -------------------------------------------------
-
 @pytest.mark.parametrize("p", EVENTS, ids=[p["title"][:45] for p in EVENTS])
 def test_no_false_negatives_in_prefilter(p):
     keep, reason = prefilter(_candidate(p))
@@ -92,8 +84,6 @@ def test_non_events_rejected_somewhere_in_the_pipeline(p):
     assert not ok, f"job posting would be emailed as an event: {p['title']}"
 
 
-# --- Hard filter units --------------------------------------------------------
-
 def test_rejects_non_us_non_virtual():
     assert not is_us_or_virtual("London, United Kingdom")
     assert not is_us_or_virtual("Hyderabad, Telangana")
@@ -107,7 +97,7 @@ def test_accepts_us_and_virtual():
 
 
 def test_multi_location_with_one_us_option_is_kept():
-    """Real Anthropic Fellows posting shape, seen live during the build."""
+    """Real posting shape seen live: multi-location with one US option."""
     loc = "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA"
     assert is_us_or_virtual(loc)
 
@@ -135,8 +125,6 @@ def test_job_posting_detection():
     assert not looks_like_job_posting("Code for Good Hackathon 2027")
     assert not looks_like_job_posting("Engineering Insight Series 2027")
 
-
-# --- Travel flagging, the never-silently-drop rule ----------------------------
 
 def test_out_of_texas_without_travel_credit_is_flagged_not_dropped():
     ev = Event(
@@ -176,8 +164,6 @@ def test_unknown_location_is_flagged_rather_than_assumed_local():
                location_city_state=None)
     assert ev.needs_travel_flag()
 
-
-# --- ID stability, the dedupe guarantee --------------------------------------
 
 def test_id_is_stable_across_cosmetic_url_changes():
     a = stable_id("Meta", "Discovery Day", "https://meta.com/dd")

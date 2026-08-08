@@ -1,14 +1,4 @@
-"""Company universe, refreshed each run rather than hardcoded.
-
-Per the spec these feeds are used ONLY to bootstrap a company name list. They
-contain effectively zero real events, so we never scan their listings for
-events, we just harvest company names and ATS board tokens.
-
-Verified Aug 7 2026:
-  - SimplifyJobs listings.json: 14,590 records, live.
-  - speedyapply 2027-SWE-College-Jobs: ships no listings.json (only TS build
-    scripts), so it yields no names. Probed best effort, absence is not an error.
-"""
+"""Company names and ATS board tokens, refreshed each run."""
 
 from __future__ import annotations
 

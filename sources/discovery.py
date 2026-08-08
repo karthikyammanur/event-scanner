@@ -1,15 +1,4 @@
-"""Broad discovery via the Tavily Search API.
-
-Catches companies that are outside the ATS feeds entirely. Queries rotate per
-run so repeated schedules explore different slices instead of re-fetching the
-same first page forever.
-
-Tavily's free tier is 1,000 API credits per month, recurring, no card
-required. A basic search costs 1 credit. This source is sized at 5
-queries/run so 6 runs/day stays at 900 credits/month, leaving margin.
-Without TAVILY_API_KEY set, this source returns nothing and logs a notice,
-it never raises.
-"""
+"""Broad web discovery via Tavily, for companies outside the ATS feeds."""
 
 from __future__ import annotations
 
@@ -57,7 +46,7 @@ SKIP_DOMAINS = {
     "wikipedia.org", "medium.com",
 }
 
-# 5/run x 6 runs/day x 30 days = 900 credits/month, under Tavily's 1,000 free.
+# 5/run x 6 runs/day x 30 days = 900 credits/month, under the 1,000 free tier.
 QUERIES_PER_RUN = 5
 DELAY_S = 0.3
 

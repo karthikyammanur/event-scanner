@@ -1,9 +1,4 @@
-"""Seen-event state, committed back to the repo after every run.
-
-The dedupe guarantee ("no event is ever emailed twice") rests on this file plus
-the stable IDs in models.py. Writes are atomic so a crashed or cancelled run
-cannot leave a truncated state file that would resurrect old events.
-"""
+"""Seen-event state, committed back to the repo after every run."""
 
 from __future__ import annotations
 
@@ -20,8 +15,7 @@ log = logging.getLogger(__name__)
 
 DEFAULT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seen.json")
 
-# Entries older than this are pruned so the file does not grow without bound.
-# Comfortably longer than any event announcement cycle.
+# Pruned after this so the file does not grow without bound.
 RETENTION_DAYS = 400
 
 
@@ -32,8 +26,6 @@ def load(path: str = DEFAULT_PATH) -> Dict[str, dict]:
         with open(path, encoding="utf-8") as fh:
             data = json.load(fh)
     except (ValueError, OSError):
-        # A corrupt state file must not crash the run, but it also must not
-        # silently re-send everything, so this is logged loudly.
         log.exception("could not read state file %s, treating as empty", path)
         return {}
     if not isinstance(data, dict):
@@ -76,10 +68,8 @@ def split_new(events: List[Event], seen: Dict[str, dict]) -> List[Event]:
 def record(events: List[Event], seen: Dict[str, dict]) -> Dict[str, dict]:
     """Mark events as sent. Call only after delivery succeeds.
 
-    Only the opaque event ID is load-bearing for dedupe. The readable metadata
-    beside it is debugging convenience, so it is omitted by default: the repo is
-    public, and event names plus company names would otherwise expose what
-    Karthik is applying to. Set STATE_VERBOSE=1 locally to keep it.
+    Stores only the opaque ID by default since the repo is public.
+    Set STATE_VERBOSE=1 to keep readable metadata for debugging.
     """
     verbose = os.environ.get("STATE_VERBOSE") == "1"
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()

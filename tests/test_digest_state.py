@@ -1,4 +1,4 @@
-"""Tests for the dedupe guarantee and the digest formatting rules."""
+"""Dedupe and digest formatting tests."""
 
 import os
 import sys
@@ -24,8 +24,6 @@ def _ev(name="Code for Good Hackathon", company="JPMorgan", url="https://x.com/c
         travel_credit_mentioned=travel,
     )
 
-
-# --- The no-em-dash rule ------------------------------------------------------
 
 def test_scrub_removes_em_dash():
     assert "—" not in digest.scrub("Summit — apply now")
@@ -54,8 +52,6 @@ def test_assert_no_em_dash_raises():
         digest.assert_no_em_dash("a — b")
 
 
-# --- Flag, never drop ---------------------------------------------------------
-
 def test_out_of_state_event_appears_and_is_flagged():
     ev = _ev(name="Bloomberg Engineering Summit", company="Bloomberg",
              url="https://bloomberg.com/s", loc="New York, NY", travel=None)
@@ -74,6 +70,28 @@ def test_explicit_no_travel_credit_is_flagged_distinctly():
     assert "says no travel support" in digest.render_text([ev])
 
 
+def test_date_posted_shown_when_known():
+    ev = _ev()
+    ev.date_posted = "2026-07-30"
+    assert "Posted: 2026-07-30" in digest.render_text([ev])
+    assert "2026-07-30" in digest.render_html([ev])
+
+
+def test_date_posted_absent_says_not_stated():
+    text = digest.render_text([_ev()])
+    assert "Posted: not stated" in text
+
+
+def test_to_iso_date_handles_each_ats_format():
+    from models import to_iso_date
+    assert to_iso_date("2026-07-30T06:59:38-04:00") == "2026-07-30"   # greenhouse
+    assert to_iso_date(1711403416463) == "2024-03-25"                  # lever millis
+    assert to_iso_date("2026-04-07T17:12:35.753+00:00") == "2026-04-07"  # ashby
+    assert to_iso_date(None) is None
+    assert to_iso_date("") is None
+    assert to_iso_date("garbage") is None
+
+
 def test_internship_leading_events_sort_first():
     events = [
         _ev(name="Some Hackathon", url="https://x.com/1", etype="hackathon"),
@@ -82,8 +100,6 @@ def test_internship_leading_events_sort_first():
     text = digest.render_text(events)
     assert text.index("Insight Program") < text.index("Some Hackathon")
 
-
-# --- Dedupe -------------------------------------------------------------------
 
 def test_split_new_filters_seen():
     ev = _ev()
@@ -128,7 +144,7 @@ def test_corrupt_state_file_does_not_crash(tmp_path):
 
 
 def test_state_leaks_no_event_details_by_default(monkeypatch):
-    """The repo is public, so seen.json must not name what he applied to."""
+    """Repo is public, so seen.json must not name what he applied to."""
     monkeypatch.delenv("STATE_VERBOSE", raising=False)
     ev = _ev(name="Code for Good", company="JPMorgan")
     seen = state.record([ev], {})

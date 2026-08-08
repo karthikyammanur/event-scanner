@@ -1,16 +1,4 @@
-"""Deterministic pre-filter and hard filters.
-
-Two distinct jobs:
-
-1. `prefilter()` runs before the LLM. It is cheap and deliberately biased toward
-   recall: it decides which candidates are worth spending an LLM call on.
-2. `passes_hard_filters()` runs after extraction. It enforces the three hard
-   filters from the spec (US-or-virtual, tech, actually-an-event).
-
-The single hardest case is a normal job posting that happens to contain event
-vocabulary ("Software Engineering Intern, Summit Team"). That is handled by
-scoring title structure, not by keyword presence alone.
-"""
+"""Deterministic prefilter (pre-LLM) and the three hard filters (post-LLM)."""
 
 from __future__ import annotations
 
@@ -19,7 +7,6 @@ from typing import Optional, Tuple
 
 from models import Candidate, Event
 
-# Event-shaped keywords from the spec's ATS sweep list.
 EVENT_KEYWORDS = {
     "hackathon": "hackathon",
     "code for good": "hackathon",
@@ -47,8 +34,7 @@ EVENT_KEYWORDS = {
     "launchpad": "insight_program",
 }
 
-# Words that mark a listing as a real job rather than an event. These are strong
-# negatives: a posting titled "Senior Software Engineer" is never an event.
+# Words that mark a listing as a real job rather than an event.
 JOB_TITLE_MARKERS = (
     r"\bsoftware engineer(?:ing)?\b",
     r"\bengineer\b",
@@ -131,8 +117,7 @@ US_STATE_NAMES = {
     "district of columbia","washington dc","washington, d.c.",
 }
 
-# Non-US signals that are unambiguous. Kept tight to avoid false rejections:
-# "London, Ontario" style collisions are why we check country words, not cities.
+# Unambiguous non-US signals only, to avoid false rejections.
 NON_US_MARKERS = (
     r"\bunited kingdom\b", r"\bengland\b", r"\bscotland\b", r"\bireland\b",
     r"\bcanada\b", r"\bontario\b", r"\bquebec\b", r"\bindia\b", r"\bgermany\b",
@@ -168,33 +153,23 @@ def matched_event_keyword(text: str) -> Optional[Tuple[str, str]]:
 
 
 def looks_like_job_posting(title: str) -> bool:
-    """True when the title reads as a standard role rather than an event.
-
-    Event keywords do not rescue a title that is structurally a job title, which
-    is what keeps "Software Engineer Intern, Summit Platform" out.
-    """
+    """True when the title reads as a standard role rather than an event."""
     t = title or ""
     if _any(SENIORITY_MARKERS, t) and _any(JOB_TITLE_MARKERS, t):
         return True
     if _any(EMPLOYMENT_MARKERS, t):
         return True
 
-    # The head of the title (before the first comma / dash) carries the role.
-    # "University Recruiter, Hackathon and Campus Events" is a recruiter job;
-    # "Code for Good Hackathon - Software Engineer Program" is an event whose
-    # head is the event itself.
+    # The head of the title (before the first comma or dash) carries the role.
     head = re.split(r"[,\-–:|(]", t, maxsplit=1)[0]
     if _any(JOB_TITLE_MARKERS, head) and matched_event_keyword(head) is None:
         return True
 
     if _any(JOB_TITLE_MARKERS, t):
         kw = matched_event_keyword(t)
-        # A job-title word with no event word at all is plainly a job.
         if kw is None:
             return True
-        # "Code for Good" and "Hackathon" are event nouns strong enough to win
-        # even when the title also names a discipline ("Code for Good Engineer"
-        # is not a thing, but "Hackathon: Software Engineering" is).
+        # Hackathon is a strong enough event noun to win over a discipline word.
         if kw[1] not in {"hackathon"}:
             return True
     return False
@@ -203,8 +178,7 @@ def looks_like_job_posting(title: str) -> bool:
 def prefilter(cand: Candidate) -> Tuple[bool, str]:
     """Cheap gate deciding whether a candidate earns an LLM call.
 
-    Returns (keep, reason). Biased toward recall: when unsure, keep it and let
-    the LLM adjudicate.
+    Returns (keep, reason). Biased toward recall, the LLM adjudicates the rest.
     """
     title = cand.title or ""
     if not title.strip():
@@ -227,21 +201,14 @@ def prefilter(cand: Candidate) -> Tuple[bool, str]:
 
 
 def is_us_or_virtual(location: Optional[str]) -> bool:
-    """Hard filter: US-based or virtual. Unknown location is not rejected here.
-
-    An empty location is left for the LLM/extractor to have resolved; rejecting
-    on absence alone would silently drop events, which the spec forbids.
-    """
+    """US-based or virtual. Unknown location is kept, never silently dropped."""
     loc = (location or "").strip()
     if not loc:
         return True
     if _any(VIRTUAL_MARKERS, loc):
         return True
 
-    # Multi-location postings are common ("London, UK; Remote, United States;
-    # San Francisco, CA"). One US option is enough to qualify, so US signals are
-    # checked before non-US ones and a non-US hit only rejects when no US
-    # option exists anywhere in the string.
+    # Multi-location postings are common, one US option is enough to qualify.
     if _has_us_signal(loc):
         return True
     if _any(NON_US_MARKERS, loc):
@@ -266,9 +233,7 @@ def is_tech_related(text: str) -> bool:
     return _any(TECH_MARKERS, text or "")
 
 
-# Sources that only ever surface tech events. An event found here is tech by
-# construction, so a title like "Palantir Summer Summit" is not rejected merely
-# for lacking an explicit tech noun.
+# Tech by construction, so no explicit tech noun is required in the title.
 TECH_BY_CONSTRUCTION_SOURCES = {"greenhouse", "lever", "ashby", "devpost", "mlh"}
 
 

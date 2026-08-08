@@ -1,17 +1,4 @@
-"""ATS sweep across Greenhouse, Lever, and Ashby public board APIs.
-
-All three expose unauthenticated JSON. Verified Aug 7 2026:
-
-  Greenhouse  GET boards-api.greenhouse.io/v1/boards/{token}/jobs
-              -> {"jobs":[{title, absolute_url, location:{name}, ...}]}
-  Lever       GET api.lever.co/v0/postings/{token}?mode=json
-              -> [ {text, hostedUrl, categories:{location, commitment}, ...} ]
-  Ashby       GET api.ashbyhq.com/posting-api/job-board/{token}
-              -> {"jobs":[{title, jobUrl, location, ...}]}
-
-Unknown tokens 404, which is normal and silently skipped: we guess tokens for
-companies whose board URL the feeds did not reveal.
-"""
+"""ATS sweep across the Greenhouse, Lever, and Ashby public board APIs."""
 
 from __future__ import annotations
 
@@ -19,7 +6,7 @@ import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Dict, List, Optional, Tuple
 
-from models import Candidate
+from models import Candidate, to_iso_date
 
 from .base import Budget, Context, get_json
 from .companies import guess_tokens, load_companies
@@ -28,10 +15,11 @@ log = logging.getLogger(__name__)
 
 MAX_WORKERS = 12
 
+# (title, url, location, date_posted)
+Row = Tuple[str, str, Optional[str], Optional[str]]
 
-# --- Per platform fetchers ----------------------------------------------------
 
-def _greenhouse(token: str, timeout: int) -> List[Tuple[str, str, Optional[str]]]:
+def _greenhouse(token: str, timeout: int) -> List[Row]:
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs"
     data = get_json(url, timeout=timeout)
     if not isinstance(data, dict):
@@ -42,11 +30,11 @@ def _greenhouse(token: str, timeout: int) -> List[Tuple[str, str, Optional[str]]
         link = j.get("absolute_url") or ""
         loc = (j.get("location") or {}).get("name") if isinstance(j.get("location"), dict) else None
         if title and link:
-            out.append((title, link, loc))
+            out.append((title, link, loc, to_iso_date(j.get("first_published"))))
     return out
 
 
-def _lever(token: str, timeout: int) -> List[Tuple[str, str, Optional[str]]]:
+def _lever(token: str, timeout: int) -> List[Row]:
     url = f"https://api.lever.co/v0/postings/{token}?mode=json"
     data = get_json(url, timeout=timeout)
     if not isinstance(data, list):
@@ -60,11 +48,11 @@ def _lever(token: str, timeout: int) -> List[Tuple[str, str, Optional[str]]]:
         cats = j.get("categories") or {}
         loc = cats.get("location") if isinstance(cats, dict) else None
         if title and link:
-            out.append((title, link, loc))
+            out.append((title, link, loc, to_iso_date(j.get("createdAt"))))
     return out
 
 
-def _ashby(token: str, timeout: int) -> List[Tuple[str, str, Optional[str]]]:
+def _ashby(token: str, timeout: int) -> List[Row]:
     url = f"https://api.ashbyhq.com/posting-api/job-board/{token}"
     data = get_json(url, timeout=timeout)
     if not isinstance(data, dict):
@@ -79,7 +67,7 @@ def _ashby(token: str, timeout: int) -> List[Tuple[str, str, Optional[str]]]:
         if isinstance(loc, dict):
             loc = loc.get("name")
         if title and link:
-            out.append((title, link, loc))
+            out.append((title, link, loc, to_iso_date(j.get("publishedAt"))))
     return out
 
 
@@ -94,7 +82,7 @@ def _scan_one(
         return []
     rows = fetch(token, timeout)
     cands = []
-    for title, link, loc in rows:
+    for title, link, loc, posted in rows:
         cands.append(
             Candidate(
                 company=company,
@@ -102,7 +90,7 @@ def _scan_one(
                 url=link,
                 source=platform,
                 location=loc,
-                extra={"ats_token": token},
+                extra={"ats_token": token, "date_posted": posted},
             )
         )
     return cands
@@ -118,7 +106,7 @@ def _targets(
     targets: List[Tuple[str, str, str]] = []
     seen = set()
 
-    # Known boards first, they are certain hits.
+    # Known boards first.
     for company, (platform, token) in boards.items():
         if only_platform and platform != only_platform:
             continue
@@ -153,7 +141,7 @@ def _targets(
 
 
 def discover(ctx: Context, only_platform: Optional[str] = None) -> List[Candidate]:
-    """Sweep ATS boards and return raw candidates (prefilter happens later)."""
+    """Sweep ATS boards and return raw candidates."""
     targets = _targets(ctx, only_platform)
     log.info("ATS sweep: %d board targets (%s)", len(targets), only_platform or "all")
 

@@ -1,15 +1,4 @@
-"""Devpost hackathon feed.
-
-Open item from the spec, now RESOLVED (Aug 7 2026): the public JSON API is real
-and needs no auth, but it 403s unless a browser User-Agent is sent. base.py
-sets that globally.
-
-  GET https://devpost.com/api/hackathons?page=N
-  -> {"hackathons":[...], "meta":{"total_count":13701,"per_page":9}}
-
-Dates arrive as human strings ("May 19 - Aug 17, 2026"), not ISO, so they are
-parsed here into the ISO the data contract requires.
-"""
+"""Devpost hackathon feed."""
 
 from __future__ import annotations
 

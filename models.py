@@ -1,8 +1,4 @@
-"""Core data contract for discovered events.
-
-The Event record here is exactly the contract in the build spec. Nothing in this
-module touches the network, so it stays cheap to test.
-"""
+"""Core data contract for discovered events."""
 
 from __future__ import annotations
 
@@ -66,6 +62,25 @@ def utcnow_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
 
+def to_iso_date(value) -> Optional[str]:
+    """Normalize a date to YYYY-MM-DD. Accepts ISO strings or epoch millis."""
+    if value in (None, ""):
+        return None
+    if isinstance(value, (int, float)):
+        try:
+            secs = value / 1000 if value > 1e11 else value
+            return datetime.fromtimestamp(secs, timezone.utc).date().isoformat()
+        except (ValueError, OSError, OverflowError):
+            return None
+    s = str(value).strip()
+    if not s:
+        return None
+    if re.fullmatch(r"\d{13}", s):
+        return to_iso_date(int(s))
+    m = re.match(r"(\d{4}-\d{2}-\d{2})", s)
+    return m.group(1) if m else None
+
+
 @dataclass
 class Event:
     company: str
@@ -75,6 +90,7 @@ class Event:
     source: str
     start_date: Optional[str] = None
     application_deadline: Optional[str] = None
+    date_posted: Optional[str] = None
     location_city_state: Optional[str] = None
     travel_credit_mentioned: Optional[bool] = None
     discovered_at: str = field(default_factory=utcnow_iso)
@@ -85,10 +101,6 @@ class Event:
             self.id = stable_id(self.company, self.event_name, self.url)
         if self.event_type not in EVENT_TYPES:
             self.event_type = "other"
-
-    # --- Presentation helpers -------------------------------------------------
-    # The spec is explicit that "flag this one" is derived at email time from
-    # location + travel credit, never stored as its own field.
 
     def is_virtual(self) -> bool:
         return (self.location_city_state or "").strip().lower() in {
@@ -102,16 +114,11 @@ class Event:
             return False
         loc = (self.location_city_state or "").strip()
         if not loc:
-            # Unknown physical location is treated as out of state so it gets
-            # flagged rather than silently passing as local.
-            return True
+            return True  # unknown location gets flagged, not assumed local
         return not re.search(r"(?:,\s*(?:TX|Texas)\b)|(?:\bTexas\b)", loc, re.I)
 
     def needs_travel_flag(self) -> bool:
-        """Out-of-Texas, in person, and no confirmed travel support.
-
-        Never used to drop an event, only to mark it in the digest.
-        """
+        """Out-of-Texas, in person, and no confirmed travel support."""
         return self.is_out_of_texas() and self.travel_credit_mentioned is not True
 
     def to_dict(self) -> dict:

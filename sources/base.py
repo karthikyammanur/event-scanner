@@ -1,10 +1,4 @@
-"""Shared HTTP plumbing and the source isolation contract.
-
-Every discovery source is a module exposing `discover(ctx) -> list[Candidate]`.
-`run_source()` wraps that call so any single source failing (network, parse,
-rate limit, anything) is logged and skipped, never propagated. This is the
-spec's "never let a single broken source crash the whole run".
-"""
+"""Shared HTTP helpers and per-source error isolation."""
 
 from __future__ import annotations
 
@@ -17,7 +11,7 @@ import requests
 
 log = logging.getLogger(__name__)
 
-# Devpost 403s without a browser UA (verified). Harmless everywhere else.
+# Devpost 403s without a browser UA.
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"

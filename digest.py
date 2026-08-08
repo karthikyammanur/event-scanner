@@ -1,15 +1,4 @@
-"""Email digest composition and delivery over Gmail SMTP.
-
-Two standing rules from the spec are enforced mechanically here rather than by
-care alone:
-
-  1. No em dash appears anywhere in generated text, subject lines included.
-     `scrub()` runs over every outgoing string and `assert_no_em_dash()` is
-     checked in the tests.
-  2. An out-of-Texas in-person event with no stated travel support is flagged,
-     never dropped. The flag is derived at render time from location plus
-     travel_credit_mentioned, exactly as the data contract requires.
-"""
+"""Email digest composition and delivery over Gmail SMTP."""
 
 from __future__ import annotations
 
@@ -25,8 +14,7 @@ from models import Event
 
 log = logging.getLogger(__name__)
 
-# Em dash, en dash, and the horizontal bar, plus the "space dash space" form
-# that reads as one. Replaced with punctuation Karthik actually wants.
+# No em dashes in anything Karthik reads. See CLAUDE.md.
 _DASHES = {
     "—": ",",   # em dash
     "–": "-",   # en dash, safe as a plain hyphen in ranges
@@ -62,10 +50,7 @@ TYPE_LABELS = {
 
 
 def _sort_key(ev: Event):
-    """Internship-leading events first, then soonest deadline, then name.
-
-    The spec puts internship-leading programs above general networking events.
-    """
+    """Internship-leading events first, then soonest deadline, then name."""
     priority = {
         "insight_program": 0,
         "externship": 0,
@@ -123,6 +108,7 @@ def render_text(events: List[Event]) -> str:
         lines.append(scrub(f"{ev.event_name} ({ev.company})"))
         lines.append(f"  Type: {TYPE_LABELS.get(ev.event_type, 'Program')}")
         lines.append(f"  When: {_when(ev)}")
+        lines.append(f"  Posted: {ev.date_posted or 'not stated'}")
         lines.append(f"  Where: {scrub(_place(ev))}")
         note = _travel_note(ev)
         if note:
@@ -164,6 +150,10 @@ def render_html(events: List[Event]) -> str:
         )
         parts.append(
             f"<div style=\"font-size:13px\">{html.escape(_when(ev))}</div>"
+        )
+        parts.append(
+            f"<div style=\"font-size:13px;color:#666\">Posted "
+            f"{html.escape(ev.date_posted or 'not stated')}</div>"
         )
         parts.append(
             f"<div style=\"font-size:13px\">{html.escape(scrub(_place(ev)))}</div>"

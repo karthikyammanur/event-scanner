@@ -1,16 +1,9 @@
 #!/usr/bin/env python3
 """Event Scanner: discover US student-facing tech events and email new ones.
 
-Usage:
     python scanner.py --dry-run --source=greenhouse   # print, do not send
     python scanner.py --dry-run                       # all sources, no email
     python scanner.py                                 # full run, sends digest
-
-Run order: discover candidates from each source in isolation, prefilter them
-deterministically, drop anything already seen, extract and hard-filter the
-remainder, email what survives, then record state.
-
-The state check runs BEFORE extraction so a repeat run costs no LLM tokens.
 """
 
 from __future__ import annotations
@@ -81,14 +74,14 @@ def run(args) -> int:
         log.error("unknown source(s): %s", ", ".join(unknown))
         return 2
 
-    # 1. Discovery. Each source is isolated, one failure never stops the run.
+    # Each source is isolated, one failure never stops the run.
     raw: List[Candidate] = []
     for name in names:
         raw.extend(run_source(name, SOURCES[name], ctx))
     raw = dedupe_candidates(raw)
     log.info("discovery: %d unique candidates from %s", len(raw), ", ".join(names))
 
-    # 2. Deterministic prefilter, keeps LLM spend down.
+    # Deterministic prefilter, keeps LLM spend down.
     kept: List[Candidate] = []
     for c in raw:
         ok, reason = prefilter(c)
@@ -98,7 +91,7 @@ def run(args) -> int:
             log.debug("prefilter dropped %s: %s", c.title[:60], reason)
     log.info("prefilter: %d candidates survive", len(kept))
 
-    # 3. Drop anything already emailed, before spending any tokens on it.
+    # Drop anything already emailed, before spending tokens on it.
     seen = state.load(args.state)
     fresh = [c for c in kept if c.key() not in seen]
     log.info(
@@ -107,11 +100,9 @@ def run(args) -> int:
         len(fresh),
     )
 
-    # 4. Extraction plus hard filters.
     events: List[Event] = extract(fresh)
 
-    # 5. Final dedupe against state. Extraction can rewrite a title, which
-    #    changes the ID, so this check is repeated on the extracted events.
+    # Extraction can rewrite a title and change the ID, so check again.
     new_events = state.split_new(events, seen)
     log.info("%d new events after final dedupe", len(new_events))
 
@@ -119,8 +110,7 @@ def run(args) -> int:
         log.info("nothing new to send")
         return 0
 
-    # 6. Deliver, then record. Recording only after a successful send is what
-    #    guarantees a failed email is retried rather than silently lost.
+    # Record only after a successful send, so a failed email is retried.
     sent = digest.send(new_events, dry_run=args.dry_run)
     if not sent:
         log.error("digest delivery failed, state not updated so nothing is lost")
