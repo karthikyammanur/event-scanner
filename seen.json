@@ -1,5 +1,5 @@
 {
-  "count": 116,
+  "count": 123,
   "seen": {
     "014c01e7ccc53c97": {
       "application_deadline": null,
@@ -40,6 +40,19 @@
       "travel_credit_mentioned": null,
       "url": "https://syntax-summit.devpost.com/"
     },
+    "06b4146959da5b1d": {
+      "application_deadline": null,
+      "company": "Hackonomics",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T08:42:24+00:00",
+      "event_name": "Hackonomics 2027",
+      "event_type": "hackathon",
+      "location_city_state": "Virtual",
+      "source": "tavily",
+      "start_date": "2026-07-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackathonradar.com/database/hackathon/84926901-6feb-4140-ab03-75df5023e18a"
+    },
     "0752cd2eaf1f9cd9": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -65,6 +78,19 @@
       "start_date": "2026-07-27",
       "travel_credit_mentioned": null,
       "url": "https://ntu-cctf-snz-innovatex-2026.devpost.com/"
+    },
+    "0b2dd6dec13ce58d": {
+      "application_deadline": "2027-02-27",
+      "company": "Ohlone College",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T08:42:24+00:00",
+      "event_name": "Ohlone Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Fremont, CA",
+      "source": "tavily",
+      "start_date": "2027-02-27",
+      "travel_credit_mentioned": null,
+      "url": "https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students"
     },
     "10b10f1cf32be0d4": {
       "application_deadline": null,
@@ -924,6 +950,19 @@
       "travel_credit_mentioned": null,
       "url": "https://ourplanetrocks.devpost.com/"
     },
+    "b78fe47445d6ca0a": {
+      "application_deadline": null,
+      "company": "Data Science @ Georgia Tech",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T08:42:24+00:00",
+      "event_name": "Hacklytics 2027",
+      "event_type": "hackathon",
+      "location_city_state": "Atlanta, GA",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://hacklytics2027.web.app"
+    },
     "b9bae2ea46112f5b": {
       "application_deadline": null,
       "company": "Anthropic",
@@ -975,6 +1014,19 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/10alabs/jobs/4203095009"
+    },
+    "c5bdefbaacea451e": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T08:42:24+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://careers.wgu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
     },
     "c60ef249e639af24": {
       "application_deadline": null,
@@ -1079,6 +1131,19 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51"
+    },
+    "ce9680201d535555": {
+      "application_deadline": null,
+      "company": "Weber State University",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T08:42:24+00:00",
+      "event_name": "Weber State AI Hackathon 2027",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://hackathon.weber.edu/about"
     },
     "d31f565a2458368e": {
       "application_deadline": null,
@@ -1210,6 +1275,19 @@
       "travel_credit_mentioned": null,
       "url": "https://2026.knighthacks.org/"
     },
+    "e3042709e7995ebe": {
+      "application_deadline": null,
+      "company": "Utah State University",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T08:42:24+00:00",
+      "event_name": "HackUSU 2027",
+      "event_type": "hackathon",
+      "location_city_state": "Logan, UT",
+      "source": "tavily",
+      "start_date": "2027-02-19",
+      "travel_credit_mentioned": null,
+      "url": "https://huntsman.usu.edu/hackusu"
+    },
     "e37889d44fed06f0": {
       "application_deadline": null,
       "company": "President University",
@@ -1274,6 +1352,19 @@
       "start_date": "2026-07-06",
       "travel_credit_mentioned": null,
       "url": "https://youcam-api.devpost.com/"
+    },
+    "eb8da9a2482a2e26": {
+      "application_deadline": null,
+      "company": "Northland Hackathon",
+      "date_posted": null,
+      "emailed_at": "2026-08-08T08:42:24+00:00",
+      "event_name": "Northland Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Minnesota",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://northlandhackathon.com"
     },
     "eb9120b56be7f7c1": {
       "application_deadline": null,
@@ -1510,5 +1601,5 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-08T05:35:20+00:00"
+  "updated_at": "2026-08-08T08:42:24+00:00"
 }

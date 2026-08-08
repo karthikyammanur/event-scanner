@@ -11,12 +11,19 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**116 events found.** Updated 2026-08-08 05:37 UTC.
+**123 events found.** Updated 2026-08-08 08:42 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| HackUSU 2027 ⚑ | Utah State University | Hackathon | Logan, UT | - | - | [Apply](https://huntsman.usu.edu/hackusu) |
+| 2027 Code for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | - | - | [Apply](https://careers.wgu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
+| Hackonomics 2027 | Hackonomics | Hackathon | Virtual | - | - | [Apply](https://www.hackathonradar.com/database/hackathon/84926901-6feb-4140-ab03-75df5023e18a) |
+| Northland Hackathon ⚑ | Northland Hackathon | Hackathon | Minnesota | - | - | [Apply](https://northlandhackathon.com) |
+| Ohlone Hacks ⚑ | Ohlone College | Hackathon | Fremont, CA | - | 2027-02-27 | [Apply](https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students) |
+| Weber State AI Hackathon 2027 ⚑ | Weber State University | Hackathon | - | - | - | [Apply](https://hackathon.weber.edu/about) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 2026-07-06 | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 2026-06-25 | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 2026-06-16 | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
