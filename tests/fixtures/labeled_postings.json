@@ -1,0 +1,154 @@
+[
+  {
+    "label": "event",
+    "note": "The canonical JPMorgan Code for Good listing, the exact case that motivated this tool.",
+    "company": "JPMorgan Chase",
+    "title": "2027 Code for Good Hackathon - Software Engineer Program",
+    "url": "https://careers.jpmorgan.com/us/en/students/programs/code-for-good",
+    "location": "Plano, TX",
+    "source": "greenhouse"
+  },
+  {
+    "label": "event",
+    "note": "Insight program, no 'hackathon' word anywhere.",
+    "company": "Goldman Sachs",
+    "title": "Engineering Insight Series 2027 - Undergraduate Students",
+    "url": "https://www.goldmansachs.com/careers/students/programs/americas/insight-series.html",
+    "location": "New York, NY",
+    "source": "greenhouse"
+  },
+  {
+    "label": "event",
+    "company": "Palantir",
+    "title": "Palantir Summer Summit 2027",
+    "url": "https://jobs.lever.co/palantir/summer-summit-2027",
+    "location": "Denver, CO",
+    "source": "lever"
+  },
+  {
+    "label": "event",
+    "note": "Externship, virtual, student facing.",
+    "company": "Bain Capital",
+    "title": "Tech Externship Program for Rising Sophomores",
+    "url": "https://boards.greenhouse.io/baincapital/jobs/1234567",
+    "location": "Virtual",
+    "source": "greenhouse"
+  },
+  {
+    "label": "event",
+    "company": "Meta",
+    "title": "Meta Discovery Day: Engineering, Fall 2026",
+    "url": "https://www.metacareers.com/discovery-day",
+    "location": "Menlo Park, CA",
+    "source": "brave"
+  },
+  {
+    "label": "event",
+    "note": "Fellowship with tech framing.",
+    "company": "Kleiner Perkins",
+    "title": "KP Engineering Fellows Program 2027",
+    "url": "https://fellows.kleinerperkins.com/",
+    "location": "San Francisco, CA",
+    "source": "brave"
+  },
+  {
+    "label": "event",
+    "note": "Devpost style, event-only feed, no keyword needed in title.",
+    "company": "Major League Hacking",
+    "title": "HackDavis 2026",
+    "url": "https://hackdavis.io/",
+    "location": "Davis, CA",
+    "source": "mlh",
+    "source_is_event_feed": true
+  },
+  {
+    "label": "event",
+    "note": "Out of state, in person, no travel credit stated. Must be kept and flagged.",
+    "company": "Bloomberg",
+    "title": "Bloomberg Engineering Summit for Students",
+    "url": "https://www.bloomberg.com/engineering/summit",
+    "location": "New York, NY",
+    "source": "greenhouse"
+  },
+  {
+    "label": "event",
+    "note": "Immersion program wording.",
+    "company": "Capital One",
+    "title": "Technology Immersion Program (TIP) 2027",
+    "url": "https://campus.capitalone.com/tip",
+    "location": "McLean, VA",
+    "source": "brave"
+  },
+
+  {
+    "label": "not_event",
+    "note": "Plain SWE internship. The single most important negative.",
+    "company": "Stripe",
+    "title": "Software Engineering Intern, Summer 2027",
+    "url": "https://stripe.com/jobs/search?gh_jid=8023928",
+    "location": "San Francisco, CA",
+    "source": "greenhouse"
+  },
+  {
+    "label": "not_event",
+    "note": "Adversarial: contains 'Summit' but is a full time role on a team named Summit.",
+    "company": "Databricks",
+    "title": "Senior Software Engineer, Summit Platform",
+    "url": "https://boards.greenhouse.io/databricks/jobs/7654321",
+    "location": "Mountain View, CA",
+    "source": "greenhouse"
+  },
+  {
+    "label": "not_event",
+    "note": "Adversarial: 'Insight' as a product name in a real job title.",
+    "company": "Verily",
+    "title": "Data Scientist, Insight Analytics",
+    "url": "https://boards.greenhouse.io/verily/jobs/2223334",
+    "location": "Boston, MA",
+    "source": "greenhouse"
+  },
+  {
+    "label": "not_event",
+    "note": "Adversarial: recruiter role that owns hackathons but is itself a job.",
+    "company": "Snowflake",
+    "title": "University Recruiter, Hackathon and Campus Events",
+    "url": "https://careers.snowflake.com/jobs/5556667",
+    "location": "Austin, TX",
+    "source": "greenhouse"
+  },
+  {
+    "label": "not_event",
+    "company": "Palantir",
+    "title": "Administrative Business Partner",
+    "url": "https://jobs.lever.co/palantir/abp-london",
+    "location": "London, United Kingdom",
+    "source": "lever"
+  },
+  {
+    "label": "not_event",
+    "note": "New grad full time role.",
+    "company": "Ramp",
+    "title": "Software Engineer, New Grad 2027",
+    "url": "https://jobs.ashbyhq.com/ramp/newgrad",
+    "location": "New York, NY",
+    "source": "ashby"
+  },
+  {
+    "label": "not_event",
+    "note": "Fellowship-sounding but a staff engineering role.",
+    "company": "OpenAI",
+    "title": "Staff Software Engineer, Research Fellowship Infrastructure",
+    "url": "https://openai.com/careers/staff-swe",
+    "location": "San Francisco, CA",
+    "source": "greenhouse"
+  },
+  {
+    "label": "not_event",
+    "note": "Part time non-tech role with no event vocabulary.",
+    "company": "Instacart",
+    "title": "Part-Time Account Manager",
+    "url": "https://instacart.careers/job/998877",
+    "location": "Chicago, IL",
+    "source": "greenhouse"
+  }
+]

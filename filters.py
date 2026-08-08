@@ -1,0 +1,289 @@
+"""Deterministic pre-filter and hard filters.
+
+Two distinct jobs:
+
+1. `prefilter()` runs before the LLM. It is cheap and deliberately biased toward
+   recall: it decides which candidates are worth spending an LLM call on.
+2. `passes_hard_filters()` runs after extraction. It enforces the three hard
+   filters from the spec (US-or-virtual, tech, actually-an-event).
+
+The single hardest case is a normal job posting that happens to contain event
+vocabulary ("Software Engineering Intern, Summit Team"). That is handled by
+scoring title structure, not by keyword presence alone.
+"""
+
+from __future__ import annotations
+
+import re
+from typing import Optional, Tuple
+
+from models import Candidate, Event
+
+# Event-shaped keywords from the spec's ATS sweep list.
+EVENT_KEYWORDS = {
+    "hackathon": "hackathon",
+    "code for good": "hackathon",
+    "codeforgood": "hackathon",
+    "hack day": "hackathon",
+    "hack-a-thon": "hackathon",
+    "datathon": "hackathon",
+    "summit": "summit",
+    "insight": "insight_program",
+    "insight program": "insight_program",
+    "discovery day": "insight_program",
+    "immersion": "insight_program",
+    "externship": "externship",
+    "fellowship": "fellowship",
+    "conference": "conference",
+    "symposium": "conference",
+    "bootcamp": "other",
+    "workshop": "other",
+    "career day": "insight_program",
+    "open house": "insight_program",
+    "scholars program": "fellowship",
+    "fellows program": "fellowship",
+    "fellows": "fellowship",
+    "explore program": "insight_program",
+    "launchpad": "insight_program",
+}
+
+# Words that mark a listing as a real job rather than an event. These are strong
+# negatives: a posting titled "Senior Software Engineer" is never an event.
+JOB_TITLE_MARKERS = (
+    r"\bsoftware engineer(?:ing)?\b",
+    r"\bengineer\b",
+    r"\bdeveloper\b",
+    r"\bscientist\b",
+    r"\banalyst\b",
+    r"\bmanager\b",
+    r"\bdirector\b",
+    r"\brecruiter\b",
+    r"\bdesigner\b",
+    r"\baccountant\b",
+    r"\bconsultant\b",
+    r"\brepresentative\b",
+    r"\bassociate\b",
+    r"\bspecialist\b",
+    r"\barchitect\b",
+    r"\bcounsel\b",
+    r"\btechnician\b",
+    r"\badministrator\b",
+)
+
+SENIORITY_MARKERS = (
+    r"\bsenior\b",
+    r"\bstaff\b",
+    r"\bprincipal\b",
+    r"\blead\b",
+    r"\bjunior\b",
+    r"\bmid-level\b",
+    r"\bvp\b",
+    r"\bhead of\b",
+    r"\bl[3-7]\b",
+    r"\bii+\b",
+)
+
+# Full time / permanent role signals.
+EMPLOYMENT_MARKERS = (
+    r"\bfull[- ]time\b",
+    r"\bpart[- ]time\b",
+    r"\bcontractor\b",
+    r"\bpermanent\b",
+    r"\bsalary\b",
+    r"\bnew grad(?:uate)?\b",
+    r"\bentry[- ]level\b",
+)
+
+# Prefix-anchored (no trailing \b) so "Cybersecurity", "Technology", and
+# "Engineering" all match without needing a variant entry each.
+TECH_MARKERS = (
+    r"\bsoftware", r"\bengineer", r"\btech", r"\bcoding\b", r"\bcode\b",
+    r"\bdevelop", r"\bdata\b", r"\bai\b", r"\bml\b", r"\bmachine learning\b",
+    r"\bcomputer\b", r"\bcs\b", r"\bcyber", r"\bsecurity\b", r"\bcloud\b",
+    r"\bproduct\b", r"\bhack", r"\bdevops\b", r"\bprogramming\b",
+    r"\brobotics\b", r"\bquant", r"\bblockchain\b", r"\bstem\b", r"\bdigital\b",
+    r"\binformation systems\b", r"\bapi\b", r"\binfrastructure\b",
+)
+
+STUDENT_MARKERS = (
+    r"\bstudent\b", r"\buniversity\b", r"\bcollege\b", r"\bcampus\b",
+    r"\bundergrad(?:uate)?\b", r"\bfreshman\b", r"\bsophomore\b", r"\bjunior\b",
+    r"\bsenior\b", r"\bearly career\b", r"\bemerging talent\b", r"\bclass of\b",
+    r"\bgraduating\b", r"\bintern\b",
+)
+
+US_STATE_ABBR = {
+    "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA",
+    "KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
+    "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT",
+    "VA","WA","WV","WI","WY","DC",
+}
+
+US_STATE_NAMES = {
+    "alabama","alaska","arizona","arkansas","california","colorado","connecticut",
+    "delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa",
+    "kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan",
+    "minnesota","mississippi","missouri","montana","nebraska","nevada",
+    "new hampshire","new jersey","new mexico","new york","north carolina",
+    "north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island",
+    "south carolina","south dakota","tennessee","texas","utah","vermont",
+    "virginia","washington","west virginia","wisconsin","wyoming",
+    "district of columbia","washington dc","washington, d.c.",
+}
+
+# Non-US signals that are unambiguous. Kept tight to avoid false rejections:
+# "London, Ontario" style collisions are why we check country words, not cities.
+NON_US_MARKERS = (
+    r"\bunited kingdom\b", r"\bengland\b", r"\bscotland\b", r"\bireland\b",
+    r"\bcanada\b", r"\bontario\b", r"\bquebec\b", r"\bindia\b", r"\bgermany\b",
+    r"\bfrance\b", r"\bspain\b", r"\bitaly\b", r"\bnetherlands\b", r"\bpoland\b",
+    r"\bsweden\b", r"\bnorway\b", r"\bdenmark\b", r"\bswitzerland\b",
+    r"\baustralia\b", r"\bsingapore\b", r"\bjapan\b", r"\bchina\b", r"\bkorea\b",
+    r"\bbrazil\b", r"\bmexico\b", r"\bisrael\b", r"\buae\b", r"\bdubai\b",
+    r"\bnigeria\b", r"\bkenya\b", r"\bpakistan\b", r"\bbangladesh\b",
+    r"\bphilippines\b", r"\bvietnam\b", r"\bindonesia\b", r"\bthailand\b",
+    r"\bportugal\b", r"\bbelgium\b", r"\baustria\b", r"\bfinland\b",
+    r"\bhyderabad\b", r"\bbangalore\b", r"\bbengaluru\b", r"\bmumbai\b",
+    r"\bdelhi\b", r"\bchennai\b", r"\bpune\b", r"\btoronto\b", r"\bvancouver\b",
+    r"\blondon\b", r"\bberlin\b", r"\bparis\b", r"\bbarcelona\b", r"\bmadrid\b",
+    r"\bamsterdam\b", r"\bzurich\b", r"\bsydney\b", r"\bmelbourne\b",
+    r"\btokyo\b", r"\bseoul\b", r"\btel aviv\b", r"\bwarsaw\b",
+)
+
+VIRTUAL_MARKERS = (r"\bvirtual\b", r"\bonline\b", r"\bremote\b", r"\banywhere\b")
+
+
+def _any(patterns, text: str) -> bool:
+    return any(re.search(p, text, re.I) for p in patterns)
+
+
+def matched_event_keyword(text: str) -> Optional[Tuple[str, str]]:
+    """Return (keyword, implied_event_type) for the first event keyword found."""
+    low = (text or "").lower()
+    # Longest keywords first so "code for good" beats a bare "code".
+    for kw in sorted(EVENT_KEYWORDS, key=len, reverse=True):
+        if re.search(rf"(?<![a-z]){re.escape(kw)}(?![a-z])", low):
+            return kw, EVENT_KEYWORDS[kw]
+    return None
+
+
+def looks_like_job_posting(title: str) -> bool:
+    """True when the title reads as a standard role rather than an event.
+
+    Event keywords do not rescue a title that is structurally a job title, which
+    is what keeps "Software Engineer Intern, Summit Platform" out.
+    """
+    t = title or ""
+    if _any(SENIORITY_MARKERS, t) and _any(JOB_TITLE_MARKERS, t):
+        return True
+    if _any(EMPLOYMENT_MARKERS, t):
+        return True
+
+    # The head of the title (before the first comma / dash) carries the role.
+    # "University Recruiter, Hackathon and Campus Events" is a recruiter job;
+    # "Code for Good Hackathon - Software Engineer Program" is an event whose
+    # head is the event itself.
+    head = re.split(r"[,\-–:|(]", t, maxsplit=1)[0]
+    if _any(JOB_TITLE_MARKERS, head) and matched_event_keyword(head) is None:
+        return True
+
+    if _any(JOB_TITLE_MARKERS, t):
+        kw = matched_event_keyword(t)
+        # A job-title word with no event word at all is plainly a job.
+        if kw is None:
+            return True
+        # "Code for Good" and "Hackathon" are event nouns strong enough to win
+        # even when the title also names a discipline ("Code for Good Engineer"
+        # is not a thing, but "Hackathon: Software Engineering" is).
+        if kw[1] not in {"hackathon"}:
+            return True
+    return False
+
+
+def prefilter(cand: Candidate) -> Tuple[bool, str]:
+    """Cheap gate deciding whether a candidate earns an LLM call.
+
+    Returns (keep, reason). Biased toward recall: when unsure, keep it and let
+    the LLM adjudicate.
+    """
+    title = cand.title or ""
+    if not title.strip():
+        return False, "empty title"
+    if not cand.url:
+        return False, "no url"
+
+    kw = matched_event_keyword(title)
+    if kw is None:
+        # Some sources (Devpost, MLH) are event-only feeds; their candidates do
+        # not need an event keyword in the title to qualify.
+        if cand.extra.get("source_is_event_feed"):
+            return True, "event-only source"
+        return False, "no event keyword in title"
+
+    if looks_like_job_posting(title):
+        return False, f"reads as job posting (kw={kw[0]})"
+
+    return True, f"event keyword: {kw[0]}"
+
+
+def is_us_or_virtual(location: Optional[str]) -> bool:
+    """Hard filter: US-based or virtual. Unknown location is not rejected here.
+
+    An empty location is left for the LLM/extractor to have resolved; rejecting
+    on absence alone would silently drop events, which the spec forbids.
+    """
+    loc = (location or "").strip()
+    if not loc:
+        return True
+    if _any(VIRTUAL_MARKERS, loc):
+        return True
+
+    # Multi-location postings are common ("London, UK; Remote, United States;
+    # San Francisco, CA"). One US option is enough to qualify, so US signals are
+    # checked before non-US ones and a non-US hit only rejects when no US
+    # option exists anywhere in the string.
+    if _has_us_signal(loc):
+        return True
+    if _any(NON_US_MARKERS, loc):
+        return False
+    # No US signal and no non-US signal: keep it, flag downstream.
+    return True
+
+
+def _has_us_signal(loc: str) -> bool:
+    if re.search(r"\b(usa|u\.s\.a?\.?|united states)\b", loc, re.I):
+        return True
+    # ", TX" / ", California" style, across every comma or semicolon segment.
+    for p in (p.strip() for p in re.split(r"[,;/|]", loc)):
+        if not p:
+            continue
+        if p.upper() in US_STATE_ABBR or p.lower() in US_STATE_NAMES:
+            return True
+    return False
+
+
+def is_tech_related(text: str) -> bool:
+    return _any(TECH_MARKERS, text or "")
+
+
+# Sources that only ever surface tech events. An event found here is tech by
+# construction, so a title like "Palantir Summer Summit" is not rejected merely
+# for lacking an explicit tech noun.
+TECH_BY_CONSTRUCTION_SOURCES = {"greenhouse", "lever", "ashby", "devpost", "mlh"}
+
+
+def passes_hard_filters(ev: Event) -> Tuple[bool, str]:
+    """Post-extraction enforcement of the three hard filters."""
+    if not is_us_or_virtual(ev.location_city_state):
+        return False, f"not US and not virtual: {ev.location_city_state}"
+
+    blob = " ".join(
+        filter(None, [ev.event_name, ev.company, ev.event_type, ev.url])
+    )
+    if not is_tech_related(blob) and ev.source not in TECH_BY_CONSTRUCTION_SOURCES:
+        return False, "not tech related"
+
+    if looks_like_job_posting(ev.event_name or ""):
+        return False, "reads as a standard job posting, not an event"
+
+    return True, "ok"
