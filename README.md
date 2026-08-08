@@ -11,19 +11,25 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**123 events found.** Updated 2026-08-08 08:42 UTC.
+**129 events found.** Updated 2026-08-08 12:50 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| HackUSU 2027 ⚑ | Utah State University | Hackathon | Logan, UT | - | - | [Apply](https://huntsman.usu.edu/hackusu) |
-| 2027 Code for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | - | - | [Apply](https://careers.wgu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
-| Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
+| 2027 Code for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 2026-08-03 | 2026-09-18 | [Apply](https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 2026-08-03 | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
+| Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
+| Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
+| AQX Sports Analytics Data Bowl 3.0 | James Logan High School | Hackathon | Online | - | - | [Apply](https://aqxanalyticsthree.devpost.com/) |
 | Hackonomics 2027 | Hackonomics | Hackathon | Virtual | - | - | [Apply](https://www.hackathonradar.com/database/hackathon/84926901-6feb-4140-ab03-75df5023e18a) |
-| Northland Hackathon ⚑ | Northland Hackathon | Hackathon | Minnesota | - | - | [Apply](https://northlandhackathon.com) |
 | Ohlone Hacks ⚑ | Ohlone College | Hackathon | Fremont, CA | - | 2027-02-27 | [Apply](https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students) |
+| Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
+| 2027 Code for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | - | - | [Apply](https://careers.wgu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
 | Weber State AI Hackathon 2027 ⚑ | Weber State University | Hackathon | - | - | - | [Apply](https://hackathon.weber.edu/about) |
+| HackUSU 2027 ⚑ | Utah State University | Hackathon | Logan, UT | - | - | [Apply](https://huntsman.usu.edu/hackusu) |
+| Northland Hackathon ⚑ | Northland Hackathon | Hackathon | Minnesota | - | - | [Apply](https://northlandhackathon.com) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 2026-07-06 | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 2026-06-25 | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 2026-06-16 | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
