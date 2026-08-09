@@ -11,22 +11,34 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**172 events found.** Updated 2026-08-09 08:44 UTC.
+**184 events found.** Updated 2026-08-09 12:54 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 2026-05-14 | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
+| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://www.jobleads.com/us/job/2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states--chicago--e0b96f4592d511a52708b981cd261cbd2) |
+| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://career360.snhu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| 2027 Code for Good Hackathon | JPMorganChase | Hackathon | Plano, TX | - | - | [Apply](https://builtin.com/job/2027-code-good-hackathon-software-engineer-program-summer-internship-united-states/10498030) |
+| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://www.intern-list.com/swe-intern-list/2027_code_for_good_hackathon_software_engineer_program_summer_internship_united_states_at_jpmorganchase_12340027) |
+| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759) |
+| BEYA STEM Conference ⚑ | Ccgmag | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |
+| WE26 ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
+| SEC Engineering Leadership Summit ⚑ | The University of Alabama | Summit | Tuscaloosa, AL | - | - | [Apply](https://eng.ua.edu/sec-engineering-leadership-summit) |
+| Engineering Student Council Engineering Leadership Summit ⚑ | The University of Kansas | Summit | - | - | - | [Apply](https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els) |
+| 2026 SEC Engineering Leadership Summit ⚑ | SEC | Summit | Tuscaloosa, AL | - | - | [Apply](https://www.purplepass.com/events/375322-2026-sec-engineering-leadership-summit-jul-27th) |
+| UnivaBio | BioCataalysis | Hackathon | Online | - | - | [Apply](https://univabio.devpost.com/) |
 | NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 2026-01-06 | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
-| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
-| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://www.jobleads.com/us/job/2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states--chicago--e0b96f4592d511a52708b981cd261cbd2) |
-| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b) |
-| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jobright.ai/jobs/2027-code-for-good-hackathon---software-engineer-program---summer-internship-%E2%80%93-united-states-jobs-in-united-states) |
+| DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
 | 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://www.intern-list.com/swe-intern-list/2027_code_for_good_hackathon_software_engineer_program_summer_internship_united_states_at_jpmorganchase_12340027) |
-| 2027 Data for Good Hackathon - Data & AI Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223) |
 | BEYA STEM Conference ⚑ | Career Communications Group | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |
 | Engineering Leadership Summit ⚑ | University of Kansas | Summit | - | - | - | [Apply](https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els) |
-| DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
+| 2027 Data for Good Hackathon - Data & AI Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223) |
+| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b) |
+| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://www.jobleads.com/us/job/2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states--chicago--e0b96f4592d511a52708b981cd261cbd2) |
+| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jobright.ai/jobs/2027-code-for-good-hackathon---software-engineer-program---summer-internship-%E2%80%93-united-states-jobs-in-united-states) |
 | IEEE STEM Summit | IEEE | Summit | Virtual | - | - | [Apply](https://stem-summit.tryengineering.org) |
 | 2027 Data for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223) |
 | Freshman Engineering Summit ⚑ | Valero | Summit | - | - | 2026-02-11 | [Apply](https://www.valero.com/careers/university-recruiting/freshman-engineering-summit) |

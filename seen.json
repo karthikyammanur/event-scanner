@@ -1,5 +1,5 @@
 {
-  "count": 172,
+  "count": 184,
   "seen": {
     "00d94ae1cfa2b7e8": {
       "application_deadline": null,
@@ -65,6 +65,19 @@
       "start_date": "2026-07-01",
       "travel_credit_mentioned": null,
       "url": "https://www.hackathonradar.com/database/hackathon/84926901-6feb-4140-ab03-75df5023e18a"
+    },
+    "073cdd38fe673051": {
+      "application_deadline": null,
+      "company": "The University of Kansas",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "Engineering Student Council Engineering Leadership Summit",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els"
     },
     "0752cd2eaf1f9cd9": {
       "application_deadline": null,
@@ -208,6 +221,32 @@
       "start_date": "2026-05-12",
       "travel_credit_mentioned": null,
       "url": "https://www.valero.com/careers/university-recruiting/freshman-engineering-summit"
+    },
+    "1d925e50bf079dd8": {
+      "application_deadline": null,
+      "company": "SEC",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "2026 SEC Engineering Leadership Summit",
+      "event_type": "summit",
+      "location_city_state": "Tuscaloosa, AL",
+      "source": "tavily",
+      "start_date": "2026-07-27",
+      "travel_credit_mentioned": null,
+      "url": "https://www.purplepass.com/events/375322-2026-sec-engineering-leadership-summit-jul-27th"
+    },
+    "1ddb2eab6f8ca606": {
+      "application_deadline": null,
+      "company": "Society of Women Engineers",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "WE26",
+      "event_type": "conference",
+      "location_city_state": "Boston, MA",
+      "source": "tavily",
+      "start_date": "2026-11-05",
+      "travel_credit_mentioned": null,
+      "url": "https://swe.org/partner/conference-partnerships-recruitment-services"
     },
     "1e2071ea14dee91e": {
       "application_deadline": null,
@@ -534,6 +573,19 @@
       "travel_credit_mentioned": null,
       "url": "https://www.hackdearborn.org/"
     },
+    "42ae9ec2cc771e61": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Plano, TX",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://builtin.com/job/2027-code-good-hackathon-software-engineer-program-summer-internship-united-states/10498030"
+    },
     "4355231d4a54aa52": {
       "application_deadline": null,
       "company": "CodePath",
@@ -585,6 +637,19 @@
       "start_date": "2026-10-09",
       "travel_credit_mentioned": null,
       "url": "https://hack.sbcs.io/"
+    },
+    "48a8d88266110c31": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759"
     },
     "49dca88ba5a594f8": {
       "application_deadline": null,
@@ -1041,6 +1106,19 @@
       "travel_credit_mentioned": null,
       "url": "https://events.mlh.io/events/14442-spartahack-12"
     },
+    "870a64ba4bdf0022": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Chicago, IL",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://www.jobleads.com/us/job/2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states--chicago--e0b96f4592d511a52708b981cd261cbd2"
+    },
     "87682d7525154b2b": {
       "application_deadline": null,
       "company": "Iris Hacks",
@@ -1262,6 +1340,19 @@
       "travel_credit_mentioned": null,
       "url": "https://animalhack2026.devpost.com/"
     },
+    "a354c899441c368d": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Chicago, IL",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://www.intern-list.com/swe-intern-list/2027_code_for_good_hackathon_software_engineer_program_summer_internship_united_states_at_jpmorganchase_12340027"
+    },
     "a689fa471a0d0ed2": {
       "application_deadline": null,
       "company": "Hacksocial",
@@ -1326,6 +1417,19 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008"
+    },
+    "ac9fa81765a5b1a3": {
+      "application_deadline": null,
+      "company": "BioCataalysis",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "UnivaBio",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-07",
+      "travel_credit_mentioned": null,
+      "url": "https://univabio.devpost.com/"
     },
     "b07ad0be453a074f": {
       "application_deadline": null,
@@ -1405,6 +1509,19 @@
       "travel_credit_mentioned": null,
       "url": "https://hacklytics2027.web.app"
     },
+    "b944611560e06816": {
+      "application_deadline": null,
+      "company": "The University of Alabama",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "SEC Engineering Leadership Summit",
+      "event_type": "summit",
+      "location_city_state": "Tuscaloosa, AL",
+      "source": "tavily",
+      "start_date": "2026-07-27",
+      "travel_credit_mentioned": null,
+      "url": "https://eng.ua.edu/sec-engineering-leadership-summit"
+    },
     "b9bae2ea46112f5b": {
       "application_deadline": null,
       "company": "Anthropic",
@@ -1469,6 +1586,19 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
+    },
+    "c2fe86d4c57d7ad6": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://career360.snhu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
     },
     "c3546b4648d0a28c": {
       "application_deadline": null,
@@ -1678,6 +1808,19 @@
       "travel_credit_mentioned": null,
       "url": "https://jobs.lever.co/palantir/61eaa54c-e1b7-4064-afad-f7df3d48d652"
     },
+    "d5a81c7dc894beb0": {
+      "application_deadline": null,
+      "company": "Ccgmag",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "BEYA STEM Conference",
+      "event_type": "conference",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://ccgmag.com/mpage/beya-home"
+    },
     "d60fa33ed0fd34c9": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1794,6 +1937,19 @@
       "start_date": "2026-06-23",
       "travel_credit_mentioned": null,
       "url": "https://rice-urban-sustainability.devpost.com/"
+    },
+    "df8847b9ed8e30ce": {
+      "application_deadline": null,
+      "company": "USC Viterbi School of Engineering",
+      "date_posted": "2026-05-14",
+      "emailed_at": "2026-08-09T12:54:06+00:00",
+      "event_name": "Engineering for Energy Demands Summit 2026",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs"
     },
     "dfbc8ddf95a77238": {
       "application_deadline": null,
@@ -2238,5 +2394,5 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-09T08:44:43+00:00"
+  "updated_at": "2026-08-09T12:54:06+00:00"
 }
