@@ -1,5 +1,5 @@
 {
-  "count": 160,
+  "count": 162,
   "seen": {
     "00d94ae1cfa2b7e8": {
       "application_deadline": null,
@@ -1600,6 +1600,19 @@
       "travel_credit_mentioned": null,
       "url": "https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b"
     },
+    "d8359a8956002538": {
+      "application_deadline": null,
+      "company": "IEEE",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T05:06:32+00:00",
+      "event_name": "IEEE STEM Summit",
+      "event_type": "summit",
+      "location_city_state": "Virtual",
+      "source": "tavily",
+      "start_date": "2026-10-22",
+      "travel_credit_mentioned": null,
+      "url": "https://stem-summit.tryengineering.org"
+    },
     "d873b25e36ec1a0f": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1951,6 +1964,19 @@
       "travel_credit_mentioned": null,
       "url": "https://hackonomics27.devpost.com/"
     },
+    "f75daf1034d7b6cb": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T05:06:32+00:00",
+      "event_name": "2027 Data for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223"
+    },
     "f7f12e0b00898f9f": {
       "application_deadline": null,
       "company": "hackhere",
@@ -2082,5 +2108,5 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-09T01:47:39+00:00"
+  "updated_at": "2026-08-09T05:06:32+00:00"
 }
