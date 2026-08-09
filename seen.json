@@ -1,5 +1,5 @@
 {
-  "count": 184,
+  "count": 187,
   "seen": {
     "00d94ae1cfa2b7e8": {
       "application_deadline": null,
@@ -846,6 +846,19 @@
       "travel_credit_mentioned": null,
       "url": "https://www.mhacks.org/"
     },
+    "64a7c3b607007f66": {
+      "application_deadline": "2026-02-11",
+      "company": "Valero",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T16:37:13+00:00",
+      "event_name": "Freshman Engineering Summit and Scholarship",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2026-05-12",
+      "travel_credit_mentioned": null,
+      "url": "https://www.valero.com/careers/university-recruiting/freshman-engineering-summit"
+    },
     "64cb9005e5208bc4": {
       "application_deadline": null,
       "company": "JPMorganChase",
@@ -1522,6 +1535,19 @@
       "travel_credit_mentioned": null,
       "url": "https://eng.ua.edu/sec-engineering-leadership-summit"
     },
+    "b9808b50e8147fdc": {
+      "application_deadline": null,
+      "company": "Morgan State University",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T16:37:13+00:00",
+      "event_name": "Engineering Youth Conference",
+      "event_type": "conference",
+      "location_city_state": "Baltimore, MD",
+      "source": "tavily",
+      "start_date": "2026-02-28",
+      "travel_credit_mentioned": null,
+      "url": "https://events.morgan.edu/event/school-of-engineering-engineering-youth-conference"
+    },
     "b9bae2ea46112f5b": {
       "application_deadline": null,
       "company": "Anthropic",
@@ -1547,6 +1573,19 @@
       "start_date": "2026-06-24",
       "travel_credit_mentioned": null,
       "url": "https://dsh-pitch-30500.devpost.com/"
+    },
+    "bb9bdeafbbe4bb0f": {
+      "application_deadline": null,
+      "company": "localhost-nyc",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T16:37:13+00:00",
+      "event_name": "Checkout - The Travel & Hospitality Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "New York, NY",
+      "source": "devpost",
+      "start_date": "2026-08-09",
+      "travel_credit_mentioned": null,
+      "url": "https://nyc-travel-hack.devpost.com/"
     },
     "c1c3b46c99492ddb": {
       "application_deadline": null,
@@ -2394,5 +2433,5 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-09T12:54:06+00:00"
+  "updated_at": "2026-08-09T16:37:13+00:00"
 }
