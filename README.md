@@ -11,22 +11,31 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**151 events found.** Updated 2026-08-08 20:32 UTC.
+**160 events found.** Updated 2026-08-09 01:47 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Code For Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | - | - | [Apply](https://www.wayup.com/i-Financial-Services-j-Code-For-Good-Hackathon-Internship-Program-Details-J-P-Morgan-Chase-607095513398253) |
+| Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| Data for Good Hackathon ⚑ | JPMorganChase | Hackathon | San Francisco, CA | - | - | [Apply](https://www.builtinsf.com/job/2027-data-good-hackathon-data-ai-program-summer-internship/10498024) |
+| Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b) |
+| Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://jobright.ai/jobs/info/6a701732cd3bac13d37097d0) |
+| Data for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223) |
+| Freshman Engineering Summit ⚑ | Valero | Summit | - | - | 2026-02-11 | [Apply](https://www.valero.com/careers/university-recruiting/freshman-engineering-summit) |
+| School of Engineering: Engineering Youth Conference ⚑ | Morgan State University | Conference | - | - | - | [Apply](https://events.morgan.edu/event/school-of-engineering-engineering-youth-conference) |
+| CED Student Conference ⚑ | San Jose State University | Conference | San Jose, California | - | - | [Apply](https://give.sjsu.edu/schools/SanJoseStateUniversity/1857-minutes-of-giving/pages/engineering/ced-conference) |
 | 2027 Data for Good Hackathon - Data & AI Program ⚑ | JPMorganChase | Hackathon | - | 2026-08-03 | 2027-08-04 | [Apply](https://career.fitchburgstate.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Data for Good Hackathon ⚑ | JPMorganChase | Hackathon | San Francisco, CA | - | - | [Apply](https://www.builtinsf.com/job/2027-data-good-hackathon-data-ai-program-summer-internship/10498024) |
+| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://jobalert.world/jobs/2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states-at-jpmc-chicago-il-united-states-55722) |
+| Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
+| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | 2026-09-18 | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b) |
 | 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210773759) |
 | 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://www.owlindex.com/academic-research-opportunities/2027-code-good-hackathon-software-engineer-program/2c740036-4663-4e1f-92ea-d10dd2087a82) |
-| 2027 Code for Good Hackathon - Software Engineer Program ⚑ | JPMorganChase | Hackathon | - | - | 2026-09-18 | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
-| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://jobalert.world/jobs/2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states-at-jpmc-chicago-il-united-states-55722) |
-| 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | Chicago, IL | - | - | [Apply](https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b) |
 | 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://imagine.jhu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
 | 2027 Code for Good Hackathon ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jobright.ai/jobs/info/6a702350f5953013637f74d2) |
-| 2027 Data for Good Hackathon ⚑ | JPMorganChase | Hackathon | San Francisco, CA | - | - | [Apply](https://www.builtinsf.com/job/2027-data-good-hackathon-data-ai-program-summer-internship/10498024) |
-| Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
