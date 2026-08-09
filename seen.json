@@ -1,5 +1,5 @@
 {
-  "count": 187,
+  "count": 193,
   "seen": {
     "00d94ae1cfa2b7e8": {
       "application_deadline": null,
@@ -26,6 +26,19 @@
       "start_date": "2027-01-22",
       "travel_credit_mentioned": null,
       "url": "https://www.hoyahacks.com/"
+    },
+    "033e7def84da17b1": {
+      "application_deadline": "2026-09-18",
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T20:34:19+00:00",
+      "event_name": "Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Brooklyn, NY",
+      "source": "tavily",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://career360.snhu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
     },
     "0440f9318f536b12": {
       "application_deadline": null,
@@ -156,6 +169,19 @@
       "start_date": "2027-02-06",
       "travel_credit_mentioned": null,
       "url": "https://innovateherhacks.org/"
+    },
+    "167b1f007af82d8a": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T20:34:19+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Chicago, Illinois",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b"
     },
     "16dd73934a5e986b": {
       "application_deadline": null,
@@ -312,6 +338,19 @@
       "start_date": "2026-11-07",
       "travel_credit_mentioned": null,
       "url": "https://hackutd.co"
+    },
+    "20fd70b3234784f8": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T20:34:19+00:00",
+      "event_name": "2027 Data for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223"
     },
     "2902ced1e6068d28": {
       "application_deadline": null,
@@ -676,6 +715,19 @@
       "start_date": "2026-03-16",
       "travel_credit_mentioned": null,
       "url": "https://www.hackathon.com/country/United%20States/2026"
+    },
+    "4b46f32a28b3de56": {
+      "application_deadline": null,
+      "company": "Society of Women Engineers",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T20:34:19+00:00",
+      "event_name": "WE Conference",
+      "event_type": "conference",
+      "location_city_state": "Boston, MA",
+      "source": "tavily",
+      "start_date": "2026-11-05",
+      "travel_credit_mentioned": null,
+      "url": "https://swe.org/partner/conference-partnerships-recruitment-services"
     },
     "4c1f1508a69ebdb3": {
       "application_deadline": null,
@@ -1418,6 +1470,19 @@
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008"
     },
+    "a98da61ba10fb390": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T20:34:19+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Chicago, Illinois",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobalert.world/jobs/2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states-at-jpmc-chicago-il-united-states-55722"
+    },
     "ac03dc4cc5915a88": {
       "application_deadline": null,
       "company": "Anthropic",
@@ -1495,6 +1560,19 @@
       "start_date": "2026-10-17",
       "travel_credit_mentioned": null,
       "url": "https://hacktx.com/"
+    },
+    "b5bea9f2bd279ec0": {
+      "application_deadline": null,
+      "company": "Engineers Without Borders USA",
+      "date_posted": null,
+      "emailed_at": "2026-08-09T20:34:19+00:00",
+      "event_name": "Engineers Without Borders USA's 2026 Annual Conference",
+      "event_type": "conference",
+      "location_city_state": "Portland, Oregon",
+      "source": "tavily",
+      "start_date": "2026-02-26",
+      "travel_credit_mentioned": null,
+      "url": "https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland"
     },
     "b5c8eacf843264c5": {
       "application_deadline": null,
@@ -2433,5 +2511,5 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-09T16:37:13+00:00"
+  "updated_at": "2026-08-09T20:34:19+00:00"
 }
