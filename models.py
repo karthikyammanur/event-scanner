@@ -60,23 +60,43 @@ _NOISE_WORDS = re.compile(
 )
 
 
+# Trailing role/program blurbs that boards append to the same event name.
+# "Code for Good Hackathon" and "Code for Good Hackathon - SWE Program - Summer
+# Internship" are one event, so everything from the first separator is dropped.
+_TITLE_TAIL = re.compile(
+    r"\s*[-–:|(].*$|\s*\b(?:summer|fall|winter|spring)?\s*internship\b.*$",
+    re.I,
+)
+
+
+def _squeeze(s: Optional[str]) -> str:
+    s = re.sub(r"[^a-z0-9 ]+", " ", (s or "").lower())
+    s = _NOISE_WORDS.sub(" ", s)
+    return re.sub(r"\s+", "", s)
+
+
 def content_key(company: str, title: str) -> str:
     """Loose key identifying the same event across different listing URLs.
 
-    A JPMorgan Code for Good posting syndicated to three university job boards
-    is one event, so the digest should mention it once.
+    A JPMorgan Code for Good posting syndicated to several university job boards
+    is one event, so the digest should mention it once. The company is
+    deliberately NOT part of the key: the same event is credited to "J.P.
+    Morgan", "JPMorgan Chase", and "JPMorganChase" depending on the board, and
+    including it splits one event into three. Event names are distinctive
+    enough on their own, and "Code for Good" and "Data for Good" still key
+    apart because the words differ.
     """
-    def squeeze(s: Optional[str]) -> str:
-        s = re.sub(r"[^a-z0-9 ]+", " ", (s or "").lower())
-        s = _NOISE_WORDS.sub(" ", s)
-        return re.sub(r"\s+", "", s)
-
-    t, c = squeeze(title), squeeze(company)
-    if not t:
+    core = _squeeze(_TITLE_TAIL.sub("", title or ""))
+    if not core:
+        core = _squeeze(title)
+    if not core:
         return ""
-    # Company is included only when known, so a missing company does not split
-    # one event into two keys.
-    return hashlib.sha256(f"{c}|{t}".encode("utf-8")).hexdigest()[:16]
+    # A title too generic to identify an event on its own ("Hackathon", "Tech
+    # Summit") keeps the company, so two companies running a same-named event
+    # do not collapse into one.
+    if len(core) < 14:
+        core = f"{_squeeze(company)}|{core}"
+    return hashlib.sha256(core.encode("utf-8")).hexdigest()[:16]
 
 
 def utcnow_iso() -> str:

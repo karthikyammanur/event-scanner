@@ -11,17 +11,14 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**140 events found.** Updated 2026-08-10 16:56 UTC.
+**134 events found.** Updated 2026-08-10 17:28 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
 | Agents for Humans Hackathon | Amazon | Hackathon | Online | - | - | [Apply](https://agentsforhumans.devpost.com/) |
-| 2027 Code for Good Hackathon ⚑ | J.P. Morgan | Hackathon | Brooklyn, NY | - | 2026-09-18 | [Apply](https://jobs.georgiafintechacademy.org/companies/j-p-morgan-3/jobs/88498464-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
 | Hack the Habitat | Hack the Habitat | Hackathon | Online | - | - | [Apply](https://hack-the-habitat-2026.devpost.com/) |
-| 2027 Code for Good Hackathon - Software Engineer Program - Summer Internship ⚑ | JPMorganChase | Hackathon | Brooklyn, New York | - | 2026-09-18 | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
-| 2027 Data for Good Hackathon - Data & AI Program - Summer Internship ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223) |
 | Engineers Without Borders USA's 2026 Annual Conference ⚑ | Engineers Without Borders USA | Conference | Portland, Oregon | - | - | [Apply](https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland) |
 | WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | Freshman Engineering Summit and Scholarship ⚑ | Valero | Summit | - | - | 2026-02-11 | [Apply](https://www.valero.com/careers/university-recruiting/freshman-engineering-summit) |
@@ -30,7 +27,6 @@ reports are welcome if you spot something miscategorized.
 | UnivaBio | BioCataalysis | Hackathon | Online | - | - | [Apply](https://univabio.devpost.com/) |
 | BEYA STEM Conference ⚑ | Ccgmag | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |
 | SEC Engineering Leadership Summit ⚑ | The University of Alabama | Summit | Tuscaloosa, AL | - | - | [Apply](https://eng.ua.edu/sec-engineering-leadership-summit) |
-| 2026 SEC Engineering Leadership Summit ⚑ | SEC | Summit | Tuscaloosa, AL | - | - | [Apply](https://www.purplepass.com/events/375322-2026-sec-engineering-leadership-summit-jul-27th) |
 | Engineering Student Council Engineering Leadership Summit ⚑ | The University of Kansas | Summit | - | - | - | [Apply](https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els) |
 | NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 2026-01-06 | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
 | DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
@@ -39,7 +35,6 @@ reports are welcome if you spot something miscategorized.
 | Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
 | Brooklyn College Hackathon ⚑ | Brooklyn College | Hackathon | Brooklyn, NY | - | - | [Apply](https://www.brooklyn.edu/bc-brief/hackathon) |
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
-| 2027 Data for Good Hackathon - Data & AI Program ⚑ | JPMorgan Chase | Hackathon | - | - | - | [Apply](https://careers.suffolk.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | - | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
 | USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
@@ -59,7 +54,6 @@ reports are welcome if you spot something miscategorized.
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 2026-06-25 | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 2026-06-16 | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
 | Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 2026-06-04 | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
-| Research Fellowship - Mechanistic Interpretability ⚑ | Vmax AI Corp | Fellowship | SF | 2026-05-20 | - | [Apply](https://jobs.ashbyhq.com/vmax/7344d5fd-6fa3-4bce-b7bd-e73aa4dd568b) |
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 2026-05-15 | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
 | National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 2026-04-29 | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
 | Anthropic Fellows Program, The Anthropic Institute (Economics & Policy) ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 2026-04-23 | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183053008) |

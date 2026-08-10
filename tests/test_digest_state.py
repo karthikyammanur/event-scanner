@@ -248,3 +248,59 @@ def test_text_digest_groups_and_lists_apply_links():
     out = digest.render_text([_ev(url="https://x.com/apply")])
     assert "https://x.com/apply" in out
     assert "NEW TECH EVENTS FOR YOU" in out
+
+
+# --- Company aliasing and title suffixes (the JPMorgan repeat) ---------------
+
+CFG_VARIANTS = [
+    ("J.P. Morgan", "2027 Code for Good Hackathon"),
+    ("JPMorgan Chase", "2027 Code for Good Hackathon"),
+    ("JPMorganChase",
+     "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship"),
+]
+
+DFG_VARIANTS = [
+    ("JPMorgan Chase", "2027 Data for Good Hackathon"),
+    ("JPMorganChase", "2027 Data for Good Hackathon - Data & AI Program"),
+    ("JPMorgan Chase",
+     "2027 Data for Good Hackathon - Data & AI Program - Summer Internship"),
+]
+
+
+def _events(variants):
+    return [
+        Event(c, t, "hackathon", f"https://board{i}.edu/jobs/x", "discovery")
+        for i, (c, t) in enumerate(variants)
+    ]
+
+
+def test_company_aliases_and_title_suffixes_collapse_to_one():
+    """The exact six rows that kept re-sending, from real state data."""
+    assert len(state.split_new(_events(CFG_VARIANTS), {})) == 1
+    assert len(state.split_new(_events(DFG_VARIANTS), {})) == 1
+
+
+def test_code_for_good_and_data_for_good_stay_separate():
+    """Different events despite near-identical names."""
+    both = state.split_new(_events(CFG_VARIANTS + DFG_VARIANTS), {})
+    assert len(both) == 2
+
+
+def test_alias_variant_suppressed_across_runs():
+    seen = state.record(_events(CFG_VARIANTS[:1]), {})
+    assert state.split_new(_events(CFG_VARIANTS[1:]), seen) == []
+
+
+def test_same_event_credited_to_two_organizers_merges():
+    a = Event("SEC", "2026 SEC Engineering Leadership Summit", "summit",
+              "https://purplepass.com/e", "discovery")
+    b = Event("The University of Alabama", "SEC Engineering Leadership Summit",
+              "summit", "https://eng.ua.edu/summit", "discovery")
+    assert len(state.split_new([a, b], {})) == 1
+
+
+def test_generic_titles_do_not_collide_across_companies():
+    """A bare name is not enough to identify an event, so company still counts."""
+    a = Event("Meta", "Hackathon", "hackathon", "https://meta.com/h", "discovery")
+    b = Event("Google", "Hackathon", "hackathon", "https://google.com/h", "discovery")
+    assert len(state.split_new([a, b], {})) == 2
