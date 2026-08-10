@@ -1,5 +1,5 @@
 {
-  "count": 193,
+  "count": 199,
   "seen": {
     "00d94ae1cfa2b7e8": {
       "application_deadline": null,
@@ -794,6 +794,19 @@
       "travel_credit_mentioned": null,
       "url": "https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students"
     },
+    "4ef75a618f0d1f88": {
+      "application_deadline": "2026-09-18",
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T01:50:46+00:00",
+      "event_name": "2027 Code for Good Hackathon \u2013 Software Engineer Program \u2013 Summer Internship",
+      "event_type": "hackathon",
+      "location_city_state": "Brooklyn, New York",
+      "source": "tavily",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://career.soka.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
+    },
     "50dabfd18d225870": {
       "application_deadline": null,
       "company": "Formlabs",
@@ -910,6 +923,19 @@
       "start_date": "2026-05-12",
       "travel_credit_mentioned": null,
       "url": "https://www.valero.com/careers/university-recruiting/freshman-engineering-summit"
+    },
+    "64b96f26d9dbe816": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T01:50:46+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210773759"
     },
     "64cb9005e5208bc4": {
       "application_deadline": null,
@@ -1691,6 +1717,19 @@
       "travel_credit_mentioned": null,
       "url": "https://www.owlindex.com/academic-research-opportunities/2027-code-good-hackathon-software-engineer-program/2c740036-4663-4e1f-92ea-d10dd2087a82"
     },
+    "c2a096310702f47f": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T01:50:46+00:00",
+      "event_name": "2027 Data for Good Hackathon - Data & AI Program - Summer Internship",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223"
+    },
     "c2e992a499e36cad": {
       "application_deadline": null,
       "company": "JPMorganChase",
@@ -1873,6 +1912,19 @@
       "travel_credit_mentioned": null,
       "url": "https://www.bigredhacks.com/"
     },
+    "cdeddd6661456a8a": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T01:50:46+00:00",
+      "event_name": "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship",
+      "event_type": "hackathon",
+      "location_city_state": "Chicago, Illinois",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://interninsider.me/internships/jpmorganchase/2027-code-for-good-hackathon-software-engineer-program-summer-internship-24410087-957e-4106-a9c3-b7c6aa4fcc6b"
+    },
     "ce13a3be44f480e5": {
       "application_deadline": null,
       "company": "Baseten",
@@ -1924,6 +1976,19 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://jobs.lever.co/palantir/61eaa54c-e1b7-4064-afad-f7df3d48d652"
+    },
+    "d458d8d74c2d9b97": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T01:50:46+00:00",
+      "event_name": "2027 Code for Good Hackathon \u2013 Software Engineer Program \u2013 Summer Internship",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://careers.suffolk.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
     },
     "d5a81c7dc894beb0": {
       "application_deadline": null,
@@ -2458,6 +2523,19 @@
       "travel_credit_mentioned": null,
       "url": "https://jobright.ai/jobs/info/6a702350f5953013637f74d2"
     },
+    "fce1348862ed68d5": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T01:50:46+00:00",
+      "event_name": "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobright.ai/jobs/info/6a701732cd3bac13d37097d0"
+    },
     "fce32fe8a1c1b3e7": {
       "application_deadline": null,
       "company": "Anthropic",
@@ -2511,5 +2589,5 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
     }
   },
-  "updated_at": "2026-08-09T20:34:19+00:00"
+  "updated_at": "2026-08-10T01:50:46+00:00"
 }
