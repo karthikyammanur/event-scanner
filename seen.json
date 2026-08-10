@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 140,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -56,6 +56,20 @@
       "start_date": "2027-02-19",
       "travel_credit_mentioned": null,
       "url": "https://huntsman.usu.edu/hackusu"
+    },
+    "0cd4024f6c26f202": {
+      "application_deadline": null,
+      "company": "Amazon",
+      "content_key": "8ad456a473db82c8",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T16:56:01+00:00",
+      "event_name": "Agents for Humans Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-10",
+      "travel_credit_mentioned": null,
+      "url": "https://agentsforhumans.devpost.com/"
     },
     "0d40c5662e80549a": {
       "application_deadline": null,
@@ -1948,5 +1962,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-10T13:10:24+00:00"
+  "updated_at": "2026-08-10T16:56:01+00:00"
 }

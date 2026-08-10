@@ -11,12 +11,13 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**139 events found.** Updated 2026-08-10 13:10 UTC.
+**140 events found.** Updated 2026-08-10 16:56 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Agents for Humans Hackathon | Amazon | Hackathon | Online | - | - | [Apply](https://agentsforhumans.devpost.com/) |
 | 2027 Code for Good Hackathon ⚑ | J.P. Morgan | Hackathon | Brooklyn, NY | - | 2026-09-18 | [Apply](https://jobs.georgiafintechacademy.org/companies/j-p-morgan-3/jobs/88498464-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
 | Hack the Habitat | Hack the Habitat | Hackathon | Online | - | - | [Apply](https://hack-the-habitat-2026.devpost.com/) |
 | 2027 Code for Good Hackathon - Software Engineer Program - Summer Internship ⚑ | JPMorganChase | Hackathon | Brooklyn, New York | - | 2026-09-18 | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
