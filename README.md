@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**137 events found.** Updated 2026-08-10 03:03 UTC.
+**137 events found.** Updated 2026-08-10 03:05 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
@@ -19,16 +19,16 @@ reports are welcome if you spot something miscategorized.
 | --- | --- | --- | --- | --- | --- | --- |
 | 2027 Code for Good Hackathon - Software Engineer Program - Summer Internship ⚑ | JPMorganChase | Hackathon | Brooklyn, New York | - | 2026-09-18 | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
 | 2027 Data for Good Hackathon - Data & AI Program - Summer Internship ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223) |
-| WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | Engineers Without Borders USA's 2026 Annual Conference ⚑ | Engineers Without Borders USA | Conference | Portland, Oregon | - | - | [Apply](https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland) |
+| WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | Freshman Engineering Summit and Scholarship ⚑ | Valero | Summit | - | - | 2026-02-11 | [Apply](https://www.valero.com/careers/university-recruiting/freshman-engineering-summit) |
 | Checkout - The Travel & Hospitality Hackathon ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-travel-hack.devpost.com/) |
 | Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 2026-05-14 | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
-| BEYA STEM Conference ⚑ | Ccgmag | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |
-| Engineering Student Council Engineering Leadership Summit ⚑ | The University of Kansas | Summit | - | - | - | [Apply](https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els) |
-| 2026 SEC Engineering Leadership Summit ⚑ | SEC | Summit | Tuscaloosa, AL | - | - | [Apply](https://www.purplepass.com/events/375322-2026-sec-engineering-leadership-summit-jul-27th) |
 | UnivaBio | BioCataalysis | Hackathon | Online | - | - | [Apply](https://univabio.devpost.com/) |
+| BEYA STEM Conference ⚑ | Ccgmag | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |
 | SEC Engineering Leadership Summit ⚑ | The University of Alabama | Summit | Tuscaloosa, AL | - | - | [Apply](https://eng.ua.edu/sec-engineering-leadership-summit) |
+| 2026 SEC Engineering Leadership Summit ⚑ | SEC | Summit | Tuscaloosa, AL | - | - | [Apply](https://www.purplepass.com/events/375322-2026-sec-engineering-leadership-summit-jul-27th) |
+| Engineering Student Council Engineering Leadership Summit ⚑ | The University of Kansas | Summit | - | - | - | [Apply](https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els) |
 | NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 2026-01-06 | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
 | DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
 | IEEE STEM Summit | IEEE | Summit | Virtual | - | - | [Apply](https://stem-summit.tryengineering.org) |
@@ -46,12 +46,12 @@ reports are welcome if you spot something miscategorized.
 | Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
 | Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
-| Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
 | HackUSU 2027 ⚑ | Utah State University | Hackathon | Logan, UT | - | - | [Apply](https://huntsman.usu.edu/hackusu) |
 | Weber State AI Hackathon 2027 ⚑ | Weber State University | Hackathon | - | - | - | [Apply](https://hackathon.weber.edu/about) |
-| Northland Hackathon ⚑ | Northland Hackathon | Hackathon | Minnesota | - | - | [Apply](https://northlandhackathon.com) |
-| Ohlone Hacks ⚑ | Ohlone College | Hackathon | Fremont, CA | - | 2027-02-27 | [Apply](https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students) |
 | 2027 Code for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | - | - | [Apply](https://careers.wgu.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
+| Northland Hackathon ⚑ | Northland Hackathon | Hackathon | Minnesota | - | - | [Apply](https://northlandhackathon.com) |
+| Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
+| Ohlone Hacks ⚑ | Ohlone College | Hackathon | Fremont, CA | - | 2027-02-27 | [Apply](https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 2026-07-06 | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 2026-06-25 | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 2026-06-16 | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
@@ -150,10 +150,10 @@ reports are welcome if you spot something miscategorized.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 | NGN Hacks 2026 | Next Generation Hacks | Program | Online | - | - | [Apply](https://ngn-hacks-2026.devpost.com/) |
 | Build with DataHub: The Agent Hackathon | DataHub | Hackathon | Online | - | - | [Apply](https://datahub.devpost.com/) |
+| Hackonomics 2027 | hackonomics | Program | Online | - | - | [Apply](https://hackonomics27.devpost.com/) |
 | NeuralSprint | NeuralSprint | Program | Online | - | - | [Apply](https://neuralsprint.devpost.com/) |
 | BTT Web Game Jam - Summer 2026 | BTT | Program | Online | - | - | [Apply](https://btt-web-game-jam.devpost.com/) |
 | Hack for Humanity \| Summer 2026 | Hack for Humanity | Program | Online | - | - | [Apply](https://hack-for-humanity-summer-26.devpost.com/) |
-| Hackonomics 2027 | hackonomics | Program | Online | - | - | [Apply](https://hackonomics27.devpost.com/) |
 
 <!-- EVENTS:END -->
 
