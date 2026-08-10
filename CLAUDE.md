@@ -91,9 +91,28 @@ The state check runs **before** extraction, so a repeat run spends no tokens.
   (Lever, epoch millis), and `publishedAt` (Ashby), normalized by
   `models.to_iso_date`. Devpost and MLH expose no posting date, so it stays
   null there; the LLM is also asked to look for one in free text.
-- **Event IDs hash the extracted title**, so LLM phrasing variance can
-  occasionally re-surface an event once under a new ID. It self-corrects after
-  one run.
+- **Event IDs key on the normalized URL, not the title.** The LLM rephrases
+  titles and company names between runs ("JPMorgan Chase" vs "JPMorganChase"),
+  which used to mint a new ID for an already-emailed event and re-send it.
+  `models.content_key` is a second, looser key (title and company with year and
+  filler words stripped) that catches the same event syndicated to several
+  university job boards under different URLs. `state.split_new` checks both.
+
+## Audience filters
+
+Target reader is a **US university upperclassman**, so `filters.py` also rejects:
+
+- **Pre-college**: high school, middle school, K-12, teen and youth events.
+  Careful with "junior" and "senior", which mean college year levels here, so
+  they are not pre-college markers.
+- **Non-US organizers on virtual events**: a hackathon listed as "Online" run
+  by a non-US university or foundation is out of scope. The location field says
+  "Online" and hides the country, so the name and company are checked instead.
+- **Unrecognized venues on open feeds**: Devpost and the Tavily discovery
+  source accept organizers worldwide, so an in-person event there must show a
+  positive US signal ("VITM, Indore" is rejected). ATS boards and MLH keep the
+  benefit of the doubt, since those are US company boards and MLH sets a real
+  country code, and vague-but-real venues like "RWC HQ" or "SF" appear there.
 
 ## Testing
 

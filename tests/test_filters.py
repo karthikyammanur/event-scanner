@@ -180,3 +180,84 @@ def test_id_differs_for_different_events():
 def test_event_type_falls_back_to_other():
     ev = Event("X", "Y", "not_a_real_type", "https://x.com/e", "tavily")
     assert ev.event_type == "other"
+
+
+# --- Audience: US college upperclassmen --------------------------------------
+
+def _mk(name, company, loc="Online", source="devpost"):
+    return Event(company, name, "hackathon", "https://x.com/a", source,
+                 location_city_state=loc)
+
+
+@pytest.mark.parametrize("name,company", [
+    ("AQX Sports Analytics Data Bowl 3.0", "James Logan High School"),
+    ("3D Websites Hackathon", "high school"),
+    ("AI YES: International Youth AI Competition", "International AI Youth Society"),
+    ("Teen Code Jam", "TeenHacks"),
+    ("Middle School Robotics Challenge", "Some District"),
+])
+def test_pre_college_events_rejected(name, company):
+    ok, reason = passes_hard_filters(_mk(name, company))
+    assert not ok and "pre-college" in reason
+
+
+@pytest.mark.parametrize("name,company", [
+    ("NTU InnovateX Hackathon 2026", "nanyang technological university"),
+    ("Africa Deep Tech Challenge 2026", "Africa Deep Tech Foundation"),
+    ("Win4AISafety", "SAIN Utrecht"),
+    ("The Great Agent Hackathon", "Women In Product India"),
+])
+def test_non_us_virtual_events_rejected(name, company):
+    ok, reason = passes_hard_filters(_mk(name, company))
+    assert not ok and "non-US" in reason
+
+
+@pytest.mark.parametrize("name,company,loc,src", [
+    ("2027 Code for Good Hackathon", "JPMorgan Chase", "Plano, TX", "greenhouse"),
+    ("Anthropic Fellows Program", "Anthropic", "San Francisco, CA", "greenhouse"),
+    ("HackDavis 2026", "Major League Hacking", "Davis, California", "mlh"),
+    ("Engineering Insight Series 2027", "Goldman Sachs", "New York, NY", "greenhouse"),
+    ("Rowdy Hacks", "Major League Hacking", "San Antonio, Texas", "mlh"),
+    ("Build with Gemini XPRIZE", "XPRIZE", "Online", "devpost"),
+])
+def test_real_college_events_still_pass(name, company, loc, src):
+    ok, reason = passes_hard_filters(_mk(name, company, loc, src))
+    assert ok, f"false negative on a real target: {name} ({reason})"
+
+
+def test_college_junior_is_not_junior_high():
+    """'Junior' means a college year level, not middle school."""
+    ok, _ = passes_hard_filters(
+        _mk("Junior Engineering Summit", "Meta", "Menlo Park, CA", "greenhouse")
+    )
+    assert ok
+
+
+def test_us_based_in_person_event_not_dropped_by_org_check():
+    """The non-US organizer check applies only to virtual events."""
+    ok, _ = passes_hard_filters(
+        _mk("India House Hackathon", "Rice University", "Houston, TX", "mlh")
+    )
+    assert ok
+
+
+@pytest.mark.parametrize("name,company,loc", [
+    ("INNOVIK 6.0 : International Hackathon 2026", "shekunj", "VITM, Indore"),
+    ("Nexora", "hackhere", "SNS Innovation HUB"),
+])
+def test_unrecognized_venue_on_open_feed_rejected(name, company, loc):
+    """Open submission feeds take worldwide organizers, so require a US signal."""
+    ok, reason = passes_hard_filters(_mk(name, company, loc, "devpost"))
+    assert not ok and "US location signal" in reason
+
+
+@pytest.mark.parametrize("loc", ["RWC HQ", "SF", "Washington D.C.", "North America", ""])
+def test_ats_boards_keep_benefit_of_the_doubt(loc):
+    """US company boards keep vague venues rather than dropping real events."""
+    ok, _ = passes_hard_filters(_mk("Builder Fellowship", "WindBorne", loc, "ashby"))
+    assert ok, f"ATS event wrongly dropped for venue {loc!r}"
+
+
+def test_virtual_event_on_open_feed_still_allowed():
+    ok, _ = passes_hard_filters(_mk("Build with Gemini XPRIZE", "XPRIZE", "Online", "devpost"))
+    assert ok

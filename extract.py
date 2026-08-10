@@ -46,6 +46,18 @@ Recruiter, Campus Events" is a job. A team or product named "Summit" or \
 Also reject anything that is not tech related, and anything that is neither \
 US-based nor virtual.
 
+The audience is a US university upperclassman. Reject events aimed at anyone \
+younger than college: high school, middle school, K-12, teen and youth \
+competitions, and events run by a high school or its clubs. If the organizer \
+is a school rather than a university, a company, or a student organization at \
+a university, treat it as pre-college and reject it. Note that "junior" and \
+"senior" usually mean college year levels, not junior high.
+
+Reject events whose organizer or audience is outside the US, including virtual \
+ones. A virtual event listed as "Online" run by a non-US university, a non-US \
+foundation, or aimed at a non-US region is out of scope. When an online event \
+gives no signal of where its organizer is based, keep it.
+
 Extract dates only when the listing states them. Never invent a date. Use an \
 empty string "" when a text field is genuinely unknown.
 

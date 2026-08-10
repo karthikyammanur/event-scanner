@@ -9,7 +9,7 @@ import tempfile
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Tuple
 
-from models import Event
+from models import Event, content_key
 
 log = logging.getLogger(__name__)
 
@@ -53,14 +53,39 @@ def save(seen: Dict[str, dict], path: str = DEFAULT_PATH) -> None:
         raise
 
 
+def seen_content_keys(seen: Dict[str, dict]) -> set:
+    """Content keys for everything already emailed."""
+    keys = set()
+    for rec in seen.values():
+        if not isinstance(rec, dict):
+            continue
+        k = rec.get("content_key") or content_key(
+            rec.get("company") or "", rec.get("event_name") or ""
+        )
+        if k:
+            keys.add(k)
+    return keys
+
+
 def split_new(events: List[Event], seen: Dict[str, dict]) -> List[Event]:
-    """Return only events not already recorded, de-duplicated within the batch."""
+    """Return only events not already recorded, de-duplicated within the batch.
+
+    Checks two keys: the URL-derived id, and a looser content key that catches
+    the same event syndicated to several job boards under different URLs.
+    """
     out: List[Event] = []
     batch_ids = set()
+    known = seen_content_keys(seen)
     for ev in events:
         if ev.id in seen or ev.id in batch_ids:
             continue
+        ck = ev.content_key()
+        if ck and ck in known:
+            log.debug("suppressing duplicate of an already-sent event: %s", ev.event_name)
+            continue
         batch_ids.add(ev.id)
+        if ck:
+            known.add(ck)
         out.append(ev)
     return out
 
@@ -74,6 +99,7 @@ def record(events: List[Event], seen: Dict[str, dict]) -> Dict[str, dict]:
     for ev in events:
         seen[ev.id] = {
             "emailed_at": now,
+            "content_key": ev.content_key(),
             "company": ev.company,
             "event_name": ev.event_name,
             "event_type": ev.event_type,

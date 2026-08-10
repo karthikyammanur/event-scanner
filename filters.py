@@ -98,6 +98,45 @@ STUDENT_MARKERS = (
     r"\bgraduating\b", r"\bintern\b",
 )
 
+# Pre-college audiences. Karthik is an upperclassman, so these are out of scope.
+PRE_COLLEGE_MARKERS = (
+    r"\bhigh\s?school(?:s|ers?)?\b",
+    r"\bhs\s+(?:student|hacker|hackathon)",
+    r"\bmiddle\s?school\b",
+    r"\bteens?\b",
+    r"\bteenager",
+    r"\byouth\b",
+    r"\bk-?12\b",
+    r"\bgrades?\s*[1-9]\b",
+    r"\b(?:9|10|11|12)th\s+grade",
+    r"\bjunior\s+high\b",
+    r"\bunder\s*1[6-8]\b",
+    r"\bages?\s*1[0-7]\b",
+    r"\bminors?\b",
+    r"\bprimary\s+school\b",
+    r"\bsecondary\s+school\b",
+    r"\bpre-?college\b",
+    r"\belementary\b",
+)
+
+# Non-US organizers seen in practice on the open hackathon feeds.
+NON_US_ORG_MARKERS = (
+    r"\bnanyang\b", r"\bntu\b", r"\biit\b", r"\bnit\b", r"\butrecht\b",
+    r"\bkang chiao\b", r"\bafrica\b", r"\bafrican\b", r"\beurope(?:an)?\b",
+    r"\basia(?:n)?\b", r"\blatam\b", r"\bindia\b", r"\bnigeria\b", r"\bkenya\b",
+    r"\bpakistan\b", r"\bbangladesh\b", r"\bsingapore\b", r"\bmalaysia\b",
+    r"\bindonesia\b", r"\bvietnam\b", r"\bphilippines\b", r"\bsri lanka\b",
+    r"\bnepal\b", r"\bghana\b", r"\begypt\b", r"\bmorocco\b", r"\btunisia\b",
+    r"\buae\b", r"\bqatar\b", r"\bsaudi\b", r"\bturkey\b", r"\bbrazil\b",
+    r"\bcolombia\b", r"\bargentina\b", r"\bperu\b", r"\bchile\b",
+    r"\bglobal south\b", r"\binternational youth\b",
+    r"\bcanadian\b", r"\bcanada\b", r"\bbritish\b", r"\bgerman\b",
+    r"\bfrench\b", r"\bspanish\b", r"\bitalian\b", r"\bdutch\b",
+    r"\bswedish\b", r"\bnorwegian\b", r"\bdanish\b", r"\bswiss\b",
+    r"\baustralian\b", r"\bjapanese\b", r"\bkorean\b", r"\bchinese\b",
+    r"\bmexican\b", r"\bbrazilian\b", r"\bisraeli\b", r"\bemirati\b",
+)
+
 US_STATE_ABBR = {
     "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA",
     "KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
@@ -237,8 +276,30 @@ def is_tech_related(text: str) -> bool:
 TECH_BY_CONSTRUCTION_SOURCES = {"greenhouse", "lever", "ashby", "devpost", "mlh"}
 
 
+def is_pre_college(text: str) -> bool:
+    """True when the audience reads as high school or younger."""
+    return _any(PRE_COLLEGE_MARKERS, text or "")
+
+
+def looks_non_us(text: str) -> bool:
+    """True when the organizer or framing reads as non-US."""
+    return _any(NON_US_ORG_MARKERS, text or "") or _any(NON_US_MARKERS, text or "")
+
+
+# Open submission feeds accept organizers worldwide, so an in-person venue there
+# has to show a positive US signal. ATS boards are US company boards already,
+# and MLH sets a real country code, so those keep the benefit of the doubt.
+_STRICT_US_SOURCES = {"devpost", "discovery"}
+
+
+def has_us_location_signal(location: Optional[str]) -> bool:
+    """True when the location names a recognizable US place."""
+    loc = (location or "").strip()
+    return bool(loc) and _has_us_signal(loc)
+
+
 def passes_hard_filters(ev: Event) -> Tuple[bool, str]:
-    """Post-extraction enforcement of the three hard filters."""
+    """Post-extraction enforcement of the hard filters."""
     if not is_us_or_virtual(ev.location_city_state):
         return False, f"not US and not virtual: {ev.location_city_state}"
 
@@ -250,5 +311,24 @@ def passes_hard_filters(ev: Event) -> Tuple[bool, str]:
 
     if looks_like_job_posting(ev.event_name or ""):
         return False, "reads as a standard job posting, not an event"
+
+    # Audience: college upperclassmen, so pre-college events are out.
+    audience = " ".join(filter(None, [ev.event_name, ev.company]))
+    if is_pre_college(audience):
+        return False, "pre-college audience"
+
+    # A virtual event's location says "Online" and hides the organizer's
+    # country, so check the name and company for a non-US signal instead.
+    if ev.is_virtual() and looks_non_us(audience):
+        return False, "virtual event with a non-US organizer"
+
+    # On open submission feeds an unrecognized venue ("VITM, Indore") is more
+    # often foreign than a US place the state list happens to miss.
+    if (
+        ev.source in _STRICT_US_SOURCES
+        and not ev.is_virtual()
+        and not has_us_location_signal(ev.location_city_state)
+    ):
+        return False, f"no US location signal: {ev.location_city_state or 'unknown'}"
 
     return True, "ok"

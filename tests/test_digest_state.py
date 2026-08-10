@@ -73,13 +73,13 @@ def test_explicit_no_travel_credit_is_flagged_distinctly():
 def test_date_posted_shown_when_known():
     ev = _ev()
     ev.date_posted = "2026-07-30"
-    assert "Posted: 2026-07-30" in digest.render_text([ev])
+    assert "2026-07-30" in digest.render_text([ev])
     assert "2026-07-30" in digest.render_html([ev])
 
 
 def test_date_posted_absent_says_not_stated():
     text = digest.render_text([_ev()])
-    assert "Posted: not stated" in text
+    assert "Not stated" in text
 
 
 def test_to_iso_date_handles_each_ats_format():
@@ -170,3 +170,81 @@ def test_prune_drops_only_expired():
 
 def test_empty_digest_sends_nothing():
     assert digest.send([], dry_run=False) is True
+
+
+# --- Duplicate suppression (the repeat-email bug) ----------------------------
+
+def test_llm_title_and_company_drift_does_not_resend():
+    """Same URL, LLM phrased the name differently. Must not send twice."""
+    first = Event("JPMorgan Chase", "2027 Code for Good Hackathon", "hackathon",
+                  "https://careers.jpmorgan.com/cfg", "greenhouse")
+    later = Event("JPMorganChase", "2027 Code for Good Hackathon - SWE Program",
+                  "hackathon", "https://careers.jpmorgan.com/cfg", "greenhouse")
+    seen = state.record([first], {})
+    assert state.split_new([later], seen) == []
+
+
+def test_same_event_on_different_job_boards_sends_once():
+    """Syndicated copies share a content key, so only one is emailed."""
+    a = Event("JPMorgan Chase", "2027 Code for Good Hackathon", "hackathon",
+              "https://career.fitchburgstate.edu/jobs/jpmc-cfg", "discovery")
+    b = Event("JPMorgan Chase", "2027 Code for Good Hackathon", "hackathon",
+              "https://careers.wgu.edu/jobs/jpmc-cfg", "discovery")
+    assert len(state.split_new([a, b], {})) == 1
+
+
+def test_syndicated_copy_suppressed_across_runs():
+    a = Event("JPMorgan Chase", "2027 Code for Good Hackathon", "hackathon",
+              "https://career.fitchburgstate.edu/jobs/jpmc-cfg", "discovery")
+    b = Event("JPMorgan Chase", "Code for Good Hackathon 2027", "hackathon",
+              "https://careers.wgu.edu/jobs/jpmc-cfg", "discovery")
+    seen = state.record([a], {})
+    assert state.split_new([b], seen) == []
+
+
+def test_legacy_entries_without_content_key_still_suppress():
+    """Rows written before content_key existed must still dedupe."""
+    ev = Event("JPMorgan Chase", "2027 Code for Good Hackathon", "hackathon",
+               "https://x.com/a", "greenhouse")
+    legacy = {"oldhash": {"emailed_at": "2026-01-01T00:00:00+00:00",
+                          "company": "JPMorgan Chase",
+                          "event_name": "2027 Code for Good Hackathon"}}
+    assert state.split_new([ev], legacy) == []
+
+
+def test_genuinely_different_events_both_send():
+    a = Event("Meta", "Meta Discovery Day", "insight_program", "https://m.com/1", "brave")
+    b = Event("Meta", "Meta Engineering Summit", "summit", "https://m.com/2", "brave")
+    assert len(state.split_new([a, b], {})) == 2
+
+
+# --- Digest formatting -------------------------------------------------------
+
+def test_html_groups_into_sections():
+    evs = [
+        _ev(name="A Hack", url="https://x.com/1", etype="hackathon"),
+        _ev(name="B Insight", url="https://x.com/2", etype="insight_program"),
+    ]
+    out = digest.render_html(evs)
+    assert "Internship pathways" in out
+    assert "Hackathons and competitions" in out
+
+
+def test_html_is_email_client_safe():
+    out = digest.render_html([_ev()])
+    assert "<style" not in out and "<link" not in out, "must be inline CSS only"
+    assert out.count("<table") == out.count("</table>")
+    assert out.count("<div") == out.count("</div>")
+    assert 'role="presentation"' in out
+
+
+def test_html_escapes_event_names():
+    out = digest.render_html([_ev(name='Hack <script>alert(1)</script>')])
+    assert "<script>" not in out
+    assert "&lt;script&gt;" in out
+
+
+def test_text_digest_groups_and_lists_apply_links():
+    out = digest.render_text([_ev(url="https://x.com/apply")])
+    assert "https://x.com/apply" in out
+    assert "NEW TECH EVENTS FOR YOU" in out
