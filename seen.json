@@ -1,5 +1,5 @@
 {
-  "count": 138,
+  "count": 139,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -924,6 +924,20 @@
       "start_date": "2026-08-07",
       "travel_credit_mentioned": null,
       "url": "https://gtpn-hackathon-2026.devpost.com/"
+    },
+    "7eb185d7d5665b63": {
+      "application_deadline": "2026-09-18",
+      "company": "J.P. Morgan",
+      "content_key": "ef50a0cc744e147e",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T13:10:24+00:00",
+      "event_name": "2027 Code for Good Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Brooklyn, NY",
+      "source": "tavily",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.georgiafintechacademy.org/companies/j-p-morgan-3/jobs/88498464-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states"
     },
     "80169cbbf292b3be": {
       "application_deadline": null,
@@ -1934,5 +1948,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-10T09:23:36+00:00"
+  "updated_at": "2026-08-10T13:10:24+00:00"
 }
