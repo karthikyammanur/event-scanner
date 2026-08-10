@@ -1,5 +1,5 @@
 {
-  "count": 137,
+  "count": 138,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1597,6 +1597,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hackncstate.org/"
     },
+    "d31a9e558dca19d0": {
+      "application_deadline": null,
+      "company": "Hack the Habitat",
+      "content_key": "6c74bdf4986d9072",
+      "date_posted": null,
+      "emailed_at": "2026-08-10T09:23:36+00:00",
+      "event_name": "Hack the Habitat",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-07",
+      "travel_credit_mentioned": null,
+      "url": "https://hack-the-habitat-2026.devpost.com/"
+    },
     "d33e508eab7fc9f8": {
       "application_deadline": null,
       "company": "National Student Leadership Conference",
@@ -1920,5 +1934,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-10T03:03:15+00:00"
+  "updated_at": "2026-08-10T09:23:36+00:00"
 }

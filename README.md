@@ -11,12 +11,13 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**137 events found.** Updated 2026-08-10 05:28 UTC.
+**138 events found.** Updated 2026-08-10 09:23 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 
 | Event | Company | Type | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Hack the Habitat | Hack the Habitat | Hackathon | Online | - | - | [Apply](https://hack-the-habitat-2026.devpost.com/) |
 | 2027 Code for Good Hackathon - Software Engineer Program - Summer Internship ⚑ | JPMorganChase | Hackathon | Brooklyn, New York | - | 2026-09-18 | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-code-for-good-hackathon-software-engineer-program-summer-internship-united-states) |
 | 2027 Data for Good Hackathon - Data & AI Program - Summer Internship ⚑ | JPMorganChase | Hackathon | - | - | - | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210775223) |
 | Engineers Without Borders USA's 2026 Annual Conference ⚑ | Engineers Without Borders USA | Conference | Portland, Oregon | - | - | [Apply](https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland) |
