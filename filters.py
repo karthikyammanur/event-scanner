@@ -256,6 +256,24 @@ def is_us_or_virtual(location: Optional[str]) -> bool:
     return True
 
 
+# Venues are often named without a state ("San Diego Convention Center"), which
+# would otherwise read as an unrecognized, possibly foreign location.
+US_CITY_MARKERS = (
+    r"\bsan francisco\b", r"\bsan diego\b", r"\bsan jose\b", r"\blos angeles\b",
+    r"\bnew york\b", r"\bbrooklyn\b", r"\bmanhattan\b", r"\bchicago\b",
+    r"\bboston\b", r"\bcambridge, ma\b", r"\bseattle\b", r"\bportland\b",
+    r"\baustin\b", r"\bdallas\b", r"\bhouston\b", r"\bsan antonio\b",
+    r"\batlanta\b", r"\bmiami\b", r"\borlando\b", r"\bdenver\b", r"\bphoenix\b",
+    r"\blas vegas\b", r"\bphiladelphia\b", r"\bpittsburgh\b", r"\bdetroit\b",
+    r"\bminneapolis\b", r"\bst\.? louis\b", r"\bkansas city\b", r"\bnashville\b",
+    r"\bcharlotte\b", r"\braleigh\b", r"\bbaltimore\b", r"\bwashington,? d\.?c\.?\b",
+    r"\bpalo alto\b", r"\bmountain view\b", r"\bsunnyvale\b", r"\bsanta clara\b",
+    r"\bmenlo park\b", r"\bcupertino\b", r"\bredmond\b", r"\bbellevue\b",
+    r"\bsilicon valley\b", r"\bbay area\b", r"\bmadison\b", r"\bann arbor\b",
+    r"\bcolumbus\b", r"\bsalt lake city\b", r"\btampa\b", r"\bnew orleans\b",
+)
+
+
 def _has_us_signal(loc: str) -> bool:
     if re.search(r"\b(usa|u\.s\.a?\.?|united states)\b", loc, re.I):
         return True
@@ -265,7 +283,7 @@ def _has_us_signal(loc: str) -> bool:
             continue
         if p.upper() in US_STATE_ABBR or p.lower() in US_STATE_NAMES:
             return True
-    return False
+    return _any(US_CITY_MARKERS, loc)
 
 
 def is_tech_related(text: str) -> bool:

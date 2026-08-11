@@ -337,3 +337,15 @@ def test_the_two_year_old_linkedin_post_is_rejected():
 def test_non_linkedin_url_yields_no_date():
     from sources.discovery import _linkedin_post_date
     assert _linkedin_post_date("https://hackdavis.io") is None
+
+
+@pytest.mark.parametrize("loc", [
+    "San Diego Convention Center",
+    "Austin Convention Center",
+    "Javits Center New York",
+    "Moscone Center San Francisco",
+])
+def test_us_venue_without_a_state_is_recognized(loc):
+    """Venue names often omit the state, and are still plainly US."""
+    ok, reason = passes_hard_filters(_mk("Some Hackathon", "Acme", loc, "devpost"))
+    assert ok, f"US venue wrongly rejected: {reason}"
