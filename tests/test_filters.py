@@ -3,6 +3,7 @@
 import json
 import os
 import sys
+from datetime import datetime, timedelta, timezone
 
 import pytest
 
@@ -261,3 +262,78 @@ def test_ats_boards_keep_benefit_of_the_doubt(loc):
 def test_virtual_event_on_open_feed_still_allowed():
     ok, _ = passes_hard_filters(_mk("Build with Gemini XPRIZE", "XPRIZE", "Online", "devpost"))
     assert ok
+
+
+# --- Freshness: no past or long-stale events ---------------------------------
+
+def _dated(**kw):
+    return Event("Acme", "Acme Hackathon", "hackathon", "https://x.com/a",
+                 "greenhouse", location_city_state="Austin, TX", **kw)
+
+
+def _days_from_now(n):
+    return (datetime.now(timezone.utc).date() + timedelta(days=n)).isoformat()
+
+
+def test_past_event_rejected():
+    ok, reason = passes_hard_filters(_dated(start_date=_days_from_now(-30)))
+    assert not ok and "passed" in reason
+
+
+def test_upcoming_event_kept():
+    ok, _ = passes_hard_filters(_dated(start_date=_days_from_now(30)))
+    assert ok
+
+
+def test_passed_deadline_rejected():
+    ok, _ = passes_hard_filters(_dated(application_deadline=_days_from_now(-1)))
+    assert not ok
+
+
+def test_stale_posting_rejected():
+    """A listing posted months ago with no upcoming date is dead."""
+    ok, _ = passes_hard_filters(_dated(date_posted=_days_from_now(-120)))
+    assert not ok
+
+
+def test_recent_posting_kept():
+    ok, _ = passes_hard_filters(_dated(date_posted=_days_from_now(-10)))
+    assert ok
+
+
+def test_undated_event_is_kept_not_guessed_at():
+    """Never silently drop an event we simply could not date."""
+    ev = _dated()
+    assert ev.freshness() == "unknown"
+    ok, _ = passes_hard_filters(ev)
+    assert ok
+
+
+def test_old_posting_with_future_date_is_still_upcoming():
+    """Long-running programs post once and stay open for months."""
+    ev = _dated(date_posted=_days_from_now(-300), start_date=_days_from_now(45))
+    assert ev.freshness() == "upcoming"
+    assert passes_hard_filters(ev)[0]
+
+
+def test_stale_threshold_boundary():
+    assert _dated(date_posted=_days_from_now(-60)).freshness() == "upcoming"
+    assert _dated(date_posted=_days_from_now(-61)).freshness() == "past"
+
+
+def test_the_two_year_old_linkedin_post_is_rejected():
+    """The real event that triggered this work."""
+    from sources.discovery import _linkedin_post_date
+    url = ("https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-"
+           "are-you-an-undergraduate-activity-7212456498159923201-tpWr")
+    posted = _linkedin_post_date(url)
+    assert posted and posted.startswith("2024")
+    ev = Event("LinkedIn", "Undergraduate Hackathon", "hackathon", url, "tavily",
+               date_posted=posted, location_city_state="Sunnyvale, CA")
+    assert ev.freshness() == "past"
+    assert not passes_hard_filters(ev)[0]
+
+
+def test_non_linkedin_url_yields_no_date():
+    from sources.discovery import _linkedin_post_date
+    assert _linkedin_post_date("https://hackdavis.io") is None

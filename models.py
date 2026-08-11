@@ -5,8 +5,12 @@ from __future__ import annotations
 import hashlib
 import re
 from dataclasses import dataclass, asdict, field
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from typing import Optional
+
+# A posting with no upcoming date is treated as expired after this long.
+# Matches SimplifyJobs, which marks listings inactive at 2 months.
+STALE_AFTER_DAYS = 60
 
 EVENT_TYPES = (
     "hackathon",
@@ -146,6 +150,50 @@ class Event:
     def content_key(self) -> str:
         """Key that matches the same event listed at different URLs."""
         return content_key(self.company, self.event_name)
+
+    def freshness(self, today: Optional[date] = None) -> str:
+        """Return "upcoming", "past", or "unknown".
+
+        An event date decides it outright. Failing that, an old posting date
+        means the listing has gone stale. With no dates at all the answer is
+        "unknown", which callers keep rather than drop, since silently
+        discarding an event we simply could not date is worse than showing it.
+        """
+        today = today or datetime.now(timezone.utc).date()
+
+        def parsed(value):
+            iso = to_iso_date(value)
+            if not iso:
+                return None
+            try:
+                return date.fromisoformat(iso)
+            except ValueError:
+                return None
+
+        start = parsed(self.start_date)
+        deadline = parsed(self.application_deadline)
+
+        if (start and start >= today) or (deadline and deadline >= today):
+            return "upcoming"
+        if start or deadline:
+            return "past"
+
+        posted = parsed(self.date_posted)
+        if posted:
+            return "past" if (today - posted).days > STALE_AFTER_DAYS else "upcoming"
+        return "unknown"
+
+    def age_days(self, today: Optional[date] = None) -> Optional[int]:
+        """Days since the listing was posted, when that is known."""
+        iso = to_iso_date(self.date_posted)
+        if not iso:
+            return None
+        try:
+            posted = date.fromisoformat(iso)
+        except ValueError:
+            return None
+        today = today or datetime.now(timezone.utc).date()
+        return max((today - posted).days, 0)
 
     def is_virtual(self) -> bool:
         return (self.location_city_state or "").strip().lower() in {

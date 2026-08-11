@@ -4,18 +4,39 @@ from __future__ import annotations
 
 import hashlib
 import logging
+import re
 import time
-from datetime import date
+from datetime import date, datetime, timezone
 from typing import List, Optional
 from urllib.parse import urlparse
 
-from models import Candidate
+from models import Candidate, to_iso_date
 
 from .base import Budget, Context, session
 
 log = logging.getLogger(__name__)
 
 ENDPOINT = "https://api.tavily.com/search"
+
+# LinkedIn embeds a post's creation time in its activity id: the high 41 bits
+# are a Unix timestamp in milliseconds. Search hits on LinkedIn posts carry no
+# date otherwise, which is how a 2024 hackathon post kept showing up as new.
+_LINKEDIN_ACTIVITY = re.compile(r"activity[-:](\d{15,25})")
+
+
+def _linkedin_post_date(url: str) -> Optional[str]:
+    m = _LINKEDIN_ACTIVITY.search(url or "")
+    if not m:
+        return None
+    try:
+        stamp = (int(m.group(1)) >> 22) / 1000
+        posted = datetime.fromtimestamp(stamp, timezone.utc).date()
+    except (ValueError, OSError, OverflowError):
+        return None
+    # Guard against ids that decode to nonsense.
+    if not (2000 <= posted.year <= date.today().year + 1):
+        return None
+    return posted.isoformat()
 
 EVENT_TERMS = [
     "hackathon",
@@ -108,6 +129,10 @@ def discover(ctx: Context) -> List[Candidate]:
                     "search_depth": "basic",
                     "max_results": 20,
                     "country": "united states",
+                    # Ask for dated results and let Tavily drop anything over a
+                    # year old, so stale pages never reach the LLM.
+                    "topic": "news",
+                    "time_range": "year",
                 },
                 timeout=ctx.request_timeout,
             )
@@ -142,6 +167,7 @@ def discover(ctx: Context) -> List[Candidate]:
             if url in seen:
                 continue
             seen.add(url)
+            posted = to_iso_date(res.get("published_date")) or _linkedin_post_date(url)
             out.append(
                 Candidate(
                     company=_company_from(url, title),
@@ -150,7 +176,7 @@ def discover(ctx: Context) -> List[Candidate]:
                     source="tavily",
                     location=None,
                     description=(res.get("content") or "")[:500],
-                    extra={"query": q},
+                    extra={"query": q, "date_posted": posted},
                 )
             )
 

@@ -1167,7 +1167,7 @@
       "application_deadline": null,
       "company": "LinkedIn",
       "content_key": "f5d8a7a5ca22df42",
-      "date_posted": null,
+      "date_posted": "2024-06-28",
       "emailed_at": "2026-08-08T16:35:16+00:00",
       "event_name": "Undergraduate Hackathon",
       "event_type": "hackathon",
@@ -1878,5 +1878,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-10T17:28:31+00:00"
+  "updated_at": "2026-08-11T00:42:09+00:00"
 }

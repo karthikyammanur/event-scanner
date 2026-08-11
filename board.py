@@ -26,21 +26,55 @@ def _cell(text: Optional[str]) -> str:
 
 def _flag(rec: dict) -> str:
     """Travel flag, reusing the Event rule so the board and email agree."""
-    ev = Event(
-        company=rec.get("company") or "",
-        event_name=rec.get("event_name") or "",
-        event_type=rec.get("event_type") or "other",
-        url=rec.get("url") or "",
-        source=rec.get("source") or "",
-        location_city_state=rec.get("location_city_state"),
-        travel_credit_mentioned=rec.get("travel_credit_mentioned"),
-    )
-    return " ⚑" if ev.needs_travel_flag() else ""
+    return " ⚑" if _as_event(rec).needs_travel_flag() else ""
 
 
 def _sort_key(rec: dict):
     # Newest first by when we found it, then by posting date.
     return (rec.get("emailed_at") or "", rec.get("date_posted") or "")
+
+
+def _as_event(rec: dict) -> Event:
+    return Event(
+        company=rec.get("company") or "",
+        event_name=rec.get("event_name") or "",
+        event_type=rec.get("event_type") or "other",
+        url=rec.get("url") or "",
+        source=rec.get("source") or "",
+        start_date=rec.get("start_date"),
+        application_deadline=rec.get("application_deadline"),
+        date_posted=rec.get("date_posted"),
+        location_city_state=rec.get("location_city_state"),
+        travel_credit_mentioned=rec.get("travel_credit_mentioned"),
+    )
+
+
+def _age_cell(rec: dict) -> str:
+    """Listing age, in the compact form SimplifyJobs uses (0d, 12d, 3mo)."""
+    days = _as_event(rec).age_days()
+    if days is None:
+        return "-"
+    return f"{days // 30}mo" if days > 30 else f"{days}d"
+
+
+_HEADER = (
+    "| Event | Company | Type | Location | Age | Deadline | Apply |\n"
+    "| --- | --- | --- | --- | --- | --- | --- |"
+)
+
+
+def _row(rec: dict) -> str:
+    url = (rec.get("url") or "").strip()
+    link = f"[Apply]({url})" if url.startswith("http") else "-"
+    return (
+        f"| {_cell(rec.get('event_name'))}{_flag(rec)} "
+        f"| {_cell(rec.get('company'))} "
+        f"| {_cell(TYPE_LABELS.get(rec.get('event_type'), 'Program'))} "
+        f"| {_cell(rec.get('location_city_state'))} "
+        f"| {_age_cell(rec)} "
+        f"| {_cell(rec.get('application_deadline'))} "
+        f"| {link} |"
+    )
 
 
 def render_table(seen: Dict[str, dict]) -> str:
@@ -50,31 +84,37 @@ def render_table(seen: Dict[str, dict]) -> str:
     if not rows:
         return "No events found yet. The scanner runs every 4 hours."
 
+    current = [r for r in rows if _as_event(r).freshness() != "past"]
+    past = [r for r in rows if _as_event(r).freshness() == "past"]
+
     out = [
-        f"**{len(rows)} events found.** Updated "
+        f"**{len(current)} current events.** Updated "
         f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}.",
         "",
         "⚑ means out of state with no travel support mentioned, still worth a look.",
+        "Age is how long ago the listing was posted. Events whose date has",
+        "passed move to the archive at the bottom.",
         "",
-        "| Event | Company | Type | Location | Posted | Deadline | Apply |",
-        "| --- | --- | --- | --- | --- | --- | --- |",
     ]
-    for r in rows:
-        name = _cell(r.get("event_name"))
-        url = (r.get("url") or "").strip()
-        link = f"[Apply]({url})" if url.startswith("http") else "-"
-        out.append(
-            "| {name}{flag} | {company} | {etype} | {loc} | {posted} | {deadline} | {link} |".format(
-                name=name,
-                flag=_flag(r),
-                company=_cell(r.get("company")),
-                etype=_cell(TYPE_LABELS.get(r.get("event_type"), "Program")),
-                loc=_cell(r.get("location_city_state")),
-                posted=_cell(r.get("date_posted")),
-                deadline=_cell(r.get("application_deadline")),
-                link=link,
-            )
+    if current:
+        out.append(_HEADER)
+        out.extend(_row(r) for r in current)
+    else:
+        out.append("Nothing open right now. New events are added every 4 hours.")
+
+    if past:
+        out.extend(
+            [
+                "",
+                "<details>",
+                f"<summary>Past events ({len(past)})</summary>",
+                "",
+                _HEADER,
+            ]
         )
+        out.extend(_row(r) for r in past)
+        out.extend(["", "</details>"])
+
     return "\n".join(out)
 
 

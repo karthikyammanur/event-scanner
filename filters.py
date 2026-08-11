@@ -331,4 +331,9 @@ def passes_hard_filters(ev: Event) -> Tuple[bool, str]:
     ):
         return False, f"no US location signal: {ev.location_city_state or 'unknown'}"
 
+    # An event that already happened, or a listing that went stale months ago,
+    # cannot be applied to. Undatable events are kept rather than guessed at.
+    if ev.freshness() == "past":
+        return False, "event date has passed or the listing is stale"
+
     return True, "ok"

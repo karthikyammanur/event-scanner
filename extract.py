@@ -61,6 +61,12 @@ gives no signal of where its organizer is based, keep it.
 Extract dates only when the listing states them. Never invent a date. Use an \
 empty string "" when a text field is genuinely unknown.
 
+One exception: when the event name carries a year ("Hacklytics 2027", "2026 \
+SEC Summit") and no explicit start date is given, set start_date to a date in \
+that year, using the month if the listing names one and January otherwise. \
+This is what lets an obviously upcoming event be told apart from one that \
+already happened.
+
 For date_posted, give the date the announcement or listing was published, as \
 YYYY-MM-DD, when the text says so ("Posted 3 days ago" relative to today, \
 "Published March 4, 2026", a dateline, and so on). Leave it empty if the \

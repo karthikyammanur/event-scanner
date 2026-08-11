@@ -282,6 +282,13 @@ def render_html(events: List[Event]) -> str:
 
 def send(events: List[Event], dry_run: bool = False) -> bool:
     """Send the digest. Returns True when delivery succeeded (or was skipped)."""
+    # A past event is still recorded and still shown in the board archive, it
+    # just does not belong in an email telling him what to apply to.
+    stale = [e for e in events if e.freshness() == "past"]
+    if stale:
+        log.info("holding back %d past event(s) from the digest", len(stale))
+    events = [e for e in events if e.freshness() != "past"]
+
     if not events:
         log.info("no new events, no email sent")
         return True

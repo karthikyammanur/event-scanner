@@ -98,6 +98,33 @@ The state check runs **before** extraction, so a repeat run spends no tokens.
   filler words stripped) that catches the same event syndicated to several
   university job boards under different URLs. `state.split_new` checks both.
 
+## Freshness
+
+Events that already happened, or listings that went stale, are the other big
+noise source. `Event.freshness()` in `models.py` returns `upcoming`, `past`, or
+`unknown`, in that precedence:
+
+1. a `start_date` or `application_deadline` in the future wins outright
+2. either one in the past means `past`
+3. no event date, but `date_posted` older than `STALE_AFTER_DAYS` (60), is `past`
+4. no dates at all is `unknown`, which is **kept**, since dropping an event we
+   merely could not date is worse than showing it
+
+60 days matches SimplifyJobs, whose `list_updater/listings.py` marks a listing
+inactive at `age_in_months >= 2`. Of the 14.4k records they keep, only ~1.5k
+stay active, median age 34 days.
+
+`passes_hard_filters` rejects `past`, `digest.send` holds it back from email,
+and `board.py` moves it to a collapsed archive rather than deleting it.
+
+Sources differ wildly in what dates they give: Greenhouse, Lever, and Ashby
+supply a real posting date for every row, Devpost and MLH supply none but do
+give event start dates, and Tavily gives neither by default. That is why
+`sources/discovery.py` now asks Tavily for `topic: news` plus `time_range:
+year` and reads `published_date`, and decodes LinkedIn activity IDs (the high
+41 bits are a Unix ms timestamp) as a fallback. A LinkedIn post from June 2024
+was showing up as a current event until that decode landed.
+
 ## Audience filters
 
 Target reader is a **US university upperclassman**, so `filters.py` also rejects:

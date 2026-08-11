@@ -30,7 +30,7 @@ def test_table_has_event_details_and_link():
     table = board.render_table({"a": _rec()})
     assert "Code for Good Hackathon" in table
     assert "JPMorgan" in table
-    assert "2026-07-30" in table
+    assert "12d" in table, "age column replaces the raw posted date"
     assert "[Apply](https://careers.jpmorgan.com/cfg)" in table
 
 
@@ -103,3 +103,54 @@ def test_update_readme_without_markers_is_a_noop(tmp_path):
 def test_no_em_dash_in_table():
     table = board.render_table({"a": _rec(event_name="Summit — Fall")})
     assert "—" not in table
+
+
+# --- Freshness split ---------------------------------------------------------
+
+def _future(n=30):
+    from datetime import datetime, timedelta, timezone
+    return (datetime.now(timezone.utc).date() + timedelta(days=n)).isoformat()
+
+
+def _past(n=30):
+    from datetime import datetime, timedelta, timezone
+    return (datetime.now(timezone.utc).date() - timedelta(days=n)).isoformat()
+
+
+def test_past_events_move_to_archive_section():
+    seen = {
+        "a": _rec(event_name="Upcoming Hack", start_date=_future(),
+                  application_deadline=None),
+        "b": _rec(event_name="Finished Hack", start_date=_past(),
+                  application_deadline=None, url="https://x.com/old"),
+    }
+    table = board.render_table(seen)
+    main, _, archive = table.partition("<details>")
+    assert "Upcoming Hack" in main
+    assert "Finished Hack" not in main, "past event must leave the main table"
+    assert "Finished Hack" in archive
+    assert "Past events (1)" in archive
+
+
+def test_open_count_excludes_past_events():
+    seen = {
+        "a": _rec(event_name="Open", start_date=_future(), application_deadline=None),
+        "b": _rec(event_name="Done", start_date=_past(), application_deadline=None,
+                  url="https://x.com/2"),
+    }
+    assert "**1 current events.**" in board.render_table(seen)
+
+
+def test_no_archive_section_when_everything_is_current():
+    table = board.render_table({"a": _rec(application_deadline=_future())})
+    assert "<details>" not in table
+
+
+def test_age_column_uses_compact_form():
+    assert "| 5d |" in board.render_table({"a": _rec(date_posted=_past(5))})
+    assert "| 3mo |" in board.render_table({"a": _rec(date_posted=_past(95))})
+
+
+def test_missing_posted_date_shows_dash_not_crash():
+    table = board.render_table({"a": _rec(date_posted=None)})
+    assert "Code for Good Hackathon" in table
