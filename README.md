@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**68 current events.** Updated 2026-08-12 13:12 UTC.
+**71 current events.** Updated 2026-08-12 17:00 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,9 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| UC Santa Cruz Hackathon ⚑ | UC Santa Cruz | Hackathon | Santa Cruz, CA | - | - | [Apply](https://news.ucsc.edu/2026/06/agentic-ai-first-uc-santa-cruz-hackathon-with-nvidia-asus) |
+| St. John's University Hackathon ⚑ | St. John's University | Hackathon | Queens, NY | - | - | [Apply](https://www.stjohns.edu/news-media/news/2026-02-23/hackathon-invites-st-johns-students-build-code-and-innovate) |
+| Hack Knight ⚑ | Major League Hacking | Hackathon | Flushing, New York | - | - | [Apply](https://hackknight.org/) |
 | BE Smart HBCU Hackathon ⚑ | Black Enterprise | Hackathon | Charlotte, NC | - | - | [Apply](https://uncf.org/the-latest/call-for-hbcu-students-apply-to-black-enterprise-be-smart-hbcu-hackathon) |
 | WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | BEYA STEM Conference ⚑ | Ccgmag | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |

@@ -1,5 +1,5 @@
 {
-  "count": 135,
+  "count": 138,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1177,6 +1177,20 @@
       "travel_credit_mentioned": null,
       "url": "https://build-beyond-hackathon.devpost.com/"
     },
+    "9e1c389838fb19a4": {
+      "application_deadline": null,
+      "company": "St. John's University",
+      "content_key": "ff20fc9094667a91",
+      "date_posted": null,
+      "emailed_at": "2026-08-12T17:00:01+00:00",
+      "event_name": "St. John's University Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Queens, NY",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://www.stjohns.edu/news-media/news/2026-02-23/hackathon-invites-st-johns-students-build-code-and-innovate"
+    },
     "9ebe8c3614d35de5": {
       "application_deadline": null,
       "company": "LinkedIn",
@@ -1316,6 +1330,20 @@
       "start_date": "2026-09-26",
       "travel_credit_mentioned": null,
       "url": "https://www.columbiadivhacks.org/"
+    },
+    "ad716a5ccb98f535": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "7692fd3252875cbb",
+      "date_posted": null,
+      "emailed_at": "2026-08-12T17:00:01+00:00",
+      "event_name": "Hack Knight",
+      "event_type": "hackathon",
+      "location_city_state": "Flushing, New York",
+      "source": "mlh",
+      "start_date": "2026-10-09",
+      "travel_credit_mentioned": null,
+      "url": "https://hackknight.org/"
     },
     "af0a50e88e1eed77": {
       "application_deadline": null,
@@ -1526,6 +1554,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els"
+    },
+    "cea91fa919938359": {
+      "application_deadline": null,
+      "company": "UC Santa Cruz",
+      "content_key": "8000b25e1be6e549",
+      "date_posted": null,
+      "emailed_at": "2026-08-12T17:00:01+00:00",
+      "event_name": "UC Santa Cruz Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Santa Cruz, CA",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://news.ucsc.edu/2026/06/agentic-ai-first-uc-santa-cruz-hackathon-with-nvidia-asus"
     },
     "cfe8d76de2d344a1": {
       "application_deadline": null,
@@ -1892,5 +1934,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-12T02:14:37+00:00"
+  "updated_at": "2026-08-12T17:00:01+00:00"
 }
