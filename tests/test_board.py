@@ -2,10 +2,21 @@
 
 import os
 import sys
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import board  # noqa: E402
+
+# Dates are relative to today. Hardcoded ones silently rot: a fixture posted
+# "12d" ago becomes 13d tomorrow, and a fixed deadline eventually expires and
+# moves the row into the archive, breaking tests that have nothing to do with
+# the change being made.
+_POSTED_DAYS_AGO = 12
+
+
+def _days_from_now(n: int) -> str:
+    return (datetime.now(timezone.utc).date() + timedelta(days=n)).isoformat()
 
 
 def _rec(**kw):
@@ -17,8 +28,8 @@ def _rec(**kw):
         "url": "https://careers.jpmorgan.com/cfg",
         "source": "greenhouse",
         "start_date": None,
-        "application_deadline": "2026-09-01",
-        "date_posted": "2026-07-30",
+        "application_deadline": _days_from_now(21),
+        "date_posted": _days_from_now(-_POSTED_DAYS_AGO),
         "location_city_state": "Plano, TX",
         "travel_credit_mentioned": None,
     }
@@ -30,7 +41,7 @@ def test_table_has_event_details_and_link():
     table = board.render_table({"a": _rec()})
     assert "Code for Good Hackathon" in table
     assert "JPMorgan" in table
-    assert "12d" in table, "age column replaces the raw posted date"
+    assert f"{_POSTED_DAYS_AGO}d" in table, "age column replaces the raw posted date"
     assert "[Apply](https://careers.jpmorgan.com/cfg)" in table
 
 
@@ -108,13 +119,11 @@ def test_no_em_dash_in_table():
 # --- Freshness split ---------------------------------------------------------
 
 def _future(n=30):
-    from datetime import datetime, timedelta, timezone
-    return (datetime.now(timezone.utc).date() + timedelta(days=n)).isoformat()
+    return _days_from_now(n)
 
 
 def _past(n=30):
-    from datetime import datetime, timedelta, timezone
-    return (datetime.now(timezone.utc).date() - timedelta(days=n)).isoformat()
+    return _days_from_now(-n)
 
 
 def test_past_events_move_to_archive_section():
