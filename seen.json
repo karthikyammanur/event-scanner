@@ -1,5 +1,5 @@
 {
-  "count": 134,
+  "count": 135,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -630,6 +630,20 @@
       "start_date": "2026-02-26",
       "travel_credit_mentioned": null,
       "url": "https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland"
+    },
+    "52035723a4e2f34c": {
+      "application_deadline": null,
+      "company": "Black Enterprise",
+      "content_key": "e5ad36e7da247160",
+      "date_posted": null,
+      "emailed_at": "2026-08-12T02:14:37+00:00",
+      "event_name": "BE Smart HBCU Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Charlotte, NC",
+      "source": "tavily",
+      "start_date": "2026-11-18",
+      "travel_credit_mentioned": null,
+      "url": "https://uncf.org/the-latest/call-for-hbcu-students-apply-to-black-enterprise-be-smart-hbcu-hackathon"
     },
     "5258ef8e09d9df0b": {
       "application_deadline": null,
@@ -1878,5 +1892,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-11T00:42:09+00:00"
+  "updated_at": "2026-08-12T02:14:37+00:00"
 }

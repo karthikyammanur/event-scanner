@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**67 current events.** Updated 2026-08-11 20:45 UTC.
+**68 current events.** Updated 2026-08-12 02:14 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| BE Smart HBCU Hackathon ⚑ | Black Enterprise | Hackathon | Charlotte, NC | - | - | [Apply](https://uncf.org/the-latest/call-for-hbcu-students-apply-to-black-enterprise-be-smart-hbcu-hackathon) |
 | WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | BEYA STEM Conference ⚑ | Ccgmag | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |
 | Engineering Student Council Engineering Leadership Summit ⚑ | The University of Kansas | Summit | - | - | - | [Apply](https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els) |
@@ -28,7 +29,7 @@ passed move to the archive at the bottom.
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
 | Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
-| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 8d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 9d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
 | Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
@@ -97,7 +98,7 @@ passed move to the archive at the bottom.
 | Engineers Without Borders USA's 2026 Annual Conference ⚑ | Engineers Without Borders USA | Conference | Portland, Oregon | - | - | [Apply](https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland) |
 | Freshman Engineering Summit and Scholarship ⚑ | Valero | Summit | - | - | 2026-02-11 | [Apply](https://www.valero.com/careers/university-recruiting/freshman-engineering-summit) |
 | Checkout - The Travel & Hospitality Hackathon ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-travel-hack.devpost.com/) |
-| Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 2mo | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
+| Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 3mo | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
 | UnivaBio | BioCataalysis | Hackathon | Online | - | - | [Apply](https://univabio.devpost.com/) |
 | SEC Engineering Leadership Summit ⚑ | The University of Alabama | Summit | Tuscaloosa, AL | - | - | [Apply](https://eng.ua.edu/sec-engineering-leadership-summit) |
 | NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 7mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
