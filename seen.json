@@ -1,5 +1,5 @@
 {
-  "count": 138,
+  "count": 140,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1107,6 +1107,20 @@
       "travel_credit_mentioned": null,
       "url": "https://compsphere11.devpost.com/"
     },
+    "98b09f2fb7b21ed2": {
+      "application_deadline": null,
+      "company": "Stony Brook University",
+      "content_key": "6322fdfed2cbc0f0",
+      "date_posted": null,
+      "emailed_at": "2026-08-13T16:58:52+00:00",
+      "event_name": "American Society for Engineering Education Conference",
+      "event_type": "conference",
+      "location_city_state": "Stony Brook, NY",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://news.stonybrook.edu/university/american-society-for-engineering-education-conference-tackles-the-role-of-ai-in-education"
+    },
     "997cfc0bfb509225": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1653,6 +1667,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hack.sbcs.io/"
     },
+    "d53f7cb51bfc89d0": {
+      "application_deadline": null,
+      "company": "Cornell University",
+      "content_key": "b8260eabf24ab089",
+      "date_posted": null,
+      "emailed_at": "2026-08-13T16:58:52+00:00",
+      "event_name": "Cornell Systems Summit",
+      "event_type": "summit",
+      "location_city_state": "Ithaca, NY",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://news.cornell.edu/stories/2025/11/cornell-systems-summit-addresses-future-systems-engineering"
+    },
     "d75952980883ff50": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1934,5 +1962,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-12T17:00:01+00:00"
+  "updated_at": "2026-08-13T16:58:52+00:00"
 }

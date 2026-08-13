@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**71 current events.** Updated 2026-08-13 13:14 UTC.
+**73 current events.** Updated 2026-08-13 16:58 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Cornell Systems Summit ⚑ | Cornell University | Summit | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2025/11/cornell-systems-summit-addresses-future-systems-engineering) |
+| American Society for Engineering Education Conference ⚑ | Stony Brook University | Conference | Stony Brook, NY | - | - | [Apply](https://news.stonybrook.edu/university/american-society-for-engineering-education-conference-tackles-the-role-of-ai-in-education) |
 | St. John's University Hackathon ⚑ | St. John's University | Hackathon | Queens, NY | - | - | [Apply](https://www.stjohns.edu/news-media/news/2026-02-23/hackathon-invites-st-johns-students-build-code-and-innovate) |
 | Hack Knight ⚑ | Major League Hacking | Hackathon | Flushing, New York | - | - | [Apply](https://hackknight.org/) |
 | UC Santa Cruz Hackathon ⚑ | UC Santa Cruz | Hackathon | Santa Cruz, CA | - | - | [Apply](https://news.ucsc.edu/2026/06/agentic-ai-first-uc-santa-cruz-hackathon-with-nvidia-asus) |
