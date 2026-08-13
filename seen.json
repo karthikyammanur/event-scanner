@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 142,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -897,6 +897,20 @@
       "travel_credit_mentioned": null,
       "url": "https://gtpn-hackathon-2026.devpost.com/"
     },
+    "7f0cd8e2d34b8469": {
+      "application_deadline": null,
+      "company": "SPIE / Edge AI Vision Alliance",
+      "content_key": "b5c3ae23accc75bb",
+      "date_posted": "2026-05-01",
+      "emailed_at": "2026-08-13T20:44:11+00:00",
+      "event_name": "Embedded Vision Summit at Photonics West",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240"
+    },
     "80169cbbf292b3be": {
       "application_deadline": null,
       "company": "nill",
@@ -1723,6 +1737,20 @@
       "travel_credit_mentioned": null,
       "url": "https://reverie-hacks-2026.devpost.com/"
     },
+    "dd915e6a9bd3ef78": {
+      "application_deadline": null,
+      "company": "World Water-Tech",
+      "content_key": "d8b4b534ee9d02bc",
+      "date_posted": null,
+      "emailed_at": "2026-08-13T20:44:11+00:00",
+      "event_name": "World Water-Tech Innovation Summit 2027",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2027-02-23",
+      "travel_credit_mentioned": null,
+      "url": "https://www.foodnavigator.com/Events/world-water-tech-summit-2027"
+    },
     "deea0b89a1061b2c": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1962,5 +1990,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-13T16:58:52+00:00"
+  "updated_at": "2026-08-13T20:44:11+00:00"
 }
