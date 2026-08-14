@@ -1,5 +1,5 @@
 {
-  "count": 142,
+  "count": 143,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1737,6 +1737,20 @@
       "travel_credit_mentioned": null,
       "url": "https://reverie-hacks-2026.devpost.com/"
     },
+    "dd7d3624ffdb1e78": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "1899f297ee686bc4",
+      "date_posted": null,
+      "emailed_at": "2026-08-14T02:00:12+00:00",
+      "event_name": "Built for NYC: AI Hackathon at NYPL",
+      "event_type": "hackathon",
+      "location_city_state": "New York, NY",
+      "source": "mlh",
+      "start_date": "2026-08-15",
+      "travel_credit_mentioned": null,
+      "url": "https://www.eventbrite.com/e/built-for-nyc-ai-hackathon-at-nypl-tickets-1994000516221"
+    },
     "dd915e6a9bd3ef78": {
       "application_deadline": null,
       "company": "World Water-Tech",
@@ -1990,5 +2004,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-13T20:44:11+00:00"
+  "updated_at": "2026-08-14T02:00:12+00:00"
 }

@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**75 current events.** Updated 2026-08-13 20:44 UTC.
+**76 current events.** Updated 2026-08-14 02:00 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Built for NYC: AI Hackathon at NYPL ⚑ | Major League Hacking | Hackathon | New York, NY | - | - | [Apply](https://www.eventbrite.com/e/built-for-nyc-ai-hackathon-at-nypl-tickets-1994000516221) |
 | Embedded Vision Summit at Photonics West ⚑ | SPIE / Edge AI Vision Alliance | Summit | - | 3mo | - | [Apply](https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240) |
 | World Water-Tech Innovation Summit 2027 ⚑ | World Water-Tech | Summit | - | - | - | [Apply](https://www.foodnavigator.com/Events/world-water-tech-summit-2027) |
 | American Society for Engineering Education Conference ⚑ | Stony Brook University | Conference | Stony Brook, NY | - | - | [Apply](https://news.stonybrook.edu/university/american-society-for-engineering-education-conference-tackles-the-role-of-ai-in-education) |
@@ -36,7 +37,7 @@ passed move to the archive at the bottom.
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
 | Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
-| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 10d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 11d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
 | Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
