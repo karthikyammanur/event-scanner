@@ -1,5 +1,5 @@
 {
-  "count": 143,
+  "count": 144,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -700,6 +700,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008"
+    },
+    "5fcd31a0c3c19767": {
+      "application_deadline": null,
+      "company": "NASA",
+      "content_key": "4630d268bf04ddb1",
+      "date_posted": null,
+      "emailed_at": "2026-08-15T08:34:33+00:00",
+      "event_name": "NASA Data Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Gainesville, FL",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/"
     },
     "5fe32f784f1e91f2": {
       "application_deadline": null,
@@ -2004,5 +2018,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-14T02:00:12+00:00"
+  "updated_at": "2026-08-15T08:34:33+00:00"
 }

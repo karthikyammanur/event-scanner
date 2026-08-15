@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**76 current events.** Updated 2026-08-15 04:32 UTC.
+**77 current events.** Updated 2026-08-15 08:34 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| NASA Data Hackathon ⚑ | NASA | Hackathon | Gainesville, FL | - | - | [Apply](https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/) |
 | Built for NYC: AI Hackathon at NYPL ⚑ | Major League Hacking | Hackathon | New York, NY | - | - | [Apply](https://www.eventbrite.com/e/built-for-nyc-ai-hackathon-at-nypl-tickets-1994000516221) |
 | Embedded Vision Summit at Photonics West ⚑ | SPIE / Edge AI Vision Alliance | Summit | - | 3mo | - | [Apply](https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240) |
 | World Water-Tech Innovation Summit 2027 ⚑ | World Water-Tech | Summit | - | - | - | [Apply](https://www.foodnavigator.com/Events/world-water-tech-summit-2027) |
