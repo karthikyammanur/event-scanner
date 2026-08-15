@@ -1,5 +1,5 @@
 {
-  "count": 147,
+  "count": 148,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -448,6 +448,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs"
+    },
+    "3c07199c8148fb4f": {
+      "application_deadline": null,
+      "company": "Purdue University",
+      "content_key": "7009ed22981d5d29",
+      "date_posted": null,
+      "emailed_at": "2026-08-15T20:23:17+00:00",
+      "event_name": "SyDAg and Hackathon Weekend",
+      "event_type": "hackathon",
+      "location_city_state": "West Lafayette, IN",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx"
     },
     "3da606ff37abb7d4": {
       "application_deadline": null,
@@ -2060,5 +2074,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-15T12:38:47+00:00"
+  "updated_at": "2026-08-15T20:23:17+00:00"
 }

@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**80 current events.** Updated 2026-08-15 16:28 UTC.
+**81 current events.** Updated 2026-08-15 20:23 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
 | Hackathon for Good ⚑ | Saint Martin's University | Hackathon | Lacey, Washington | 2mo | - | [Apply](https://www.graysharbortalk.com/2026/05/29/saint-martins-university-hackathon-challenged-young-saints-to-provide-real-world-solutions) |
 | Pixel Forge AI Hackathon ($18,000+ in Prizes) | Pixel Forge | Hackathon | Online | - | - | [Apply](https://pixel-forge-ai-hackathon-08.devpost.com/) |
 | Desert Dev Lab Hackathon ⚑ | Arrowhead Center / New Mexico State University | Hackathon | Las Cruces, New Mexico | - | - | [Apply](https://newsroom.nmsu.edu/news/nmsu-students-take-first-and-second-place-at-statewide-desert-dev-lab-hackathon/s/41256a2b-6f2f-412e-aa90-e3e31edbe3c8) |
