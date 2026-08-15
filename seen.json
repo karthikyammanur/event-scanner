@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 147,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -84,6 +84,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008"
+    },
+    "0e7abec6438d767e": {
+      "application_deadline": null,
+      "company": "Pixel Forge",
+      "content_key": "58332be5c366281c",
+      "date_posted": null,
+      "emailed_at": "2026-08-15T12:38:47+00:00",
+      "event_name": "Pixel Forge AI Hackathon ($18,000+ in Prizes)",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-15",
+      "travel_credit_mentioned": null,
+      "url": "https://pixel-forge-ai-hackathon-08.devpost.com/"
     },
     "0ebb82c1c703167d": {
       "application_deadline": null,
@@ -308,6 +322,20 @@
       "start_date": "2026-08-01",
       "travel_credit_mentioned": null,
       "url": "https://hacksocial2026.devpost.com/"
+    },
+    "2995f5f44a072635": {
+      "application_deadline": null,
+      "company": "Saint Martin's University",
+      "content_key": "8146a1e738aeda1f",
+      "date_posted": "2026-05-29",
+      "emailed_at": "2026-08-15T12:38:47+00:00",
+      "event_name": "Hackathon for Good",
+      "event_type": "hackathon",
+      "location_city_state": "Lacey, Washington",
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.graysharbortalk.com/2026/05/29/saint-martins-university-hackathon-challenged-young-saints-to-provide-real-world-solutions"
     },
     "2b3e02d2b69905f3": {
       "application_deadline": null,
@@ -1289,6 +1317,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.hackumass.com/"
     },
+    "a9b5852c9f780f89": {
+      "application_deadline": null,
+      "company": "Arrowhead Center / New Mexico State University",
+      "content_key": "0acb0fd7678d9dd1",
+      "date_posted": null,
+      "emailed_at": "2026-08-15T12:38:47+00:00",
+      "event_name": "Desert Dev Lab Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Las Cruces, New Mexico",
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://newsroom.nmsu.edu/news/nmsu-students-take-first-and-second-place-at-statewide-desert-dev-lab-hackathon/s/41256a2b-6f2f-412e-aa90-e3e31edbe3c8"
+    },
     "aa27b4d89431c9c2": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -2018,5 +2060,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-15T08:34:33+00:00"
+  "updated_at": "2026-08-15T12:38:47+00:00"
 }
