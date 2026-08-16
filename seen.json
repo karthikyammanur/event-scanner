@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 149,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1177,6 +1177,20 @@
       "travel_credit_mentioned": null,
       "url": "https://compsphere11.devpost.com/"
     },
+    "97f7d1799714d91d": {
+      "application_deadline": null,
+      "company": "Marquette University",
+      "content_key": "4f5813d255ba2ce3",
+      "date_posted": null,
+      "emailed_at": "2026-08-16T08:31:11+00:00",
+      "event_name": "Discovery World Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Milwaukee, WI",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon"
+    },
     "98b09f2fb7b21ed2": {
       "application_deadline": null,
       "company": "Stony Brook University",
@@ -2074,5 +2088,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-15T20:23:17+00:00"
+  "updated_at": "2026-08-16T08:31:11+00:00"
 }
