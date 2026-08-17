@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**79 current events.** Updated 2026-08-16 20:23 UTC.
+**79 current events.** Updated 2026-08-17 01:17 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -41,7 +41,7 @@ passed move to the archive at the bottom.
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
 | Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
-| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 13d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 14d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
 | Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
@@ -117,7 +117,7 @@ passed move to the archive at the bottom.
 | NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 7mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
 | DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
 | Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
-| Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 25mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
+| Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 26mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
 | Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 2mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
