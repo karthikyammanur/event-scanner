@@ -1,5 +1,5 @@
 {
-  "count": 149,
+  "count": 151,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1261,6 +1261,20 @@
       "travel_credit_mentioned": null,
       "url": "https://khe.io/"
     },
+    "9d23506fe178dfa5": {
+      "application_deadline": null,
+      "company": "Syracuse University",
+      "content_key": "2d41a4b3b791141b",
+      "date_posted": null,
+      "emailed_at": "2026-08-22T08:33:35+00:00",
+      "event_name": "Silicon Valley Immersion",
+      "event_type": "insight_program",
+      "location_city_state": "Silicon Valley, CA",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation"
+    },
     "9d52dd3b710dac4f": {
       "application_deadline": null,
       "company": "BuildBeyond",
@@ -1807,6 +1821,20 @@
       "travel_credit_mentioned": null,
       "url": "https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0"
     },
+    "d93b599f892738c9": {
+      "application_deadline": null,
+      "company": "Mercor",
+      "content_key": "ed4cc6bf9860862a",
+      "date_posted": "2026-08-22",
+      "emailed_at": "2026-08-22T08:33:35+00:00",
+      "event_name": "Mercor Research Fellowship \u2014 APEX",
+      "event_type": "fellowship",
+      "location_city_state": "San Francisco, CA",
+      "source": "ashby",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01"
+    },
     "d93fbd9cd9337135": {
       "application_deadline": null,
       "company": "ReverieHacks",
@@ -2088,5 +2116,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-16T08:31:11+00:00"
+  "updated_at": "2026-08-22T08:33:35+00:00"
 }
