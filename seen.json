@@ -1,5 +1,5 @@
 {
-  "count": 151,
+  "count": 152,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1989,6 +1989,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students"
     },
+    "ed1ccfab8cd89421": {
+      "application_deadline": null,
+      "company": "Binnovative",
+      "content_key": "33dac3d8dacf41bb",
+      "date_posted": null,
+      "emailed_at": "2026-08-24T16:40:55+00:00",
+      "event_name": "InnovArt 2027: Art and Technology Hack Day",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://innovart2027.devpost.com/"
+    },
     "eeed68b63f869084": {
       "application_deadline": null,
       "company": "Next Generation Hacks",
@@ -2116,5 +2130,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-22T08:33:35+00:00"
+  "updated_at": "2026-08-24T16:40:55+00:00"
 }
