@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**81 current events.** Updated 2026-08-23 20:24 UTC.
+**81 current events.** Updated 2026-08-24 01:19 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,7 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 1d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
+| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 2d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
 | SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
@@ -43,7 +43,7 @@ passed move to the archive at the bottom.
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
 | Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
-| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 20d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 21d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
 | Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
@@ -54,7 +54,7 @@ passed move to the archive at the bottom.
 | Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
 | Ohlone Hacks ⚑ | Ohlone College | Hackathon | Fremont, CA | - | 2027-02-27 | [Apply](https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 1mo | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
-| Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 1mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
+| Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 2mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | HackKU27 ⚑ | Major League Hacking | Program | Lawrence, Kansas | - | - | [Apply](https://www.hackku.org/) |
 | Knight Hacks IX ⚑ | Major League Hacking | Program | Orlando, Florida | - | - | [Apply](https://2026.knighthacks.org/) |
 | Diamondhacks ⚑ | Major League Hacking | Program | La Jolla, California | - | - | [Apply](https://diamondhacks.acmucsd.com/) |
@@ -130,7 +130,7 @@ passed move to the archive at the bottom.
 | Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 4mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
 | Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 4mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
 | Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 4mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
-| Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 4mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
+| Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 5mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
 | Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 8mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
 | Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 8mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
 | Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 8mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
