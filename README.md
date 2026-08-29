@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**81 current events.** Updated 2026-08-28 19:59 UTC.
+**80 current events.** Updated 2026-08-29 02:58 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -20,14 +20,14 @@ passed move to the archive at the bottom.
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
-| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 6d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
+| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 7d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
 | SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
 | Hackathon for Good ⚑ | Saint Martin's University | Hackathon | Lacey, Washington | 3mo | - | [Apply](https://www.graysharbortalk.com/2026/05/29/saint-martins-university-hackathon-challenged-young-saints-to-provide-real-world-solutions) |
 | Desert Dev Lab Hackathon ⚑ | Arrowhead Center / New Mexico State University | Hackathon | Las Cruces, New Mexico | - | - | [Apply](https://newsroom.nmsu.edu/news/nmsu-students-take-first-and-second-place-at-statewide-desert-dev-lab-hackathon/s/41256a2b-6f2f-412e-aa90-e3e31edbe3c8) |
 | NASA Data Hackathon ⚑ | NASA | Hackathon | Gainesville, FL | - | - | [Apply](https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/) |
-| Embedded Vision Summit at Photonics West ⚑ | SPIE / Edge AI Vision Alliance | Summit | - | 3mo | - | [Apply](https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240) |
+| Embedded Vision Summit at Photonics West ⚑ | SPIE / Edge AI Vision Alliance | Summit | - | 4mo | - | [Apply](https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240) |
 | World Water-Tech Innovation Summit 2027 ⚑ | World Water-Tech | Summit | - | - | - | [Apply](https://www.foodnavigator.com/Events/world-water-tech-summit-2027) |
 | American Society for Engineering Education Conference ⚑ | Stony Brook University | Conference | Stony Brook, NY | - | - | [Apply](https://news.stonybrook.edu/university/american-society-for-engineering-education-conference-tackles-the-role-of-ai-in-education) |
 | Cornell Systems Summit ⚑ | Cornell University | Summit | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2025/11/cornell-systems-summit-addresses-future-systems-engineering) |
@@ -44,7 +44,7 @@ passed move to the archive at the bottom.
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
 | Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
-| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 25d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 26d | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
 | Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
@@ -76,7 +76,6 @@ passed move to the archive at the bottom.
 | UGAHacks ⚑ | Major League Hacking | Program | Athens, Georgia | - | - | [Apply](https://ugahacks.com/) |
 | SF Hacks ⚑ | Major League Hacking | Program | San Francisco, CA | - | - | [Apply](https://sfhacks.io) |
 | MakeCU ⚑ | Major League Hacking | Program | New York, New York | - | - | [Apply](https://v0-curc-makecu.vercel.app/) |
-| Midnight Virtual Hackathon [August] ⚑ | Major League Hacking | Hackathon | Everywhere, Worldwide | - | - | [Apply](https://events.mlh.com/events/14510-midnight-hackathon-august) |
 | MHacks ⚑ | Major League Hacking | Program | Ann Arbor, MI | - | - | [Apply](https://www.mhacks.org/) |
 | CodeRED Orion | Major League Hacking | Program | Houston, Texas | - | - | [Apply](https://uhcode.red/) |
 | ShellHacks ⚑ | Major League Hacking | Program | Miami, Florida | - | - | [Apply](https://shellhacks.net/) |
@@ -102,7 +101,7 @@ passed move to the archive at the bottom.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (71)</summary>
+<summary>Past events (72)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -160,6 +159,7 @@ passed move to the archive at the bottom.
 | GTPN Hackathon 2026 | GTPN | Hackathon | Online | - | - | [Apply](https://gtpn-hackathon-2026.devpost.com/) |
 | Code for Humanity | nill | Program | Online | - | - | [Apply](https://code-for-humanity.devpost.com/) |
 | QuantumHacks | Quantumhacks | Program | Online | - | - | [Apply](https://quantumhacks.devpost.com/) |
+| Midnight Virtual Hackathon [August] ⚑ | Major League Hacking | Hackathon | Everywhere, Worldwide | - | - | [Apply](https://events.mlh.com/events/14510-midnight-hackathon-august) |
 | COMPSPHERE 11 | President University | Program | Online | - | - | [Apply](https://compsphere11.devpost.com/) |
 | VoltHacks | Dialogate | Program | Online | - | - | [Apply](https://volthacks.devpost.com/) |
 | CALL-E: Your Code Is Calling | CALL-E | Program | Online | - | - | [Apply](https://call-e.devpost.com/) |
