@@ -1,5 +1,5 @@
 {
-  "count": 152,
+  "count": 155,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1499,6 +1499,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hacklytics2027.web.app"
     },
+    "b0f05ce4f784b11e": {
+      "application_deadline": null,
+      "company": "SPEED",
+      "content_key": "b6a79896401fdd4a",
+      "date_posted": null,
+      "emailed_at": "2026-08-30T04:03:51+00:00",
+      "event_name": "SPEED September AI Challenge",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-01",
+      "travel_credit_mentioned": null,
+      "url": "https://prometheus-sept-ai-classic.devpost.com/"
+    },
     "b11ebe8133ba87ef": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1793,6 +1807,20 @@
       "travel_credit_mentioned": null,
       "url": "https://news.cornell.edu/stories/2025/11/cornell-systems-summit-addresses-future-systems-engineering"
     },
+    "d620de40e3386195": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "db194b831f31c4d7",
+      "date_posted": null,
+      "emailed_at": "2026-08-30T04:03:51+00:00",
+      "event_name": "&HACKS XII",
+      "event_type": "hackathon",
+      "location_city_state": "Williamsburg, Virginia",
+      "source": "mlh",
+      "start_date": "2026-09-25",
+      "travel_credit_mentioned": null,
+      "url": "https://andhacks.cs.wm.edu/"
+    },
     "d75952980883ff50": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1960,6 +1988,20 @@
       "start_date": "2026-10-17",
       "travel_credit_mentioned": null,
       "url": "https://ai.lahacks.com"
+    },
+    "eabca1cbb4a3b9f1": {
+      "application_deadline": null,
+      "company": "10a Labs",
+      "content_key": "585df22c121fb647",
+      "date_posted": "2026-08-28",
+      "emailed_at": "2026-08-30T04:03:51+00:00",
+      "event_name": "Biosecurity & AI Safety Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "Remote",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/10alabs/jobs/4387699009"
     },
     "eb0f72bfa73ac692": {
       "application_deadline": null,
@@ -2130,5 +2172,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-24T16:40:55+00:00"
+  "updated_at": "2026-08-30T04:03:51+00:00"
 }
