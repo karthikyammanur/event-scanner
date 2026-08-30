@@ -1,5 +1,5 @@
 {
-  "count": 155,
+  "count": 156,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -2101,6 +2101,20 @@
       "travel_credit_mentioned": null,
       "url": "https://nyc-travel-hack.devpost.com/"
     },
+    "f2a0a26c0e28c184": {
+      "application_deadline": null,
+      "company": "agentic day",
+      "content_key": "f4a8742fb43f5314",
+      "date_posted": null,
+      "emailed_at": "2026-08-30T13:38:23+00:00",
+      "event_name": "Agentic Day Online Hackathon Powered by Mel",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-30",
+      "travel_credit_mentioned": null,
+      "url": "https://powered-by-mel.devpost.com/"
+    },
     "f315b25455f98003": {
       "application_deadline": null,
       "company": "NeuralSprint",
@@ -2172,5 +2186,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-30T04:03:51+00:00"
+  "updated_at": "2026-08-30T13:38:23+00:00"
 }
