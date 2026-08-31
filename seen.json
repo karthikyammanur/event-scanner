@@ -1,5 +1,5 @@
 {
-  "count": 156,
+  "count": 157,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -112,6 +112,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/10alabs/jobs/4203095009"
+    },
+    "0f769d8f9285b469": {
+      "application_deadline": null,
+      "company": "Prometheus",
+      "content_key": "1cdebc508e0d01aa",
+      "date_posted": null,
+      "emailed_at": "2026-08-31T15:55:17+00:00",
+      "event_name": "SPEED Virgo Challenge",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-08-31",
+      "travel_credit_mentioned": null,
+      "url": "https://virgo.devpost.com/"
     },
     "10e19e80986e6905": {
       "application_deadline": "2026-02-11",
@@ -2186,5 +2200,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-30T13:38:23+00:00"
+  "updated_at": "2026-08-31T15:55:17+00:00"
 }
