@@ -1,5 +1,5 @@
 {
-  "count": 157,
+  "count": 160,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -574,6 +574,20 @@
       "start_date": "2026-10-02",
       "travel_credit_mentioned": null,
       "url": "https://www.bigredhacks.com/"
+    },
+    "49185414c57fbea5": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "dc96b2cb6ecc25bd",
+      "date_posted": null,
+      "emailed_at": "2026-08-31T21:21:55+00:00",
+      "event_name": "Gator Quant Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Gainesville, Florida",
+      "source": "mlh",
+      "start_date": "2026-10-02",
+      "travel_credit_mentioned": null,
+      "url": "https://www.gqhacks.com"
     },
     "4942ba2833eb0874": {
       "application_deadline": null,
@@ -1611,6 +1625,20 @@
       "travel_credit_mentioned": null,
       "url": "https://impactforge.devpost.com/"
     },
+    "bb1011512221f6f5": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "e146ce27c6f5388b",
+      "date_posted": null,
+      "emailed_at": "2026-08-31T21:21:55+00:00",
+      "event_name": "WolfHacks by ACM at NC State",
+      "event_type": "hackathon",
+      "location_city_state": "Raleigh, NC",
+      "source": "mlh",
+      "start_date": "2026-10-03",
+      "travel_credit_mentioned": null,
+      "url": "https://wolfhacks.org/"
+    },
     "bb6434c806b24047": {
       "application_deadline": null,
       "company": "Seton Hall University",
@@ -1666,6 +1694,20 @@
       "start_date": "2026-09-26",
       "travel_credit_mentioned": null,
       "url": "https://www.owlhacks.com/"
+    },
+    "c7b758686a725fa2": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "7345c14488cc7b1c",
+      "date_posted": null,
+      "emailed_at": "2026-08-31T21:21:55+00:00",
+      "event_name": "Hack at Penn State",
+      "event_type": "hackathon",
+      "location_city_state": "University Park, PA",
+      "source": "mlh",
+      "start_date": "2026-10-24",
+      "travel_credit_mentioned": null,
+      "url": "https://hackpsu.org"
     },
     "c90a0c801b7ede38": {
       "application_deadline": null,
@@ -2200,5 +2242,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-31T15:55:17+00:00"
+  "updated_at": "2026-08-31T21:21:55+00:00"
 }
