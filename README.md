@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**90 current events.** Updated 2026-09-01 16:12 UTC.
+**91 current events.** Updated 2026-09-01 22:28 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,8 +19,9 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| SPEED October AI Challenge | SPEED | Hackathon | Online | - | - | [Apply](https://prometheus-september-ai-2.devpost.com/) |
+| AI Content Engine Hackathon | NA | Hackathon | Online | - | - | [Apply](https://ai-content-engine-hacks.devpost.com/) |
 | Hyperbloom September - AI/ML | hyperbloom hacks | Hackathon | Online | - | - | [Apply](https://hyperbloom-september.devpost.com/) |
+| SPEED October AI Challenge | SPEED | Hackathon | Online | - | - | [Apply](https://prometheus-september-ai-2.devpost.com/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
 | GatewayGS Hackathon 2 | GatewayGS | Hackathon | Online | - | - | [Apply](https://gatewaygs-hackathon-2.devpost.com/) |
 | Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |

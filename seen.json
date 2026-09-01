@@ -1,5 +1,5 @@
 {
-  "count": 164,
+  "count": 165,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -224,6 +224,20 @@
       "start_date": "2026-10-09",
       "travel_credit_mentioned": null,
       "url": "https://2026.knighthacks.org/"
+    },
+    "1dcdc7dd9e60ef6a": {
+      "application_deadline": null,
+      "company": "NA",
+      "content_key": "66e3a3dd71a24c0e",
+      "date_posted": null,
+      "emailed_at": "2026-09-01T22:28:43+00:00",
+      "event_name": "AI Content Engine Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-01",
+      "travel_credit_mentioned": null,
+      "url": "https://ai-content-engine-hacks.devpost.com/"
     },
     "1eb479a965833ccc": {
       "application_deadline": null,
@@ -2298,5 +2312,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-01T16:12:23+00:00"
+  "updated_at": "2026-09-01T22:28:43+00:00"
 }
