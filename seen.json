@@ -1,5 +1,5 @@
 {
-  "count": 160,
+  "count": 162,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -2017,6 +2017,20 @@
       "travel_credit_mentioned": null,
       "url": "https://acesat-ai-agent.devpost.com/"
     },
+    "e5c88ae748589977": {
+      "application_deadline": null,
+      "company": "SpartaHack",
+      "content_key": "29ff5691a113b3e0",
+      "date_posted": null,
+      "emailed_at": "2026-09-01T09:17:03+00:00",
+      "event_name": "SpartaHack",
+      "event_type": "hackathon",
+      "location_city_state": "East Lansing, Michigan",
+      "source": "mlh",
+      "start_date": "2027-02-06",
+      "travel_credit_mentioned": null,
+      "url": "https://www.spartahack.com/"
+    },
     "e7d0a9fdd7336dec": {
       "application_deadline": null,
       "company": "Student Organization",
@@ -2185,6 +2199,20 @@
       "travel_credit_mentioned": null,
       "url": "https://neuralsprint.devpost.com/"
     },
+    "f5873696e7c7b1e8": {
+      "application_deadline": null,
+      "company": "GatewayGS",
+      "content_key": "9a3e9125f4a52786",
+      "date_posted": null,
+      "emailed_at": "2026-09-01T09:17:03+00:00",
+      "event_name": "GatewayGS Hackathon 2",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-01",
+      "travel_credit_mentioned": null,
+      "url": "https://gatewaygs-hackathon-2.devpost.com/"
+    },
     "f68011d1667b3011": {
       "application_deadline": null,
       "company": "Society of Women Engineers",
@@ -2242,5 +2270,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-08-31T21:21:55+00:00"
+  "updated_at": "2026-09-01T09:17:03+00:00"
 }
