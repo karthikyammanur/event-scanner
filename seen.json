@@ -1,5 +1,5 @@
 {
-  "count": 162,
+  "count": 164,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -393,6 +393,20 @@
       "travel_credit_mentioned": null,
       "url": "https://brainwaves.devpost.com/"
     },
+    "316e00337b42a37d": {
+      "application_deadline": null,
+      "company": "hyperbloom hacks",
+      "content_key": "56a2e923f594ce2d",
+      "date_posted": null,
+      "emailed_at": "2026-09-01T16:12:23+00:00",
+      "event_name": "Hyperbloom September - AI/ML",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-01",
+      "travel_credit_mentioned": null,
+      "url": "https://hyperbloom-september.devpost.com/"
+    },
     "3327b092087057b9": {
       "application_deadline": null,
       "company": "RevenueCat",
@@ -546,6 +560,20 @@
       "start_date": "2026-07-25",
       "travel_credit_mentioned": null,
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/"
+    },
+    "447dda0441a264ad": {
+      "application_deadline": null,
+      "company": "SPEED",
+      "content_key": "630b56068d47df4e",
+      "date_posted": null,
+      "emailed_at": "2026-09-01T16:12:23+00:00",
+      "event_name": "SPEED October AI Challenge",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-01",
+      "travel_credit_mentioned": null,
+      "url": "https://prometheus-september-ai-2.devpost.com/"
     },
     "44d89fe749240a77": {
       "application_deadline": null,
@@ -2270,5 +2298,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-01T09:17:03+00:00"
+  "updated_at": "2026-09-01T16:12:23+00:00"
 }
