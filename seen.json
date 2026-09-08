@@ -1,5 +1,5 @@
 {
-  "count": 165,
+  "count": 166,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1709,6 +1709,20 @@
       "travel_credit_mentioned": null,
       "url": "https://cockroachdb-ai.devpost.com/"
     },
+    "be56a2273f49e557": {
+      "application_deadline": null,
+      "company": "OneAquaHealth",
+      "content_key": "a2f08e3217c0c818",
+      "date_posted": null,
+      "emailed_at": "2026-09-08T03:26:30+00:00",
+      "event_name": "OneAquaHealth IEEE Global Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-14",
+      "travel_credit_mentioned": null,
+      "url": "https://oneaquahealth-ieee-hackathon.devpost.com/"
+    },
     "bec9a9396fa95c4f": {
       "application_deadline": null,
       "company": "Palantir",
@@ -2312,5 +2326,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-01T22:28:43+00:00"
+  "updated_at": "2026-09-08T03:26:30+00:00"
 }
