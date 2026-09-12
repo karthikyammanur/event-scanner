@@ -1,5 +1,5 @@
 {
-  "count": 166,
+  "count": 169,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -14,6 +14,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://careers.adobe.com/us/en/adobe-hackathon"
+    },
+    "04ef8b94b0bfc6cf": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "99e9a954ba687133",
+      "date_posted": null,
+      "emailed_at": "2026-09-12T03:31:39+00:00",
+      "event_name": "HackGB",
+      "event_type": "hackathon",
+      "location_city_state": "Green Bay, WI",
+      "source": "mlh",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://hackgb.com/"
     },
     "051a6bcadfa026cb": {
       "application_deadline": null,
@@ -1457,6 +1471,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hackumbc.tech/"
     },
+    "aaa13a156a8db171": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "d80f63d0d0009395",
+      "date_posted": null,
+      "emailed_at": "2026-09-12T03:31:39+00:00",
+      "event_name": "Hacklanta",
+      "event_type": "hackathon",
+      "location_city_state": "Atlanta, Georgia",
+      "source": "mlh",
+      "start_date": "2026-10-09",
+      "travel_credit_mentioned": null,
+      "url": "https://hacklanta.dev"
+    },
     "aaa449fcd45c6599": {
       "application_deadline": null,
       "company": "OurPlanet.Rocks",
@@ -1750,6 +1778,20 @@
       "start_date": "2026-09-26",
       "travel_credit_mentioned": null,
       "url": "https://www.owlhacks.com/"
+    },
+    "c6131853babd9adb": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "6b06369abd37016a",
+      "date_posted": null,
+      "emailed_at": "2026-09-12T03:31:39+00:00",
+      "event_name": "HackRU",
+      "event_type": "hackathon",
+      "location_city_state": "Piscataway, New Jersey",
+      "source": "mlh",
+      "start_date": "2026-10-10",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackru.org/"
     },
     "c7b758686a725fa2": {
       "application_deadline": null,
@@ -2326,5 +2368,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-08T03:26:30+00:00"
+  "updated_at": "2026-09-12T03:31:39+00:00"
 }
