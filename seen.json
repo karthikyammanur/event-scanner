@@ -1,5 +1,5 @@
 {
-  "count": 169,
+  "count": 170,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -1863,6 +1863,20 @@
       "travel_credit_mentioned": null,
       "url": "https://news.ucsc.edu/2026/06/agentic-ai-first-uc-santa-cruz-hackathon-with-nvidia-asus"
     },
+    "cef374f94ff26211": {
+      "application_deadline": null,
+      "company": "University of Arkansas System Division of Agriculture",
+      "content_key": "de033ea47c5b432a",
+      "date_posted": null,
+      "emailed_at": "2026-09-14T03:46:20+00:00",
+      "event_name": "2026 AI in Agriculture Symposium",
+      "event_type": "conference",
+      "location_city_state": "Fayetteville, Arkansas",
+      "source": "tavily",
+      "start_date": "2026-09-21",
+      "travel_credit_mentioned": null,
+      "url": "https://www.farmtalknews.com/news/ai-in-agriculture-symposium-hackathons-bring-together-ag-tech-leaders-sept-21/article_3ec6e869-261f-4c7c-961e-cd6d837c95c1.html"
+    },
     "cfe8d76de2d344a1": {
       "application_deadline": null,
       "company": "CodePath",
@@ -2368,5 +2382,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-12T03:31:39+00:00"
+  "updated_at": "2026-09-14T03:46:20+00:00"
 }

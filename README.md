@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**90 current events.** Updated 2026-09-13 22:10 UTC.
+**91 current events.** Updated 2026-09-14 03:46 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026 AI in Agriculture Symposium ⚑ | University of Arkansas System Division of Agriculture | Conference | Fayetteville, Arkansas | - | - | [Apply](https://www.farmtalknews.com/news/ai-in-agriculture-symposium-hackathons-bring-together-ag-tech-leaders-sept-21/article_3ec6e869-261f-4c7c-961e-cd6d837c95c1.html) |
 | HackGB ⚑ | Major League Hacking | Hackathon | Green Bay, WI | - | - | [Apply](https://hackgb.com/) |
 | Hacklanta ⚑ | Major League Hacking | Hackathon | Atlanta, Georgia | - | - | [Apply](https://hacklanta.dev) |
 | HackRU ⚑ | Major League Hacking | Hackathon | Piscataway, New Jersey | - | - | [Apply](https://www.hackru.org/) |
@@ -28,10 +29,10 @@ passed move to the archive at the bottom.
 | Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | WolfHacks by ACM at NC State ⚑ | Major League Hacking | Hackathon | Raleigh, NC | - | - | [Apply](https://wolfhacks.org/) |
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
-| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 16d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
+| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 17d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | &HACKS XII ⚑ | Major League Hacking | Hackathon | Williamsburg, Virginia | - | - | [Apply](https://andhacks.cs.wm.edu/) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
-| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 22d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
+| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 23d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
 | SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
@@ -139,7 +140,7 @@ passed move to the archive at the bottom.
 | Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 2mo | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 2mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
-| Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 2mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
+| Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 3mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
 | Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 3mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 4mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
 | National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 4mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
