@@ -1,5 +1,5 @@
 {
-  "count": 170,
+  "count": 173,
   "seen": {
     "0271d1b64442a072": {
       "application_deadline": null,
@@ -925,6 +925,20 @@
       "travel_credit_mentioned": null,
       "url": "http://hack.gt/"
     },
+    "6583d839b5fde5e2": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "582aca63c4233216",
+      "date_posted": null,
+      "emailed_at": "2026-09-14T17:52:42+00:00",
+      "event_name": "DubHacks",
+      "event_type": "hackathon",
+      "location_city_state": "Seattle, Washington",
+      "source": "mlh",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://dh26.dubhacks.co/"
+    },
     "68ae24ca583da694": {
       "application_deadline": null,
       "company": "Rice University",
@@ -952,6 +966,20 @@
       "start_date": "2026-07-17",
       "travel_credit_mentioned": null,
       "url": "https://evorozen-apex.devpost.com/"
+    },
+    "6aaac3181ef3ad00": {
+      "application_deadline": null,
+      "company": "Lincoln Financial Group",
+      "content_key": "906f6b32e65e2958",
+      "date_posted": null,
+      "emailed_at": "2026-09-14T17:52:42+00:00",
+      "event_name": "codeLinc 11",
+      "event_type": "hackathon",
+      "location_city_state": "Greensboro, NC",
+      "source": "devpost",
+      "start_date": "2026-10-03",
+      "travel_credit_mentioned": null,
+      "url": "https://codelinc11.devpost.com/"
     },
     "6d5b4114b199b3ad": {
       "application_deadline": null,
@@ -1779,6 +1807,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.owlhacks.com/"
     },
+    "c57e5db6f863833b": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "3a61f2c4b58cb50e",
+      "date_posted": null,
+      "emailed_at": "2026-09-14T17:52:42+00:00",
+      "event_name": "Technica Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Hyattsville, Maryland",
+      "source": "mlh",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://gotechnica.org/"
+    },
     "c6131853babd9adb": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -2382,5 +2424,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-14T03:46:20+00:00"
+  "updated_at": "2026-09-14T17:52:42+00:00"
 }
