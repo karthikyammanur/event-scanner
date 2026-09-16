@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**93 current events.** Updated 2026-09-15 22:45 UTC.
+**93 current events.** Updated 2026-09-16 03:43 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -31,10 +31,10 @@ passed move to the archive at the bottom.
 | Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | WolfHacks by ACM at NC State ⚑ | Major League Hacking | Hackathon | Raleigh, NC | - | - | [Apply](https://wolfhacks.org/) |
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
-| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 18d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
+| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 19d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | &HACKS XII ⚑ | Major League Hacking | Hackathon | Williamsburg, Virginia | - | - | [Apply](https://andhacks.cs.wm.edu/) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
-| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 24d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
+| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 25d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
 | SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
@@ -138,7 +138,7 @@ passed move to the archive at the bottom.
 | NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 8mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
 | DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
 | Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
-| Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 26mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
+| Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 27mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
 | Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 2mo | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
