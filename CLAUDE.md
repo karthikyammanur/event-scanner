@@ -1,8 +1,8 @@
 # Event Scanner
 
-Discovers US student-facing tech events (hackathons, summits, insight programs,
-fellowships, externships) and emails Karthik a digest of new ones. Runs on a
-GitHub Actions cron, not on his machine.
+Discovers US student-facing tech events (hackathons, summits, conferences,
+career fairs, insight programs, fellowships, externships) and emails Karthik a
+digest of new ones. Runs on a GitHub Actions cron, not on his machine.
 
 ## Stack
 
@@ -14,6 +14,7 @@ Delivery is Gmail SMTP with an app password.
 
 ```bash
 python scanner.py --dry-run --source=greenhouse   # print, no email, no state
+python scanner.py --dry-run --source=badgeup      # summits and conferences only
 python scanner.py --dry-run                       # all sources, no email
 python scanner.py                                 # full run, sends digest
 python -m pytest tests/ -q                        # run before committing
@@ -34,6 +35,7 @@ wall clock seconds per source, `-v` for debug logging.
 | `digest.py` | Email rendering and SMTP delivery |
 | `board.py` | Renders the README events table from `seen.json` |
 | `sources/` | One module per discovery source |
+| `sources/badgeup.py` | Curated summit and conference list, the summit source |
 
 Run order: discover, prefilter, drop already-seen, extract, email, record state.
 The state check runs **before** extraction, so a repeat run spends no tokens.
@@ -66,13 +68,47 @@ The state check runs **before** extraction, so a repeat run spends no tokens.
 - **speedyapply** ships no `listings.json`, only TS build scripts. It yields no
   company names. SimplifyJobs alone supplies the universe (~600 names, ~240
   with detectable ATS boards).
+- **BadgeUp** (`sources/badgeup.py`) is the summit and conference source. Same
+  trap as speedyapply: `web/lib/conferences.ts` looks like the clean data file
+  but is a build artifact, so the README Markdown tables are the contract. Its
+  rows are accurate, spot-checked against IBM's own page for the Quantum
+  Developer Conference (dates, city, and deadline all matched). Two parsing
+  hazards: the "Register" cell is an `<a>` wrapping a shields.io `<img>`, so
+  the href is the only usable part, and a yearless deadline ("convention
+  begins Aug 9") must be anchored to the event's own year. Rolling it forward
+  to the next occurrence turned finished 2026 events into upcoming 2027 ones,
+  which is exactly what `freshness()` exists to prevent.
 - **Multi-location strings** like `"London, UK; ...; San Francisco, CA"` are
   common. One US option qualifies, so US signals are checked before non-US.
 - **Job postings with event words** are the hard case. `looks_like_job_posting`
   checks the *head* of the title (before the first comma or dash), which is what
-  keeps "University Recruiter, Hackathon and Campus Events" out.
+  keeps "University Recruiter, Hackathon and Campus Events" out. Adding career
+  fair keywords made this sharper in both directions. "Senior Recruiting Event
+  Coordinator" is a job whose only role noun is "Coordinator", so the
+  event-adjacent role nouns (coordinator, planner, strategist, ambassador) are
+  in `JOB_TITLE_MARKERS`. Going the other way, `hackathon` used to be the only
+  event noun strong enough to outrank a discipline word, which rejected "IBM
+  Quantum Developer Conference" as a developer job. `conference`, `summit`, and
+  `career_fair` now win too, since they name an event outright.
+- **Conference names carry no tech words.** "KubeCon", "AWS re:Invent", and
+  "Grace Hopper Celebration" all read as non-tech to a keyword matcher, so
+  `is_tech_related` would drop the most valuable events in the digest.
+  `KNOWN_TECH_EVENT_MARKERS` names them, and `badgeup` is tech-by-construction
+  because the source filters to tech sections itself. That filtering has to
+  happen in the source: BadgeUp is a multi-discipline list, and "SHPE National
+  Convention" (tech) and "LMSA National Conference" (medical) are
+  indistinguishable by name, so the row's own focus cell is what separates them.
 - **Handshake is off limits** in any form. Their ToS forbids automated
   collection. Eventbrite's search API is dead and Meetup's requires a paid plan.
+  This is the binding constraint on **career fairs**: nearly every university
+  career fair (Penn, MIT, UMD, Berkeley) runs on Handshake, so there is no
+  university-fair source to build. What is reachable is the national conference
+  career fairs (GHC, NSBE/SHPE) and company-owned recruiting pages, which
+  already arrive through the ATS boards and Tavily. So `career_fair` is a
+  classification, not a scraper: the keywords in `filters.EVENT_KEYWORDS`
+  surface fairs the existing sources were already returning and discarding.
+  The first one found this way ("Berkeley Fall 2026 Career Fair") came off an
+  Ashby board.
 - **Gemini retires model IDs for new API keys** while leaving them listed and
   documented. `gemini-2.5-flash` returned 404 "no longer available to new
   users" on a key created after its retirement, and listing models did not

@@ -98,6 +98,7 @@ SCHEMA = {
                         "enum": [
                             "hackathon",
                             "summit",
+                            "career_fair",
                             "insight_program",
                             "fellowship",
                             "externship",
@@ -223,13 +224,17 @@ def _fallback(cands: List[Candidate]) -> List[Event]:
     out = []
     for c in cands:
         kw = matched_event_keyword(c.title)
+        # A source that already knows the kind of event it found (a curated
+        # conference list does) beats guessing from title keywords, which reads
+        # "AWS re:Invent" and "KubeCon" as no keyword at all.
         ev = Event(
             company=c.company,
             event_name=c.title,
-            event_type=kw[1] if kw else "other",
+            event_type=c.extra.get("event_type") or (kw[1] if kw else "other"),
             url=c.url,
             source=c.source,
             start_date=c.extra.get("start_date"),
+            application_deadline=c.extra.get("application_deadline"),
             date_posted=c.extra.get("date_posted"),
             location_city_state=c.location or None,
         )
@@ -300,7 +305,10 @@ def _one_batch(client, cands: List[Candidate], model: str) -> List[Event]:
             url=cand.url,
             source=cand.source,
             start_date=_str_or_none(r.get("start_date")) or cand.extra.get("start_date"),
-            application_deadline=_str_or_none(r.get("application_deadline")),
+            application_deadline=(
+                _str_or_none(r.get("application_deadline"))
+                or cand.extra.get("application_deadline")
+            ),
             date_posted=_str_or_none(r.get("date_posted")) or cand.extra.get("date_posted"),
             location_city_state=_str_or_none(r.get("location_city_state")) or cand.location,
             travel_credit_mentioned=_tri_state(r.get("travel_credit_mentioned")),

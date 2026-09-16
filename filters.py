@@ -15,6 +15,20 @@ EVENT_KEYWORDS = {
     "hack-a-thon": "hackathon",
     "datathon": "hackathon",
     "summit": "summit",
+    "career fair": "career_fair",
+    "careers fair": "career_fair",
+    "job fair": "career_fair",
+    "recruiting event": "career_fair",
+    "recruitment event": "career_fair",
+    "hiring event": "career_fair",
+    "career expo": "career_fair",
+    "career day": "career_fair",
+    "meet the employers": "career_fair",
+    "leadership summit": "summit",
+    "tech summit": "summit",
+    "student summit": "summit",
+    "convention": "conference",
+    "celebration": "conference",
     "insight": "insight_program",
     "insight program": "insight_program",
     "discovery day": "insight_program",
@@ -25,7 +39,6 @@ EVENT_KEYWORDS = {
     "symposium": "conference",
     "bootcamp": "other",
     "workshop": "other",
-    "career day": "insight_program",
     "open house": "insight_program",
     "scholars program": "fellowship",
     "fellows program": "fellowship",
@@ -54,6 +67,12 @@ JOB_TITLE_MARKERS = (
     r"\bcounsel\b",
     r"\btechnician\b",
     r"\badministrator\b",
+    # Event-adjacent role nouns. A career fair is an event, but the person hired
+    # to run one is a job, and both carry the same event keywords in the title.
+    r"\bcoordinator\b",
+    r"\bplanner\b",
+    r"\bstrategist\b",
+    r"\bambassador\b",
 )
 
 SENIORITY_MARKERS = (
@@ -208,8 +227,12 @@ def looks_like_job_posting(title: str) -> bool:
         kw = matched_event_keyword(t)
         if kw is None:
             return True
-        # Hackathon is a strong enough event noun to win over a discipline word.
-        if kw[1] not in {"hackathon"}:
+        # These nouns name an event outright, so they outrank a discipline word
+        # sitting elsewhere in the title: "IBM Quantum Developer Conference" is
+        # a conference, not a developer job. The role-word checks above still
+        # catch "Event Coordinator" and "Senior Engineer, Summit Platform",
+        # because there the role noun is in the head of the title.
+        if kw[1] not in {"hackathon", "conference", "summit", "career_fair"}:
             return True
     return False
 
@@ -286,12 +309,32 @@ def _has_us_signal(loc: str) -> bool:
     return _any(US_CITY_MARKERS, loc)
 
 
+# The big student recruiting conferences are tech events whose names contain no
+# tech word at all. A keyword matcher reading "Grace Hopper Celebration" or
+# "KubeCon" sees nothing technical, so they are named directly.
+KNOWN_TECH_EVENT_MARKERS = (
+    r"\bgrace hopper\b", r"\bghc\b", r"\bafrotech\b", r"\bcolorstack\b",
+    r"\bnsbe\b", r"\bshpe\b", r"\bsacnas\b", r"\bostem\b", r"\bsase\b",
+    r"\bsociety of women engineers\b", r"\bswe\b", r"\btapia\b", r"\babrcms\b",
+    r"\baises\b", r"\bkubecon\b", r"\bre:invent\b", r"\bpycon\b",
+    r"\bdefcon\b", r"\bdef con\b", r"\bblack hat\b", r"\bneurips\b",
+    r"\bgithub universe\b", r"\bdeveloperweek\b", r"\bwids\b",
+    r"\bwomen in data science\b", r"\blesbians who tech\b",
+)
+
+
 def is_tech_related(text: str) -> bool:
-    return _any(TECH_MARKERS, text or "")
+    return _any(TECH_MARKERS, text or "") or _any(KNOWN_TECH_EVENT_MARKERS, text or "")
 
 
 # Tech by construction, so no explicit tech noun is required in the title.
-TECH_BY_CONSTRUCTION_SOURCES = {"greenhouse", "lever", "ashby", "devpost", "mlh"}
+# badgeup earns its place here by filtering to tech sections at the source, and
+# by requiring a tech signal in the focus cell for its mixed-discipline
+# sections. Without that the name alone decides, and "KubeCon", "AWS re:Invent",
+# and "Grace Hopper Celebration" carry no tech keyword at all.
+TECH_BY_CONSTRUCTION_SOURCES = {
+    "greenhouse", "lever", "ashby", "devpost", "mlh", "badgeup",
+}
 
 
 def is_pre_college(text: str) -> bool:

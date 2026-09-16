@@ -79,7 +79,6 @@
     "location": "McLean, VA",
     "source": "brave"
   },
-
   {
     "label": "not_event",
     "note": "Plain SWE internship. The single most important negative.",
@@ -149,6 +148,100 @@
     "title": "Part-Time Account Manager",
     "url": "https://instacart.careers/job/998877",
     "location": "Chicago, IL",
+    "source": "greenhouse"
+  },
+  {
+    "label": "event",
+    "note": "Curated conference list entry. No tech word in the name at all, which is why badgeup is tech-by-construction.",
+    "company": "KubeCon + CloudNativeCon NA",
+    "title": "KubeCon + CloudNativeCon NA",
+    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/",
+    "location": "Salt Lake City, UT",
+    "source": "badgeup",
+    "source_is_event_feed": true
+  },
+  {
+    "label": "event",
+    "note": "A discipline word in the title must not make a conference read as a developer job.",
+    "company": "IBM",
+    "title": "IBM Quantum Developer Conference",
+    "url": "https://www.ibm.com/quantum/blog/qdc-application-2026",
+    "location": "Chicago, IL",
+    "source": "badgeup",
+    "source_is_event_feed": true
+  },
+  {
+    "label": "event",
+    "note": "The national recruiting conferences are the point of the summit feature.",
+    "company": "SHPE",
+    "title": "SHPE National Convention",
+    "url": "https://www.shpe.org/",
+    "location": "Indianapolis, IN",
+    "source": "badgeup",
+    "source_is_event_feed": true
+  },
+  {
+    "label": "event",
+    "note": "Company career fair, the other half of the feature.",
+    "company": "Google",
+    "title": "Google Cloud Next Career Fair 2027",
+    "url": "https://cloud.withgoogle.com/next/career-fair",
+    "location": "Las Vegas, NV",
+    "source": "discovery"
+  },
+  {
+    "label": "event",
+    "note": "Virtual career fair attached to a conference.",
+    "company": "AnitaB.org",
+    "title": "Grace Hopper Celebration Virtual Career Fair",
+    "url": "https://ghc.anitab.org/virtual-career-fair",
+    "location": "Virtual",
+    "source": "discovery"
+  },
+  {
+    "label": "event",
+    "note": "Plain student summit phrasing.",
+    "company": "ColorStack",
+    "title": "ColorStack Stacked Up Summit 2027",
+    "url": "https://www.colorstack.org/summit",
+    "location": "Virtual",
+    "source": "badgeup",
+    "source_is_event_feed": true
+  },
+  {
+    "label": "not_event",
+    "note": "The person hired to run a career fair is a job. 'Coordinator' is the only role noun here.",
+    "company": "Stripe",
+    "title": "Senior Recruiting Event Coordinator",
+    "url": "https://stripe.com/jobs/12345",
+    "location": "San Francisco, CA",
+    "source": "greenhouse"
+  },
+  {
+    "label": "not_event",
+    "note": "Career fair in the title, but the head of the title is an engineering role.",
+    "company": "Handshake",
+    "title": "Software Engineer, Career Fair Platform",
+    "url": "https://joinhandshake.com/jobs/999",
+    "location": "San Francisco, CA",
+    "source": "lever"
+  },
+  {
+    "label": "not_event",
+    "note": "Event marketing role, not an event.",
+    "company": "Datadog",
+    "title": "Event Marketing Manager, Summits and Conferences",
+    "url": "https://datadoghq.com/careers/888",
+    "location": "New York, NY",
+    "source": "greenhouse"
+  },
+  {
+    "label": "not_event",
+    "note": "Campus recruiting role that names career fairs.",
+    "company": "Nvidia",
+    "title": "Campus Recruiting Specialist - Career Fairs",
+    "url": "https://nvidia.com/careers/777",
+    "location": "Santa Clara, CA",
     "source": "greenhouse"
   }
 ]

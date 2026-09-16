@@ -15,6 +15,7 @@ STALE_AFTER_DAYS = 60
 EVENT_TYPES = (
     "hackathon",
     "summit",
+    "career_fair",
     "insight_program",
     "fellowship",
     "externship",

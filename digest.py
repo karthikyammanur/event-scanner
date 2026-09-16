@@ -41,6 +41,7 @@ def assert_no_em_dash(text: str) -> None:
 TYPE_LABELS = {
     "hackathon": "Hackathon",
     "summit": "Summit",
+    "career_fair": "Career fair",
     "insight_program": "Insight program",
     "fellowship": "Fellowship",
     "externship": "Externship",
@@ -57,6 +58,7 @@ def _sort_key(ev: Event):
         "fellowship": 1,
         "hackathon": 2,
         "summit": 2,
+        "career_fair": 2,
         "conference": 3,
         "other": 4,
     }.get(ev.event_type, 4)
@@ -142,6 +144,7 @@ _TYPE_COLOR = {
     "fellowship": "#7048a8",
     "hackathon": "#0b5fa5",
     "summit": "#0b5fa5",
+    "career_fair": "#0f6b6b",
     "conference": "#8a5300",
     "other": "#555555",
 }
@@ -152,6 +155,7 @@ _SECTIONS = (
     ("fellowship", "Fellowships"),
     ("hackathon", "Hackathons and competitions"),
     ("summit", "Summits and conferences"),
+    ("career_fair", "Career fairs"),
     ("conference", "Summits and conferences"),
     ("other", "Other programs"),
 )

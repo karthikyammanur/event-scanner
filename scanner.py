@@ -21,7 +21,7 @@ import state
 from extract import extract
 from filters import prefilter
 from models import Candidate, Event
-from sources import ats, devpost, discovery, mlh
+from sources import ats, badgeup, devpost, discovery, mlh
 from sources.base import Context, run_source
 
 log = logging.getLogger("scanner")
@@ -34,9 +34,12 @@ SOURCES = {
     "discovery": discovery.discover,
     "devpost": devpost.discover,
     "mlh": mlh.discover,
+    "badgeup": badgeup.discover,
 }
 
-DEFAULT_SOURCES = ["greenhouse", "lever", "ashby", "discovery", "devpost", "mlh"]
+DEFAULT_SOURCES = [
+    "greenhouse", "lever", "ashby", "discovery", "devpost", "mlh", "badgeup",
+]
 
 
 def configure_logging(verbose: bool) -> None:
