@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**93 current events.** Updated 2026-09-18 08:54 UTC.
+**116 current events.** Updated 2026-09-18 15:59 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,29 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| NCSEA Structural Engineering Summit 2026 ⚑ | Ncsea | Summit | San Francisco, CA | - | - | [Apply](https://www.ncsea.com/summit) |
+| AI Engineering Summit Atlanta 2026 ⚑ | Eventbrite | Summit | Atlanta, GA | - | - | [Apply](https://www.eventbrite.com/e/ai-engineering-summit-atlanta-2026-tickets-1995175822594) |
+| TigerHacks ⚑ | Major League Hacking | Hackathon | Columbia, MO | - | - | [Apply](https://tigerhacks.dev) |
+| Palmetto Hacks ⚑ | Major League Hacking | Hackathon | Columbia, SC | - | - | [Apply](https://palmettohacks.ktpusc.com) |
+| GitHub Universe ⚑ | GitHub Universe | Conference | San Francisco, CA | - | 2026-08-20 | [Apply](https://githubuniverse.com/) |
+| Grace Hopper Celebration (GHC) ⚑ | Grace Hopper Celebration (GHC) | Conference | Anaheim, CA | - | - | [Apply](https://ghc.anitab.org/) |
+| KubeCon + CloudNativeCon NA ⚑ | KubeCon + CloudNativeCon NA | Conference | Salt Lake City, UT | - | - | [Apply](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/) |
+| AWS re:Invent ⚑ | AWS re:Invent | Conference | Las Vegas, NV | - | - | [Apply](https://reinvent.awsevents.com/) |
+| IBM Quantum Developer Conference ⚑ | IBM | Conference | Chicago, IL | - | 2026-09-21 | [Apply](https://www.ibm.com/quantum/blog/qdc-application-2026) |
+| SC Conference (Supercomputing) ⚑ | SC Conference | Conference | Chicago, IL | - | 2026-10-14 | [Apply](https://sc26.supercomputing.org/) |
+| DeveloperWeek ⚑ | DeveloperWeek | Conference | Santa Clara, CA | - | 2026-10-08 | [Apply](https://www.developerweek.com/) |
+| PyCon US ⚑ | PyCon US | Conference | Long Beach, CA | - | - | [Apply](https://us.pycon.org/) |
+| AISES National Conference | AISES | Conference | Portland, OR | - | 2026-08-15 | [Apply](https://conference.aises.org/attendees/travel-scholarships) |
+| SHPE National Convention ⚑ | SHPE | Conference | Indianapolis, IN | - | 2026-09-09 | [Apply](https://www.shpe.org/) |
+| WE26 ⚑ | Society of Women Engineers | Conference | Boston, MA | - | 2026-08-31 | [Apply](https://we26.swe.org/) |
+| NSBE Annual Convention ⚑ | NSBE | Conference | Boston, MA | - | - | [Apply](https://convention.nsbe.org/) |
+| SASE National Convention ⚑ | SASE | Conference | Seattle, WA | - | - | [Apply](https://www.saseconnect.org/) |
+| The National Diversity in STEM Conference | SACNAS | Conference | Long Beach, CA | - | - | [Apply](https://www.sacnas.org/conference) |
+| Clinton Global Initiative University (CGI U) ⚑ | Clinton Global Initiative University | Summit | Location TBA | - | - | [Apply](https://www.cgiu.org/) |
+| EA Global: New York City ⚑ | EA Global | Conference | New York, NY | - | 2026-09-27 | [Apply](https://www.effectivealtruism.org/ea-global) |
+| Women in Data Science (WiDS) Worldwide ⚑ | Women in Data Science (WiDS) Worldwide | Conference | Stanford, CA | - | - | [Apply](https://www.widsworldwide.org/) |
+| AfroTech Conference | AfroTech Conference | Conference | Houston, TX | - | - | [Apply](https://afrotechconference.com/) |
+| oSTEM (Out in STEM) Annual Conference ⚑ | oSTEM (Out in STEM) | Conference | Albuquerque, NM | - | - | [Apply](https://conference.ostem.org/) |
 | DubHacks ⚑ | Major League Hacking | Hackathon | Seattle, Washington | - | - | [Apply](https://dh26.dubhacks.co/) |
 | codeLinc 11 ⚑ | Lincoln Financial Group | Hackathon | Greensboro, NC | - | - | [Apply](https://codelinc11.devpost.com/) |
 | Technica Hacks ⚑ | Major League Hacking | Hackathon | Hyattsville, Maryland | - | - | [Apply](https://gotechnica.org/) |

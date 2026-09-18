@@ -1,6 +1,20 @@
 {
-  "count": 173,
+  "count": 196,
   "seen": {
+    "001909b14faa83a0": {
+      "application_deadline": "2026-10-14",
+      "company": "SC Conference",
+      "content_key": "89f8ea13c5661f76",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "SC Conference (Supercomputing)",
+      "event_type": "conference",
+      "location_city_state": "Chicago, IL",
+      "source": "badgeup",
+      "start_date": "2026-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://sc26.supercomputing.org/"
+    },
     "0271d1b64442a072": {
       "application_deadline": null,
       "company": "Adobe",
@@ -197,6 +211,20 @@
       "travel_credit_mentioned": null,
       "url": "https://ml-empowerment-2.devpost.com/"
     },
+    "1692151c0970cb40": {
+      "application_deadline": "2026-09-27",
+      "company": "EA Global",
+      "content_key": "58772df271621a3e",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "EA Global: New York City",
+      "event_type": "conference",
+      "location_city_state": "New York, NY",
+      "source": "badgeup",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://www.effectivealtruism.org/ea-global"
+    },
     "18d0a32bb23bbb19": {
       "application_deadline": null,
       "company": "Google",
@@ -350,6 +378,20 @@
       "start_date": "2026-07-09",
       "travel_credit_mentioned": null,
       "url": "https://csc-summer-impactathon.devpost.com/"
+    },
+    "27e8cb6e87f8feb8": {
+      "application_deadline": null,
+      "company": "oSTEM (Out in STEM)",
+      "content_key": "173ee63b62491dc2",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "oSTEM (Out in STEM) Annual Conference",
+      "event_type": "conference",
+      "location_city_state": "Albuquerque, NM",
+      "source": "badgeup",
+      "start_date": "2026-10-22",
+      "travel_credit_mentioned": null,
+      "url": "https://conference.ostem.org/"
     },
     "27ff4a29f18280ff": {
       "application_deadline": null,
@@ -673,6 +715,20 @@
       "travel_credit_mentioned": null,
       "url": "https://innovateherhacks.org/"
     },
+    "4a64b4acb0b5c53b": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "4a738388458733fe",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "TigerHacks",
+      "event_type": "hackathon",
+      "location_city_state": "Columbia, MO",
+      "source": "mlh",
+      "start_date": "2026-09-25",
+      "travel_credit_mentioned": null,
+      "url": "https://tigerhacks.dev"
+    },
     "4b178ee50fabf456": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -743,6 +799,20 @@
       "travel_credit_mentioned": null,
       "url": "https://luma-hackathon-fall.devpost.com/"
     },
+    "50987abcbe221b2d": {
+      "application_deadline": null,
+      "company": "SACNAS",
+      "content_key": "0345cac1845f1839",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "The National Diversity in STEM Conference",
+      "event_type": "conference",
+      "location_city_state": "Long Beach, CA",
+      "source": "badgeup",
+      "start_date": "2026-10-29",
+      "travel_credit_mentioned": true,
+      "url": "https://www.sacnas.org/conference"
+    },
     "50a4bf3c0e8f95d3": {
       "application_deadline": null,
       "company": "Engineers Without Borders USA",
@@ -799,6 +869,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hackutd.co"
     },
+    "55106682ae6c2a03": {
+      "application_deadline": null,
+      "company": "NSBE",
+      "content_key": "400c4176ca029ab9",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "NSBE Annual Convention",
+      "event_type": "conference",
+      "location_city_state": "Boston, MA",
+      "source": "badgeup",
+      "start_date": "2027-03-31",
+      "travel_credit_mentioned": null,
+      "url": "https://convention.nsbe.org/"
+    },
     "58405fbe9cdfef27": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -827,6 +911,20 @@
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008"
     },
+    "5f940e462440865f": {
+      "application_deadline": null,
+      "company": "Clinton Global Initiative University",
+      "content_key": "53f354df6df3f8db",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "Clinton Global Initiative University (CGI U)",
+      "event_type": "summit",
+      "location_city_state": "Location TBA",
+      "source": "badgeup",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://www.cgiu.org/"
+    },
     "5fcd31a0c3c19767": {
       "application_deadline": null,
       "company": "NASA",
@@ -854,6 +952,20 @@
       "start_date": "2026-08-08",
       "travel_credit_mentioned": null,
       "url": "https://iris-hacks-iv.devpost.com/"
+    },
+    "60b2ef943e8ae69a": {
+      "application_deadline": null,
+      "company": "Eventbrite",
+      "content_key": "573764cca9d073b7",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "AI Engineering Summit Atlanta 2026",
+      "event_type": "summit",
+      "location_city_state": "Atlanta, GA",
+      "source": "tavily",
+      "start_date": "2026-10-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.eventbrite.com/e/ai-engineering-summit-atlanta-2026-tickets-1995175822594"
     },
     "6203f5d3545a5632": {
       "application_deadline": null,
@@ -939,6 +1051,20 @@
       "travel_credit_mentioned": null,
       "url": "https://dh26.dubhacks.co/"
     },
+    "65bef8e09f7ed18d": {
+      "application_deadline": "2026-10-08",
+      "company": "DeveloperWeek",
+      "content_key": "321e1d388ee2cc10",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "DeveloperWeek",
+      "event_type": "conference",
+      "location_city_state": "Santa Clara, CA",
+      "source": "badgeup",
+      "start_date": "2027-02-09",
+      "travel_credit_mentioned": null,
+      "url": "https://www.developerweek.com/"
+    },
     "68ae24ca583da694": {
       "application_deadline": null,
       "company": "Rice University",
@@ -1009,6 +1135,34 @@
       "travel_credit_mentioned": null,
       "url": "https://wichacks.io/"
     },
+    "6e6105b3d0f90e4a": {
+      "application_deadline": null,
+      "company": "Women in Data Science (WiDS) Worldwide",
+      "content_key": "b35aa990d44bd311",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "Women in Data Science (WiDS) Worldwide",
+      "event_type": "conference",
+      "location_city_state": "Stanford, CA",
+      "source": "badgeup",
+      "start_date": "2027-03-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.widsworldwide.org/"
+    },
+    "6eff8daef9570b3c": {
+      "application_deadline": null,
+      "company": "SASE",
+      "content_key": "7cb8138fcbe8f94f",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "SASE National Convention",
+      "event_type": "conference",
+      "location_city_state": "Seattle, WA",
+      "source": "badgeup",
+      "start_date": "2026-10-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.saseconnect.org/"
+    },
     "70abe28b805b99f3": {
       "application_deadline": null,
       "company": "STEMise",
@@ -1065,6 +1219,20 @@
       "travel_credit_mentioned": null,
       "url": "https://gtpn-hackathon-2026.devpost.com/"
     },
+    "7c3aaa900647b9e4": {
+      "application_deadline": null,
+      "company": "AWS re:Invent",
+      "content_key": "cc365e506848c272",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "AWS re:Invent",
+      "event_type": "conference",
+      "location_city_state": "Las Vegas, NV",
+      "source": "badgeup",
+      "start_date": "2026-11-30",
+      "travel_credit_mentioned": null,
+      "url": "https://reinvent.awsevents.com/"
+    },
     "7f0cd8e2d34b8469": {
       "application_deadline": null,
       "company": "SPIE / Edge AI Vision Alliance",
@@ -1106,6 +1274,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009"
+    },
+    "85481de600195eff": {
+      "application_deadline": "2026-09-21",
+      "company": "IBM",
+      "content_key": "feeea4aea91728e5",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "IBM Quantum Developer Conference",
+      "event_type": "conference",
+      "location_city_state": "Chicago, IL",
+      "source": "badgeup",
+      "start_date": "2026-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.ibm.com/quantum/blog/qdc-application-2026"
     },
     "8560fd7ed32e7b7b": {
       "application_deadline": null,
@@ -1247,6 +1429,20 @@
       "travel_credit_mentioned": null,
       "url": "https://uhcode.red/"
     },
+    "92509a363ecc4ea4": {
+      "application_deadline": null,
+      "company": "AfroTech Conference",
+      "content_key": "086b5c91bf40a1c3",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "AfroTech Conference",
+      "event_type": "conference",
+      "location_city_state": "Houston, TX",
+      "source": "badgeup",
+      "start_date": "2026-11-02",
+      "travel_credit_mentioned": null,
+      "url": "https://afrotechconference.com/"
+    },
     "92ff3bdb54acd731": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1345,6 +1541,20 @@
       "travel_credit_mentioned": null,
       "url": "https://volthacks.devpost.com/"
     },
+    "99bed151e201aa8b": {
+      "application_deadline": "2026-08-20",
+      "company": "GitHub Universe",
+      "content_key": "cabbaba48b8a1d9a",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "GitHub Universe",
+      "event_type": "conference",
+      "location_city_state": "San Francisco, CA",
+      "source": "badgeup",
+      "start_date": "2026-10-28",
+      "travel_credit_mentioned": null,
+      "url": "https://githubuniverse.com/"
+    },
     "99d79ee5b5ff419e": {
       "application_deadline": null,
       "company": "CALL-E",
@@ -1372,6 +1582,20 @@
       "start_date": "2027-03-06",
       "travel_credit_mentioned": null,
       "url": "https://khe.io/"
+    },
+    "9ce42bcf8458410d": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "87beced69953846c",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "Palmetto Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Columbia, SC",
+      "source": "mlh",
+      "start_date": "2026-10-10",
+      "travel_credit_mentioned": null,
+      "url": "https://palmettohacks.ktpusc.com"
     },
     "9d23506fe178dfa5": {
       "application_deadline": null,
@@ -1456,6 +1680,20 @@
       "start_date": "2026-10-03",
       "travel_credit_mentioned": null,
       "url": "https://www.hackdearborn.org/"
+    },
+    "9fed2b7adc1fb847": {
+      "application_deadline": null,
+      "company": "Ncsea",
+      "content_key": "b1d93397c196b353",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "NCSEA Structural Engineering Summit 2026",
+      "event_type": "summit",
+      "location_city_state": "San Francisco, CA",
+      "source": "tavily",
+      "start_date": "2026-10-27",
+      "travel_credit_mentioned": null,
+      "url": "https://www.ncsea.com/summit"
     },
     "a8a4a5c5cf99dd8b": {
       "application_deadline": null,
@@ -2087,6 +2325,20 @@
       "travel_credit_mentioned": null,
       "url": "https://reverie-hacks-2026.devpost.com/"
     },
+    "d9b8c57938c74da1": {
+      "application_deadline": "2026-09-09",
+      "company": "SHPE",
+      "content_key": "48490a1f9278034b",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "SHPE National Convention",
+      "event_type": "conference",
+      "location_city_state": "Indianapolis, IN",
+      "source": "badgeup",
+      "start_date": "2026-10-28",
+      "travel_credit_mentioned": null,
+      "url": "https://www.shpe.org/"
+    },
     "dd7d3624ffdb1e78": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -2199,6 +2451,20 @@
       "travel_credit_mentioned": null,
       "url": "https://syntax-summit.devpost.com/"
     },
+    "e8067bc8d84214ef": {
+      "application_deadline": "2026-08-15",
+      "company": "AISES",
+      "content_key": "0dca29e2690eb854",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "AISES National Conference",
+      "event_type": "conference",
+      "location_city_state": "Portland, OR",
+      "source": "badgeup",
+      "start_date": "2026-10-15",
+      "travel_credit_mentioned": true,
+      "url": "https://conference.aises.org/attendees/travel-scholarships"
+    },
     "e86d4f366fcf6255": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -2269,6 +2535,20 @@
       "travel_credit_mentioned": null,
       "url": "https://innovart2027.devpost.com/"
     },
+    "ee0b081ba3c4398b": {
+      "application_deadline": null,
+      "company": "Grace Hopper Celebration (GHC)",
+      "content_key": "690a270aefe4a4bb",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "Grace Hopper Celebration (GHC)",
+      "event_type": "conference",
+      "location_city_state": "Anaheim, CA",
+      "source": "badgeup",
+      "start_date": "2026-10-27",
+      "travel_credit_mentioned": null,
+      "url": "https://ghc.anitab.org/"
+    },
     "eeed68b63f869084": {
       "application_deadline": null,
       "company": "Next Generation Hacks",
@@ -2282,6 +2562,20 @@
       "start_date": "2026-08-07",
       "travel_credit_mentioned": null,
       "url": "https://ngn-hacks-2026.devpost.com/"
+    },
+    "ef461a566d1f36c2": {
+      "application_deadline": null,
+      "company": "KubeCon + CloudNativeCon NA",
+      "content_key": "b7fb1d63c0f76039",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "KubeCon + CloudNativeCon NA",
+      "event_type": "conference",
+      "location_city_state": "Salt Lake City, UT",
+      "source": "badgeup",
+      "start_date": "2026-11-09",
+      "travel_credit_mentioned": null,
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/"
     },
     "f05dac0bc3829ed0": {
       "application_deadline": null,
@@ -2367,6 +2661,20 @@
       "travel_credit_mentioned": null,
       "url": "https://gatewaygs-hackathon-2.devpost.com/"
     },
+    "f64a2b1aba0e4958": {
+      "application_deadline": "2026-08-31",
+      "company": "Society of Women Engineers",
+      "content_key": "202d5590fa06566e",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "WE26",
+      "event_type": "conference",
+      "location_city_state": "Boston, MA",
+      "source": "badgeup",
+      "start_date": "2026-10-01",
+      "travel_credit_mentioned": null,
+      "url": "https://we26.swe.org/"
+    },
     "f68011d1667b3011": {
       "application_deadline": null,
       "company": "Society of Women Engineers",
@@ -2394,6 +2702,20 @@
       "start_date": "2026-08-07",
       "travel_credit_mentioned": null,
       "url": "https://btt-web-game-jam.devpost.com/"
+    },
+    "f8255fd4ce23e73c": {
+      "application_deadline": null,
+      "company": "PyCon US",
+      "content_key": "5e2aa62c3eac55c3",
+      "date_posted": null,
+      "emailed_at": "2026-09-18T15:59:43+00:00",
+      "event_name": "PyCon US",
+      "event_type": "conference",
+      "location_city_state": "Long Beach, CA",
+      "source": "badgeup",
+      "start_date": "2027-05-01",
+      "travel_credit_mentioned": null,
+      "url": "https://us.pycon.org/"
     },
     "ff3355182c8b4de3": {
       "application_deadline": null,
@@ -2424,5 +2746,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-14T17:52:42+00:00"
+  "updated_at": "2026-09-18T15:59:43+00:00"
 }
