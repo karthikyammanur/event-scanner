@@ -1,5 +1,5 @@
 {
-  "count": 196,
+  "count": 197,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -420,6 +420,20 @@
       "start_date": "2027-01-01",
       "travel_credit_mentioned": null,
       "url": "https://www.graysharbortalk.com/2026/05/29/saint-martins-university-hackathon-challenged-young-saints-to-provide-real-world-solutions"
+    },
+    "2acde7234e142977": {
+      "application_deadline": null,
+      "company": "University of Iowa",
+      "content_key": "48f497e7f57c5bd9",
+      "date_posted": null,
+      "emailed_at": "2026-09-19T15:33:14+00:00",
+      "event_name": "Research Open House 2027",
+      "event_type": "conference",
+      "location_city_state": "Iowa City, IA",
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://engineering.uiowa.edu/research/research-open-house"
     },
     "2b3e02d2b69905f3": {
       "application_deadline": null,
@@ -2746,5 +2760,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-18T15:59:43+00:00"
+  "updated_at": "2026-09-19T15:33:14+00:00"
 }
