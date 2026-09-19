@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**116 current events.** Updated 2026-09-18 22:22 UTC.
+**113 current events.** Updated 2026-09-19 03:32 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -54,10 +54,10 @@ passed move to the archive at the bottom.
 | Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | WolfHacks by ACM at NC State ⚑ | Major League Hacking | Hackathon | Raleigh, NC | - | - | [Apply](https://wolfhacks.org/) |
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
-| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 21d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
+| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 22d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | &HACKS XII ⚑ | Major League Hacking | Hackathon | Williamsburg, Virginia | - | - | [Apply](https://andhacks.cs.wm.edu/) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
-| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 27d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
+| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 28d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
 | SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
@@ -100,8 +100,6 @@ passed move to the archive at the bottom.
 | HackRPI 2026 ⚑ | Major League Hacking | Program | Troy, New York | - | - | [Apply](https://hackrpi.com/) |
 | InnovateHer ⚑ | Major League Hacking | Program | West Lafayette, Indiana | - | - | [Apply](https://innovateherhacks.org/) |
 | SteelHacks XIII ⚑ | Major League Hacking | Program | Pittsburgh, PA | - | - | [Apply](https://steelhacks.org/) |
-| HopHacks ⚑ | Major League Hacking | Program | Baltimore, Maryland | - | - | [Apply](https://www.hophacks.com/) |
-| HackHers @GSU ⚑ | Major League Hacking | Program | Atlanta,, GA | - | - | [Apply](https://hackhers.club/) |
 | HackUTD | Major League Hacking | Program | Richardson, Texas | - | - | [Apply](https://hackutd.co) |
 | SwampHacks XII ⚑ | Major League Hacking | Program | Gainesville, Florida | - | - | [Apply](https://swamphacks.com/) |
 | HackHERS ⚑ | Major League Hacking | Program | New Brunswick, New Jersey | - | - | [Apply](https://ruhackhers.org/) |
@@ -122,7 +120,6 @@ passed move to the archive at the bottom.
 | HackUMass ⚑ | Major League Hacking | Program | Amherst, MA | - | - | [Apply](https://www.hackumass.com/) |
 | hackUMBC ⚑ | Major League Hacking | Program | Baltimore, MD | - | - | [Apply](https://hackumbc.tech/) |
 | DivHacks ⚑ | Major League Hacking | Program | New York, NY | - | - | [Apply](https://www.columbiadivhacks.org/) |
-| VTHacks 14 ⚑ | Major League Hacking | Program | Blacksburg, Virginia | - | - | [Apply](https://vthacks.com/) |
 | Rowdy Hacks | Major League Hacking | Program | San Antonio, Texas | - | - | [Apply](https://rowdyhacks.org) |
 | HackNC ⚑ | Major League Hacking | Program | Chapel Hill, North Carolina | - | - | [Apply](https://hacknc.com/) |
 | WEHack | Major League Hacking | Program | Richardson, TX | - | - | [Apply](https://www.wehackutd.com/) |
@@ -137,7 +134,7 @@ passed move to the archive at the bottom.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (80)</summary>
+<summary>Past events (83)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -195,7 +192,9 @@ passed move to the archive at the bottom.
 | Galuxium Nexus V2 | Galuxium | Program | Online | - | - | [Apply](https://galuxium-nexus-v2-29411.devpost.com/) |
 | GatewayGS & The AEI Initiative:  AI 4 Earth Hackathon | GatewayGS | Hackathon | Online | - | - | [Apply](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
 | Hack The Limit | HackTheLimit | Program | Online | - | - | [Apply](https://hack-the-limit-1.devpost.com/) |
+| HopHacks ⚑ | Major League Hacking | Program | Baltimore, Maryland | - | - | [Apply](https://www.hophacks.com/) |
 | LUMA Hackathon (September 20th - 28th) | LUMA | Hackathon | Online | - | - | [Apply](https://luma-hackathon-fall.devpost.com/) |
+| HackHers @GSU ⚑ | Major League Hacking | Program | Atlanta,, GA | - | - | [Apply](https://hackhers.club/) |
 | AnimalHack 2026 | Binnovative | Program | Online | - | - | [Apply](https://animalhack2026.devpost.com/) |
 | The Rice University Urban Sustainability Hackathon | Rice University | Hackathon | Online | - | - | [Apply](https://rice-urban-sustainability.devpost.com/) |
 | Evorozen Apex: NextGen AI Buildathon | Evorozen | Program | Online | - | - | [Apply](https://evorozen-apex.devpost.com/) |
@@ -210,6 +209,7 @@ passed move to the archive at the bottom.
 | Build Beyond Hackathon | BuildBeyond | Hackathon | Online | - | - | [Apply](https://build-beyond-hackathon.devpost.com/) |
 | OurPlanet.Rocks | OurPlanet.Rocks | Program | Online | - | - | [Apply](https://ourplanetrocks.devpost.com/) |
 | IncludAI - The Neurodiversity Hackathon, in Partnership with Stanford NNEA | IncludEDU, partner w Stanford NNEA | Hackathon | Online | - | - | [Apply](https://includai-2026.devpost.com/) |
+| VTHacks 14 ⚑ | Major League Hacking | Program | Blacksburg, Virginia | - | - | [Apply](https://vthacks.com/) |
 | ImpactForge | ImpactForge | Program | Online | - | - | [Apply](https://impactforge.devpost.com/) |
 | CockroachDB × AWS Hackathon - Build with Agentic Memory | Cockroach Labs | Hackathon | Online | - | - | [Apply](https://cockroachdb-ai.devpost.com/) |
 | Reverie Hacks 2026 | ReverieHacks | Program | Online | - | - | [Apply](https://reverie-hacks-2026.devpost.com/) |
