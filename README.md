@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**114 current events.** Updated 2026-09-19 22:11 UTC.
+**113 current events.** Updated 2026-09-20 03:48 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -55,10 +55,10 @@ passed move to the archive at the bottom.
 | Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | WolfHacks by ACM at NC State ⚑ | Major League Hacking | Hackathon | Raleigh, NC | - | - | [Apply](https://wolfhacks.org/) |
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
-| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 22d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
+| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 23d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | &HACKS XII ⚑ | Major League Hacking | Hackathon | Williamsburg, Virginia | - | - | [Apply](https://andhacks.cs.wm.edu/) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
-| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 28d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
+| Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 29d | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
 | SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
@@ -100,7 +100,6 @@ passed move to the archive at the bottom.
 | BigRed//Hacks 2026 ⚑ | Major League Hacking | Program | Ithaca, New York | - | - | [Apply](https://www.bigredhacks.com/) |
 | HackRPI 2026 ⚑ | Major League Hacking | Program | Troy, New York | - | - | [Apply](https://hackrpi.com/) |
 | InnovateHer ⚑ | Major League Hacking | Program | West Lafayette, Indiana | - | - | [Apply](https://innovateherhacks.org/) |
-| SteelHacks XIII ⚑ | Major League Hacking | Program | Pittsburgh, PA | - | - | [Apply](https://steelhacks.org/) |
 | HackUTD | Major League Hacking | Program | Richardson, Texas | - | - | [Apply](https://hackutd.co) |
 | SwampHacks XII ⚑ | Major League Hacking | Program | Gainesville, Florida | - | - | [Apply](https://swamphacks.com/) |
 | HackHERS ⚑ | Major League Hacking | Program | New Brunswick, New Jersey | - | - | [Apply](https://ruhackhers.org/) |
@@ -135,7 +134,7 @@ passed move to the archive at the bottom.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (83)</summary>
+<summary>Past events (84)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -168,7 +167,7 @@ passed move to the archive at the bottom.
 | Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 3mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 4mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
 | National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 4mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
-| Anthropic Fellows Program, The Anthropic Institute (Economics & Policy) ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 4mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183053008) |
+| Anthropic Fellows Program, The Anthropic Institute (Economics & Policy) ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183053008) |
 | Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
 | Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
 | Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
@@ -192,6 +191,7 @@ passed move to the archive at the bottom.
 | NEXORA Global Hackathon | SVHEC | Hackathon | Online | - | - | [Apply](https://nexora-global-hackathon.devpost.com/) |
 | Galuxium Nexus V2 | Galuxium | Program | Online | - | - | [Apply](https://galuxium-nexus-v2-29411.devpost.com/) |
 | GatewayGS & The AEI Initiative:  AI 4 Earth Hackathon | GatewayGS | Hackathon | Online | - | - | [Apply](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
+| SteelHacks XIII ⚑ | Major League Hacking | Program | Pittsburgh, PA | - | - | [Apply](https://steelhacks.org/) |
 | Hack The Limit | HackTheLimit | Program | Online | - | - | [Apply](https://hack-the-limit-1.devpost.com/) |
 | HopHacks ⚑ | Major League Hacking | Program | Baltimore, Maryland | - | - | [Apply](https://www.hophacks.com/) |
 | LUMA Hackathon (September 20th - 28th) | LUMA | Hackathon | Online | - | - | [Apply](https://luma-hackathon-fall.devpost.com/) |
