@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**113 current events.** Updated 2026-09-20 18:31 UTC.
+**116 current events.** Updated 2026-09-20 22:15 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,9 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| AI Agent Hackathon ⚑ | Coffee and Code Philadelphia | Hackathon | Philadelphia, PA | - | - | [Apply](https://coffee-and-code-agent.devpost.com/) |
+| Creator Colosseum: The Startup Showdown | Creator Colosseum | Hackathon | Online | - | - | [Apply](https://creatorcolosseumshowdown.devpost.com/) |
+| Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
 | SC Conference (Supercomputing) ⚑ | SC Conference | Conference | Chicago, IL | - | 2026-10-14 | [Apply](https://sc26.supercomputing.org/) |
 | EA Global: New York City ⚑ | EA Global | Conference | New York, NY | - | 2026-09-27 | [Apply](https://www.effectivealtruism.org/ea-global) |

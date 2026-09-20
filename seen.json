@@ -1,5 +1,5 @@
 {
-  "count": 197,
+  "count": 200,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -532,6 +532,20 @@
       "start_date": "2026-05-19",
       "travel_credit_mentioned": null,
       "url": "https://xprize.devpost.com/"
+    },
+    "3ae6751abe203393": {
+      "application_deadline": null,
+      "company": "aiLights Association",
+      "content_key": "a7e097df62a5258c",
+      "date_posted": null,
+      "emailed_at": "2026-09-20T22:15:19+00:00",
+      "event_name": "Hack Apertus",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://hackapertus.devpost.com/"
     },
     "3b4669a0e33c3475": {
       "application_deadline": null,
@@ -1415,6 +1429,20 @@
       "travel_credit_mentioned": null,
       "url": "https://events.mlh.com/events/14510-midnight-hackathon-august"
     },
+    "9058ebce37bc530e": {
+      "application_deadline": null,
+      "company": "Creator Colosseum",
+      "content_key": "9dc9d21ad2014e82",
+      "date_posted": null,
+      "emailed_at": "2026-09-20T22:15:19+00:00",
+      "event_name": "Creator Colosseum: The Startup Showdown",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-20",
+      "travel_credit_mentioned": null,
+      "url": "https://creatorcolosseumshowdown.devpost.com/"
+    },
     "9135e40e9485ef47": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -1470,6 +1498,20 @@
       "start_date": "2026-09-25",
       "travel_credit_mentioned": null,
       "url": "https://shellhacks.net/"
+    },
+    "95d566f97424007e": {
+      "application_deadline": null,
+      "company": "Coffee and Code Philadelphia",
+      "content_key": "d94642cdc33ccf67",
+      "date_posted": null,
+      "emailed_at": "2026-09-20T22:15:19+00:00",
+      "event_name": "AI Agent Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Philadelphia, PA",
+      "source": "devpost",
+      "start_date": "2026-09-20",
+      "travel_credit_mentioned": null,
+      "url": "https://coffee-and-code-agent.devpost.com/"
     },
     "96f6f4744a0bc48b": {
       "application_deadline": null,
@@ -2760,5 +2802,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-19T15:33:14+00:00"
+  "updated_at": "2026-09-20T22:15:19+00:00"
 }
