@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**112 current events.** Updated 2026-09-22 09:07 UTC.
+**113 current events.** Updated 2026-09-22 16:41 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
 | SC Conference (Supercomputing) ⚑ | SC Conference | Conference | Chicago, IL | - | 2026-10-14 | [Apply](https://sc26.supercomputing.org/) |

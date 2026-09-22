@@ -1,5 +1,5 @@
 {
-  "count": 200,
+  "count": 201,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -588,6 +588,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx"
+    },
+    "3d0a3f849ef5630f": {
+      "application_deadline": null,
+      "company": "LaunchHacks",
+      "content_key": "9a91b3897ad55e1d",
+      "date_posted": null,
+      "emailed_at": "2026-09-22T16:41:37+00:00",
+      "event_name": "LaunchHacks V",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-12-11",
+      "travel_credit_mentioned": null,
+      "url": "https://launchhacks-v.devpost.com/"
     },
     "3da606ff37abb7d4": {
       "application_deadline": null,
@@ -2802,5 +2816,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-20T22:15:19+00:00"
+  "updated_at": "2026-09-22T16:41:37+00:00"
 }
