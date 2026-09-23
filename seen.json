@@ -1,5 +1,5 @@
 {
-  "count": 205,
+  "count": 206,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1793,6 +1793,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.ncsea.com/summit"
     },
+    "a2879a730a0b26e6": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "9e7f0a6cefa1bfbe",
+      "date_posted": null,
+      "emailed_at": "2026-09-23T22:45:59+00:00",
+      "event_name": "MakeUC",
+      "event_type": "hackathon",
+      "location_city_state": "Cincinnati, Ohio",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://makeuc.io/"
+    },
     "a8a4a5c5cf99dd8b": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -2872,5 +2886,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-23T16:22:53+00:00"
+  "updated_at": "2026-09-23T22:45:59+00:00"
 }
