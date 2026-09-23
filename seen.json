@@ -1,5 +1,5 @@
 {
-  "count": 202,
+  "count": 205,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1373,6 +1373,20 @@
       "travel_credit_mentioned": null,
       "url": "https://quantumhacks.devpost.com/"
     },
+    "8790243b702ec8ca": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "1383d5d2662b0de6",
+      "date_posted": null,
+      "emailed_at": "2026-09-23T16:22:53+00:00",
+      "event_name": "YCP Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "York, PA",
+      "source": "mlh",
+      "start_date": "2026-11-06",
+      "travel_credit_mentioned": null,
+      "url": "https://ycphacks.io/"
+    },
     "87ac7b32f4fc15f5": {
       "application_deadline": null,
       "company": "IEEE",
@@ -2213,6 +2227,20 @@
       "travel_credit_mentioned": null,
       "url": "https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els"
     },
+    "cd52a55f2cf4b3f1": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "ad4cdeeb8e71f8e8",
+      "date_posted": null,
+      "emailed_at": "2026-09-23T16:22:53+00:00",
+      "event_name": "Cal Hacks 13.0",
+      "event_type": "hackathon",
+      "location_city_state": "San Francisco, California",
+      "source": "mlh",
+      "start_date": "2026-10-23",
+      "travel_credit_mentioned": null,
+      "url": "https://calhacks.io/"
+    },
     "cea91fa919938359": {
       "application_deadline": null,
       "company": "UC Santa Cruz",
@@ -2282,6 +2310,20 @@
       "start_date": "2027-02-06",
       "travel_credit_mentioned": null,
       "url": "https://hackncstate.org/"
+    },
+    "d2f789d80710ddbc": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "63fe8833b3b164f6",
+      "date_posted": null,
+      "emailed_at": "2026-09-23T16:22:53+00:00",
+      "event_name": "Emory Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Atlanta, GA",
+      "source": "mlh",
+      "start_date": "2026-11-13",
+      "travel_credit_mentioned": null,
+      "url": "https://emoryhacks.com/"
     },
     "d31a9e558dca19d0": {
       "application_deadline": null,
@@ -2830,5 +2872,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-23T09:09:27+00:00"
+  "updated_at": "2026-09-23T16:22:53+00:00"
 }
