@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**113 current events.** Updated 2026-09-22 22:47 UTC.
+**113 current events.** Updated 2026-09-23 03:40 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -55,7 +55,7 @@ passed move to the archive at the bottom.
 | Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | WolfHacks by ACM at NC State ⚑ | Major League Hacking | Hackathon | Raleigh, NC | - | - | [Apply](https://wolfhacks.org/) |
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
-| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 25d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
+| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 26d | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | &HACKS XII ⚑ | Major League Hacking | Hackathon | Williamsburg, Virginia | - | - | [Apply](https://andhacks.cs.wm.edu/) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
 | Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 1mo | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
@@ -166,7 +166,7 @@ passed move to the archive at the bottom.
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
 | Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 2mo | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
-| Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 2mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
+| Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 3mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 3mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
 | Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 3mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 4mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
@@ -175,7 +175,7 @@ passed move to the archive at the bottom.
 | Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
 | Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
 | Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
-| Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 5mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
+| Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 6mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
 | Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 9mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
 | Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 9mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
 | Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 9mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
