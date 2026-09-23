@@ -1,5 +1,5 @@
 {
-  "count": 201,
+  "count": 202,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1260,6 +1260,20 @@
       "start_date": "2026-08-07",
       "travel_credit_mentioned": null,
       "url": "https://gtpn-hackathon-2026.devpost.com/"
+    },
+    "7ae20a08dc2b7774": {
+      "application_deadline": null,
+      "company": "Perplexity AI",
+      "content_key": "e28e1eb091450169",
+      "date_posted": "2026-09-20",
+      "emailed_at": "2026-09-23T09:09:27+00:00",
+      "event_name": "Perplexity Research Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "San Francisco, CA",
+      "source": "ashby",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8"
     },
     "7c3aaa900647b9e4": {
       "application_deadline": null,
@@ -2816,5 +2830,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-22T16:41:37+00:00"
+  "updated_at": "2026-09-23T09:09:27+00:00"
 }
