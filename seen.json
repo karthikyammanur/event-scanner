@@ -1,5 +1,5 @@
 {
-  "count": 209,
+  "count": 210,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2507,6 +2507,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.shpe.org/"
     },
+    "da64acd0e234f054": {
+      "application_deadline": null,
+      "company": "HackWashU",
+      "content_key": "76a09e052ffb2c95",
+      "date_posted": null,
+      "emailed_at": "2026-09-25T23:09:56+00:00",
+      "event_name": "HackWashU Fall AI Build Challenge",
+      "event_type": "hackathon",
+      "location_city_state": "St. Louis, MO",
+      "source": "devpost",
+      "start_date": "2026-09-25",
+      "travel_credit_mentioned": null,
+      "url": "https://hackwashu-fall-ai-2026.devpost.com/"
+    },
     "dd7d3624ffdb1e78": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -2928,5 +2942,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-25T16:45:21+00:00"
+  "updated_at": "2026-09-25T23:09:56+00:00"
 }
