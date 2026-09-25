@@ -1,5 +1,5 @@
 {
-  "count": 207,
+  "count": 209,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -938,6 +938,20 @@
       "start_date": "2027-03-31",
       "travel_credit_mentioned": null,
       "url": "https://convention.nsbe.org/"
+    },
+    "57ccf46bb7bdaf9f": {
+      "application_deadline": null,
+      "company": "Clemson Quantum",
+      "content_key": "7b9cac8d76a9e53a",
+      "date_posted": null,
+      "emailed_at": "2026-09-25T16:45:21+00:00",
+      "event_name": "SC Quantathon v3",
+      "event_type": "hackathon",
+      "location_city_state": "Clemson, SC",
+      "source": "devpost",
+      "start_date": "2026-09-25",
+      "travel_credit_mentioned": null,
+      "url": "https://sc-quantathon-v3.devpost.com/"
     },
     "58405fbe9cdfef27": {
       "application_deadline": null,
@@ -2633,6 +2647,20 @@
       "travel_credit_mentioned": null,
       "url": "https://ai.lahacks.com"
     },
+    "e959adb98bf8fd2e": {
+      "application_deadline": null,
+      "company": "stevens insitute of technology",
+      "content_key": "d64eed2e74a257bc",
+      "date_posted": null,
+      "emailed_at": "2026-09-25T16:45:21+00:00",
+      "event_name": "Business + AI Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Hoboken, NJ",
+      "source": "devpost",
+      "start_date": "2026-09-25",
+      "travel_credit_mentioned": null,
+      "url": "https://business-ai-hackathon.devpost.com/"
+    },
     "eabca1cbb4a3b9f1": {
       "application_deadline": null,
       "company": "10a Labs",
@@ -2900,5 +2928,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-24T03:32:33+00:00"
+  "updated_at": "2026-09-25T16:45:21+00:00"
 }
