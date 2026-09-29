@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**113 current events.** Updated 2026-09-29 00:14 UTC.
+**114 current events.** Updated 2026-09-29 10:28 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| YouCam API Skin AI & eCommerce VTO Hackathon | Perfect Corp | Hackathon | Online | - | - | [Apply](https://youcam-api-skin-ai-ecommerce.devpost.com/) |
 | Lesbians Who Tech + Allies Summit ⚑ | Lesbians Who Tech + Allies | Summit | New York, NY | - | - | [Apply](https://lwtsquad.com/lwt-summit-2026/) |
 | 2027 Tech Policy Press Fellowship Program | Press | Fellowship | Online | - | - | [Apply](https://techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program) |
 | MakeUC ⚑ | Major League Hacking | Hackathon | Cincinnati, Ohio | - | - | [Apply](https://makeuc.io/) |
