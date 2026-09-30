@@ -1,5 +1,5 @@
 {
-  "count": 216,
+  "count": 217,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1905,6 +1905,20 @@
       "travel_credit_mentioned": null,
       "url": "https://tamudatathon.com/"
     },
+    "a71bbfca935d2091": {
+      "application_deadline": null,
+      "company": "Qloo",
+      "content_key": "46768542fd06a9fd",
+      "date_posted": null,
+      "emailed_at": "2026-09-30T14:43:18+00:00",
+      "event_name": "Qloo Agent Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-30",
+      "travel_credit_mentioned": null,
+      "url": "https://qloo.devpost.com/"
+    },
     "a8a4a5c5cf99dd8b": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3026,5 +3040,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-30T04:24:05+00:00"
+  "updated_at": "2026-09-30T14:43:18+00:00"
 }

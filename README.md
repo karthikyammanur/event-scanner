@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**116 current events.** Updated 2026-09-30 04:24 UTC.
+**117 current events.** Updated 2026-09-30 14:43 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Qloo Agent Hackathon | Qloo | Hackathon | Online | - | - | [Apply](https://qloo.devpost.com/) |
 | IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
 | Open Source Impact | Student Organization | Hackathon | Online | - | - | [Apply](https://open-source-impact.devpost.com/) |
 | TAMU Datathon | Major League Hacking | Hackathon | College Station, Texas | - | - | [Apply](https://tamudatathon.com/) |
