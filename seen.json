@@ -1,5 +1,5 @@
 {
-  "count": 217,
+  "count": 220,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -715,6 +715,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.hackathon.com/country/United%20States/2026"
     },
+    "4410f5ca8fca6f9f": {
+      "application_deadline": null,
+      "company": "Arbiter",
+      "content_key": "9d4eb1db2e235bf4",
+      "date_posted": null,
+      "emailed_at": "2026-09-30T20:38:35+00:00",
+      "event_name": "Arbiter Hacks V1",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-20",
+      "travel_credit_mentioned": null,
+      "url": "https://arbiter-hacks-v1.devpost.com/"
+    },
     "44716f1a72f18427": {
       "application_deadline": null,
       "company": "GatewayGS",
@@ -757,6 +771,20 @@
       "travel_credit_mentioned": null,
       "url": "https://eng.ua.edu/sec-engineering-leadership-summit"
     },
+    "47a4d592fab49242": {
+      "application_deadline": null,
+      "company": "JPMorgan Chase",
+      "content_key": "98a6e376fd37ab95",
+      "date_posted": "2026-09-23",
+      "emailed_at": "2026-09-30T20:38:35+00:00",
+      "event_name": "JPMorganChase Data for Good Hackathon 2027",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states"
+    },
     "480ac606062a53c6": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -770,6 +798,20 @@
       "start_date": "2026-10-02",
       "travel_credit_mentioned": null,
       "url": "https://www.bigredhacks.com/"
+    },
+    "483e77e5c7620eac": {
+      "application_deadline": null,
+      "company": "GitLab",
+      "content_key": "a3e45bd3600ac192",
+      "date_posted": null,
+      "emailed_at": "2026-09-30T20:38:35+00:00",
+      "event_name": "Life After Code",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-05",
+      "travel_credit_mentioned": null,
+      "url": "https://gitlab-transcend.devpost.com/"
     },
     "49185414c57fbea5": {
       "application_deadline": null,
@@ -3040,5 +3082,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-30T14:43:18+00:00"
+  "updated_at": "2026-09-30T20:38:35+00:00"
 }

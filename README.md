@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**117 current events.** Updated 2026-09-30 14:43 UTC.
+**120 current events.** Updated 2026-09-30 20:38 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,9 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 7d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
+| Life After Code | GitLab | Hackathon | Online | - | - | [Apply](https://gitlab-transcend.devpost.com/) |
+| Arbiter Hacks V1 | Arbiter | Hackathon | Online | - | - | [Apply](https://arbiter-hacks-v1.devpost.com/) |
 | Qloo Agent Hackathon | Qloo | Hackathon | Online | - | - | [Apply](https://qloo.devpost.com/) |
 | IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
 | Open Source Impact | Student Organization | Hackathon | Online | - | - | [Apply](https://open-source-impact.devpost.com/) |
