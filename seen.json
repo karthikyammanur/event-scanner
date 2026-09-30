@@ -1,5 +1,5 @@
 {
-  "count": 214,
+  "count": 216,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -280,6 +280,20 @@
       "start_date": "2026-10-09",
       "travel_credit_mentioned": null,
       "url": "https://2026.knighthacks.org/"
+    },
+    "1c6bb9c3fe43d6f8": {
+      "application_deadline": null,
+      "company": "Pace University",
+      "content_key": "8dd456f7d3274e42",
+      "date_posted": null,
+      "emailed_at": "2026-09-30T04:24:05+00:00",
+      "event_name": "IBM Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "New York, NY",
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon"
     },
     "1dcdc7dd9e60ef6a": {
       "application_deadline": null,
@@ -2773,6 +2787,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students"
     },
+    "ecdad719f175d86a": {
+      "application_deadline": null,
+      "company": "Student Organization",
+      "content_key": "9b3805e32788c715",
+      "date_posted": null,
+      "emailed_at": "2026-09-30T04:24:05+00:00",
+      "event_name": "Open Source Impact",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-09-30",
+      "travel_credit_mentioned": null,
+      "url": "https://open-source-impact.devpost.com/"
+    },
     "ed1ccfab8cd89421": {
       "application_deadline": null,
       "company": "Binnovative",
@@ -2998,5 +3026,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-29T17:48:20+00:00"
+  "updated_at": "2026-09-30T04:24:05+00:00"
 }

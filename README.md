@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**115 current events.** Updated 2026-09-29 23:30 UTC.
+**116 current events.** Updated 2026-09-30 04:24 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,15 +19,16 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
+| Open Source Impact | Student Organization | Hackathon | Online | - | - | [Apply](https://open-source-impact.devpost.com/) |
 | TAMU Datathon | Major League Hacking | Hackathon | College Station, Texas | - | - | [Apply](https://tamudatathon.com/) |
-| YouCam API Skin AI & eCommerce VTO Hackathon | Perfect Corp | Hackathon | Online | - | - | [Apply](https://youcam-api-skin-ai-ecommerce.devpost.com/) |
 | Lesbians Who Tech + Allies Summit ⚑ | Lesbians Who Tech + Allies | Summit | New York, NY | - | - | [Apply](https://lwtsquad.com/lwt-summit-2026/) |
 | 2027 Tech Policy Press Fellowship Program | Press | Fellowship | Online | - | - | [Apply](https://techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program) |
 | MakeUC ⚑ | Major League Hacking | Hackathon | Cincinnati, Ohio | - | - | [Apply](https://makeuc.io/) |
 | YCP Hacks ⚑ | Major League Hacking | Hackathon | York, PA | - | - | [Apply](https://ycphacks.io/) |
 | Cal Hacks 13.0 ⚑ | Major League Hacking | Hackathon | San Francisco, California | - | - | [Apply](https://calhacks.io/) |
 | Emory Hacks ⚑ | Major League Hacking | Hackathon | Atlanta, GA | - | - | [Apply](https://emoryhacks.com/) |
-| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 9d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
+| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 10d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
 | LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
@@ -136,10 +137,11 @@ passed move to the archive at the bottom.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (99)</summary>
+<summary>Past events (100)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| YouCam API Skin AI & eCommerce VTO Hackathon | Perfect Corp | Hackathon | Online | - | - | [Apply](https://youcam-api-skin-ai-ecommerce.devpost.com/) |
 | LovHack Season 3 | Lovhack | Hackathon | Online | - | - | [Apply](https://lovhack-season-3.devpost.com/) |
 | HackWashU Fall AI Build Challenge ⚑ | HackWashU | Hackathon | St. Louis, MO | - | - | [Apply](https://hackwashu-fall-ai-2026.devpost.com/) |
 | SC Quantathon v3 ⚑ | Clemson Quantum | Hackathon | Clemson, SC | - | - | [Apply](https://sc-quantathon-v3.devpost.com/) |
