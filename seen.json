@@ -1,5 +1,5 @@
 {
-  "count": 220,
+  "count": 222,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1443,6 +1443,20 @@
       "travel_credit_mentioned": null,
       "url": "https://code-for-humanity.devpost.com/"
     },
+    "82fbddb05496d46b": {
+      "application_deadline": null,
+      "company": "hyperbloom hacks",
+      "content_key": "5cb155d27c166478",
+      "date_posted": null,
+      "emailed_at": "2026-10-01T15:12:44+00:00",
+      "event_name": "Hyperbloom October- UI/UX and Web Design",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-01",
+      "travel_credit_mentioned": null,
+      "url": "https://hyperbloom-october.devpost.com/"
+    },
     "840529e8271f543e": {
       "application_deadline": null,
       "company": "Voloridge",
@@ -1596,6 +1610,20 @@
       "start_date": "2026-08-28",
       "travel_credit_mentioned": null,
       "url": "https://events.mlh.com/events/14510-midnight-hackathon-august"
+    },
+    "8e12ebe84c225edc": {
+      "application_deadline": null,
+      "company": "Fort Worth DAO",
+      "content_key": "2819d44a83de9eff",
+      "date_posted": null,
+      "emailed_at": "2026-10-01T15:12:44+00:00",
+      "event_name": "HackFW: MADE Challenge",
+      "event_type": "hackathon",
+      "location_city_state": "Fort Worth, TX",
+      "source": "devpost",
+      "start_date": "2026-10-01",
+      "travel_credit_mentioned": null,
+      "url": "https://hackfw.devpost.com/"
     },
     "9058ebce37bc530e": {
       "application_deadline": null,
@@ -3082,5 +3110,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-09-30T20:38:35+00:00"
+  "updated_at": "2026-10-01T15:12:44+00:00"
 }
