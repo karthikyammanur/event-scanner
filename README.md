@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**120 current events.** Updated 2026-10-01 15:12 UTC.
+**121 current events.** Updated 2026-10-01 20:51 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,8 +19,9 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| HackFW: MADE Challenge | Fort Worth DAO | Hackathon | Fort Worth, TX | - | - | [Apply](https://hackfw.devpost.com/) |
+| PayPal AI Hackathon | PayPal | Hackathon | Online | - | - | [Apply](https://paypalaihackathon.devpost.com/) |
 | Hyperbloom October- UI/UX and Web Design | hyperbloom hacks | Hackathon | Online | - | - | [Apply](https://hyperbloom-october.devpost.com/) |
+| HackFW: MADE Challenge | Fort Worth DAO | Hackathon | Fort Worth, TX | - | - | [Apply](https://hackfw.devpost.com/) |
 | JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 8d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
 | Arbiter Hacks V1 | Arbiter | Hackathon | Online | - | - | [Apply](https://arbiter-hacks-v1.devpost.com/) |
 | Life After Code | GitLab | Hackathon | Online | - | - | [Apply](https://gitlab-transcend.devpost.com/) |

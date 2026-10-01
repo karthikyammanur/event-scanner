@@ -1,5 +1,5 @@
 {
-  "count": 222,
+  "count": 223,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -896,6 +896,20 @@
       "start_date": "2026-06-18",
       "travel_credit_mentioned": null,
       "url": "https://hack-the-limit-1.devpost.com/"
+    },
+    "4c7ca6496ea3dccd": {
+      "application_deadline": null,
+      "company": "PayPal",
+      "content_key": "bbc647f43d3b9ba6",
+      "date_posted": null,
+      "emailed_at": "2026-10-01T20:51:39+00:00",
+      "event_name": "PayPal AI Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-01",
+      "travel_credit_mentioned": null,
+      "url": "https://paypalaihackathon.devpost.com/"
     },
     "4ccae95293a10404": {
       "application_deadline": null,
@@ -3110,5 +3124,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-01T15:12:44+00:00"
+  "updated_at": "2026-10-01T20:51:39+00:00"
 }
