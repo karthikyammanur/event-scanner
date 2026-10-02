@@ -1,5 +1,5 @@
 {
-  "count": 223,
+  "count": 224,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -448,6 +448,20 @@
       "start_date": "2026-08-01",
       "travel_credit_mentioned": null,
       "url": "https://hacksocial2026.devpost.com/"
+    },
+    "28db154bd7942510": {
+      "application_deadline": null,
+      "company": "Cal Hacks",
+      "content_key": "f2171ed6a36e2b65",
+      "date_posted": null,
+      "emailed_at": "2026-10-02T04:27:29+00:00",
+      "event_name": "Women's Hack Night",
+      "event_type": "hackathon",
+      "location_city_state": "Berkeley, CA",
+      "source": "devpost",
+      "start_date": "2026-10-02",
+      "travel_credit_mentioned": null,
+      "url": "https://women-s-hack-night.devpost.com/"
     },
     "2995f5f44a072635": {
       "application_deadline": null,
@@ -3124,5 +3138,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-01T20:51:39+00:00"
+  "updated_at": "2026-10-02T04:27:29+00:00"
 }
