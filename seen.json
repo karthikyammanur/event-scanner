@@ -1,5 +1,5 @@
 {
-  "count": 224,
+  "count": 225,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -140,6 +140,20 @@
       "start_date": "2026-08-15",
       "travel_credit_mentioned": null,
       "url": "https://pixel-forge-ai-hackathon-08.devpost.com/"
+    },
+    "0e94a3258407bc5b": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "4934154a66be504e",
+      "date_posted": null,
+      "emailed_at": "2026-10-03T22:44:39+00:00",
+      "event_name": "Hack Dearborn: Conjure Reality",
+      "event_type": "hackathon",
+      "location_city_state": "Dearborn, MI",
+      "source": "devpost",
+      "start_date": "2026-10-03",
+      "travel_credit_mentioned": null,
+      "url": "https://hack-dearborn-5.devpost.com/"
     },
     "0ebb82c1c703167d": {
       "application_deadline": null,
@@ -3138,5 +3152,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-02T04:27:29+00:00"
+  "updated_at": "2026-10-03T22:44:39+00:00"
 }
