@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**115 current events.** Updated 2026-10-02 20:24 UTC.
+**111 current events.** Updated 2026-10-03 04:10 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,8 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| Women's Hack Night ⚑ | Cal Hacks | Hackathon | Berkeley, CA | - | - | [Apply](https://women-s-hack-night.devpost.com/) |
-| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 9d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
+| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 10d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
 | Arbiter Hacks V1 | Arbiter | Hackathon | Online | - | - | [Apply](https://arbiter-hacks-v1.devpost.com/) |
 | Life After Code | GitLab | Hackathon | Online | - | - | [Apply](https://gitlab-transcend.devpost.com/) |
 | IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
@@ -31,7 +30,7 @@ passed move to the archive at the bottom.
 | YCP Hacks ⚑ | Major League Hacking | Hackathon | York, PA | - | - | [Apply](https://ycphacks.io/) |
 | Cal Hacks 13.0 ⚑ | Major League Hacking | Hackathon | San Francisco, California | - | - | [Apply](https://calhacks.io/) |
 | Emory Hacks ⚑ | Major League Hacking | Hackathon | Atlanta, GA | - | - | [Apply](https://emoryhacks.com/) |
-| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 12d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
+| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 13d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
 | LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
@@ -60,7 +59,6 @@ passed move to the archive at the bottom.
 | Hacklanta ⚑ | Major League Hacking | Hackathon | Atlanta, Georgia | - | - | [Apply](https://hacklanta.dev) |
 | HackRU ⚑ | Major League Hacking | Hackathon | Piscataway, New Jersey | - | - | [Apply](https://www.hackru.org/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
-| Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | WolfHacks by ACM at NC State ⚑ | Major League Hacking | Hackathon | Raleigh, NC | - | - | [Apply](https://wolfhacks.org/) |
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
 | Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 1mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
@@ -89,7 +87,6 @@ passed move to the archive at the bottom.
 | DeveloperWeek Hackathon ⚑ | DeveloperWeek | Hackathon | Santa Clara, CA | - | - | [Apply](https://www.developerweek.com/hackathon) |
 | USAII's Global AI Hackathon 2026 | USAII | Hackathon | Virtual | - | - | [Apply](https://aihackathon.usaii.org) |
 | Futureforce Tech Launchpad 2026 ⚑ | CodePath | Fellowship | - | - | - | [Apply](https://info.codepath.org/futureforce-tech-launchpad) |
-| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 2mo | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Adobe University Hackathon ⚑ | Adobe | Hackathon | - | - | - | [Apply](https://careers.adobe.com/us/en/adobe-hackathon) |
 | Seton Hall's 24-Hour Hackathon ⚑ | Seton Hall University | Hackathon | - | - | - | [Apply](https://www.shu.edu/events-and-conferences/24-hour-hackathon.html) |
 | Computer Science and AI Hackathon ⚑ | Cal Poly Computer Science and Artificial Intelligence Club | Hackathon | - | - | - | [Apply](https://ceng.calpoly.edu/news/registration-open-sign-up-for-the-upcoming-computer-science-and-ai-hackathon) |
@@ -104,7 +101,6 @@ passed move to the archive at the bottom.
 | Diamondhacks ⚑ | Major League Hacking | Program | La Jolla, California | - | - | [Apply](https://diamondhacks.acmucsd.com/) |
 | HackIllinois ⚑ | Major League Hacking | Program | Urbana, Illinois | - | - | [Apply](https://www.hackillinois.org/) |
 | GirlHacks ⚑ | Major League Hacking | Program | Newark, NJ | - | - | [Apply](https://www.njitgirlhacks.com/) |
-| BigRed//Hacks 2026 ⚑ | Major League Hacking | Program | Ithaca, New York | - | - | [Apply](https://www.bigredhacks.com/) |
 | HackRPI 2026 ⚑ | Major League Hacking | Program | Troy, New York | - | - | [Apply](https://hackrpi.com/) |
 | InnovateHer ⚑ | Major League Hacking | Program | West Lafayette, Indiana | - | - | [Apply](https://innovateherhacks.org/) |
 | HackUTD | Major League Hacking | Program | Richardson, Texas | - | - | [Apply](https://hackutd.co) |
@@ -136,10 +132,11 @@ passed move to the archive at the bottom.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (109)</summary>
+<summary>Past events (113)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Women's Hack Night ⚑ | Cal Hacks | Hackathon | Berkeley, CA | - | - | [Apply](https://women-s-hack-night.devpost.com/) |
 | PayPal AI Hackathon | PayPal | Hackathon | Online | - | - | [Apply](https://paypalaihackathon.devpost.com/) |
 | Hyperbloom October- UI/UX and Web Design | hyperbloom hacks | Hackathon | Online | - | - | [Apply](https://hyperbloom-october.devpost.com/) |
 | HackFW: MADE Challenge | Fort Worth DAO | Hackathon | Fort Worth, TX | - | - | [Apply](https://hackfw.devpost.com/) |
@@ -163,6 +160,7 @@ passed move to the archive at the bottom.
 | Hyperbloom September - AI/ML | hyperbloom hacks | Hackathon | Online | - | - | [Apply](https://hyperbloom-september.devpost.com/) |
 | SPEED October AI Challenge | SPEED | Hackathon | Online | - | - | [Apply](https://prometheus-september-ai-2.devpost.com/) |
 | GatewayGS Hackathon 2 | GatewayGS | Hackathon | Online | - | - | [Apply](https://gatewaygs-hackathon-2.devpost.com/) |
+| Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | SPEED Virgo Challenge | Prometheus | Hackathon | Online | - | - | [Apply](https://virgo.devpost.com/) |
 | Agentic Day Online Hackathon Powered by Mel | agentic day | Hackathon | Online | - | - | [Apply](https://powered-by-mel.devpost.com/) |
 | SPEED September AI Challenge | SPEED | Hackathon | Online | - | - | [Apply](https://prometheus-sept-ai-classic.devpost.com/) |
@@ -177,12 +175,13 @@ passed move to the archive at the bottom.
 | Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 4mo | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
 | UnivaBio | BioCataalysis | Hackathon | Online | - | - | [Apply](https://univabio.devpost.com/) |
 | SEC Engineering Leadership Summit ⚑ | The University of Alabama | Summit | Tuscaloosa, AL | - | - | [Apply](https://eng.ua.edu/sec-engineering-leadership-summit) |
-| NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 8mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
+| NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 9mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
 | DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
 | Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
 | Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 27mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
 | Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 2mo | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 2mo | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 3mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 3mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
@@ -196,7 +195,7 @@ passed move to the archive at the bottom.
 | Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 6mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
 | Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 9mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
 | Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 9mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
-| Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 9mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
+| Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 10mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
 | Research Fellowship - Open Endedness ⚑ | Vmax AI Corp | Fellowship | SF | 11mo | - | [Apply](https://jobs.ashbyhq.com/vmax/c4e1e51b-65c5-41f0-9bed-c90bc452859b) |
 | American Tech Fellowship ⚑ | Palantir | Fellowship | North America | 15mo | - | [Apply](https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0) |
 | Arm Create: AI Optimization Challenge | arm | Program | Online | - | - | [Apply](https://arm-ai-optimization-challenge.devpost.com/) |
@@ -213,6 +212,7 @@ passed move to the archive at the bottom.
 | NEXORA Global Hackathon | SVHEC | Hackathon | Online | - | - | [Apply](https://nexora-global-hackathon.devpost.com/) |
 | Galuxium Nexus V2 | Galuxium | Program | Online | - | - | [Apply](https://galuxium-nexus-v2-29411.devpost.com/) |
 | GatewayGS & The AEI Initiative:  AI 4 Earth Hackathon | GatewayGS | Hackathon | Online | - | - | [Apply](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
+| BigRed//Hacks 2026 ⚑ | Major League Hacking | Program | Ithaca, New York | - | - | [Apply](https://www.bigredhacks.com/) |
 | SteelHacks XIII ⚑ | Major League Hacking | Program | Pittsburgh, PA | - | - | [Apply](https://steelhacks.org/) |
 | Hack The Limit | HackTheLimit | Program | Online | - | - | [Apply](https://hack-the-limit-1.devpost.com/) |
 | HopHacks ⚑ | Major League Hacking | Program | Baltimore, Maryland | - | - | [Apply](https://www.hophacks.com/) |
