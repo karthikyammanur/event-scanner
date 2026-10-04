@@ -1,5 +1,5 @@
 {
-  "count": 225,
+  "count": 227,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1120,6 +1120,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008"
+    },
+    "5bcb57198e65e79b": {
+      "application_deadline": null,
+      "company": "Hack United",
+      "content_key": "d55931baed305f28",
+      "date_posted": null,
+      "emailed_at": "2026-10-04T19:17:24+00:00",
+      "event_name": "United Hacks V8",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2027-01-08",
+      "travel_credit_mentioned": null,
+      "url": "https://unitedhacksv8.devpost.com/"
     },
     "5f940e462440865f": {
       "application_deadline": null,
@@ -2367,6 +2381,20 @@
       "travel_credit_mentioned": null,
       "url": "https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603"
     },
+    "c1cb2b664ec6689f": {
+      "application_deadline": null,
+      "company": "Banana Hacks",
+      "content_key": "3e1a7df8e43127df",
+      "date_posted": null,
+      "emailed_at": "2026-10-04T19:17:24+00:00",
+      "event_name": "Banana Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-09",
+      "travel_credit_mentioned": null,
+      "url": "https://banana-hacks-1111.devpost.com/"
+    },
     "c302f5fcdc503c6a": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3152,5 +3180,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-03T22:44:39+00:00"
+  "updated_at": "2026-10-04T19:17:24+00:00"
 }
