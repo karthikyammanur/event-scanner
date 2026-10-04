@@ -1,5 +1,5 @@
 {
-  "count": 227,
+  "count": 228,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1751,6 +1751,20 @@
       "travel_credit_mentioned": null,
       "url": "https://shellhacks.net/"
     },
+    "94d797a031ce1fbc": {
+      "application_deadline": null,
+      "company": "United Hackathons",
+      "content_key": "7b052dc55159e806",
+      "date_posted": null,
+      "emailed_at": "2026-10-04T22:50:04+00:00",
+      "event_name": "United Hackathons V1",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-06",
+      "travel_credit_mentioned": null,
+      "url": "https://devonomicsv1.devpost.com/"
+    },
     "95d566f97424007e": {
       "application_deadline": null,
       "company": "Coffee and Code Philadelphia",
@@ -3180,5 +3194,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-04T19:17:24+00:00"
+  "updated_at": "2026-10-04T22:50:04+00:00"
 }
