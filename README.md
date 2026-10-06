@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**108 current events.** Updated 2026-10-05 16:54 UTC.
+**106 current events.** Updated 2026-10-06 01:12 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -22,18 +22,16 @@ passed move to the archive at the bottom.
 | United Hackathons V1 | United Hackathons | Hackathon | Online | - | - | [Apply](https://devonomicsv1.devpost.com/) |
 | United Hacks V8 | Hack United | Hackathon | Online | - | - | [Apply](https://unitedhacksv8.devpost.com/) |
 | Banana Hacks | Banana Hacks | Hackathon | Online | - | - | [Apply](https://banana-hacks-1111.devpost.com/) |
-| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 12d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
+| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 13d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
 | Arbiter Hacks V1 | Arbiter | Hackathon | Online | - | - | [Apply](https://arbiter-hacks-v1.devpost.com/) |
-| Life After Code | GitLab | Hackathon | Online | - | - | [Apply](https://gitlab-transcend.devpost.com/) |
 | IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
 | TAMU Datathon | Major League Hacking | Hackathon | College Station, Texas | - | - | [Apply](https://tamudatathon.com/) |
-| Lesbians Who Tech + Allies Summit ⚑ | Lesbians Who Tech + Allies | Summit | New York, NY | - | - | [Apply](https://lwtsquad.com/lwt-summit-2026/) |
 | 2027 Tech Policy Press Fellowship Program | Press | Fellowship | Online | - | - | [Apply](https://techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program) |
 | MakeUC ⚑ | Major League Hacking | Hackathon | Cincinnati, Ohio | - | - | [Apply](https://makeuc.io/) |
 | YCP Hacks ⚑ | Major League Hacking | Hackathon | York, PA | - | - | [Apply](https://ycphacks.io/) |
 | Cal Hacks 13.0 ⚑ | Major League Hacking | Hackathon | San Francisco, California | - | - | [Apply](https://calhacks.io/) |
 | Emory Hacks ⚑ | Major League Hacking | Hackathon | Atlanta, GA | - | - | [Apply](https://emoryhacks.com/) |
-| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 15d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
+| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 16d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
 | LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
@@ -129,7 +127,7 @@ passed move to the archive at the bottom.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (120)</summary>
+<summary>Past events (122)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -138,9 +136,11 @@ passed move to the archive at the bottom.
 | PayPal AI Hackathon | PayPal | Hackathon | Online | - | - | [Apply](https://paypalaihackathon.devpost.com/) |
 | Hyperbloom October- UI/UX and Web Design | hyperbloom hacks | Hackathon | Online | - | - | [Apply](https://hyperbloom-october.devpost.com/) |
 | HackFW: MADE Challenge | Fort Worth DAO | Hackathon | Fort Worth, TX | - | - | [Apply](https://hackfw.devpost.com/) |
+| Life After Code | GitLab | Hackathon | Online | - | - | [Apply](https://gitlab-transcend.devpost.com/) |
 | Qloo Agent Hackathon | Qloo | Hackathon | Online | - | - | [Apply](https://qloo.devpost.com/) |
 | Open Source Impact | Student Organization | Hackathon | Online | - | - | [Apply](https://open-source-impact.devpost.com/) |
 | YouCam API Skin AI & eCommerce VTO Hackathon | Perfect Corp | Hackathon | Online | - | - | [Apply](https://youcam-api-skin-ai-ecommerce.devpost.com/) |
+| Lesbians Who Tech + Allies Summit ⚑ | Lesbians Who Tech + Allies | Summit | New York, NY | - | - | [Apply](https://lwtsquad.com/lwt-summit-2026/) |
 | LovHack Season 3 | Lovhack | Hackathon | Online | - | - | [Apply](https://lovhack-season-3.devpost.com/) |
 | HackWashU Fall AI Build Challenge ⚑ | HackWashU | Hackathon | St. Louis, MO | - | - | [Apply](https://hackwashu-fall-ai-2026.devpost.com/) |
 | SC Quantathon v3 ⚑ | Clemson Quantum | Hackathon | Clemson, SC | - | - | [Apply](https://sc-quantathon-v3.devpost.com/) |
@@ -189,9 +189,9 @@ passed move to the archive at the bottom.
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 4mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
 | National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 5mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
 | Anthropic Fellows Program, The Anthropic Institute (Economics & Policy) ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183053008) |
-| Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
-| Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
-| Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 5mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
+| Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
+| Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
+| Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
 | Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 6mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
 | Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 9mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
 | Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 9mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
