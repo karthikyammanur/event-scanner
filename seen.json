@@ -1,5 +1,5 @@
 {
-  "count": 229,
+  "count": 230,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2955,6 +2955,20 @@
       "travel_credit_mentioned": null,
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008"
     },
+    "eb74e0f5fa0eb52c": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "2292110513385b3a",
+      "date_posted": null,
+      "emailed_at": "2026-10-06T23:40:32+00:00",
+      "event_name": "GullHacks",
+      "event_type": "hackathon",
+      "location_city_state": "Salisbury, MD",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://hub.salisbury.edu/hackathon/"
+    },
     "ec49a33ac7f4b012": {
       "application_deadline": "2027-02-27",
       "company": "Ohlone College",
@@ -3208,5 +3222,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-06T11:05:31+00:00"
+  "updated_at": "2026-10-06T23:40:32+00:00"
 }

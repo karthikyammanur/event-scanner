@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**107 current events.** Updated 2026-10-06 18:02 UTC.
+**108 current events.** Updated 2026-10-06 23:40 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| GullHacks ⚑ | Major League Hacking | Hackathon | Salisbury, MD | - | - | [Apply](https://hub.salisbury.edu/hackathon/) |
 | Next Byte Hacks V5 | Next Byte Hacks | Hackathon | Online | - | - | [Apply](https://next-byte-hacks-v5.devpost.com/) |
 | United Hackathons V1 | United Hackathons | Hackathon | Online | - | - | [Apply](https://devonomicsv1.devpost.com/) |
 | United Hacks V8 | Hack United | Hackathon | Online | - | - | [Apply](https://unitedhacksv8.devpost.com/) |
