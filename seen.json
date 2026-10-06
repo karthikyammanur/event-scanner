@@ -1,5 +1,5 @@
 {
-  "count": 228,
+  "count": 229,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -602,6 +602,20 @@
       "start_date": "2026-05-19",
       "travel_credit_mentioned": null,
       "url": "https://xprize.devpost.com/"
+    },
+    "3850b4ab50f48510": {
+      "application_deadline": null,
+      "company": "Next Byte Hacks",
+      "content_key": "98fd14ae6bafa4bd",
+      "date_posted": null,
+      "emailed_at": "2026-10-06T11:05:31+00:00",
+      "event_name": "Next Byte Hacks V5",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-06",
+      "travel_credit_mentioned": null,
+      "url": "https://next-byte-hacks-v5.devpost.com/"
     },
     "3ae6751abe203393": {
       "application_deadline": null,
@@ -3194,5 +3208,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-04T22:50:04+00:00"
+  "updated_at": "2026-10-06T11:05:31+00:00"
 }
