@@ -1,5 +1,5 @@
 {
-  "count": 230,
+  "count": 233,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1345,6 +1345,20 @@
       "travel_credit_mentioned": null,
       "url": "https://codelinc11.devpost.com/"
     },
+    "6c27de8962900a45": {
+      "application_deadline": null,
+      "company": "Elastic",
+      "content_key": "84d792fb0178ddc1",
+      "date_posted": null,
+      "emailed_at": "2026-10-07T21:05:36+00:00",
+      "event_name": "Mistral x Elastic Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "New York, NY",
+      "source": "devpost",
+      "start_date": "2026-10-07",
+      "travel_credit_mentioned": null,
+      "url": "https://mistral-x-elastic-hackathon.devpost.com/"
+    },
     "6d5b4114b199b3ad": {
       "application_deadline": null,
       "company": "DeveloperWeek",
@@ -1988,6 +2002,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr"
+    },
+    "9f768d5e1fc52fcd": {
+      "application_deadline": null,
+      "company": "Self",
+      "content_key": "29efe9410193393e",
+      "date_posted": null,
+      "emailed_at": "2026-10-07T21:05:36+00:00",
+      "event_name": "All you can do with AI",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-07",
+      "travel_credit_mentioned": null,
+      "url": "https://all-you-can-do-with-ai.devpost.com/"
     },
     "9fa2cba0d5ea8da1": {
       "application_deadline": null,
@@ -2927,6 +2955,20 @@
       "travel_credit_mentioned": null,
       "url": "https://business-ai-hackathon.devpost.com/"
     },
+    "e9afeef3a1f8fbb4": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "8295a03868c1ec4e",
+      "date_posted": null,
+      "emailed_at": "2026-10-07T21:05:36+00:00",
+      "event_name": "SharkByte",
+      "event_type": "hackathon",
+      "location_city_state": "Miami, FL",
+      "source": "mlh",
+      "start_date": "2026-11-06",
+      "travel_credit_mentioned": null,
+      "url": "https://shark-byte.io/"
+    },
     "eabca1cbb4a3b9f1": {
       "application_deadline": null,
       "company": "10a Labs",
@@ -3222,5 +3264,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-06T23:40:32+00:00"
+  "updated_at": "2026-10-07T21:05:36+00:00"
 }
