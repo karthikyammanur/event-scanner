@@ -1,5 +1,5 @@
 {
-  "count": 233,
+  "count": 234,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2885,6 +2885,20 @@
       "travel_credit_mentioned": null,
       "url": "https://acesat-ai-agent.devpost.com/"
     },
+    "e3eb77d2cdf816e6": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "4f1eb9613fe5e3ee",
+      "date_posted": null,
+      "emailed_at": "2026-10-08T04:59:04+00:00",
+      "event_name": "hackPHS",
+      "event_type": "hackathon",
+      "location_city_state": "Princeton, NJ",
+      "source": "mlh",
+      "start_date": "2026-10-10",
+      "travel_credit_mentioned": null,
+      "url": "https://hackphs.tech"
+    },
     "e5c88ae748589977": {
       "application_deadline": null,
       "company": "SpartaHack",
@@ -3264,5 +3278,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-07T21:05:36+00:00"
+  "updated_at": "2026-10-08T04:59:04+00:00"
 }
