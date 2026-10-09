@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**108 current events.** Updated 2026-10-08 21:05 UTC.
+**109 current events.** Updated 2026-10-09 04:57 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,12 +19,13 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| DuQuantum ⚑ | Major League Hacking | Hackathon | Durham, NC | - | - | [Apply](https://duquantum.org/) |
 | hackPHS ⚑ | Major League Hacking | Hackathon | Princeton, NJ | - | - | [Apply](https://hackphs.tech) |
 | SharkByte ⚑ | Major League Hacking | Hackathon | Miami, FL | - | - | [Apply](https://shark-byte.io/) |
 | GullHacks ⚑ | Major League Hacking | Hackathon | Salisbury, MD | - | - | [Apply](https://hub.salisbury.edu/hackathon/) |
 | United Hacks V8 | Hack United | Hackathon | Online | - | - | [Apply](https://unitedhacksv8.devpost.com/) |
 | Banana Hacks | Banana Hacks | Hackathon | Online | - | - | [Apply](https://banana-hacks-1111.devpost.com/) |
-| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 15d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
+| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 16d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
 | Arbiter Hacks V1 | Arbiter | Hackathon | Online | - | - | [Apply](https://arbiter-hacks-v1.devpost.com/) |
 | IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
 | TAMU Datathon | Major League Hacking | Hackathon | College Station, Texas | - | - | [Apply](https://tamudatathon.com/) |
@@ -33,7 +34,7 @@ passed move to the archive at the bottom.
 | YCP Hacks ⚑ | Major League Hacking | Hackathon | York, PA | - | - | [Apply](https://ycphacks.io/) |
 | Cal Hacks 13.0 ⚑ | Major League Hacking | Hackathon | San Francisco, California | - | - | [Apply](https://calhacks.io/) |
 | Emory Hacks ⚑ | Major League Hacking | Hackathon | Atlanta, GA | - | - | [Apply](https://emoryhacks.com/) |
-| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 18d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
+| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 19d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
 | LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |

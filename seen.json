@@ -1,5 +1,5 @@
 {
-  "count": 234,
+  "count": 235,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2465,6 +2465,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.owlhacks.com/"
     },
+    "c503c05822b659bc": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "1a7eea3c00ad221b",
+      "date_posted": null,
+      "emailed_at": "2026-10-09T04:57:50+00:00",
+      "event_name": "DuQuantum",
+      "event_type": "hackathon",
+      "location_city_state": "Durham, NC",
+      "source": "mlh",
+      "start_date": "2026-10-24",
+      "travel_credit_mentioned": null,
+      "url": "https://duquantum.org/"
+    },
     "c57e5db6f863833b": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3278,5 +3292,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-08T04:59:04+00:00"
+  "updated_at": "2026-10-09T04:57:50+00:00"
 }
