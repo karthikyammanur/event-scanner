@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**109 current events.** Updated 2026-10-09 20:36 UTC.
+**104 current events.** Updated 2026-10-10 14:29 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,13 +19,13 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Cornell Health Hackathon ⚑ | Cornell University | Hackathon | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2026/03/students-pitch-ai-inspired-solutions-cornell-health-hackathon) |
 | DuQuantum ⚑ | Major League Hacking | Hackathon | Durham, NC | - | - | [Apply](https://duquantum.org/) |
 | hackPHS ⚑ | Major League Hacking | Hackathon | Princeton, NJ | - | - | [Apply](https://hackphs.tech) |
 | SharkByte ⚑ | Major League Hacking | Hackathon | Miami, FL | - | - | [Apply](https://shark-byte.io/) |
 | GullHacks ⚑ | Major League Hacking | Hackathon | Salisbury, MD | - | - | [Apply](https://hub.salisbury.edu/hackathon/) |
 | United Hacks V8 | Hack United | Hackathon | Online | - | - | [Apply](https://unitedhacksv8.devpost.com/) |
-| Banana Hacks | Banana Hacks | Hackathon | Online | - | - | [Apply](https://banana-hacks-1111.devpost.com/) |
-| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 16d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
+| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 17d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
 | Arbiter Hacks V1 | Arbiter | Hackathon | Online | - | - | [Apply](https://arbiter-hacks-v1.devpost.com/) |
 | IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
 | TAMU Datathon | Major League Hacking | Hackathon | College Station, Texas | - | - | [Apply](https://tamudatathon.com/) |
@@ -34,7 +34,7 @@ passed move to the archive at the bottom.
 | YCP Hacks ⚑ | Major League Hacking | Hackathon | York, PA | - | - | [Apply](https://ycphacks.io/) |
 | Cal Hacks 13.0 ⚑ | Major League Hacking | Hackathon | San Francisco, California | - | - | [Apply](https://calhacks.io/) |
 | Emory Hacks ⚑ | Major League Hacking | Hackathon | Atlanta, GA | - | - | [Apply](https://emoryhacks.com/) |
-| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 19d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
+| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 20d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
 | LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
@@ -59,7 +59,6 @@ passed move to the archive at the bottom.
 | DubHacks ⚑ | Major League Hacking | Hackathon | Seattle, Washington | - | - | [Apply](https://dh26.dubhacks.co/) |
 | Technica Hacks ⚑ | Major League Hacking | Hackathon | Hyattsville, Maryland | - | - | [Apply](https://gotechnica.org/) |
 | HackGB ⚑ | Major League Hacking | Hackathon | Green Bay, WI | - | - | [Apply](https://hackgb.com/) |
-| Hacklanta ⚑ | Major League Hacking | Hackathon | Atlanta, Georgia | - | - | [Apply](https://hacklanta.dev) |
 | HackRU ⚑ | Major League Hacking | Hackathon | Piscataway, New Jersey | - | - | [Apply](https://www.hackru.org/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
@@ -77,7 +76,6 @@ passed move to the archive at the bottom.
 | American Society for Engineering Education Conference ⚑ | Stony Brook University | Conference | Stony Brook, NY | - | - | [Apply](https://news.stonybrook.edu/university/american-society-for-engineering-education-conference-tackles-the-role-of-ai-in-education) |
 | Cornell Systems Summit ⚑ | Cornell University | Summit | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2025/11/cornell-systems-summit-addresses-future-systems-engineering) |
 | St. John's University Hackathon ⚑ | St. John's University | Hackathon | Queens, NY | - | - | [Apply](https://www.stjohns.edu/news-media/news/2026-02-23/hackathon-invites-st-johns-students-build-code-and-innovate) |
-| Hack Knight ⚑ | Major League Hacking | Hackathon | Flushing, New York | - | - | [Apply](https://hackknight.org/) |
 | UC Santa Cruz Hackathon ⚑ | UC Santa Cruz | Hackathon | Santa Cruz, CA | - | - | [Apply](https://news.ucsc.edu/2026/06/agentic-ai-first-uc-santa-cruz-hackathon-with-nvidia-asus) |
 | BE Smart HBCU Hackathon ⚑ | Black Enterprise | Hackathon | Charlotte, NC | - | - | [Apply](https://uncf.org/the-latest/call-for-hbcu-students-apply-to-black-enterprise-be-smart-hbcu-hackathon) |
 | WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
@@ -99,7 +97,6 @@ passed move to the archive at the bottom.
 | Hacklytics 2027 ⚑ | Data Science @ Georgia Tech | Hackathon | Atlanta, GA | - | - | [Apply](https://hacklytics2027.web.app) |
 | Ohlone Hacks ⚑ | Ohlone College | Hackathon | Fremont, CA | - | 2027-02-27 | [Apply](https://www.snow.day/learning-opportunities/c4a18912-ae69-4cf0-b7b5-5e7b8705831b/ohlone-hacks-a-premier-hackathon-for-bay-area-students) |
 | HackKU27 ⚑ | Major League Hacking | Program | Lawrence, Kansas | - | - | [Apply](https://www.hackku.org/) |
-| Knight Hacks IX ⚑ | Major League Hacking | Program | Orlando, Florida | - | - | [Apply](https://2026.knighthacks.org/) |
 | Diamondhacks ⚑ | Major League Hacking | Program | La Jolla, California | - | - | [Apply](https://diamondhacks.acmucsd.com/) |
 | HackIllinois ⚑ | Major League Hacking | Program | Urbana, Illinois | - | - | [Apply](https://www.hackillinois.org/) |
 | HackRPI 2026 ⚑ | Major League Hacking | Program | Troy, New York | - | - | [Apply](https://hackrpi.com/) |
@@ -118,19 +115,17 @@ passed move to the archive at the bottom.
 | RevolutionUC ⚑ | Major League Hacking | Program | Cincinnati, Ohio | - | - | [Apply](https://www.revolutionuc.com/) |
 | Kent Hack Enough ⚑ | Major League Hacking | Program | Kent, Ohio | - | - | [Apply](https://khe.io/) |
 | HackUMass ⚑ | Major League Hacking | Program | Amherst, MA | - | - | [Apply](https://www.hackumass.com/) |
-| HackNC ⚑ | Major League Hacking | Program | Chapel Hill, North Carolina | - | - | [Apply](https://hacknc.com/) |
 | WEHack | Major League Hacking | Program | Richardson, TX | - | - | [Apply](https://www.wehackutd.com/) |
 | SpartaHack ⚑ | Major League Hacking | Program | East Lansing, Michigan | - | - | [Apply](https://events.mlh.com/events/14442-spartahack-12) |
 | Hack@Brown 2027 ⚑ | Major League Hacking | Program | Providence, RI | - | - | [Apply](https://hackatbrown.org/) |
 | Hack_NCState ⚑ | Major League Hacking | Program | Raleigh, North Carolina | - | - | [Apply](https://hackncstate.org/) |
-| SBUHacks ⚑ | Major League Hacking | Program | Stony Brook, New York | - | - | [Apply](https://hack.sbcs.io/) |
 | LA Hacks 27 ⚑ | Major League Hacking | Program | Los Angeles, California | - | - | [Apply](https://lahacks.com) |
 | HackTX 26 | Major League Hacking | Program | Austin, TX | - | - | [Apply](https://hacktx.com/) |
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (126)</summary>
+<summary>Past events (132)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -138,6 +133,7 @@ passed move to the archive at the bottom.
 | All you can do with AI | Self | Hackathon | Online | - | - | [Apply](https://all-you-can-do-with-ai.devpost.com/) |
 | Next Byte Hacks V5 | Next Byte Hacks | Hackathon | Online | - | - | [Apply](https://next-byte-hacks-v5.devpost.com/) |
 | United Hackathons V1 | United Hackathons | Hackathon | Online | - | - | [Apply](https://devonomicsv1.devpost.com/) |
+| Banana Hacks | Banana Hacks | Hackathon | Online | - | - | [Apply](https://banana-hacks-1111.devpost.com/) |
 | Hack Dearborn: Conjure Reality ⚑ | Major League Hacking | Hackathon | Dearborn, MI | - | - | [Apply](https://hack-dearborn-5.devpost.com/) |
 | Women's Hack Night ⚑ | Cal Hacks | Hackathon | Berkeley, CA | - | - | [Apply](https://women-s-hack-night.devpost.com/) |
 | PayPal AI Hackathon | PayPal | Hackathon | Online | - | - | [Apply](https://paypalaihackathon.devpost.com/) |
@@ -161,6 +157,7 @@ passed move to the archive at the bottom.
 | WE26 ⚑ | Society of Women Engineers | Conference | Boston, MA | - | 2026-08-31 | [Apply](https://we26.swe.org/) |
 | codeLinc 11 ⚑ | Lincoln Financial Group | Hackathon | Greensboro, NC | - | - | [Apply](https://codelinc11.devpost.com/) |
 | 2026 AI in Agriculture Symposium ⚑ | University of Arkansas System Division of Agriculture | Conference | Fayetteville, Arkansas | - | - | [Apply](https://www.farmtalknews.com/news/ai-in-agriculture-symposium-hackathons-bring-together-ag-tech-leaders-sept-21/article_3ec6e869-261f-4c7c-961e-cd6d837c95c1.html) |
+| Hacklanta ⚑ | Major League Hacking | Hackathon | Atlanta, Georgia | - | - | [Apply](https://hacklanta.dev) |
 | OneAquaHealth IEEE Global Hackathon | OneAquaHealth | Hackathon | Online | - | - | [Apply](https://oneaquahealth-ieee-hackathon.devpost.com/) |
 | AI Content Engine Hackathon | NA | Hackathon | Online | - | - | [Apply](https://ai-content-engine-hacks.devpost.com/) |
 | Hyperbloom September - AI/ML | hyperbloom hacks | Hackathon | Online | - | - | [Apply](https://hyperbloom-september.devpost.com/) |
@@ -174,6 +171,7 @@ passed move to the archive at the bottom.
 | &HACKS XII ⚑ | Major League Hacking | Hackathon | Williamsburg, Virginia | - | - | [Apply](https://andhacks.cs.wm.edu/) |
 | Pixel Forge AI Hackathon ($18,000+ in Prizes) | Pixel Forge | Hackathon | Online | - | - | [Apply](https://pixel-forge-ai-hackathon-08.devpost.com/) |
 | Built for NYC: AI Hackathon at NYPL ⚑ | Major League Hacking | Hackathon | New York, NY | - | - | [Apply](https://www.eventbrite.com/e/built-for-nyc-ai-hackathon-at-nypl-tickets-1994000516221) |
+| Hack Knight ⚑ | Major League Hacking | Hackathon | Flushing, New York | - | - | [Apply](https://hackknight.org/) |
 | Agents for Humans Hackathon | Amazon | Hackathon | Online | - | - | [Apply](https://agentsforhumans.devpost.com/) |
 | Hack the Habitat | Hack the Habitat | Hackathon | Online | - | - | [Apply](https://hack-the-habitat-2026.devpost.com/) |
 | Engineers Without Borders USA's 2026 Annual Conference ⚑ | Engineers Without Borders USA | Conference | Portland, Oregon | - | - | [Apply](https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland) |
@@ -204,11 +202,12 @@ passed move to the archive at the bottom.
 | Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 10mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
 | Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 10mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
 | Research Fellowship - Open Endedness ⚑ | Vmax AI Corp | Fellowship | SF | 11mo | - | [Apply](https://jobs.ashbyhq.com/vmax/c4e1e51b-65c5-41f0-9bed-c90bc452859b) |
-| American Tech Fellowship ⚑ | Palantir | Fellowship | North America | 15mo | - | [Apply](https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0) |
+| American Tech Fellowship ⚑ | Palantir | Fellowship | North America | 16mo | - | [Apply](https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0) |
 | Arm Create: AI Optimization Challenge | arm | Program | Online | - | - | [Apply](https://arm-ai-optimization-challenge.devpost.com/) |
 | NextGen Innovation2026 | Innovation Hacks | Program | Online | - | - | [Apply](https://nextgen-innovation-2026.devpost.com/) |
 | ML Empowerment Build Challenge 2.0 | ML Empowerment Foundation | Program | Online | - | - | [Apply](https://ml-empowerment-2.devpost.com/) |
 | All Things Agentic Hackathon | Google | Hackathon | Online | - | - | [Apply](https://allthingsagentichackathon.devpost.com/) |
+| Knight Hacks IX ⚑ | Major League Hacking | Program | Orlando, Florida | - | - | [Apply](https://2026.knighthacks.org/) |
 | YouCam API Skin AI & Apparel VTO Hackathon | Perfect Corp | Hackathon | Online | - | - | [Apply](https://youcam-api.devpost.com/) |
 | Agentic Cinema: The Blockbuster Hackathon | Google | Hackathon | Online | - | - | [Apply](https://agentic-cinema.devpost.com/) |
 | CSC Summer Impactathon | The Webb Schools CSC | Program | Online | - | - | [Apply](https://csc-summer-impactathon.devpost.com/) |
@@ -248,9 +247,11 @@ passed move to the archive at the bottom.
 | DivHacks ⚑ | Major League Hacking | Program | New York, NY | - | - | [Apply](https://www.columbiadivhacks.org/) |
 | VTHacks 14 ⚑ | Major League Hacking | Program | Blacksburg, Virginia | - | - | [Apply](https://vthacks.com/) |
 | Rowdy Hacks | Major League Hacking | Program | San Antonio, Texas | - | - | [Apply](https://rowdyhacks.org) |
+| HackNC ⚑ | Major League Hacking | Program | Chapel Hill, North Carolina | - | - | [Apply](https://hacknc.com/) |
 | ImpactForge | ImpactForge | Program | Online | - | - | [Apply](https://impactforge.devpost.com/) |
 | CockroachDB × AWS Hackathon - Build with Agentic Memory | Cockroach Labs | Hackathon | Online | - | - | [Apply](https://cockroachdb-ai.devpost.com/) |
 | OwlHacks ⚑ | Major League Hacking | Program | Philadelphia, Pennsylvania | - | - | [Apply](https://www.owlhacks.com/) |
+| SBUHacks ⚑ | Major League Hacking | Program | Stony Brook, New York | - | - | [Apply](https://hack.sbcs.io/) |
 | Reverie Hacks 2026 | ReverieHacks | Program | Online | - | - | [Apply](https://reverie-hacks-2026.devpost.com/) |
 | AceSAT Education AI-Agent | AceSAT | Program | Online | - | - | [Apply](https://acesat-ai-agent.devpost.com/) |
 | Syntax Summit | Student Organization | Summit | Online | - | - | [Apply](https://syntax-summit.devpost.com/) |
