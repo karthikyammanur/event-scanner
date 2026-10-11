@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**100 current events.** Updated 2026-10-11 04:31 UTC.
+**102 current events.** Updated 2026-10-11 14:53 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| HackUTD | UT Dallas | Hackathon | Richardson, TX | - | - | [Apply](https://zeroday.hackutd.co) |
+| UGAHacks ⚑ | University of Georgia | Hackathon | Athens, GA | - | - | [Apply](https://12.ugahacks.com/) |
 | Cornell Health Hackathon ⚑ | Cornell University | Hackathon | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2026/03/students-pitch-ai-inspired-solutions-cornell-health-hackathon) |
 | DuQuantum ⚑ | Major League Hacking | Hackathon | Durham, NC | - | - | [Apply](https://duquantum.org/) |
 | SharkByte ⚑ | Major League Hacking | Hackathon | Miami, FL | - | - | [Apply](https://shark-byte.io/) |

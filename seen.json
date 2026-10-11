@@ -1,5 +1,5 @@
 {
-  "count": 236,
+  "count": 238,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -560,6 +560,20 @@
       "start_date": "2026-06-12",
       "travel_credit_mentioned": null,
       "url": "https://brainwaves.devpost.com/"
+    },
+    "3049c4cd67ae7e74": {
+      "application_deadline": null,
+      "company": "UT Dallas",
+      "content_key": "f5b6d2b06b27a6e3",
+      "date_posted": null,
+      "emailed_at": "2026-10-11T14:53:28+00:00",
+      "event_name": "HackUTD",
+      "event_type": "hackathon",
+      "location_city_state": "Richardson, TX",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://zeroday.hackutd.co"
     },
     "316e00337b42a37d": {
       "application_deadline": null,
@@ -3277,6 +3291,20 @@
       "travel_credit_mentioned": null,
       "url": "https://us.pycon.org/"
     },
+    "faef0a0ab9fb8885": {
+      "application_deadline": null,
+      "company": "University of Georgia",
+      "content_key": "6a0f4b778c8df31a",
+      "date_posted": null,
+      "emailed_at": "2026-10-11T14:53:28+00:00",
+      "event_name": "UGAHacks",
+      "event_type": "hackathon",
+      "location_city_state": "Athens, GA",
+      "source": "mlh",
+      "start_date": "2027-02-05",
+      "travel_credit_mentioned": null,
+      "url": "https://12.ugahacks.com/"
+    },
     "ff3355182c8b4de3": {
       "application_deadline": null,
       "company": "Hack for Humanity",
@@ -3306,5 +3334,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-10T14:29:04+00:00"
+  "updated_at": "2026-10-11T14:53:28+00:00"
 }
