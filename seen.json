@@ -1,5 +1,5 @@
 {
-  "count": 238,
+  "count": 240,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1387,6 +1387,20 @@
       "travel_credit_mentioned": null,
       "url": "https://mistral-x-elastic-hackathon.devpost.com/"
     },
+    "6c762a8b8da18330": {
+      "application_deadline": null,
+      "company": "IEEE Charlotte Section",
+      "content_key": "de9f2d4b5a4ec5b8",
+      "date_posted": null,
+      "emailed_at": "2026-10-11T19:58:31+00:00",
+      "event_name": "IEEE Hack For Humanity",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-11",
+      "travel_credit_mentioned": null,
+      "url": "https://ieee-ai-hack-for-humanity.devpost.com/"
+    },
     "6d5b4114b199b3ad": {
       "application_deadline": null,
       "company": "DeveloperWeek",
@@ -1484,6 +1498,20 @@
       "start_date": "2027-03-06",
       "travel_credit_mentioned": null,
       "url": "https://www.henhackshackathon.com/"
+    },
+    "76ba2235ff19fecb": {
+      "application_deadline": null,
+      "company": "Cosmo Hacks",
+      "content_key": "afff298fab65f11d",
+      "date_posted": null,
+      "emailed_at": "2026-10-11T19:58:31+00:00",
+      "event_name": "Cosmo Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-12-18",
+      "travel_credit_mentioned": null,
+      "url": "https://cosmohacks.devpost.com/"
     },
     "786f8c220a8798ef": {
       "application_deadline": null,
@@ -3334,5 +3362,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-11T14:53:28+00:00"
+  "updated_at": "2026-10-11T19:58:31+00:00"
 }

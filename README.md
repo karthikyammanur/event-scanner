@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**102 current events.** Updated 2026-10-11 14:53 UTC.
+**104 current events.** Updated 2026-10-11 19:58 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| IEEE Hack For Humanity | IEEE Charlotte Section | Hackathon | Online | - | - | [Apply](https://ieee-ai-hack-for-humanity.devpost.com/) |
+| Cosmo Hacks | Cosmo Hacks | Hackathon | Online | - | - | [Apply](https://cosmohacks.devpost.com/) |
 | HackUTD | UT Dallas | Hackathon | Richardson, TX | - | - | [Apply](https://zeroday.hackutd.co) |
 | UGAHacks ⚑ | University of Georgia | Hackathon | Athens, GA | - | - | [Apply](https://12.ugahacks.com/) |
 | Cornell Health Hackathon ⚑ | Cornell University | Hackathon | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2026/03/students-pitch-ai-inspired-solutions-cornell-health-hackathon) |
