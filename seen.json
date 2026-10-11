@@ -1,5 +1,5 @@
 {
-  "count": 240,
+  "count": 242,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2493,6 +2493,20 @@
       "travel_credit_mentioned": null,
       "url": "https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603"
     },
+    "bf73f377c7e400b3": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "18adb435bf5f50d6",
+      "date_posted": null,
+      "emailed_at": "2026-10-11T23:33:22+00:00",
+      "event_name": "NASA's Space Apps Challenge NYC",
+      "event_type": "hackathon",
+      "location_city_state": "Brooklyn, New York",
+      "source": "mlh",
+      "start_date": "2026-11-13",
+      "travel_credit_mentioned": null,
+      "url": "https://www.spaceappschallenge.org/2026/local-events/new-york/"
+    },
     "c1cb2b664ec6689f": {
       "application_deadline": null,
       "company": "Banana Hacks",
@@ -2730,6 +2744,20 @@
       "start_date": "2026-08-07",
       "travel_credit_mentioned": null,
       "url": "https://hack-the-habitat-2026.devpost.com/"
+    },
+    "d3225356557dfa4d": {
+      "application_deadline": null,
+      "company": "IWU",
+      "content_key": "16064fc5a4404c11",
+      "date_posted": null,
+      "emailed_at": "2026-10-11T23:33:22+00:00",
+      "event_name": "HackTitan",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2027-02-02",
+      "travel_credit_mentioned": null,
+      "url": "https://hacktitan.devpost.com/"
     },
     "d33e508eab7fc9f8": {
       "application_deadline": null,
@@ -3362,5 +3390,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-11T19:58:31+00:00"
+  "updated_at": "2026-10-11T23:33:22+00:00"
 }
