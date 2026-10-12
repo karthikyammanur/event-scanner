@@ -1,5 +1,5 @@
 {
-  "count": 242,
+  "count": 243,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2983,6 +2983,20 @@
       "travel_credit_mentioned": null,
       "url": "https://acesat-ai-agent.devpost.com/"
     },
+    "e39441c0eebb7906": {
+      "application_deadline": null,
+      "company": "Black Code Collective",
+      "content_key": "b5739de4129f1250",
+      "date_posted": null,
+      "emailed_at": "2026-10-12T04:43:48+00:00",
+      "event_name": "Black Code Collective Hacktoberfest",
+      "event_type": "hackathon",
+      "location_city_state": "Washington, DC",
+      "source": "devpost",
+      "start_date": "2026-10-12",
+      "travel_credit_mentioned": null,
+      "url": "https://bcc-hacktoberfest.devpost.com/"
+    },
     "e3eb77d2cdf816e6": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3390,5 +3404,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-11T23:33:22+00:00"
+  "updated_at": "2026-10-12T04:43:48+00:00"
 }
