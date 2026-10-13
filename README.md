@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**106 current events.** Updated 2026-10-12 17:28 UTC.
+**107 current events.** Updated 2026-10-13 01:52 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,7 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| Black Code Collective Hacktoberfest ⚑ | Black Code Collective | Hackathon | Washington, DC | - | - | [Apply](https://bcc-hacktoberfest.devpost.com/) |
+| Neighborhood Hacks | Student Organization | Hackathon | Online | - | - | [Apply](https://neighborhood-hacks-2026.devpost.com/) |
+| QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
 | HackTitan | IWU | Hackathon | Online | - | - | [Apply](https://hacktitan.devpost.com/) |
 | Cosmo Hacks | Cosmo Hacks | Hackathon | Online | - | - | [Apply](https://cosmohacks.devpost.com/) |
@@ -30,7 +31,7 @@ passed move to the archive at the bottom.
 | SharkByte ⚑ | Major League Hacking | Hackathon | Miami, FL | - | - | [Apply](https://shark-byte.io/) |
 | GullHacks ⚑ | Major League Hacking | Hackathon | Salisbury, MD | - | - | [Apply](https://hub.salisbury.edu/hackathon/) |
 | United Hacks V8 | Hack United | Hackathon | Online | - | - | [Apply](https://unitedhacksv8.devpost.com/) |
-| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 19d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
+| JPMorganChase Data for Good Hackathon 2027 ⚑ | JPMorgan Chase | Hackathon | - | 20d | - | [Apply](https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states) |
 | Arbiter Hacks V1 | Arbiter | Hackathon | Online | - | - | [Apply](https://arbiter-hacks-v1.devpost.com/) |
 | IBM Hackathon ⚑ | Pace University | Hackathon | New York, NY | - | - | [Apply](https://www.pace.edu/news/pace-students-build-real-world-ai-solutions-ibm-hackathon) |
 | TAMU Datathon | Major League Hacking | Hackathon | College Station, Texas | - | - | [Apply](https://tamudatathon.com/) |
@@ -39,7 +40,7 @@ passed move to the archive at the bottom.
 | YCP Hacks ⚑ | Major League Hacking | Hackathon | York, PA | - | - | [Apply](https://ycphacks.io/) |
 | Cal Hacks 13.0 ⚑ | Major League Hacking | Hackathon | San Francisco, California | - | - | [Apply](https://calhacks.io/) |
 | Emory Hacks ⚑ | Major League Hacking | Hackathon | Atlanta, GA | - | - | [Apply](https://emoryhacks.com/) |
-| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 22d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
+| Perplexity Research Fellowship ⚑ | Perplexity AI | Fellowship | San Francisco, CA | 23d | - | [Apply](https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8) |
 | LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
@@ -127,10 +128,11 @@ passed move to the archive at the bottom.
 | LA Hacks AI Hackathon 2026 ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://ai.lahacks.com) |
 
 <details>
-<summary>Past events (137)</summary>
+<summary>Past events (138)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Black Code Collective Hacktoberfest ⚑ | Black Code Collective | Hackathon | Washington, DC | - | - | [Apply](https://bcc-hacktoberfest.devpost.com/) |
 | IEEE Hack For Humanity | IEEE Charlotte Section | Hackathon | Online | - | - | [Apply](https://ieee-ai-hack-for-humanity.devpost.com/) |
 | hackPHS ⚑ | Major League Hacking | Hackathon | Princeton, NJ | - | - | [Apply](https://hackphs.tech) |
 | Mistral x Elastic Hackathon ⚑ | Elastic | Hackathon | New York, NY | - | - | [Apply](https://mistral-x-elastic-hackathon.devpost.com/) |
