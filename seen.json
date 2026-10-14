@@ -1,5 +1,5 @@
 {
-  "count": 245,
+  "count": 247,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -841,6 +841,20 @@
       "travel_credit_mentioned": null,
       "url": "https://eng.ua.edu/sec-engineering-leadership-summit"
     },
+    "4653096854a55f0d": {
+      "application_deadline": null,
+      "company": "Hacker's Unity",
+      "content_key": "cca2dab32d719dee",
+      "date_posted": null,
+      "emailed_at": "2026-10-14T16:43:19+00:00",
+      "event_name": "Graph Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-14",
+      "travel_credit_mentioned": null,
+      "url": "https://graph-hacks.devpost.com/"
+    },
     "47a4d592fab49242": {
       "application_deadline": null,
       "company": "JPMorgan Chase",
@@ -1540,6 +1554,20 @@
       "start_date": "2026-08-07",
       "travel_credit_mentioned": null,
       "url": "https://gtpn-hackathon-2026.devpost.com/"
+    },
+    "7a9cf800473ea5ad": {
+      "application_deadline": null,
+      "company": "Juniper Websites",
+      "content_key": "878f6f8d525bf533",
+      "date_posted": null,
+      "emailed_at": "2026-10-14T16:43:19+00:00",
+      "event_name": "Human + AI Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-14",
+      "travel_credit_mentioned": null,
+      "url": "https://human-ai-hackathon.devpost.com/"
     },
     "7ae20a08dc2b7774": {
       "application_deadline": null,
@@ -3432,5 +3460,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-13T01:52:40+00:00"
+  "updated_at": "2026-10-14T16:43:19+00:00"
 }

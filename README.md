@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**107 current events.** Updated 2026-10-14 09:23 UTC.
+**109 current events.** Updated 2026-10-14 16:43 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Human + AI Hackathon | Juniper Websites | Hackathon | Online | - | - | [Apply](https://human-ai-hackathon.devpost.com/) |
+| Graph Hacks | Hacker's Unity | Hackathon | Online | - | - | [Apply](https://graph-hacks.devpost.com/) |
 | Neighborhood Hacks | Student Organization | Hackathon | Online | - | - | [Apply](https://neighborhood-hacks-2026.devpost.com/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
