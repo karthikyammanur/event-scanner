@@ -1,5 +1,5 @@
 {
-  "count": 247,
+  "count": 249,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -546,6 +546,20 @@
       "start_date": "2026-10-03",
       "travel_credit_mentioned": null,
       "url": "https://www.njitgirlhacks.com/"
+    },
+    "2e78c2cd981248d1": {
+      "application_deadline": null,
+      "company": "Point72",
+      "content_key": "979a945e5de88d87",
+      "date_posted": "2026-10-12",
+      "emailed_at": "2026-10-15T03:35:05+00:00",
+      "event_name": "Data Research Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "New York, NY",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002"
     },
     "2eda84b1d7447653": {
       "application_deadline": null,
@@ -2857,6 +2871,20 @@
       "travel_credit_mentioned": null,
       "url": "https://news.cornell.edu/stories/2025/11/cornell-systems-summit-addresses-future-systems-engineering"
     },
+    "d541f3d54515dcd9": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "c2271f164c9bb9de",
+      "date_posted": null,
+      "emailed_at": "2026-10-15T03:35:05+00:00",
+      "event_name": "WHACK (Wellesley Hackathon)",
+      "event_type": "hackathon",
+      "location_city_state": "Wellesley, Massachusetts",
+      "source": "mlh",
+      "start_date": "2026-11-21",
+      "travel_credit_mentioned": null,
+      "url": "https://www.wellesleyhacks.org/"
+    },
     "d620de40e3386195": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3460,5 +3488,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-14T16:43:19+00:00"
+  "updated_at": "2026-10-15T03:35:05+00:00"
 }
