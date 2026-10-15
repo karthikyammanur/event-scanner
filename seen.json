@@ -1,5 +1,5 @@
 {
-  "count": 249,
+  "count": 253,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1275,6 +1275,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.eventbrite.com/e/ai-engineering-summit-atlanta-2026-tickets-1995175822594"
     },
+    "60d6e1b2e52949a8": {
+      "application_deadline": null,
+      "company": "Database Trends and Applications",
+      "content_key": "296e8768874ecff2",
+      "date_posted": null,
+      "emailed_at": "2026-10-15T08:57:55+00:00",
+      "event_name": "Data Summit 2027",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.dbta.com/DataSummit/2027/Program.aspx"
+    },
     "6203f5d3545a5632": {
       "application_deadline": null,
       "company": "Formlabs",
@@ -1428,6 +1442,20 @@
       "start_date": "2026-10-07",
       "travel_credit_mentioned": null,
       "url": "https://mistral-x-elastic-hackathon.devpost.com/"
+    },
+    "6c2d474af6856019": {
+      "application_deadline": null,
+      "company": "AI Engineer",
+      "content_key": "d64bce5c0e4773fa",
+      "date_posted": null,
+      "emailed_at": "2026-10-15T08:57:55+00:00",
+      "event_name": "AI Engineer Summit 2027",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://ai.engineer/summit/2027"
     },
     "6c762a8b8da18330": {
       "application_deadline": null,
@@ -2479,6 +2507,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.wehackutd.com/"
     },
+    "b86b054de8613255": {
+      "application_deadline": null,
+      "company": "Air Force Institute of Technology",
+      "content_key": "e089b420cec2e08a",
+      "date_posted": null,
+      "emailed_at": "2026-10-15T08:57:55+00:00",
+      "event_name": "CE Summit 2027 / CE Leadership Seminar",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2027-03-02",
+      "travel_credit_mentioned": null,
+      "url": "https://www.afit.edu/CE/page.cfm?page=2143"
+    },
     "ba2674331a753c1d": {
       "application_deadline": null,
       "company": "ImpactForge",
@@ -3249,6 +3291,20 @@
       "travel_credit_mentioned": null,
       "url": "https://open-source-impact.devpost.com/"
     },
+    "ed129a26075454fd": {
+      "application_deadline": null,
+      "company": "Future Bridge",
+      "content_key": "5bc2794498d3ffb6",
+      "date_posted": null,
+      "emailed_at": "2026-10-15T08:57:55+00:00",
+      "event_name": "10th Data Center Design, Engineering & Construction Summit USA 2027",
+      "event_type": "summit",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://future-bridge.us/data-center-design-engineering-construction-summit-2027"
+    },
     "ed1ccfab8cd89421": {
       "application_deadline": null,
       "company": "Binnovative",
@@ -3488,5 +3544,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-15T03:35:05+00:00"
+  "updated_at": "2026-10-15T08:57:55+00:00"
 }
