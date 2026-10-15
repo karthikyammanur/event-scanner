@@ -1,5 +1,5 @@
 {
-  "count": 253,
+  "count": 254,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -728,6 +728,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx"
+    },
+    "3c1ab601f06131be": {
+      "application_deadline": null,
+      "company": "Devpost",
+      "content_key": "15219f6380b26a0b",
+      "date_posted": null,
+      "emailed_at": "2026-10-15T16:28:51+00:00",
+      "event_name": "Learn AR with SPECS",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-15",
+      "travel_credit_mentioned": null,
+      "url": "https://learn-specs.devpost.com/"
     },
     "3d0a3f849ef5630f": {
       "application_deadline": null,
@@ -3544,5 +3558,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-15T08:57:55+00:00"
+  "updated_at": "2026-10-15T16:28:51+00:00"
 }
