@@ -1,5 +1,5 @@
 {
-  "count": 254,
+  "count": 256,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1078,6 +1078,20 @@
       "start_date": "2026-10-16",
       "travel_credit_mentioned": null,
       "url": "https://neighborhood-hacks-2026.devpost.com/"
+    },
+    "507e3ba1a9883981": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "e1a375c01018e959",
+      "date_posted": null,
+      "emailed_at": "2026-10-16T08:49:57+00:00",
+      "event_name": "HackUTA",
+      "event_type": "hackathon",
+      "location_city_state": "Arlington, TX",
+      "source": "mlh",
+      "start_date": "2026-11-14",
+      "travel_credit_mentioned": null,
+      "url": "https://hackuta.com/"
     },
     "50987abcbe221b2d": {
       "application_deadline": null,
@@ -3375,6 +3389,20 @@
       "travel_credit_mentioned": null,
       "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/"
     },
+    "efd824e3d222ec40": {
+      "application_deadline": null,
+      "company": "Hack4TodayOrg",
+      "content_key": "0e2fd7e0719d799b",
+      "date_posted": null,
+      "emailed_at": "2026-10-16T08:49:57+00:00",
+      "event_name": "LaunchPad Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://launchpad-hacks.devpost.com/"
+    },
     "f05dac0bc3829ed0": {
       "application_deadline": null,
       "company": "DataHub",
@@ -3558,5 +3586,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-15T16:28:51+00:00"
+  "updated_at": "2026-10-16T08:49:57+00:00"
 }
