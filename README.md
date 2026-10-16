@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**113 current events.** Updated 2026-10-16 16:15 UTC.
+**117 current events.** Updated 2026-10-16 22:44 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,10 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| InnovateLA x Dual-Use Hackathon ⚑ | InnovateLA | Hackathon | Los Angeles, CA | - | - | [Apply](https://innovatela.devpost.com/) |
+| Mathematics for systems security | Software Engineering Club (DEV) | Hackathon | Online | - | - | [Apply](https://mathematics-systems-security.devpost.com/) |
+| HACK.COMS ⚑ | Major League Hacking | Hackathon | Rochester, NY | - | - | [Apply](https://events.mlh.com/events/14418-hack-coms-2026) |
+| UB Hacking ⚑ | University at Buffalo | Hackathon | Buffalo, NY | - | - | [Apply](https://ubhacking.cse.buffalo.edu) |
 | HackUTA | Major League Hacking | Hackathon | Arlington, TX | - | - | [Apply](https://hackuta.com/) |
 | LaunchPad Hacks | Hack4TodayOrg | Hackathon | Online | - | - | [Apply](https://launchpad-hacks.devpost.com/) |
 | Data Summit 2027 ⚑ | Database Trends and Applications | Summit | - | - | - | [Apply](https://www.dbta.com/DataSummit/2027/Program.aspx) |

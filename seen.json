@@ -1,5 +1,5 @@
 {
-  "count": 256,
+  "count": 260,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -56,6 +56,20 @@
       "start_date": "2026-06-04",
       "travel_credit_mentioned": null,
       "url": "https://arm-ai-optimization-challenge.devpost.com/"
+    },
+    "0570041024ae5bc5": {
+      "application_deadline": null,
+      "company": "InnovateLA",
+      "content_key": "9a531e3e92b2f15c",
+      "date_posted": null,
+      "emailed_at": "2026-10-16T22:44:09+00:00",
+      "event_name": "InnovateLA x Dual-Use Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Los Angeles, CA",
+      "source": "devpost",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://innovatela.devpost.com/"
     },
     "0789d2a319abdffb": {
       "application_deadline": null,
@@ -1877,6 +1891,20 @@
       "travel_credit_mentioned": null,
       "url": "https://events.mlh.com/events/14510-midnight-hackathon-august"
     },
+    "8d6b282be04a7731": {
+      "application_deadline": null,
+      "company": "University at Buffalo",
+      "content_key": "3e3e12cbebf5473f",
+      "date_posted": null,
+      "emailed_at": "2026-10-16T22:44:09+00:00",
+      "event_name": "UB Hacking",
+      "event_type": "hackathon",
+      "location_city_state": "Buffalo, NY",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://ubhacking.cse.buffalo.edu"
+    },
     "8e12ebe84c225edc": {
       "application_deadline": null,
       "company": "Fort Worth DAO",
@@ -2128,6 +2156,20 @@
       "start_date": "2026-10-10",
       "travel_credit_mentioned": null,
       "url": "https://palmettohacks.ktpusc.com"
+    },
+    "9d08b394fd674c76": {
+      "application_deadline": null,
+      "company": "Software Engineering Club (DEV)",
+      "content_key": "0d63c4ae3b0826cc",
+      "date_posted": null,
+      "emailed_at": "2026-10-16T22:44:09+00:00",
+      "event_name": "Mathematics for systems security",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-16",
+      "travel_credit_mentioned": null,
+      "url": "https://mathematics-systems-security.devpost.com/"
     },
     "9d23506fe178dfa5": {
       "application_deadline": null,
@@ -3543,6 +3585,20 @@
       "travel_credit_mentioned": null,
       "url": "https://us.pycon.org/"
     },
+    "f9260005efc8a89e": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "205bf9ccc2b67830",
+      "date_posted": null,
+      "emailed_at": "2026-10-16T22:44:09+00:00",
+      "event_name": "HACK.COMS",
+      "event_type": "hackathon",
+      "location_city_state": "Rochester, NY",
+      "source": "mlh",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://events.mlh.com/events/14418-hack-coms-2026"
+    },
     "faef0a0ab9fb8885": {
       "application_deadline": null,
       "company": "University of Georgia",
@@ -3586,5 +3642,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-16T08:49:57+00:00"
+  "updated_at": "2026-10-16T22:44:09+00:00"
 }
