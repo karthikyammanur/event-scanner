@@ -1,5 +1,5 @@
 {
-  "count": 261,
+  "count": 263,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -812,6 +812,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51"
+    },
+    "415d670bd91c9aad": {
+      "application_deadline": null,
+      "company": "Blank Page",
+      "content_key": "c5c6da534dcf950a",
+      "date_posted": null,
+      "emailed_at": "2026-10-17T18:30:18+00:00",
+      "event_name": "Blank Page",
+      "event_type": "hackathon",
+      "location_city_state": "Cambridge, MA",
+      "source": "devpost",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://blankpage.devpost.com/"
     },
     "416cb7b2b53c531f": {
       "application_deadline": null,
@@ -2030,6 +2044,20 @@
       "start_date": "2026-09-20",
       "travel_credit_mentioned": null,
       "url": "https://coffee-and-code-agent.devpost.com/"
+    },
+    "95fc1a5df1370a54": {
+      "application_deadline": null,
+      "company": "localhost-nyc",
+      "content_key": "a094969fe7e485b8",
+      "date_posted": null,
+      "emailed_at": "2026-10-17T18:30:18+00:00",
+      "event_name": "AI x Fintech Hackathon - Money Talks 2",
+      "event_type": "hackathon",
+      "location_city_state": "New York, NY",
+      "source": "devpost",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://money-talks-2-nyc.devpost.com/"
     },
     "96f6f4744a0bc48b": {
       "application_deadline": null,
@@ -3656,5 +3684,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-17T15:09:59+00:00"
+  "updated_at": "2026-10-17T18:30:18+00:00"
 }
