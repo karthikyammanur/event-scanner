@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**114 current events.** Updated 2026-10-17 18:30 UTC.
+**114 current events.** Updated 2026-10-17 22:00 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,8 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| AI x Fintech Hackathon - Money Talks 2 ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://money-talks-2-nyc.devpost.com/) |
 | Blank Page ⚑ | Blank Page | Hackathon | Cambridge, MA | - | - | [Apply](https://blankpage.devpost.com/) |
+| AI x Fintech Hackathon - Money Talks 2 ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://money-talks-2-nyc.devpost.com/) |
 | HEALTHHACK 48 | HealthHack | Hackathon | Online | - | - | [Apply](https://healthhack-48.devpost.com/) |
 | UB Hacking ⚑ | University at Buffalo | Hackathon | Buffalo, NY | - | - | [Apply](https://ubhacking.cse.buffalo.edu) |
 | HACK.COMS ⚑ | Major League Hacking | Hackathon | Rochester, NY | - | - | [Apply](https://events.mlh.com/events/14418-hack-coms-2026) |
