@@ -1,5 +1,5 @@
 {
-  "count": 260,
+  "count": 261,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1680,6 +1680,20 @@
       "start_date": "2026-11-30",
       "travel_credit_mentioned": null,
       "url": "https://reinvent.awsevents.com/"
+    },
+    "7ebe9999976488e8": {
+      "application_deadline": null,
+      "company": "HealthHack",
+      "content_key": "17a9b2b844a08653",
+      "date_posted": null,
+      "emailed_at": "2026-10-17T15:09:59+00:00",
+      "event_name": "HEALTHHACK 48",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-17",
+      "travel_credit_mentioned": null,
+      "url": "https://healthhack-48.devpost.com/"
     },
     "7f0cd8e2d34b8469": {
       "application_deadline": null,
@@ -3642,5 +3656,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-16T22:44:09+00:00"
+  "updated_at": "2026-10-17T15:09:59+00:00"
 }

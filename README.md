@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**111 current events.** Updated 2026-10-17 08:19 UTC.
+**112 current events.** Updated 2026-10-17 15:09 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| HEALTHHACK 48 | HealthHack | Hackathon | Online | - | - | [Apply](https://healthhack-48.devpost.com/) |
 | UB Hacking ⚑ | University at Buffalo | Hackathon | Buffalo, NY | - | - | [Apply](https://ubhacking.cse.buffalo.edu) |
 | HACK.COMS ⚑ | Major League Hacking | Hackathon | Rochester, NY | - | - | [Apply](https://events.mlh.com/events/14418-hack-coms-2026) |
 | HackUTA | Major League Hacking | Hackathon | Arlington, TX | - | - | [Apply](https://hackuta.com/) |
