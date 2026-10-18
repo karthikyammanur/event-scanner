@@ -1,5 +1,5 @@
 {
-  "count": 266,
+  "count": 267,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -3123,6 +3123,20 @@
       "travel_credit_mentioned": null,
       "url": "https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01"
     },
+    "d93deb9f8a9f422a": {
+      "application_deadline": null,
+      "company": "UW Blockchain Society",
+      "content_key": "f468a2df24096ab7",
+      "date_posted": null,
+      "emailed_at": "2026-10-18T15:33:03+00:00",
+      "event_name": "804 Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Ashland, VA",
+      "source": "devpost",
+      "start_date": "2026-10-18",
+      "travel_credit_mentioned": null,
+      "url": "https://804hacks.devpost.com/"
+    },
     "d93fbd9cd9337135": {
       "application_deadline": null,
       "company": "ReverieHacks",
@@ -3726,5 +3740,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-18T03:24:23+00:00"
+  "updated_at": "2026-10-18T15:33:03+00:00"
 }
