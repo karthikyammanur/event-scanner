@@ -1,5 +1,5 @@
 {
-  "count": 263,
+  "count": 266,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -658,6 +658,20 @@
       "start_date": "2026-05-19",
       "travel_credit_mentioned": null,
       "url": "https://xprize.devpost.com/"
+    },
+    "37ddf85381181b5e": {
+      "application_deadline": null,
+      "company": "Eastern Michigan University (Student Org)",
+      "content_key": "b2701a19a89e446f",
+      "date_posted": null,
+      "emailed_at": "2026-10-18T03:24:23+00:00",
+      "event_name": "Hack The Nest",
+      "event_type": "hackathon",
+      "location_city_state": "Ypsilanti, MI",
+      "source": "mlh",
+      "start_date": "2026-11-14",
+      "travel_credit_mentioned": null,
+      "url": "https://hackthenest.tech/"
     },
     "3850b4ab50f48510": {
       "application_deadline": null,
@@ -2325,6 +2339,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.ncsea.com/summit"
     },
+    "a24b714c94f24341": {
+      "application_deadline": null,
+      "company": "Boston University (Student Org)",
+      "content_key": "b8366d3d0818e562",
+      "date_posted": null,
+      "emailed_at": "2026-10-18T03:24:23+00:00",
+      "event_name": "BostonHacks",
+      "event_type": "hackathon",
+      "location_city_state": "Boston, MA",
+      "source": "mlh",
+      "start_date": "2026-11-21",
+      "travel_credit_mentioned": null,
+      "url": "https://bostonhacks.org/"
+    },
     "a2879a730a0b26e6": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3249,6 +3277,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hackphs.tech"
     },
+    "e5a56f10b935aecf": {
+      "application_deadline": null,
+      "company": "UCSD (Student Org)",
+      "content_key": "2dbf065ac0e6548f",
+      "date_posted": null,
+      "emailed_at": "2026-10-18T03:24:23+00:00",
+      "event_name": "SanD Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "La Jolla, CA",
+      "source": "mlh",
+      "start_date": "2026-11-14",
+      "travel_credit_mentioned": null,
+      "url": "https://csesucsd.com/"
+    },
     "e5c88ae748589977": {
       "application_deadline": null,
       "company": "SpartaHack",
@@ -3684,5 +3726,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-17T18:30:18+00:00"
+  "updated_at": "2026-10-18T03:24:23+00:00"
 }
