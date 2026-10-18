@@ -40,10 +40,10 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          DIGEST_TO: ${{ secrets.DIGEST_TO }}
-        run: python scanner.py
+        # Email digest is switched off. The board and seen.json still update.
+        # To re-enable, pass GMAIL_USER, GMAIL_APP_PASSWORD, and DIGEST_TO
+        # back in and drop --no-email.
+        run: python scanner.py --no-email
 
       - name: Commit updated state and board
         run: |
