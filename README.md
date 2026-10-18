@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**109 current events.** Updated 2026-10-18 03:24 UTC.
+**109 current events.** Updated 2026-10-18 08:39 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,9 +19,9 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| SanD Hacks ⚑ | UCSD (Student Org) | Hackathon | La Jolla, CA | - | - | [Apply](https://csesucsd.com/) |
 | Hack The Nest ⚑ | Eastern Michigan University (Student Org) | Hackathon | Ypsilanti, MI | - | - | [Apply](https://hackthenest.tech/) |
 | BostonHacks ⚑ | Boston University (Student Org) | Hackathon | Boston, MA | - | - | [Apply](https://bostonhacks.org/) |
+| SanD Hacks ⚑ | UCSD (Student Org) | Hackathon | La Jolla, CA | - | - | [Apply](https://csesucsd.com/) |
 | UB Hacking ⚑ | University at Buffalo | Hackathon | Buffalo, NY | - | - | [Apply](https://ubhacking.cse.buffalo.edu) |
 | HACK.COMS ⚑ | Major League Hacking | Hackathon | Rochester, NY | - | - | [Apply](https://events.mlh.com/events/14418-hack-coms-2026) |
 | HackUTA | Major League Hacking | Hackathon | Arlington, TX | - | - | [Apply](https://hackuta.com/) |
