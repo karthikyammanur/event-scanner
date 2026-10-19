@@ -1,5 +1,5 @@
 {
-  "count": 267,
+  "count": 268,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -826,6 +826,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51"
+    },
+    "414da8b8ce3fd531": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "86cc3c68ed1ee14d",
+      "date_posted": null,
+      "emailed_at": "2026-10-19T23:26:47+00:00",
+      "event_name": "sunhacks",
+      "event_type": "hackathon",
+      "location_city_state": "Tempe, Arizona",
+      "source": "mlh",
+      "start_date": "2026-11-14",
+      "travel_credit_mentioned": null,
+      "url": "https://2026.sunhacks.io/"
     },
     "415d670bd91c9aad": {
       "application_deadline": null,
@@ -3740,5 +3754,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-18T15:33:03+00:00"
+  "updated_at": "2026-10-19T23:26:47+00:00"
 }
