@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**109 current events.** Updated 2026-10-21 09:11 UTC.
+**110 current events.** Updated 2026-10-21 16:46 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| NextSpark Hacks | Independent | Hackathon | Online | - | - | [Apply](https://nextspark-hacks.devpost.com/) |
 | sunhacks ⚑ | Major League Hacking | Hackathon | Tempe, Arizona | - | - | [Apply](https://2026.sunhacks.io/) |
 | Hack The Nest ⚑ | Eastern Michigan University (Student Org) | Hackathon | Ypsilanti, MI | - | - | [Apply](https://hackthenest.tech/) |
 | BostonHacks ⚑ | Boston University (Student Org) | Hackathon | Boston, MA | - | - | [Apply](https://bostonhacks.org/) |

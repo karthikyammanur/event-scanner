@@ -1,5 +1,5 @@
 {
-  "count": 268,
+  "count": 269,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2717,6 +2717,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.shu.edu/events-and-conferences/24-hour-hackathon.html"
     },
+    "bc656c9cb27169b8": {
+      "application_deadline": null,
+      "company": "Independent",
+      "content_key": "8e2df7361f8c1e25",
+      "date_posted": null,
+      "emailed_at": "2026-10-21T16:46:32+00:00",
+      "event_name": "NextSpark Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-21",
+      "travel_credit_mentioned": null,
+      "url": "https://nextspark-hacks.devpost.com/"
+    },
     "bcf344d4e83aa038": {
       "application_deadline": null,
       "company": "Cockroach Labs",
@@ -3754,5 +3768,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-19T23:26:47+00:00"
+  "updated_at": "2026-10-21T16:46:32+00:00"
 }
