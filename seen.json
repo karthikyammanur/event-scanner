@@ -1,5 +1,5 @@
 {
-  "count": 269,
+  "count": 271,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -3053,6 +3053,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students"
     },
+    "d49fd355cc49f099": {
+      "application_deadline": null,
+      "company": "JPMorganChase",
+      "content_key": "8b8dbbd01ab5b1eb",
+      "date_posted": null,
+      "emailed_at": "2026-10-22T03:37:43+00:00",
+      "event_name": "JPMorgan Code for Good 2027",
+      "event_type": "hackathon",
+      "location_city_state": "Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington",
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.extern.com/post/jpmorgan-code-for-good-guide"
+    },
     "d53ed2dc818daa6b": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3725,6 +3739,20 @@
       "travel_credit_mentioned": null,
       "url": "https://events.mlh.com/events/14418-hack-coms-2026"
     },
+    "fa46ec85042c9ac4": {
+      "application_deadline": null,
+      "company": "Zoho",
+      "content_key": "dc615c39898f529f",
+      "date_posted": null,
+      "emailed_at": "2026-10-22T03:37:43+00:00",
+      "event_name": "From The Ground Up AI Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://finance.yahoo.com/technology/ai/articles/zoho-announces-finalists-ground-first-140000309.html"
+    },
     "faef0a0ab9fb8885": {
       "application_deadline": null,
       "company": "University of Georgia",
@@ -3768,5 +3796,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-21T16:46:32+00:00"
+  "updated_at": "2026-10-22T03:37:43+00:00"
 }
