@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**110 current events.** Updated 2026-10-22 03:37 UTC.
+**110 current events.** Updated 2026-10-22 09:13 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,8 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| From The Ground Up AI Hackathon ⚑ | Zoho | Hackathon | - | - | - | [Apply](https://finance.yahoo.com/technology/ai/articles/zoho-announces-finalists-ground-first-140000309.html) |
 | JPMorgan Code for Good 2027 ⚑ | JPMorganChase | Hackathon | Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington | - | - | [Apply](https://www.extern.com/post/jpmorgan-code-for-good-guide) |
+| From The Ground Up AI Hackathon ⚑ | Zoho | Hackathon | - | - | - | [Apply](https://finance.yahoo.com/technology/ai/articles/zoho-announces-finalists-ground-first-140000309.html) |
 | sunhacks ⚑ | Major League Hacking | Hackathon | Tempe, Arizona | - | - | [Apply](https://2026.sunhacks.io/) |
 | Hack The Nest ⚑ | Eastern Michigan University (Student Org) | Hackathon | Ypsilanti, MI | - | - | [Apply](https://hackthenest.tech/) |
 | BostonHacks ⚑ | Boston University (Student Org) | Hackathon | Boston, MA | - | - | [Apply](https://bostonhacks.org/) |
