@@ -1,5 +1,5 @@
 {
-  "count": 271,
+  "count": 272,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -3305,6 +3305,20 @@
       "travel_credit_mentioned": null,
       "url": "https://acesat-ai-agent.devpost.com/"
     },
+    "e0ec012099c03d43": {
+      "application_deadline": null,
+      "company": "Edu",
+      "content_key": "183afd62c1800dd5",
+      "date_posted": null,
+      "emailed_at": "2026-10-22T16:49:17+00:00",
+      "event_name": "Collaborative AI Hackathon Weekend",
+      "event_type": "hackathon",
+      "location_city_state": "Miami, FL",
+      "source": "tavily",
+      "start_date": "2026-11-07",
+      "travel_credit_mentioned": null,
+      "url": "https://idsc.miami.edu/ai-hackathon-2026"
+    },
     "e39441c0eebb7906": {
       "application_deadline": null,
       "company": "Black Code Collective",
@@ -3796,5 +3810,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-22T03:37:43+00:00"
+  "updated_at": "2026-10-22T16:49:17+00:00"
 }

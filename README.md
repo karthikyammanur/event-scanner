@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**110 current events.** Updated 2026-10-22 09:13 UTC.
+**111 current events.** Updated 2026-10-22 16:49 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Collaborative AI Hackathon Weekend ⚑ | Edu | Hackathon | Miami, FL | - | - | [Apply](https://idsc.miami.edu/ai-hackathon-2026) |
 | JPMorgan Code for Good 2027 ⚑ | JPMorganChase | Hackathon | Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington | - | - | [Apply](https://www.extern.com/post/jpmorgan-code-for-good-guide) |
 | From The Ground Up AI Hackathon ⚑ | Zoho | Hackathon | - | - | - | [Apply](https://finance.yahoo.com/technology/ai/articles/zoho-announces-finalists-ground-first-140000309.html) |
 | sunhacks ⚑ | Major League Hacking | Hackathon | Tempe, Arizona | - | - | [Apply](https://2026.sunhacks.io/) |
