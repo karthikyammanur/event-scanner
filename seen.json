@@ -1,5 +1,5 @@
 {
-  "count": 272,
+  "count": 274,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1723,6 +1723,20 @@
       "travel_credit_mentioned": null,
       "url": "https://reinvent.awsevents.com/"
     },
+    "7d95704790090d0a": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "8f1991cb519aaccf",
+      "date_posted": null,
+      "emailed_at": "2026-10-22T23:01:34+00:00",
+      "event_name": "SanD Hacks",
+      "event_type": "hackathon",
+      "location_city_state": "La Jolla, CA",
+      "source": "mlh",
+      "start_date": "2026-11-14",
+      "travel_credit_mentioned": null,
+      "url": "https://hackathon.csesatucsd.com/"
+    },
     "7ebe9999976488e8": {
       "application_deadline": null,
       "company": "HealthHack",
@@ -1764,6 +1778,20 @@
       "start_date": "2026-07-16",
       "travel_credit_mentioned": null,
       "url": "https://code-for-humanity.devpost.com/"
+    },
+    "807f563f60f9cdde": {
+      "application_deadline": null,
+      "company": "super{set}",
+      "content_key": "d9f4f06c337116d4",
+      "date_posted": null,
+      "emailed_at": "2026-10-22T23:01:34+00:00",
+      "event_name": "national renaissance hackathon at super{set}",
+      "event_type": "hackathon",
+      "location_city_state": "San Francisco, California, USA",
+      "source": "devpost",
+      "start_date": "2026-10-22",
+      "travel_credit_mentioned": null,
+      "url": "https://national-renaissance-hackathon.devpost.com/"
     },
     "82fbddb05496d46b": {
       "application_deadline": null,
@@ -3810,5 +3838,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-22T16:49:17+00:00"
+  "updated_at": "2026-10-22T23:01:34+00:00"
 }
