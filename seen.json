@@ -1,5 +1,5 @@
 {
-  "count": 274,
+  "count": 275,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -28,6 +28,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://careers.adobe.com/us/en/adobe-hackathon"
+    },
+    "031640e97a97a9c8": {
+      "application_deadline": null,
+      "company": "Twitch",
+      "content_key": "6a1050766a64059a",
+      "date_posted": null,
+      "emailed_at": "2026-10-23T22:57:10+00:00",
+      "event_name": "Codex x TwitchCon Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-23",
+      "travel_credit_mentioned": null,
+      "url": "https://twitchcon-codex.devpost.com/"
     },
     "04ef8b94b0bfc6cf": {
       "application_deadline": null,
@@ -3838,5 +3852,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-22T23:01:34+00:00"
+  "updated_at": "2026-10-23T22:57:10+00:00"
 }
