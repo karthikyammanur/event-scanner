@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**109 current events.** Updated 2026-10-24 08:47 UTC.
+**110 current events.** Updated 2026-10-24 15:47 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Deal Flow: NYC's First VC Hackathon @ Betaworks ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-vc-hack.devpost.com/) |
 | SanD Hacks ⚑ | Major League Hacking | Hackathon | La Jolla, CA | - | - | [Apply](https://hackathon.csesatucsd.com/) |
 | Collaborative AI Hackathon Weekend ⚑ | Edu | Hackathon | Miami, FL | - | - | [Apply](https://idsc.miami.edu/ai-hackathon-2026) |
 | JPMorgan Code for Good 2027 ⚑ | JPMorganChase | Hackathon | Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington | - | - | [Apply](https://www.extern.com/post/jpmorgan-code-for-good-guide) |
