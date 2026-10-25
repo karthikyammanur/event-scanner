@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**110 current events.** Updated 2026-10-24 22:20 UTC.
+**107 current events.** Updated 2026-10-25 03:35 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,7 +19,6 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| Deal Flow: NYC's First VC Hackathon @ Betaworks ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-vc-hack.devpost.com/) |
 | SanD Hacks ⚑ | Major League Hacking | Hackathon | La Jolla, CA | - | - | [Apply](https://hackathon.csesatucsd.com/) |
 | Collaborative AI Hackathon Weekend ⚑ | Edu | Hackathon | Miami, FL | - | - | [Apply](https://idsc.miami.edu/ai-hackathon-2026) |
 | JPMorgan Code for Good 2027 ⚑ | JPMorganChase | Hackathon | Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington | - | - | [Apply](https://www.extern.com/post/jpmorgan-code-for-good-guide) |
@@ -35,7 +34,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 12d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 13d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -44,7 +43,6 @@ passed move to the archive at the bottom.
 | HackUTD | UT Dallas | Hackathon | Richardson, TX | - | - | [Apply](https://zeroday.hackutd.co) |
 | UGAHacks ⚑ | University of Georgia | Hackathon | Athens, GA | - | - | [Apply](https://12.ugahacks.com/) |
 | Cornell Health Hackathon ⚑ | Cornell University | Hackathon | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2026/03/students-pitch-ai-inspired-solutions-cornell-health-hackathon) |
-| DuQuantum ⚑ | Major League Hacking | Hackathon | Durham, NC | - | - | [Apply](https://duquantum.org/) |
 | SharkByte ⚑ | Major League Hacking | Hackathon | Miami, FL | - | - | [Apply](https://shark-byte.io/) |
 | GullHacks ⚑ | Major League Hacking | Hackathon | Salisbury, MD | - | - | [Apply](https://hub.salisbury.edu/hackathon/) |
 | United Hacks V8 | Hack United | Hackathon | Online | - | - | [Apply](https://unitedhacksv8.devpost.com/) |
@@ -73,7 +71,6 @@ passed move to the archive at the bottom.
 | KubeCon + CloudNativeCon NA ⚑ | KubeCon + CloudNativeCon NA | Conference | Salt Lake City, UT | - | - | [Apply](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/) |
 | PyCon US ⚑ | PyCon US | Conference | Long Beach, CA | - | - | [Apply](https://us.pycon.org/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
-| Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
 | Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 1mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
@@ -131,10 +128,11 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (166)</summary>
+<summary>Past events (169)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Deal Flow: NYC's First VC Hackathon @ Betaworks ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-vc-hack.devpost.com/) |
 | Codex x TwitchCon Hackathon | Twitch | Hackathon | Online | - | - | [Apply](https://twitchcon-codex.devpost.com/) |
 | national renaissance hackathon at super{set} ⚑ | super{set} | Hackathon | San Francisco, California, USA | - | - | [Apply](https://national-renaissance-hackathon.devpost.com/) |
 | NextSpark Hacks | Independent | Hackathon | Online | - | - | [Apply](https://nextspark-hacks.devpost.com/) |
@@ -151,6 +149,7 @@ passed move to the archive at the bottom.
 | Neighborhood Hacks | Student Organization | Hackathon | Online | - | - | [Apply](https://neighborhood-hacks-2026.devpost.com/) |
 | Black Code Collective Hacktoberfest ⚑ | Black Code Collective | Hackathon | Washington, DC | - | - | [Apply](https://bcc-hacktoberfest.devpost.com/) |
 | IEEE Hack For Humanity | IEEE Charlotte Section | Hackathon | Online | - | - | [Apply](https://ieee-ai-hack-for-humanity.devpost.com/) |
+| DuQuantum ⚑ | Major League Hacking | Hackathon | Durham, NC | - | - | [Apply](https://duquantum.org/) |
 | hackPHS ⚑ | Major League Hacking | Hackathon | Princeton, NJ | - | - | [Apply](https://hackphs.tech) |
 | Mistral x Elastic Hackathon ⚑ | Elastic | Hackathon | New York, NY | - | - | [Apply](https://mistral-x-elastic-hackathon.devpost.com/) |
 | All you can do with AI | Self | Hackathon | Online | - | - | [Apply](https://all-you-can-do-with-ai.devpost.com/) |
@@ -199,6 +198,7 @@ passed move to the archive at the bottom.
 | GatewayGS Hackathon 2 | GatewayGS | Hackathon | Online | - | - | [Apply](https://gatewaygs-hackathon-2.devpost.com/) |
 | Gator Quant Hacks ⚑ | Major League Hacking | Hackathon | Gainesville, Florida | - | - | [Apply](https://www.gqhacks.com) |
 | WolfHacks by ACM at NC State ⚑ | Major League Hacking | Hackathon | Raleigh, NC | - | - | [Apply](https://wolfhacks.org/) |
+| Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
 | SPEED Virgo Challenge | Prometheus | Hackathon | Online | - | - | [Apply](https://virgo.devpost.com/) |
 | Agentic Day Online Hackathon Powered by Mel | agentic day | Hackathon | Online | - | - | [Apply](https://powered-by-mel.devpost.com/) |
 | SPEED September AI Challenge | SPEED | Hackathon | Online | - | - | [Apply](https://prometheus-sept-ai-classic.devpost.com/) |
