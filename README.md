@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**107 current events.** Updated 2026-10-25 22:29 UTC.
+**107 current events.** Updated 2026-10-26 03:46 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -34,7 +34,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 13d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 14d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -76,7 +76,7 @@ passed move to the archive at the bottom.
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
 | SyDAg and Hackathon Weekend ⚑ | Purdue University | Hackathon | West Lafayette, IN | - | - | [Apply](https://m.farms.com/news/purdue-university-students-launch-inaugural-sydag-and-hackathon-weekend-232428.aspx) |
-| Hackathon for Good ⚑ | Saint Martin's University | Hackathon | Lacey, Washington | 4mo | - | [Apply](https://www.graysharbortalk.com/2026/05/29/saint-martins-university-hackathon-challenged-young-saints-to-provide-real-world-solutions) |
+| Hackathon for Good ⚑ | Saint Martin's University | Hackathon | Lacey, Washington | 5mo | - | [Apply](https://www.graysharbortalk.com/2026/05/29/saint-martins-university-hackathon-challenged-young-saints-to-provide-real-world-solutions) |
 | Desert Dev Lab Hackathon ⚑ | Arrowhead Center / New Mexico State University | Hackathon | Las Cruces, New Mexico | - | - | [Apply](https://newsroom.nmsu.edu/news/nmsu-students-take-first-and-second-place-at-statewide-desert-dev-lab-hackathon/s/41256a2b-6f2f-412e-aa90-e3e31edbe3c8) |
 | NASA Data Hackathon ⚑ | NASA | Hackathon | Gainesville, FL | - | - | [Apply](https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/) |
 | Embedded Vision Summit at Photonics West ⚑ | SPIE / Edge AI Vision Alliance | Summit | - | 5mo | - | [Apply](https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240) |
@@ -228,7 +228,7 @@ passed move to the archive at the bottom.
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 4mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
 | Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 4mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 5mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
-| National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 5mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
+| National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 6mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
 | Anthropic Fellows Program, The Anthropic Institute (Economics & Policy) ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183053008) |
 | Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
 | Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
