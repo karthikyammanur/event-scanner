@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**107 current events.** Updated 2026-10-26 23:37 UTC.
+**107 current events.** Updated 2026-10-27 04:17 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -34,7 +34,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 14d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 15d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -71,7 +71,7 @@ passed move to the archive at the bottom.
 | KubeCon + CloudNativeCon NA ⚑ | KubeCon + CloudNativeCon NA | Conference | Salt Lake City, UT | - | - | [Apply](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/) |
 | PyCon US ⚑ | PyCon US | Conference | Long Beach, CA | - | - | [Apply](https://us.pycon.org/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
-| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 1mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
+| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 2mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
