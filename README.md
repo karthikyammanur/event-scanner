@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**108 current events.** Updated 2026-10-27 23:35 UTC.
+**104 current events.** Updated 2026-10-28 04:31 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,7 +19,6 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| Build Your First AI App | Yasir Insights | Hackathon | Online | - | - | [Apply](https://build-your-first-ai-app.devpost.com/) |
 | SanD Hacks ⚑ | Major League Hacking | Hackathon | La Jolla, CA | - | - | [Apply](https://hackathon.csesatucsd.com/) |
 | Collaborative AI Hackathon Weekend ⚑ | Edu | Hackathon | Miami, FL | - | - | [Apply](https://idsc.miami.edu/ai-hackathon-2026) |
 | JPMorgan Code for Good 2027 ⚑ | JPMorganChase | Hackathon | Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington | - | - | [Apply](https://www.extern.com/post/jpmorgan-code-for-good-guide) |
@@ -35,7 +34,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 15d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 16d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -66,13 +65,10 @@ passed move to the archive at the bottom.
 | AWS re:Invent ⚑ | AWS re:Invent | Conference | Las Vegas, NV | - | - | [Apply](https://reinvent.awsevents.com/) |
 | AfroTech Conference | AfroTech Conference | Conference | Houston, TX | - | - | [Apply](https://afrotechconference.com/) |
 | GitHub Universe ⚑ | GitHub Universe | Conference | San Francisco, CA | - | 2026-08-20 | [Apply](https://githubuniverse.com/) |
-| NCSEA Structural Engineering Summit 2026 ⚑ | Ncsea | Summit | San Francisco, CA | - | - | [Apply](https://www.ncsea.com/summit) |
 | SHPE National Convention ⚑ | SHPE | Conference | Indianapolis, IN | - | 2026-09-09 | [Apply](https://www.shpe.org/) |
-| Grace Hopper Celebration (GHC) ⚑ | Grace Hopper Celebration (GHC) | Conference | Anaheim, CA | - | - | [Apply](https://ghc.anitab.org/) |
 | KubeCon + CloudNativeCon NA ⚑ | KubeCon + CloudNativeCon NA | Conference | Salt Lake City, UT | - | - | [Apply](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/) |
 | PyCon US ⚑ | PyCon US | Conference | Long Beach, CA | - | - | [Apply](https://us.pycon.org/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
-| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 2mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
 | Silicon Valley Immersion ⚑ | Syracuse University | Insight program | Silicon Valley, CA | - | - | [Apply](https://newhouse.syracuse.edu/news/silicon-valley-immersion-brings-newhouse-students-to-center-of-tech-innovation) |
 | Discovery World Hackathon ⚑ | Marquette University | Hackathon | Milwaukee, WI | - | - | [Apply](https://today.marquette.edu/2026/01/compete-for-10000-in-the-discovery-world-hackathon) |
@@ -80,7 +76,7 @@ passed move to the archive at the bottom.
 | Hackathon for Good ⚑ | Saint Martin's University | Hackathon | Lacey, Washington | 5mo | - | [Apply](https://www.graysharbortalk.com/2026/05/29/saint-martins-university-hackathon-challenged-young-saints-to-provide-real-world-solutions) |
 | Desert Dev Lab Hackathon ⚑ | Arrowhead Center / New Mexico State University | Hackathon | Las Cruces, New Mexico | - | - | [Apply](https://newsroom.nmsu.edu/news/nmsu-students-take-first-and-second-place-at-statewide-desert-dev-lab-hackathon/s/41256a2b-6f2f-412e-aa90-e3e31edbe3c8) |
 | NASA Data Hackathon ⚑ | NASA | Hackathon | Gainesville, FL | - | - | [Apply](https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/) |
-| Embedded Vision Summit at Photonics West ⚑ | SPIE / Edge AI Vision Alliance | Summit | - | 5mo | - | [Apply](https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240) |
+| Embedded Vision Summit at Photonics West ⚑ | SPIE / Edge AI Vision Alliance | Summit | - | 6mo | - | [Apply](https://www.photonics.com/Articles/SPIE-Adds-Embedded-Vision-Summit-to-Photonics/a72240) |
 | World Water-Tech Innovation Summit 2027 ⚑ | World Water-Tech | Summit | - | - | - | [Apply](https://www.foodnavigator.com/Events/world-water-tech-summit-2027) |
 | American Society for Engineering Education Conference ⚑ | Stony Brook University | Conference | Stony Brook, NY | - | - | [Apply](https://news.stonybrook.edu/university/american-society-for-engineering-education-conference-tackles-the-role-of-ai-in-education) |
 | Cornell Systems Summit ⚑ | Cornell University | Summit | Ithaca, NY | - | - | [Apply](https://news.cornell.edu/stories/2025/11/cornell-systems-summit-addresses-future-systems-engineering) |
@@ -129,10 +125,11 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (169)</summary>
+<summary>Past events (173)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Build Your First AI App | Yasir Insights | Hackathon | Online | - | - | [Apply](https://build-your-first-ai-app.devpost.com/) |
 | Deal Flow: NYC's First VC Hackathon @ Betaworks ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-vc-hack.devpost.com/) |
 | Codex x TwitchCon Hackathon | Twitch | Hackathon | Online | - | - | [Apply](https://twitchcon-codex.devpost.com/) |
 | national renaissance hackathon at super{set} ⚑ | super{set} | Hackathon | San Francisco, California, USA | - | - | [Apply](https://national-renaissance-hackathon.devpost.com/) |
@@ -183,7 +180,9 @@ passed move to the archive at the bottom.
 | SASE National Convention ⚑ | SASE | Conference | Seattle, WA | - | - | [Apply](https://www.saseconnect.org/) |
 | IBM Quantum Developer Conference ⚑ | IBM | Conference | Chicago, IL | - | 2026-09-21 | [Apply](https://www.ibm.com/quantum/blog/qdc-application-2026) |
 | Palmetto Hacks ⚑ | Major League Hacking | Hackathon | Columbia, SC | - | - | [Apply](https://palmettohacks.ktpusc.com) |
+| NCSEA Structural Engineering Summit 2026 ⚑ | Ncsea | Summit | San Francisco, CA | - | - | [Apply](https://www.ncsea.com/summit) |
 | AISES National Conference | AISES | Conference | Portland, OR | - | 2026-08-15 | [Apply](https://conference.aises.org/attendees/travel-scholarships) |
+| Grace Hopper Celebration (GHC) ⚑ | Grace Hopper Celebration (GHC) | Conference | Anaheim, CA | - | - | [Apply](https://ghc.anitab.org/) |
 | WE26 ⚑ | Society of Women Engineers | Conference | Boston, MA | - | 2026-08-31 | [Apply](https://we26.swe.org/) |
 | DubHacks ⚑ | Major League Hacking | Hackathon | Seattle, Washington | - | - | [Apply](https://dh26.dubhacks.co/) |
 | codeLinc 11 ⚑ | Lincoln Financial Group | Hackathon | Greensboro, NC | - | - | [Apply](https://codelinc11.devpost.com/) |
@@ -202,6 +201,7 @@ passed move to the archive at the bottom.
 | Hack at Penn State ⚑ | Major League Hacking | Hackathon | University Park, PA | - | - | [Apply](https://hackpsu.org) |
 | SPEED Virgo Challenge | Prometheus | Hackathon | Online | - | - | [Apply](https://virgo.devpost.com/) |
 | Agentic Day Online Hackathon Powered by Mel | agentic day | Hackathon | Online | - | - | [Apply](https://powered-by-mel.devpost.com/) |
+| Biosecurity & AI Safety Fellowship | 10a Labs | Fellowship | Remote | 2mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4387699009) |
 | SPEED September AI Challenge | SPEED | Hackathon | Online | - | - | [Apply](https://prometheus-sept-ai-classic.devpost.com/) |
 | &HACKS XII ⚑ | Major League Hacking | Hackathon | Williamsburg, Virginia | - | - | [Apply](https://andhacks.cs.wm.edu/) |
 | Mercor Research Fellowship , APEX ⚑ | Mercor | Fellowship | San Francisco, CA | 2mo | - | [Apply](https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01) |
