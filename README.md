@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**104 current events.** Updated 2026-10-28 14:59 UTC.
+**102 current events.** Updated 2026-10-29 05:00 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -34,7 +34,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 16d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 17d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -64,8 +64,6 @@ passed move to the archive at the bottom.
 | Women in Data Science (WiDS) Worldwide ⚑ | Women in Data Science (WiDS) Worldwide | Conference | Stanford, CA | - | - | [Apply](https://www.widsworldwide.org/) |
 | AWS re:Invent ⚑ | AWS re:Invent | Conference | Las Vegas, NV | - | - | [Apply](https://reinvent.awsevents.com/) |
 | AfroTech Conference | AfroTech Conference | Conference | Houston, TX | - | - | [Apply](https://afrotechconference.com/) |
-| GitHub Universe ⚑ | GitHub Universe | Conference | San Francisco, CA | - | 2026-08-20 | [Apply](https://githubuniverse.com/) |
-| SHPE National Convention ⚑ | SHPE | Conference | Indianapolis, IN | - | 2026-09-09 | [Apply](https://www.shpe.org/) |
 | KubeCon + CloudNativeCon NA ⚑ | KubeCon + CloudNativeCon NA | Conference | Salt Lake City, UT | - | - | [Apply](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/) |
 | PyCon US ⚑ | PyCon US | Conference | Long Beach, CA | - | - | [Apply](https://us.pycon.org/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
@@ -125,7 +123,7 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (173)</summary>
+<summary>Past events (175)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -179,8 +177,10 @@ passed move to the archive at the bottom.
 | AI Engineering Summit Atlanta 2026 ⚑ | Eventbrite | Summit | Atlanta, GA | - | - | [Apply](https://www.eventbrite.com/e/ai-engineering-summit-atlanta-2026-tickets-1995175822594) |
 | SASE National Convention ⚑ | SASE | Conference | Seattle, WA | - | - | [Apply](https://www.saseconnect.org/) |
 | IBM Quantum Developer Conference ⚑ | IBM | Conference | Chicago, IL | - | 2026-09-21 | [Apply](https://www.ibm.com/quantum/blog/qdc-application-2026) |
+| GitHub Universe ⚑ | GitHub Universe | Conference | San Francisco, CA | - | 2026-08-20 | [Apply](https://githubuniverse.com/) |
 | Palmetto Hacks ⚑ | Major League Hacking | Hackathon | Columbia, SC | - | - | [Apply](https://palmettohacks.ktpusc.com) |
 | NCSEA Structural Engineering Summit 2026 ⚑ | Ncsea | Summit | San Francisco, CA | - | - | [Apply](https://www.ncsea.com/summit) |
+| SHPE National Convention ⚑ | SHPE | Conference | Indianapolis, IN | - | 2026-09-09 | [Apply](https://www.shpe.org/) |
 | AISES National Conference | AISES | Conference | Portland, OR | - | 2026-08-15 | [Apply](https://conference.aises.org/attendees/travel-scholarships) |
 | Grace Hopper Celebration (GHC) ⚑ | Grace Hopper Celebration (GHC) | Conference | Anaheim, CA | - | - | [Apply](https://ghc.anitab.org/) |
 | WE26 ⚑ | Society of Women Engineers | Conference | Boston, MA | - | 2026-08-31 | [Apply](https://we26.swe.org/) |
