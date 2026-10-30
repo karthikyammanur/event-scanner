@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**102 current events.** Updated 2026-10-29 20:55 UTC.
+**101 current events.** Updated 2026-10-30 04:43 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -34,7 +34,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 17d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 18d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -57,7 +57,6 @@ passed move to the archive at the bottom.
 | LaunchHacks V | LaunchHacks | Hackathon | Online | - | - | [Apply](https://launchhacks-v.devpost.com/) |
 | Hack Apertus | aiLights Association | Hackathon | Online | - | - | [Apply](https://hackapertus.devpost.com/) |
 | Research Open House 2027 ⚑ | University of Iowa | Conference | Iowa City, IA | - | - | [Apply](https://engineering.uiowa.edu/research/research-open-house) |
-| The National Diversity in STEM Conference | SACNAS | Conference | Long Beach, CA | - | - | [Apply](https://www.sacnas.org/conference) |
 | NSBE Annual Convention ⚑ | NSBE | Conference | Boston, MA | - | - | [Apply](https://convention.nsbe.org/) |
 | Clinton Global Initiative University (CGI U) ⚑ | Clinton Global Initiative University | Summit | Location TBA | - | - | [Apply](https://www.cgiu.org/) |
 | DeveloperWeek ⚑ | DeveloperWeek | Conference | Santa Clara, CA | - | 2026-10-08 | [Apply](https://www.developerweek.com/) |
@@ -123,7 +122,7 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (175)</summary>
+<summary>Past events (176)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -174,6 +173,7 @@ passed move to the archive at the bottom.
 | EA Global: New York City ⚑ | EA Global | Conference | New York, NY | - | 2026-09-27 | [Apply](https://www.effectivealtruism.org/ea-global) |
 | oSTEM (Out in STEM) Annual Conference ⚑ | oSTEM (Out in STEM) | Conference | Albuquerque, NM | - | - | [Apply](https://conference.ostem.org/) |
 | TigerHacks ⚑ | Major League Hacking | Hackathon | Columbia, MO | - | - | [Apply](https://tigerhacks.dev) |
+| The National Diversity in STEM Conference | SACNAS | Conference | Long Beach, CA | - | - | [Apply](https://www.sacnas.org/conference) |
 | AI Engineering Summit Atlanta 2026 ⚑ | Eventbrite | Summit | Atlanta, GA | - | - | [Apply](https://www.eventbrite.com/e/ai-engineering-summit-atlanta-2026-tickets-1995175822594) |
 | SASE National Convention ⚑ | SASE | Conference | Seattle, WA | - | - | [Apply](https://www.saseconnect.org/) |
 | IBM Quantum Developer Conference ⚑ | IBM | Conference | Chicago, IL | - | 2026-09-21 | [Apply](https://www.ibm.com/quantum/blog/qdc-application-2026) |
