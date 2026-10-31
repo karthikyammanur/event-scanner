@@ -1,5 +1,5 @@
 {
-  "count": 280,
+  "count": 281,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1512,6 +1512,20 @@
       "start_date": "2026-06-23",
       "travel_credit_mentioned": null,
       "url": "https://rice-urban-sustainability.devpost.com/"
+    },
+    "695c228000672a4f": {
+      "application_deadline": null,
+      "company": "CodeStarters",
+      "content_key": "4759b7081ebeec46",
+      "date_posted": null,
+      "emailed_at": "2026-10-31T20:00:32+00:00",
+      "event_name": "IceHacks",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-11-08",
+      "travel_credit_mentioned": null,
+      "url": "https://icehacks.devpost.com/"
     },
     "698798abd9c86887": {
       "application_deadline": null,
@@ -3922,5 +3936,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-31T14:22:38+00:00"
+  "updated_at": "2026-10-31T20:00:32+00:00"
 }
