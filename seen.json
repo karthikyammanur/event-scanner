@@ -1,5 +1,5 @@
 {
-  "count": 277,
+  "count": 280,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1681,6 +1681,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.henhackshackathon.com/"
     },
+    "7437f416a22a1b91": {
+      "application_deadline": null,
+      "company": "avacado",
+      "content_key": "dc999d683bfdc734",
+      "date_posted": null,
+      "emailed_at": "2026-10-31T14:22:38+00:00",
+      "event_name": "Remote Control AI",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-31",
+      "travel_credit_mentioned": null,
+      "url": "https://remote-control-ai.devpost.com/"
+    },
     "76ba2235ff19fecb": {
       "application_deadline": null,
       "company": "Cosmo Hacks",
@@ -2955,6 +2969,20 @@
       "travel_credit_mentioned": null,
       "url": "https://events.mlh.com/events/14442-spartahack-12"
     },
+    "ca89989285529023": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "e98d8cfd0b42926c",
+      "date_posted": null,
+      "emailed_at": "2026-10-31T14:22:38+00:00",
+      "event_name": "Hack Cats",
+      "event_type": "hackathon",
+      "location_city_state": "Manhattan, KS",
+      "source": "mlh",
+      "start_date": "2026-12-04",
+      "travel_credit_mentioned": null,
+      "url": "https://hackkstate.tech/"
+    },
     "cae3510ec858cc8d": {
       "application_deadline": null,
       "company": "JPMorgan Chase",
@@ -2968,6 +2996,20 @@
       "start_date": null,
       "travel_credit_mentioned": null,
       "url": "https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship"
+    },
+    "cbb0834411b60571": {
+      "application_deadline": null,
+      "company": "Hacker's Unity",
+      "content_key": "3109403c3c1eede5",
+      "date_posted": null,
+      "emailed_at": "2026-10-31T14:22:38+00:00",
+      "event_name": "Mergetober",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-10-31",
+      "travel_credit_mentioned": null,
+      "url": "https://mergetober.devpost.com/"
     },
     "cbe3acc901a10cc0": {
       "application_deadline": null,
@@ -3880,5 +3922,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-27T23:35:01+00:00"
+  "updated_at": "2026-10-31T14:22:38+00:00"
 }
