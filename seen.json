@@ -1,5 +1,5 @@
 {
-  "count": 281,
+  "count": 284,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1639,6 +1639,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.widsworldwide.org/"
     },
+    "6e6667bf5d7c5a30": {
+      "application_deadline": null,
+      "company": "GOOGLE DEVELOPER GROUP AT FIU",
+      "content_key": "ec0882de4dccfc5c",
+      "date_posted": null,
+      "emailed_at": "2026-11-01T04:47:15+00:00",
+      "event_name": "305 Veterans Hackathon Edition November 2026",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-11-01",
+      "travel_credit_mentioned": null,
+      "url": "https://305veteransnov2026.devpost.com/"
+    },
     "6eff8daef9570b3c": {
       "application_deadline": null,
       "company": "SASE",
@@ -2002,6 +2016,20 @@
       "start_date": "2026-11-07",
       "travel_credit_mentioned": null,
       "url": "https://v0-curc-makecu.vercel.app/"
+    },
+    "8b742130e4a1c47f": {
+      "application_deadline": null,
+      "company": "Devin",
+      "content_key": "e033f7169f5ff9ee",
+      "date_posted": null,
+      "emailed_at": "2026-11-01T04:47:15+00:00",
+      "event_name": "Agentic Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-11-01",
+      "travel_credit_mentioned": null,
+      "url": "https://agentic-hackathon.devpost.com/"
     },
     "8c0031bac3d0ffec": {
       "application_deadline": null,
@@ -3725,6 +3753,20 @@
       "travel_credit_mentioned": null,
       "url": "https://launchpad-hacks.devpost.com/"
     },
+    "f00e2941ed13bb5e": {
+      "application_deadline": null,
+      "company": "Shail & Sharaf",
+      "content_key": "daf1caa8fe2e29ac",
+      "date_posted": null,
+      "emailed_at": "2026-11-01T04:47:15+00:00",
+      "event_name": "GenHacks",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-11-01",
+      "travel_credit_mentioned": null,
+      "url": "https://genhacks-open.devpost.com/"
+    },
     "f05dac0bc3829ed0": {
       "application_deadline": null,
       "company": "DataHub",
@@ -3936,5 +3978,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-10-31T20:00:32+00:00"
+  "updated_at": "2026-11-01T04:47:15+00:00"
 }

@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**105 current events.** Updated 2026-10-31 23:21 UTC.
+**106 current events.** Updated 2026-11-01 04:47 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,10 +19,11 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Agentic Hackathon | Devin | Hackathon | Online | - | - | [Apply](https://agentic-hackathon.devpost.com/) |
+| 305 Veterans Hackathon Edition November 2026 | GOOGLE DEVELOPER GROUP AT FIU | Hackathon | Online | - | - | [Apply](https://305veteransnov2026.devpost.com/) |
+| GenHacks | Shail & Sharaf | Hackathon | Online | - | - | [Apply](https://genhacks-open.devpost.com/) |
 | IceHacks | CodeStarters | Hackathon | Online | - | - | [Apply](https://icehacks.devpost.com/) |
-| Remote Control AI | avacado | Hackathon | Online | - | - | [Apply](https://remote-control-ai.devpost.com/) |
 | Hack Cats ⚑ | Major League Hacking | Hackathon | Manhattan, KS | - | - | [Apply](https://hackkstate.tech/) |
-| Mergetober | Hacker's Unity | Hackathon | Online | - | - | [Apply](https://mergetober.devpost.com/) |
 | SanD Hacks ⚑ | Major League Hacking | Hackathon | La Jolla, CA | - | - | [Apply](https://hackathon.csesatucsd.com/) |
 | Collaborative AI Hackathon Weekend ⚑ | Edu | Hackathon | Miami, FL | - | - | [Apply](https://idsc.miami.edu/ai-hackathon-2026) |
 | JPMorgan Code for Good 2027 ⚑ | JPMorganChase | Hackathon | Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington | - | - | [Apply](https://www.extern.com/post/jpmorgan-code-for-good-guide) |
@@ -38,7 +39,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 19d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 20d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -126,10 +127,12 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (176)</summary>
+<summary>Past events (178)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Remote Control AI | avacado | Hackathon | Online | - | - | [Apply](https://remote-control-ai.devpost.com/) |
+| Mergetober | Hacker's Unity | Hackathon | Online | - | - | [Apply](https://mergetober.devpost.com/) |
 | Build Your First AI App | Yasir Insights | Hackathon | Online | - | - | [Apply](https://build-your-first-ai-app.devpost.com/) |
 | Deal Flow: NYC's First VC Hackathon @ Betaworks ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-vc-hack.devpost.com/) |
 | Codex x TwitchCon Hackathon | Twitch | Hackathon | Online | - | - | [Apply](https://twitchcon-codex.devpost.com/) |
@@ -227,11 +230,11 @@ passed move to the archive at the bottom.
 | Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 28mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
 | Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
-| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 2mo | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
+| 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 3mo | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 3mo | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 4mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
 | Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 4mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
-| Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 4mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
+| Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 5mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 5mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
 | National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 6mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
 | Anthropic Fellows Program, The Anthropic Institute (Economics & Policy) ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183053008) |
