@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**106 current events.** Updated 2026-11-01 04:47 UTC.
+**106 current events.** Updated 2026-11-01 15:02 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,8 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| Agentic Hackathon | Devin | Hackathon | Online | - | - | [Apply](https://agentic-hackathon.devpost.com/) |
 | 305 Veterans Hackathon Edition November 2026 | GOOGLE DEVELOPER GROUP AT FIU | Hackathon | Online | - | - | [Apply](https://305veteransnov2026.devpost.com/) |
+| Agentic Hackathon | Devin | Hackathon | Online | - | - | [Apply](https://agentic-hackathon.devpost.com/) |
 | GenHacks | Shail & Sharaf | Hackathon | Online | - | - | [Apply](https://genhacks-open.devpost.com/) |
 | IceHacks | CodeStarters | Hackathon | Online | - | - | [Apply](https://icehacks.devpost.com/) |
 | Hack Cats ⚑ | Major League Hacking | Hackathon | Manhattan, KS | - | - | [Apply](https://hackkstate.tech/) |
