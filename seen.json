@@ -1,5 +1,5 @@
 {
-  "count": 284,
+  "count": 286,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -238,6 +238,20 @@
       "start_date": "2026-08-07",
       "travel_credit_mentioned": null,
       "url": "https://univabio.devpost.com/"
+    },
+    "1337bf33bd26c40c": {
+      "application_deadline": null,
+      "company": "AWS",
+      "content_key": "13f399ca4fab2459",
+      "date_posted": null,
+      "emailed_at": "2026-11-02T18:00:11+00:00",
+      "event_name": "AWS MSP AI Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-11-02",
+      "travel_credit_mentioned": null,
+      "url": "https://aws-agentic-msp.devpost.com/"
     },
     "1527ec2ea281cc86": {
       "application_deadline": null,
@@ -1596,6 +1610,20 @@
       "start_date": "2026-10-11",
       "travel_credit_mentioned": null,
       "url": "https://ieee-ai-hack-for-humanity.devpost.com/"
+    },
+    "6d18b3247819140d": {
+      "application_deadline": null,
+      "company": "QNX",
+      "content_key": "6d80449d2f0bc985",
+      "date_posted": null,
+      "emailed_at": "2026-11-02T18:00:11+00:00",
+      "event_name": "QNX Global Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-11-02",
+      "travel_credit_mentioned": null,
+      "url": "https://qnx.devpost.com/"
     },
     "6d5b4114b199b3ad": {
       "application_deadline": null,
@@ -3978,5 +4006,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-01T04:47:15+00:00"
+  "updated_at": "2026-11-02T18:00:11+00:00"
 }
