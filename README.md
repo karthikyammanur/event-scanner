@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**106 current events.** Updated 2026-11-01 15:02 UTC.
+**103 current events.** Updated 2026-11-02 04:50 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,9 +19,6 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
-| 305 Veterans Hackathon Edition November 2026 | GOOGLE DEVELOPER GROUP AT FIU | Hackathon | Online | - | - | [Apply](https://305veteransnov2026.devpost.com/) |
-| Agentic Hackathon | Devin | Hackathon | Online | - | - | [Apply](https://agentic-hackathon.devpost.com/) |
-| GenHacks | Shail & Sharaf | Hackathon | Online | - | - | [Apply](https://genhacks-open.devpost.com/) |
 | IceHacks | CodeStarters | Hackathon | Online | - | - | [Apply](https://icehacks.devpost.com/) |
 | Hack Cats ⚑ | Major League Hacking | Hackathon | Manhattan, KS | - | - | [Apply](https://hackkstate.tech/) |
 | SanD Hacks ⚑ | Major League Hacking | Hackathon | La Jolla, CA | - | - | [Apply](https://hackathon.csesatucsd.com/) |
@@ -39,7 +36,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 20d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 21d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -127,10 +124,13 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (178)</summary>
+<summary>Past events (181)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| 305 Veterans Hackathon Edition November 2026 | GOOGLE DEVELOPER GROUP AT FIU | Hackathon | Online | - | - | [Apply](https://305veteransnov2026.devpost.com/) |
+| Agentic Hackathon | Devin | Hackathon | Online | - | - | [Apply](https://agentic-hackathon.devpost.com/) |
+| GenHacks | Shail & Sharaf | Hackathon | Online | - | - | [Apply](https://genhacks-open.devpost.com/) |
 | Remote Control AI | avacado | Hackathon | Online | - | - | [Apply](https://remote-control-ai.devpost.com/) |
 | Mergetober | Hacker's Unity | Hackathon | Online | - | - | [Apply](https://mergetober.devpost.com/) |
 | Build Your First AI App | Yasir Insights | Hackathon | Online | - | - | [Apply](https://build-your-first-ai-app.devpost.com/) |
@@ -223,7 +223,7 @@ passed move to the archive at the bottom.
 | Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 5mo | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
 | UnivaBio | BioCataalysis | Hackathon | Online | - | - | [Apply](https://univabio.devpost.com/) |
 | SEC Engineering Leadership Summit ⚑ | The University of Alabama | Summit | Tuscaloosa, AL | - | - | [Apply](https://eng.ua.edu/sec-engineering-leadership-summit) |
-| NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 9mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
+| NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 10mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
 | DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
 | IEEE STEM Summit | IEEE | Summit | Virtual | - | - | [Apply](https://stem-summit.tryengineering.org) |
 | Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
@@ -244,7 +244,7 @@ passed move to the archive at the bottom.
 | Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 7mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
 | Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 10mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
 | Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 10mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
-| Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 10mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
+| Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 11mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
 | Research Fellowship - Open Endedness ⚑ | Vmax AI Corp | Fellowship | SF | 12mo | - | [Apply](https://jobs.ashbyhq.com/vmax/c4e1e51b-65c5-41f0-9bed-c90bc452859b) |
 | American Tech Fellowship ⚑ | Palantir | Fellowship | North America | 16mo | - | [Apply](https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0) |
 | Arm Create: AI Optimization Challenge | arm | Program | Online | - | - | [Apply](https://arm-ai-optimization-challenge.devpost.com/) |
