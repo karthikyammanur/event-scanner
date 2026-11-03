@@ -1,5 +1,5 @@
 {
-  "count": 286,
+  "count": 287,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -3333,6 +3333,20 @@
       "travel_credit_mentioned": null,
       "url": "https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0"
     },
+    "d7b07cb4f6690199": {
+      "application_deadline": null,
+      "company": "University of North Georgia",
+      "content_key": "02e54c8767c2b201",
+      "date_posted": null,
+      "emailed_at": "2026-11-03T11:42:50+00:00",
+      "event_name": "Cyber Summer Immersion",
+      "event_type": "externship",
+      "location_city_state": null,
+      "source": "tavily",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://ung.edu/news/articles/2026/09/students-gain-cyber-immersion-in-summer.php"
+    },
     "d93b599f892738c9": {
       "application_deadline": null,
       "company": "Mercor",
@@ -4006,5 +4020,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-02T18:00:11+00:00"
+  "updated_at": "2026-11-03T11:42:50+00:00"
 }
