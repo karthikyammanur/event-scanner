@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**104 current events.** Updated 2026-11-04 11:55 UTC.
+**106 current events.** Updated 2026-11-04 19:30 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,8 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Engineering Mechanics Institute Conference 2027 ⚑ | Asce | Conference | Orlando, FL | - | - | [Apply](https://www.asce.org/education-and-events/events/meetings/engineering-mechanics-institute-conference-2027) |
+| HackUTD Roadshow | Major League Hacking | Hackathon | Richardson, Texas | - | - | [Apply](https://luma.com/UTDRoadshow) |
 | IdeaLab Hacks | IdeaLab | Hackathon | Online | - | - | [Apply](https://idealab-hacks.devpost.com/) |
 | Cyber Summer Immersion ⚑ | University of North Georgia | Externship | - | - | - | [Apply](https://ung.edu/news/articles/2026/09/students-gain-cyber-immersion-in-summer.php) |
 | IceHacks | CodeStarters | Hackathon | Online | - | - | [Apply](https://icehacks.devpost.com/) |

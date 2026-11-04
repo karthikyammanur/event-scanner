@@ -1,5 +1,5 @@
 {
-  "count": 288,
+  "count": 290,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2689,6 +2689,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.columbiadivhacks.org/"
     },
+    "ac7e6f561557465b": {
+      "application_deadline": null,
+      "company": "Asce",
+      "content_key": "939da619874ba18e",
+      "date_posted": null,
+      "emailed_at": "2026-11-04T19:30:16+00:00",
+      "event_name": "Engineering Mechanics Institute Conference 2027",
+      "event_type": "conference",
+      "location_city_state": "Orlando, FL",
+      "source": "tavily",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://www.asce.org/education-and-events/events/meetings/engineering-mechanics-institute-conference-2027"
+    },
     "ad716a5ccb98f535": {
       "application_deadline": null,
       "company": "Major League Hacking",
@@ -3851,6 +3865,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hackonomics27.devpost.com/"
     },
+    "f2747940f402c7e0": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "bf20422669700656",
+      "date_posted": null,
+      "emailed_at": "2026-11-04T19:30:16+00:00",
+      "event_name": "HackUTD Roadshow",
+      "event_type": "hackathon",
+      "location_city_state": "Richardson, Texas",
+      "source": "mlh",
+      "start_date": "2026-11-06",
+      "travel_credit_mentioned": null,
+      "url": "https://luma.com/UTDRoadshow"
+    },
     "f278a3f77d68efc1": {
       "application_deadline": null,
       "company": "localhost-nyc",
@@ -4034,5 +4062,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-04T11:55:56+00:00"
+  "updated_at": "2026-11-04T19:30:16+00:00"
 }
