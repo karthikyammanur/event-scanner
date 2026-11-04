@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**103 current events.** Updated 2026-11-04 00:31 UTC.
+**104 current events.** Updated 2026-11-04 11:55 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| IdeaLab Hacks | IdeaLab | Hackathon | Online | - | - | [Apply](https://idealab-hacks.devpost.com/) |
 | Cyber Summer Immersion ⚑ | University of North Georgia | Externship | - | - | - | [Apply](https://ung.edu/news/articles/2026/09/students-gain-cyber-immersion-in-summer.php) |
 | IceHacks | CodeStarters | Hackathon | Online | - | - | [Apply](https://icehacks.devpost.com/) |
 | Hack Cats ⚑ | Major League Hacking | Hackathon | Manhattan, KS | - | - | [Apply](https://hackkstate.tech/) |
