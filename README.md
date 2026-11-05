@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**106 current events.** Updated 2026-11-04 19:30 UTC.
+**107 current events.** Updated 2026-11-05 00:48 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,9 +19,10 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Confronting the Ethics of Artificial Intelligence ⚑ | Edu | Conference | Scranton, PA | 1mo | - | [Apply](https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml) |
+| PhysTech 2027: Physical Activity and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://phystech2027.devpost.com/) |
 | Engineering Mechanics Institute Conference 2027 ⚑ | Asce | Conference | Orlando, FL | - | - | [Apply](https://www.asce.org/education-and-events/events/meetings/engineering-mechanics-institute-conference-2027) |
 | HackUTD Roadshow | Major League Hacking | Hackathon | Richardson, Texas | - | - | [Apply](https://luma.com/UTDRoadshow) |
-| IdeaLab Hacks | IdeaLab | Hackathon | Online | - | - | [Apply](https://idealab-hacks.devpost.com/) |
 | Cyber Summer Immersion ⚑ | University of North Georgia | Externship | - | - | - | [Apply](https://ung.edu/news/articles/2026/09/students-gain-cyber-immersion-in-summer.php) |
 | IceHacks | CodeStarters | Hackathon | Online | - | - | [Apply](https://icehacks.devpost.com/) |
 | Hack Cats ⚑ | Major League Hacking | Hackathon | Manhattan, KS | - | - | [Apply](https://hackkstate.tech/) |
@@ -40,7 +41,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 23d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 24d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -127,10 +128,11 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (184)</summary>
+<summary>Past events (185)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| IdeaLab Hacks | IdeaLab | Hackathon | Online | - | - | [Apply](https://idealab-hacks.devpost.com/) |
 | AWS MSP AI Hackathon | AWS | Hackathon | Online | - | - | [Apply](https://aws-agentic-msp.devpost.com/) |
 | QNX Global Hackathon | QNX | Hackathon | Online | - | - | [Apply](https://qnx.devpost.com/) |
 | 305 Veterans Hackathon Edition November 2026 | GOOGLE DEVELOPER GROUP AT FIU | Hackathon | Online | - | - | [Apply](https://305veteransnov2026.devpost.com/) |
@@ -244,9 +246,9 @@ passed move to the archive at the bottom.
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 5mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
 | National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 6mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
 | Anthropic Fellows Program, The Anthropic Institute (Economics & Policy) ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183053008) |
-| Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
-| Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
-| Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 6mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
+| Anthropic Fellows Program, AI Safety ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 7mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
+| Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 7mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
+| Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 7mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
 | Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 7mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
 | Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 10mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
 | Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 10mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |

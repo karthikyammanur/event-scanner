@@ -1,5 +1,5 @@
 {
-  "count": 290,
+  "count": 292,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -294,6 +294,20 @@
       "start_date": "2026-10-16",
       "travel_credit_mentioned": null,
       "url": "https://www.effectivealtruism.org/ea-global"
+    },
+    "178b3f4d3900c1d2": {
+      "application_deadline": null,
+      "company": "Binnovative",
+      "content_key": "d2f6dcef080776c7",
+      "date_posted": null,
+      "emailed_at": "2026-11-05T00:48:22+00:00",
+      "event_name": "PhysTech 2027: Physical Activity and Technology Hack Day",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://phystech2027.devpost.com/"
     },
     "18d0a32bb23bbb19": {
       "application_deadline": null,
@@ -2058,6 +2072,20 @@
       "start_date": "2026-11-07",
       "travel_credit_mentioned": null,
       "url": "https://v0-curc-makecu.vercel.app/"
+    },
+    "8ad4a0ea1d0d0a43": {
+      "application_deadline": null,
+      "company": "Edu",
+      "content_key": "b06c1a01395565b1",
+      "date_posted": "2026-09-30",
+      "emailed_at": "2026-11-05T00:48:22+00:00",
+      "event_name": "Confronting the Ethics of Artificial Intelligence",
+      "event_type": "conference",
+      "location_city_state": "Scranton, PA",
+      "source": "tavily",
+      "start_date": "2027-04-29",
+      "travel_credit_mentioned": null,
+      "url": "https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml"
     },
     "8b742130e4a1c47f": {
       "application_deadline": null,
@@ -4062,5 +4090,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-04T19:30:16+00:00"
+  "updated_at": "2026-11-05T00:48:22+00:00"
 }
