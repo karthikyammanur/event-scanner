@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**107 current events.** Updated 2026-11-05 19:41 UTC.
+**107 current events.** Updated 2026-11-06 00:51 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,7 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Solana Hackathon ⚑ | Major League Hacking | Hackathon | Worldwide | - | - | [Apply](https://events.mlh.com/events/15200-solana-hackathon) |
 | Confronting the Ethics of Artificial Intelligence ⚑ | Edu | Conference | Scranton, PA | 1mo | - | [Apply](https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml) |
 | PhysTech 2027: Physical Activity and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://phystech2027.devpost.com/) |
 | Engineering Mechanics Institute Conference 2027 ⚑ | Asce | Conference | Orlando, FL | - | - | [Apply](https://www.asce.org/education-and-events/events/meetings/engineering-mechanics-institute-conference-2027) |
@@ -41,7 +42,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 24d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 25d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -86,7 +87,6 @@ passed move to the archive at the bottom.
 | St. John's University Hackathon ⚑ | St. John's University | Hackathon | Queens, NY | - | - | [Apply](https://www.stjohns.edu/news-media/news/2026-02-23/hackathon-invites-st-johns-students-build-code-and-innovate) |
 | UC Santa Cruz Hackathon ⚑ | UC Santa Cruz | Hackathon | Santa Cruz, CA | - | - | [Apply](https://news.ucsc.edu/2026/06/agentic-ai-first-uc-santa-cruz-hackathon-with-nvidia-asus) |
 | BE Smart HBCU Hackathon ⚑ | Black Enterprise | Hackathon | Charlotte, NC | - | - | [Apply](https://uncf.org/the-latest/call-for-hbcu-students-apply-to-black-enterprise-be-smart-hbcu-hackathon) |
-| WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | BEYA STEM Conference ⚑ | Ccgmag | Conference | - | - | - | [Apply](https://ccgmag.com/mpage/beya-home) |
 | Engineering Student Council Engineering Leadership Summit ⚑ | The University of Kansas | Summit | - | - | - | [Apply](https://calendar.ku.edu/event/engineering-student-council-esc-engineering-leadership-summit-els) |
 | CED Student Conference ⚑ | San Jose State University | Conference | San Jose, California | - | - | [Apply](https://give.sjsu.edu/schools/SanJoseStateUniversity/1857-minutes-of-giving/pages/engineering/ced-conference) |
@@ -128,7 +128,7 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (185)</summary>
+<summary>Past events (186)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -226,6 +226,7 @@ passed move to the archive at the bottom.
 | Agents for Humans Hackathon | Amazon | Hackathon | Online | - | - | [Apply](https://agentsforhumans.devpost.com/) |
 | Hack the Habitat | Hack the Habitat | Hackathon | Online | - | - | [Apply](https://hack-the-habitat-2026.devpost.com/) |
 | Engineers Without Borders USA's 2026 Annual Conference ⚑ | Engineers Without Borders USA | Conference | Portland, Oregon | - | - | [Apply](https://ewb-usa.org/post/Engineers-Without-Borders-USA-s-2026-Annual-Conference-set-for-February-in-Portland) |
+| WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | Freshman Engineering Summit and Scholarship ⚑ | Valero | Summit | - | - | 2026-02-11 | [Apply](https://www.valero.com/careers/university-recruiting/freshman-engineering-summit) |
 | Checkout - The Travel & Hospitality Hackathon ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-travel-hack.devpost.com/) |
 | Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 5mo | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
@@ -250,8 +251,8 @@ passed move to the archive at the bottom.
 | Anthropic Fellows Program, ML Systems & Performance ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 7mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
 | Anthropic Fellows Program, Reinforcement Learning ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 7mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5183052008) |
 | Engineering Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 7mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4203095009) |
-| Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 10mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
-| Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 10mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
+| Anthropic Fellows Program ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 11mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5023394008) |
+| Anthropic Fellows Program, AI Security ⚑ | Anthropic | Fellowship | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | 11mo | - | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5030244008) |
 | Neurodivergent Fellowship ⚑ | Palantir | Fellowship | Washington, D.C. | 11mo | - | [Apply](https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603) |
 | Research Fellowship - Open Endedness ⚑ | Vmax AI Corp | Fellowship | SF | 12mo | - | [Apply](https://jobs.ashbyhq.com/vmax/c4e1e51b-65c5-41f0-9bed-c90bc452859b) |
 | American Tech Fellowship ⚑ | Palantir | Fellowship | North America | 16mo | - | [Apply](https://jobs.lever.co/palantir/0ccbe620-a3ef-41d1-a5c4-68e56b3c91d0) |

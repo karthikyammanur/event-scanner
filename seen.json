@@ -1,5 +1,5 @@
 {
-  "count": 292,
+  "count": 293,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -3291,6 +3291,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students"
     },
+    "d38efee40c778106": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "23b84e5d0659e170",
+      "date_posted": null,
+      "emailed_at": "2026-11-06T00:51:19+00:00",
+      "event_name": "Solana Hackathon",
+      "event_type": "hackathon",
+      "location_city_state": "Worldwide",
+      "source": "mlh",
+      "start_date": "2026-11-06",
+      "travel_credit_mentioned": null,
+      "url": "https://events.mlh.com/events/15200-solana-hackathon"
+    },
     "d49fd355cc49f099": {
       "application_deadline": null,
       "company": "JPMorganChase",
@@ -4090,5 +4104,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-05T00:48:22+00:00"
+  "updated_at": "2026-11-06T00:51:19+00:00"
 }
