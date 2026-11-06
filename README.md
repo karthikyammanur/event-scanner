@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**107 current events.** Updated 2026-11-06 00:51 UTC.
+**112 current events.** Updated 2026-11-06 11:53 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,6 +19,11 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 8d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
+| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 8d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
+| Build, Demo, and Take Home a Working AI Support Bot ⚑ | eGain | Hackathon | Sunnyvale, CA | - | - | [Apply](https://build-a-working-ai-support-bot.devpost.com/) |
+| HackOut! 2027 | BranchOut! | Hackathon | Online | - | - | [Apply](https://hackout-branchout.devpost.com/) |
+| Www.Hackprinceton.Com ⚑ | Major League Hacking | Hackathon | Princeton, New Jersey | - | - | [Apply](https://www.hackprinceton.com) |
 | Solana Hackathon ⚑ | Major League Hacking | Hackathon | Worldwide | - | - | [Apply](https://events.mlh.com/events/15200-solana-hackathon) |
 | Confronting the Ethics of Artificial Intelligence ⚑ | Edu | Conference | Scranton, PA | 1mo | - | [Apply](https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml) |
 | PhysTech 2027: Physical Activity and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://phystech2027.devpost.com/) |

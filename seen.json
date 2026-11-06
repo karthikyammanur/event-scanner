@@ -1,5 +1,5 @@
 {
-  "count": 293,
+  "count": 298,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -533,6 +533,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hacksocial2026.devpost.com/"
     },
+    "2815dc17f84869fc": {
+      "application_deadline": null,
+      "company": "BranchOut!",
+      "content_key": "8a622b8964d557b0",
+      "date_posted": null,
+      "emailed_at": "2026-11-06T11:53:41+00:00",
+      "event_name": "HackOut! 2027",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://hackout-branchout.devpost.com/"
+    },
     "28db154bd7942510": {
       "application_deadline": null,
       "company": "Cal Hacks",
@@ -728,6 +742,20 @@
       "start_date": "2026-10-06",
       "travel_credit_mentioned": null,
       "url": "https://next-byte-hacks-v5.devpost.com/"
+    },
+    "3a463ab93a4b301d": {
+      "application_deadline": null,
+      "company": "eGain",
+      "content_key": "c98b99cbc9c0eb42",
+      "date_posted": null,
+      "emailed_at": "2026-11-06T11:53:41+00:00",
+      "event_name": "Build, Demo, and Take Home a Working AI Support Bot",
+      "event_type": "hackathon",
+      "location_city_state": "Sunnyvale, CA",
+      "source": "devpost",
+      "start_date": "2026-11-06",
+      "travel_credit_mentioned": null,
+      "url": "https://build-a-working-ai-support-bot.devpost.com/"
     },
     "3ae6751abe203393": {
       "application_deadline": null,
@@ -1303,6 +1331,20 @@
       "travel_credit_mentioned": null,
       "url": "https://convention.nsbe.org/"
     },
+    "562f5285775a2bf3": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "b16c0169f96500c9",
+      "date_posted": null,
+      "emailed_at": "2026-11-06T11:53:41+00:00",
+      "event_name": "Www.Hackprinceton.Com",
+      "event_type": "hackathon",
+      "location_city_state": "Princeton, New Jersey",
+      "source": "mlh",
+      "start_date": "2026-11-13",
+      "travel_credit_mentioned": null,
+      "url": "https://www.hackprinceton.com"
+    },
     "57ccf46bb7bdaf9f": {
       "application_deadline": null,
       "company": "Clemson Quantum",
@@ -1568,6 +1610,20 @@
       "start_date": "2026-07-17",
       "travel_credit_mentioned": null,
       "url": "https://evorozen-apex.devpost.com/"
+    },
+    "6a0e7d5a1df93ec1": {
+      "application_deadline": null,
+      "company": "Hearst",
+      "content_key": "0bba591eb0e8864c",
+      "date_posted": "2026-10-29",
+      "emailed_at": "2026-11-06T11:53:41+00:00",
+      "event_name": "Fred Young Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "TBD",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/hearst/jobs/4471672009"
     },
     "6aaac3181ef3ad00": {
       "application_deadline": null,
@@ -4075,6 +4131,20 @@
       "travel_credit_mentioned": null,
       "url": "https://12.ugahacks.com/"
     },
+    "fdc01b5ba4feb016": {
+      "application_deadline": null,
+      "company": "Hearst",
+      "content_key": "bf18479b09a5054d",
+      "date_posted": "2026-10-29",
+      "emailed_at": "2026-11-06T11:53:41+00:00",
+      "event_name": "Marty Faubell Broadcasting Technology Fellowship",
+      "event_type": "fellowship",
+      "location_city_state": "TBD",
+      "source": "greenhouse",
+      "start_date": null,
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/hearst/jobs/4471677009"
+    },
     "ff3355182c8b4de3": {
       "application_deadline": null,
       "company": "Hack for Humanity",
@@ -4104,5 +4174,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-06T00:51:19+00:00"
+  "updated_at": "2026-11-06T11:53:41+00:00"
 }
