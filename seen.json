@@ -1,5 +1,5 @@
 {
-  "count": 298,
+  "count": 301,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -1036,6 +1036,20 @@
       "start_date": "2027-01-01",
       "travel_credit_mentioned": null,
       "url": "https://opportunitiesforyouth.org/2026/09/23/jpmorganchase-data-for-good-hackathon-2027-data-ai-summer-internship-opportunity-in-the-united-states"
+    },
+    "47f33e925ab643b3": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "266b9840552b0ca2",
+      "date_posted": null,
+      "emailed_at": "2026-11-09T05:06:53+00:00",
+      "event_name": "Hack.Arizona.Edu",
+      "event_type": "insight_program",
+      "location_city_state": "Tucson, Arizona",
+      "source": "mlh",
+      "start_date": "2} {",
+      "travel_credit_mentioned": null,
+      "url": "https://hackdavis.io/"
     },
     "480ac606062a53c6": {
       "application_deadline": null,
@@ -2717,6 +2731,20 @@
       "travel_credit_mentioned": null,
       "url": "https://ourplanetrocks.devpost.com/"
     },
+    "ab0baf4ae1c191ab": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "90869f6ea5a8ad2b",
+      "date_posted": null,
+      "emailed_at": "2026-11-09T05:06:53+00:00",
+      "event_name": "Hackbi.Org",
+      "event_type": "hackathon",
+      "location_city_state": "Alexandria, Virginia",
+      "source": "mlh",
+      "start_date": "2027-01-16",
+      "travel_credit_mentioned": null,
+      "url": "https://hackbi.org/"
+    },
     "ab2ae7c9de70a517": {
       "application_deadline": null,
       "company": "IncludEDU, partner w Stanford NNEA",
@@ -2982,6 +3010,20 @@
       "start_date": "2026-10-21",
       "travel_credit_mentioned": null,
       "url": "https://nextspark-hacks.devpost.com/"
+    },
+    "bc7e22c111b91d81": {
+      "application_deadline": null,
+      "company": "Major League Hacking",
+      "content_key": "5cf4646454246f0d",
+      "date_posted": null,
+      "emailed_at": "2026-11-09T05:06:53+00:00",
+      "event_name": "Hack.Caltech.Edu",
+      "event_type": "hackathon",
+      "location_city_state": "Pasadena, California",
+      "source": "mlh",
+      "start_date": "2} {",
+      "travel_credit_mentioned": null,
+      "url": "https://hack.caltech.edu"
     },
     "bcf344d4e83aa038": {
       "application_deadline": null,
@@ -4174,5 +4216,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-06T11:53:41+00:00"
+  "updated_at": "2026-11-09T05:06:53+00:00"
 }
