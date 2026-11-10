@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**99 current events.** Updated 2026-11-09 05:06 UTC.
+**98 current events.** Updated 2026-11-10 02:41 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -20,10 +20,10 @@ passed move to the archive at the bottom.
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
 | Hack.Arizona.Edu ⚑ | Major League Hacking | Insight program | Tucson, Arizona | - | - | [Apply](https://hackdavis.io/) |
-| Hack.Caltech.Edu ⚑ | Major League Hacking | Hackathon | Pasadena, California | - | - | [Apply](https://hack.caltech.edu) |
 | Hackbi.Org ⚑ | Major League Hacking | Hackathon | Alexandria, Virginia | - | - | [Apply](https://hackbi.org/) |
-| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 11d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
-| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 11d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
+| Hack.Caltech.Edu ⚑ | Major League Hacking | Hackathon | Pasadena, California | - | - | [Apply](https://hack.caltech.edu) |
+| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 12d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
+| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 12d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
 | HackOut! 2027 | BranchOut! | Hackathon | Online | - | - | [Apply](https://hackout-branchout.devpost.com/) |
 | Www.Hackprinceton.Com ⚑ | Major League Hacking | Hackathon | Princeton, New Jersey | - | - | [Apply](https://www.hackprinceton.com) |
 | Confronting the Ethics of Artificial Intelligence ⚑ | Edu | Conference | Scranton, PA | 1mo | - | [Apply](https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml) |
@@ -43,7 +43,7 @@ passed move to the archive at the bottom.
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
 | 10th Data Center Design, Engineering & Construction Summit USA 2027 ⚑ | Future Bridge | Summit | - | - | - | [Apply](https://future-bridge.us/data-center-design-engineering-construction-summit-2027) |
-| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 28d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
+| Data Research Fellowship ⚑ | Point72 | Fellowship | New York, NY | 29d | - | [Apply](https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002) |
 | WHACK (Wellesley Hackathon) ⚑ | Major League Hacking | Hackathon | Wellesley, Massachusetts | - | - | [Apply](https://www.wellesleyhacks.org/) |
 | QWER Hacks ⚑ | Major League Hacking | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.qwerhacks.com/) |
 | NASA's Space Apps Challenge NYC ⚑ | Major League Hacking | Hackathon | Brooklyn, New York | - | - | [Apply](https://www.spaceappschallenge.org/2026/local-events/new-york/) |
@@ -65,7 +65,6 @@ passed move to the archive at the bottom.
 | DeveloperWeek ⚑ | DeveloperWeek | Conference | Santa Clara, CA | - | 2026-10-08 | [Apply](https://www.developerweek.com/) |
 | Women in Data Science (WiDS) Worldwide ⚑ | Women in Data Science (WiDS) Worldwide | Conference | Stanford, CA | - | - | [Apply](https://www.widsworldwide.org/) |
 | AWS re:Invent ⚑ | AWS re:Invent | Conference | Las Vegas, NV | - | - | [Apply](https://reinvent.awsevents.com/) |
-| KubeCon + CloudNativeCon NA ⚑ | KubeCon + CloudNativeCon NA | Conference | Salt Lake City, UT | - | - | [Apply](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/) |
 | PyCon US ⚑ | PyCon US | Conference | Long Beach, CA | - | - | [Apply](https://us.pycon.org/) |
 | SpartaHack ⚑ | SpartaHack | Hackathon | East Lansing, Michigan | - | - | [Apply](https://www.spartahack.com/) |
 | InnovArt 2027: Art and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://innovart2027.devpost.com/) |
@@ -120,7 +119,7 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (202)</summary>
+<summary>Past events (203)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -203,6 +202,7 @@ passed move to the archive at the bottom.
 | SHPE National Convention ⚑ | SHPE | Conference | Indianapolis, IN | - | 2026-09-09 | [Apply](https://www.shpe.org/) |
 | AISES National Conference | AISES | Conference | Portland, OR | - | 2026-08-15 | [Apply](https://conference.aises.org/attendees/travel-scholarships) |
 | Grace Hopper Celebration (GHC) ⚑ | Grace Hopper Celebration (GHC) | Conference | Anaheim, CA | - | - | [Apply](https://ghc.anitab.org/) |
+| KubeCon + CloudNativeCon NA ⚑ | KubeCon + CloudNativeCon NA | Conference | Salt Lake City, UT | - | - | [Apply](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/) |
 | WE26 ⚑ | Society of Women Engineers | Conference | Boston, MA | - | 2026-08-31 | [Apply](https://we26.swe.org/) |
 | DubHacks ⚑ | Major League Hacking | Hackathon | Seattle, Washington | - | - | [Apply](https://dh26.dubhacks.co/) |
 | codeLinc 11 ⚑ | Lincoln Financial Group | Hackathon | Greensboro, NC | - | - | [Apply](https://codelinc11.devpost.com/) |
@@ -234,7 +234,7 @@ passed move to the archive at the bottom.
 | WE Conference ⚑ | Society of Women Engineers | Conference | Boston, MA | - | - | [Apply](https://swe.org/partner/conference-partnerships-recruitment-services) |
 | Freshman Engineering Summit and Scholarship ⚑ | Valero | Summit | - | - | 2026-02-11 | [Apply](https://www.valero.com/careers/university-recruiting/freshman-engineering-summit) |
 | Checkout - The Travel & Hospitality Hackathon ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-travel-hack.devpost.com/) |
-| Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 5mo | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
+| Engineering for Energy Demands Summit 2026 ⚑ | USC Viterbi School of Engineering | Summit | - | 6mo | - | [Apply](https://viterbischool.usc.edu/news/2026/05/engineering-for-energy-demands-summit-2026-meeting-rising-global-energy-needs) |
 | UnivaBio | BioCataalysis | Hackathon | Online | - | - | [Apply](https://univabio.devpost.com/) |
 | SEC Engineering Leadership Summit ⚑ | The University of Alabama | Summit | Tuscaloosa, AL | - | - | [Apply](https://eng.ua.edu/sec-engineering-leadership-summit) |
 | NSLC Engineering & Technology Education Program ⚑ | National Student Leadership Conference | Insight program | - | 10mo | - | [Apply](https://www.nslcleaders.org/2026/01/06/nslc-and-ieee-partner-to-advance-engineering-technology-education-for-high-school-students) |
