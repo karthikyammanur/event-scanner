@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**98 current events.** Updated 2026-11-12 16:39 UTC.
+**98 current events.** Updated 2026-11-13 00:59 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -22,8 +22,8 @@ passed move to the archive at the bottom.
 | Hack.Arizona.Edu ⚑ | Major League Hacking | Insight program | Tucson, Arizona | - | - | [Apply](https://hackdavis.io/) |
 | Hackbi.Org ⚑ | Major League Hacking | Hackathon | Alexandria, Virginia | - | - | [Apply](https://hackbi.org/) |
 | Hack.Caltech.Edu ⚑ | Major League Hacking | Hackathon | Pasadena, California | - | - | [Apply](https://hack.caltech.edu) |
-| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 14d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
-| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 14d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
+| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 15d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
+| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 15d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
 | HackOut! 2027 | BranchOut! | Hackathon | Online | - | - | [Apply](https://hackout-branchout.devpost.com/) |
 | Www.Hackprinceton.Com ⚑ | Major League Hacking | Hackathon | Princeton, New Jersey | - | - | [Apply](https://www.hackprinceton.com) |
 | Confronting the Ethics of Artificial Intelligence ⚑ | Edu | Conference | Scranton, PA | 1mo | - | [Apply](https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml) |
@@ -247,7 +247,7 @@ passed move to the archive at the bottom.
 | 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 3mo | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
 | Base Labs Fellowship ⚑ | Baseten | Fellowship | San Francisco | 4mo | - | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51) |
 | Industrial Design Fellowship ⚑ | Formlabs | Fellowship | Somerville, MA | 4mo | - | [Apply](https://careers.formlabs.com/job/8028577/apply/?gh_jid=8028577) |
-| Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 4mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
+| Quantitative Research Fellowship 2027 ⚑ | Voloridge | Fellowship | Jupiter, FL | 5mo | - | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009) |
 | Red Teaming Fellowship ⚑ | 10a Labs | Fellowship | Washington D.C. | 5mo | - | [Apply](https://job-boards.greenhouse.io/10alabs/jobs/4273684009) |
 | Builder Fellowship ⚑ | WindBorne Systems | Fellowship | RWC HQ | 6mo | - | [Apply](https://jobs.ashbyhq.com/windborne-systems/51fea61c-2d67-476c-8a01-f300a21e5b93) |
 | National Security Hackathon 2026 - General Interest ⚑ | Scale AI | Hackathon | San Francisco, CA; New York, NY; Washington, DC | 6mo | - | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4687588005) |
