@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**94 current events.** Updated 2026-11-14 23:48 UTC.
+**89 current events.** Updated 2026-11-15 05:29 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -22,22 +22,17 @@ passed move to the archive at the bottom.
 | Hack.Arizona.Edu ⚑ | Major League Hacking | Insight program | Tucson, Arizona | - | - | [Apply](https://hackdavis.io/) |
 | Hackbi.Org ⚑ | Major League Hacking | Hackathon | Alexandria, Virginia | - | - | [Apply](https://hackbi.org/) |
 | Hack.Caltech.Edu ⚑ | Major League Hacking | Hackathon | Pasadena, California | - | - | [Apply](https://hack.caltech.edu) |
-| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 16d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
-| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 16d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
+| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 17d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
+| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 17d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
 | HackOut! 2027 | BranchOut! | Hackathon | Online | - | - | [Apply](https://hackout-branchout.devpost.com/) |
 | Confronting the Ethics of Artificial Intelligence ⚑ | Edu | Conference | Scranton, PA | 1mo | - | [Apply](https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml) |
 | PhysTech 2027: Physical Activity and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://phystech2027.devpost.com/) |
 | Engineering Mechanics Institute Conference 2027 ⚑ | Asce | Conference | Orlando, FL | - | - | [Apply](https://www.asce.org/education-and-events/events/meetings/engineering-mechanics-institute-conference-2027) |
 | Cyber Summer Immersion ⚑ | University of North Georgia | Externship | - | - | - | [Apply](https://ung.edu/news/articles/2026/09/students-gain-cyber-immersion-in-summer.php) |
 | Hack Cats ⚑ | Major League Hacking | Hackathon | Manhattan, KS | - | - | [Apply](https://hackkstate.tech/) |
-| SanD Hacks ⚑ | Major League Hacking | Hackathon | La Jolla, CA | - | - | [Apply](https://hackathon.csesatucsd.com/) |
 | JPMorgan Code for Good 2027 ⚑ | JPMorganChase | Hackathon | Chicago, Columbus, Houston, Jersey City, New York, Palo Alto, Plano, Tampa, Wilmington | - | - | [Apply](https://www.extern.com/post/jpmorgan-code-for-good-guide) |
 | From The Ground Up AI Hackathon ⚑ | Zoho | Hackathon | - | - | - | [Apply](https://finance.yahoo.com/technology/ai/articles/zoho-announces-finalists-ground-first-140000309.html) |
-| sunhacks ⚑ | Major League Hacking | Hackathon | Tempe, Arizona | - | - | [Apply](https://2026.sunhacks.io/) |
-| Hack The Nest ⚑ | Eastern Michigan University (Student Org) | Hackathon | Ypsilanti, MI | - | - | [Apply](https://hackthenest.tech/) |
 | BostonHacks ⚑ | Boston University (Student Org) | Hackathon | Boston, MA | - | - | [Apply](https://bostonhacks.org/) |
-| SanD Hacks ⚑ | UCSD (Student Org) | Hackathon | La Jolla, CA | - | - | [Apply](https://csesucsd.com/) |
-| HackUTA | Major League Hacking | Hackathon | Arlington, TX | - | - | [Apply](https://hackuta.com/) |
 | Data Summit 2027 ⚑ | Database Trends and Applications | Summit | - | - | - | [Apply](https://www.dbta.com/DataSummit/2027/Program.aspx) |
 | AI Engineer Summit 2027 ⚑ | AI Engineer | Summit | - | - | - | [Apply](https://ai.engineer/summit/2027) |
 | CE Summit 2027 / CE Leadership Seminar ⚑ | Air Force Institute of Technology | Summit | - | - | - | [Apply](https://www.afit.edu/CE/page.cfm?page=2143) |
@@ -115,7 +110,7 @@ passed move to the archive at the bottom.
 | SpartaHack 12 ⚑ | Major League Hacking | Program | East Lansing, MI | - | - | [Apply](https://events.mlh.io/events/14442-spartahack-12) |
 
 <details>
-<summary>Past events (207)</summary>
+<summary>Past events (212)</summary>
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -135,10 +130,14 @@ passed move to the archive at the bottom.
 | Build Your First AI App | Yasir Insights | Hackathon | Online | - | - | [Apply](https://build-your-first-ai-app.devpost.com/) |
 | Deal Flow: NYC's First VC Hackathon @ Betaworks ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://nyc-vc-hack.devpost.com/) |
 | Codex x TwitchCon Hackathon | Twitch | Hackathon | Online | - | - | [Apply](https://twitchcon-codex.devpost.com/) |
+| SanD Hacks ⚑ | Major League Hacking | Hackathon | La Jolla, CA | - | - | [Apply](https://hackathon.csesatucsd.com/) |
 | national renaissance hackathon at super{set} ⚑ | super{set} | Hackathon | San Francisco, California, USA | - | - | [Apply](https://national-renaissance-hackathon.devpost.com/) |
 | Collaborative AI Hackathon Weekend ⚑ | Edu | Hackathon | Miami, FL | - | - | [Apply](https://idsc.miami.edu/ai-hackathon-2026) |
 | NextSpark Hacks | Independent | Hackathon | Online | - | - | [Apply](https://nextspark-hacks.devpost.com/) |
+| sunhacks ⚑ | Major League Hacking | Hackathon | Tempe, Arizona | - | - | [Apply](https://2026.sunhacks.io/) |
 | 804 Hacks ⚑ | UW Blockchain Society | Hackathon | Ashland, VA | - | - | [Apply](https://804hacks.devpost.com/) |
+| Hack The Nest ⚑ | Eastern Michigan University (Student Org) | Hackathon | Ypsilanti, MI | - | - | [Apply](https://hackthenest.tech/) |
+| SanD Hacks ⚑ | UCSD (Student Org) | Hackathon | La Jolla, CA | - | - | [Apply](https://csesucsd.com/) |
 | Blank Page ⚑ | Blank Page | Hackathon | Cambridge, MA | - | - | [Apply](https://blankpage.devpost.com/) |
 | AI x Fintech Hackathon - Money Talks 2 ⚑ | localhost-nyc | Hackathon | New York, NY | - | - | [Apply](https://money-talks-2-nyc.devpost.com/) |
 | HEALTHHACK 48 | HealthHack | Hackathon | Online | - | - | [Apply](https://healthhack-48.devpost.com/) |
@@ -146,6 +145,7 @@ passed move to the archive at the bottom.
 | UB Hacking ⚑ | University at Buffalo | Hackathon | Buffalo, NY | - | - | [Apply](https://ubhacking.cse.buffalo.edu) |
 | Mathematics for systems security | Software Engineering Club (DEV) | Hackathon | Online | - | - | [Apply](https://mathematics-systems-security.devpost.com/) |
 | HACK.COMS ⚑ | Major League Hacking | Hackathon | Rochester, NY | - | - | [Apply](https://events.mlh.com/events/14418-hack-coms-2026) |
+| HackUTA | Major League Hacking | Hackathon | Arlington, TX | - | - | [Apply](https://hackuta.com/) |
 | LaunchPad Hacks | Hack4TodayOrg | Hackathon | Online | - | - | [Apply](https://launchpad-hacks.devpost.com/) |
 | Learn AR with SPECS | Devpost | Hackathon | Online | - | - | [Apply](https://learn-specs.devpost.com/) |
 | Graph Hacks | Hacker's Unity | Hackathon | Online | - | - | [Apply](https://graph-hacks.devpost.com/) |
@@ -240,7 +240,7 @@ passed move to the archive at the bottom.
 | DSH Hacks V2 | STEMise | Hackathon | Online | - | - | [Apply](https://dsh-pitch-30500.devpost.com/) |
 | IEEE STEM Summit | IEEE | Summit | Virtual | - | - | [Apply](https://stem-summit.tryengineering.org) |
 | Iris Hacks IV | Iris Hacks | Hackathon | Virtual | - | - | [Apply](https://iris-hacks-iv.devpost.com/) |
-| Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 28mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
+| Undergraduate Hackathon ⚑ | LinkedIn | Hackathon | - | 29mo | - | [Apply](https://www.linkedin.com/posts/nick-martin-100856b6_hackathon-alert-are-you-an-undergraduate-activity-7212456498159923201-tpWr) |
 | CSU AI Hackathon ⚑ | Cal State LA | Hackathon | Los Angeles, CA | - | - | [Apply](https://www.hackathon.com/country/United%20States/2026) |
 | Global Builders Hackathon: Code for Impact | Global Builders Community | Hackathon | Online | - | - | [Apply](https://global-builders.devpost.com/) |
 | 2027 Data for Good Hackathon ⚑ | JPMorgan Chase | Hackathon | - | 3mo | - | [Apply](https://career.soka.edu/jobs/jpmorganchase-2027-data-for-good-hackathon-data-ai-program-summer-internship) |
