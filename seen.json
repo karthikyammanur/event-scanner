@@ -1,5 +1,5 @@
 {
-  "count": 301,
+  "count": 302,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -3739,6 +3739,20 @@
       "travel_credit_mentioned": null,
       "url": "https://www.spartahack.com/"
     },
+    "e64e5021ce523bf2": {
+      "application_deadline": null,
+      "company": "Roxten Studios",
+      "content_key": "eb82c18829cf3905",
+      "date_posted": null,
+      "emailed_at": "2026-11-16T05:09:48+00:00",
+      "event_name": "BuildyourOwnWebsite",
+      "event_type": "hackathon",
+      "location_city_state": "Online",
+      "source": "devpost",
+      "start_date": "2026-11-16",
+      "travel_credit_mentioned": null,
+      "url": "https://buildyourownwebsite.devpost.com/"
+    },
     "e7d0a9fdd7336dec": {
       "application_deadline": null,
       "company": "Student Organization",
@@ -4216,5 +4230,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-09T05:06:53+00:00"
+  "updated_at": "2026-11-16T05:09:48+00:00"
 }

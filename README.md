@@ -11,7 +11,7 @@ reports are welcome if you spot something miscategorized.
 
 <!-- EVENTS:START -->
 
-**89 current events.** Updated 2026-11-15 20:52 UTC.
+**90 current events.** Updated 2026-11-16 05:09 UTC.
 
 ⚑ means out of state with no travel support mentioned, still worth a look.
 Age is how long ago the listing was posted. Events whose date has
@@ -19,11 +19,12 @@ passed move to the archive at the bottom.
 
 | Event | Company | Type | Location | Age | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- |
+| BuildyourOwnWebsite | Roxten Studios | Hackathon | Online | - | - | [Apply](https://buildyourownwebsite.devpost.com/) |
 | Hack.Arizona.Edu ⚑ | Major League Hacking | Insight program | Tucson, Arizona | - | - | [Apply](https://hackdavis.io/) |
 | Hackbi.Org ⚑ | Major League Hacking | Hackathon | Alexandria, Virginia | - | - | [Apply](https://hackbi.org/) |
 | Hack.Caltech.Edu ⚑ | Major League Hacking | Hackathon | Pasadena, California | - | - | [Apply](https://hack.caltech.edu) |
-| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 17d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
-| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 17d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
+| Fred Young Fellowship ⚑ | Hearst | Fellowship | TBD | 18d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471672009) |
+| Marty Faubell Broadcasting Technology Fellowship ⚑ | Hearst | Fellowship | TBD | 18d | - | [Apply](https://job-boards.greenhouse.io/hearst/jobs/4471677009) |
 | HackOut! 2027 | BranchOut! | Hackathon | Online | - | - | [Apply](https://hackout-branchout.devpost.com/) |
 | Confronting the Ethics of Artificial Intelligence ⚑ | Edu | Conference | Scranton, PA | 1mo | - | [Apply](https://news.scranton.edu//articles/2026/09/news-ai-conference-2027-promo.shtml) |
 | PhysTech 2027: Physical Activity and Technology Hack Day | Binnovative | Hackathon | Online | - | - | [Apply](https://phystech2027.devpost.com/) |
