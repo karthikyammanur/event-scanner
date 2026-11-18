@@ -1,5 +1,5 @@
 {
-  "count": 302,
+  "count": 303,
   "seen": {
     "001909b14faa83a0": {
       "application_deadline": "2026-10-14",
@@ -2899,6 +2899,20 @@
       "travel_credit_mentioned": null,
       "url": "https://hacknc.com/"
     },
+    "b30db68d465844a1": {
+      "application_deadline": null,
+      "company": "Hearst",
+      "content_key": "f85f50f34e48d1bf",
+      "date_posted": "2026-10-26",
+      "emailed_at": "2026-11-18T06:16:28+00:00",
+      "event_name": "2027 National Hearst Journalism Fellowship Program",
+      "event_type": "fellowship",
+      "location_city_state": "San Francisco, CA, United States",
+      "source": "greenhouse",
+      "start_date": "2027-01-01",
+      "travel_credit_mentioned": null,
+      "url": "https://job-boards.greenhouse.io/hearst/jobs/4466325009"
+    },
     "b3333e492f2775be": {
       "application_deadline": null,
       "company": "USAII",
@@ -4230,5 +4244,5 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
     }
   },
-  "updated_at": "2026-11-16T05:09:48+00:00"
+  "updated_at": "2026-11-18T06:16:28+00:00"
 }
