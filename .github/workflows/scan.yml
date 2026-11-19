@@ -1,10 +1,9 @@
 name: Event Scan
 
 on:
-  schedule:
-    # Every 4 hours. Measured run time is well under 2 minutes, so at 180 runs
-    # per month this uses roughly 220 of the 2000 free private-repo minutes.
-    - cron: "0 */4 * * *"
+  # The scheduled scan is retired. To bring it back, restore this block:
+  #   schedule:
+  #     - cron: "0 */4 * * *"
   workflow_dispatch:
 
 # Never let two runs race on the state file.
